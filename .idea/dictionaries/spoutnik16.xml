@@ -1,3 +1,14 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="spoutnik16" />
+  <dictionary name="spoutnik16">
+    <words>
+      <w>backends</w>
+      <w>csrf</w>
+      <w>cypn</w>
+      <w>howto</w>
+      <w>regionfestival</w>
+      <w>sqlite</w>
+      <w>vmjv</w>
+      <w>wsgi</w>
+    </words>
+  </dictionary>
 </component>
