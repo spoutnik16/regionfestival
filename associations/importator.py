@@ -1,9 +1,12 @@
+from django.conf import settings
+import yaml
+
 from associations.models import Region, RegionChild, RegionChild2
 
 
 class ImportDFI:
     def loadYML(self, file):
-        return self.yaml.load(open(self.settings.BASE_DIR + '/associations/' + file))
+        return yaml.load(open(settings.BASE_DIR + '/associations/' + file))
 
     def importcommunes(self):
         changes_commune = False
