@@ -1,7 +1,7 @@
 # Register your models here.
 from django.contrib import admin
 
-from association_listing.models import Association, Region, Region_child, Region_child2, Categorie
+from associations.models import Association, Region, Region_child, Region_child2, Categorie
 
 
 # Register your models here.
