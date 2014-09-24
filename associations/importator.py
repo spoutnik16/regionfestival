@@ -5,8 +5,9 @@ from associations.models import Region, RegionChild, RegionChild2
 
 
 class ImportDFI:
-    def loadYML(self, file):
-        return yaml.load(open(settings.BASE_DIR + '/associations/' + file))
+    @staticmethod
+    def loadyml(file):
+        return yaml.load(open(settings.BASE_DIR + '/associations/imports/' + file))
 
     def importcommunes(self):
         changes_commune = False
@@ -15,7 +16,7 @@ class ImportDFI:
             valais.save()
             changes_commune = True
         valais = Region.objects.get(name='valais')
-        base = self.loadYML('communes.yml')
+        base = self.loadyml('communes.yml')
         for commune in base:
             if not RegionChild.objects.filter(name=commune['district'].lower()).exists():
                 child = RegionChild(name=commune['district'].lower(), region=valais)

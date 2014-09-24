@@ -1,0 +1,2070 @@
+%YAML 1.1
+---
+# db15162_vf.places
+-
+  id: 15
+  name: "Théâtre INTERFACE"
+  theateradministrator: 1
+  coordonnees: "46.22168580171389, 7.368792677298188"
+  adresse: "Route de Riddes 87"
+  adresse2: 87
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 30
+  name: "Salle de gym"
+  theateradministrator: 30
+  coordonnees: "46.21265908931357, 7.398301335051656"
+  adresse: "Route du Village 17"
+  adresse2: 0
+  codePostal: 1981
+  ville: "Vex"
+  status: 3
+  commune: 125
+  sameAs: 125
+-
+  id: 31
+  name: "Théâtre le Baladin"
+  theateradministrator: 1
+  coordonnees: "46.24974234461709, 7.349731810390949"
+  adresse: "Route du Caro 40"
+  adresse2: 0
+  codePostal: 1965
+  ville: "St-Germain"
+  status: 3
+  commune: 103
+  sameAs: 0
+-
+  id: 34
+  name: "Cathédrale de Sion"
+  theateradministrator: 1
+  coordonnees: "46.23395073959547, 7.358904163743318"
+  adresse: "Rue de la Cathédrale 13"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 35
+  name: "Halle polyvalente de Conthey"
+  theateradministrator: 1
+  coordonnees: "46.2166983324603, 7.299756556749344"
+  adresse: "Rue des Industries 11"
+  adresse2: 0
+  codePostal: 1964
+  ville: "Conthey"
+  status: 3
+  commune: 28
+  sameAs: 0
+-
+  id: 38
+  name: "Salle de l'Union"
+  theateradministrator: 1
+  coordonnees: "46.225435227417435, 7.280009201658686"
+  adresse: "Avenue de la Gare 1"
+  adresse2: 0
+  codePostal: 1963
+  ville: "Vétroz"
+  status: 3
+  commune: 124
+  sameAs: 0
+-
+  id: 39
+  name: "Salle polyvalente"
+  theateradministrator: 30
+  coordonnees: "46.283855,7.41289"
+  adresse: "St-Romain"
+  adresse2: 0
+  codePostal: 0
+  ville: "Ayent"
+  status: 3
+  commune: 6
+  sameAs: 0
+-
+  id: 40
+  name: "Salle polyvalente"
+  theateradministrator: 30
+  coordonnees: "46.283855,7.41289"
+  adresse: "St-Romain"
+  adresse2: 0
+  codePostal: 0
+  ville: "Ayent"
+  status: 3
+  commune: 6
+  sameAs: 0
+-
+  id: 41
+  name: "Salle du Vieux Bourg et Salle Polyvalente"
+  theateradministrator: 43
+  coordonnees: "46.193356,7.445703"
+  adresse: "Rue du Moulin 2"
+  adresse2: 0
+  codePostal: 1968
+  ville: "Mase"
+  status: 3
+  commune: 71
+  sameAs: 0
+-
+  id: 42
+  name: "Team-Room la Madeleine"
+  theateradministrator: 1
+  coordonnees: "46.22439732852942, 7.283648220472969"
+  adresse: "Avenue des Vergers 20"
+  adresse2: 0
+  codePostal: 1963
+  ville: "Vétroz"
+  status: 3
+  commune: 124
+  sameAs: 0
+-
+  id: 43
+  name: "Café de Amignes"
+  theateradministrator: 1
+  coordonnees: "46.225794525976426, 7.28207465599553"
+  adresse: "Rue de l'Eglise 2"
+  adresse2: 0
+  codePostal: 1963
+  ville: "Vétroz"
+  status: 3
+  commune: 124
+  sameAs: 0
+-
+  id: 44
+  name: "Café de l'Union"
+  theateradministrator: 1
+  coordonnees: "46.230619123793375, 7.303430889405718"
+  adresse: "Rue de la Poya 41"
+  adresse2: 0
+  codePostal: 1964
+  ville: "Conthey"
+  status: 3
+  commune: 28
+  sameAs: 0
+-
+  id: 45
+  name: "Le Relais du Valais"
+  theateradministrator: 1
+  coordonnees: "46.22750429861841, 7.281748537527619"
+  adresse: "Route de l'Abbaye 35"
+  adresse2: 0
+  codePostal: 1963
+  ville: "Vétroz"
+  status: 3
+  commune: 124
+  sameAs: 0
+-
+  id: 46
+  name: "Basilique St-Maurice"
+  theateradministrator: 1
+  coordonnees: "46.21928662567686, 7.0038114208728075"
+  adresse: "Avenue d'Agaune 15"
+  adresse2: 0
+  codePostal: 1890
+  ville: "St-Maurice"
+  status: 3
+  commune: 99
+  sameAs: 0
+-
+  id: 47
+  name: "Paladium"
+  theateradministrator: 1
+  coordonnees: "46.17703653854807, 6.871696533635259"
+  adresse: "Route du Centre Sportif 1"
+  adresse2: 0
+  codePostal: 1874
+  ville: "Champéry"
+  status: 3
+  commune: 22
+  sameAs: 0
+-
+  id: 48
+  name: "Église d'Hérémence"
+  theateradministrator: 1
+  coordonnees: "46.1805497018621, 7.404418531805277"
+  adresse: "Rue Principale 1"
+  adresse2: 0
+  codePostal: 1987
+  ville: "Hérémence"
+  status: 3
+  commune: 50
+  sameAs: 0
+-
+  id: 49
+  name: "Home St-Sylve"
+  theateradministrator: 1
+  coordonnees: "46.20486158127742, 7.405298296362162"
+  adresse: "Route de Sion 11"
+  adresse2: 0
+  codePostal: 1981
+  ville: "Vex"
+  status: 3
+  commune: 125
+  sameAs: 0
+-
+  id: 50
+  name: "Pralong"
+  theateradministrator: 1
+  coordonnees: "46.149488446850135, 7.623714096844196"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3961
+  ville: "Pralong"
+  status: 3
+  commune: 2
+  sameAs: 0
+-
+  id: 51
+  name: "Théâtre de Valère"
+  theateradministrator: 1
+  coordonnees: "46.233815171750024, 7.3620819160714746"
+  adresse: "Rue du Vieux-Collège 22"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 53
+  name: "Zentrum Paleten"
+  theateradministrator: 1
+  coordonnees: "46.31908191372593, 7.6073491014540195"
+  adresse: "Zentrum Paleten"
+  adresse2: 0
+  codePostal: 3953
+  ville: "Varen"
+  status: 3
+  commune: 120
+  sameAs: 0
+-
+  id: 55
+  name: "Théâtre le Martolet"
+  theateradministrator: 1
+  coordonnees: "46.217828221055, 7.00284892693162"
+  adresse: "Rue Charles-Emmanuel de Rivaz"
+  adresse2: 0
+  codePostal: 1890
+  ville: "St-Maurice"
+  status: 3
+  commune: 99
+  sameAs: 0
+-
+  id: 56
+  name: "Teatro Comico"
+  theateradministrator: 1
+  coordonnees: "46.2352202471931, 7.358965398743749"
+  adresse: "Avenue du Ritz 18"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 58
+  name: "Théâtre du Crochetan"
+  theateradministrator: 1
+  coordonnees: "46.25420763077582, 6.948869051411748"
+  adresse: "Rue du Théâtre 6"
+  adresse2: 0
+  codePostal: 1870
+  ville: "Monthey"
+  status: 3
+  commune: 73
+  sameAs: 0
+-
+  id: 60
+  name: "Simplonhalle"
+  theateradministrator: 80
+  coordonnees: "46.31783022540429, 7.990197725594044"
+  adresse: "Rhonesandstrasse 18A"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 61
+  name: "Zentrum SOSTA"
+  theateradministrator: 80
+  coordonnees: "46.31140657960406, 7.64395035803318"
+  adresse: "Bahnhofstrasse 10"
+  adresse2: 0
+  codePostal: 3952
+  ville: "Susten"
+  status: 3
+  commune: 63
+  sameAs: 0
+-
+  id: 62
+  name: "Schlosshof - Stockalperschloss"
+  theateradministrator: 80
+  coordonnees: "46.31534169922397, 7.990613970905542"
+  adresse: "Alte Simplonstrasse 28"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 63
+  name: "Salle Polyvalente de la Florescat"
+  theateradministrator: 81
+  coordonnees: "46.14821871552336, 7.172697130590677"
+  adresse: "rue de Gottefrey 44"
+  adresse2: 3
+  codePostal: 1907
+  ville: "Saxon"
+  status: 3
+  commune: 104
+  sameAs: 0
+-
+  id: 64
+  name: "Salle polyvalente"
+  theateradministrator: 1
+  coordonnees: "46.18056072856885, 7.405046001076698"
+  adresse: "Rue de l'Église"
+  adresse2: 0
+  codePostal: 1987
+  ville: "Hérémence"
+  status: 3
+  commune: 50
+  sameAs: 0
+-
+  id: 65
+  name: "Place de l'Église"
+  theateradministrator: 1
+  coordonnees: "46.18062212987431, 7.404700163751841"
+  adresse: "Rue principale 1"
+  adresse2: 0
+  codePostal: 1987
+  ville: "Hérémence"
+  status: 3
+  commune: 50
+  sameAs: 0
+-
+  id: 67
+  name: "Turnhalle"
+  theateradministrator: 1
+  coordonnees: "46.311042348179484, 7.571382941678166"
+  adresse: "Schulhausplatz 2"
+  adresse2: 0
+  codePostal: 3970
+  ville: "Salgesch"
+  status: 3
+  commune: 101
+  sameAs: 0
+-
+  id: 68
+  name: "Kirche Mariä Sieben Schmerzen"
+  theateradministrator: 1
+  coordonnees: "46.31650382828876, 7.607095129787922"
+  adresse: "Kirchstrasse 10"
+  adresse2: 0
+  codePostal: 3970
+  ville: "Salgesch"
+  status: 3
+  commune: 101
+  sameAs: 0
+-
+  id: 69
+  name: "Salle de Jeunesse"
+  theateradministrator: 82
+  coordonnees: "46.0636666976237, 7.251369841396809"
+  adresse: "Ch. de la Croix"
+  adresse2: 0
+  codePostal: 1948
+  ville: "Sarreyer"
+  status: 3
+  commune: 7
+  sameAs: 0
+-
+  id: 70
+  name: "Place Centrale de Martigny"
+  theateradministrator: 84
+  coordonnees: "46.10145704973509, 7.073122635483742"
+  adresse: "Place Centrale"
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny"
+  status: 3
+  commune: 65
+  sameAs: 0
+-
+  id: 71
+  name: "Aula du collège des Creusets"
+  theateradministrator: 86
+  coordonnees: "46.22664904342852, 7.347881086170673"
+  adresse: "Rue de Saint-Guérin 34"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 72
+  name: "Cirque Starlight à Sierre"
+  theateradministrator: 1
+  coordonnees: "46.29157163298992, 7.535626664757729"
+  adresse: "Plaine Bellevue"
+  adresse2: 0
+  codePostal: 3960
+  ville: "Sierre"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 73
+  name: "Salle du Roxy"
+  theateradministrator: 83
+  coordonnees: "46.21799002949879, 7.0050568878650665"
+  adresse: ""
+  adresse2: 0
+  codePostal: 1890
+  ville: "Saint-Maurice"
+  status: 3
+  commune: 99
+  sameAs: 0
+-
+  id: 74
+  name: "salle polyvalente"
+  theateradministrator: 89
+  coordonnees: "46.12190361219362, 7.134979739785194"
+  adresse: "Avenue de la Gare 2"
+  adresse2: 0
+  codePostal: 1906
+  ville: "Charrat"
+  status: 3
+  commune: 23
+  sameAs: 0
+-
+  id: 75
+  name: "Salle de Martelles"
+  theateradministrator: 106
+  adresse: ""
+  adresse2: 0
+  codePostal: 3971
+  ville: "Chermignon"
+  commune: 24
+  sameAs: 0
+-
+  id: 76
+  name: "Gemeinde Kippel"
+  theateradministrator: 1
+  coordonnees: "46.399102551026445, 7.77178980410099"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3917
+  ville: "Kippel"
+  status: 3
+  commune: 54
+  sameAs: 0
+-
+  id: 77
+  name: "Turnhalle Kippel"
+  theateradministrator: 1
+  coordonnees: "46.39855502696174, 7.770974412560463"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3917
+  ville: "Kippel"
+  status: 3
+  commune: 54
+  sameAs: 0
+-
+  id: 78
+  name: "Dorfplatz Kippel"
+  theateradministrator: 1
+  coordonnees: "46.39902370605, 7.771246321499348"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3917
+  ville: "Kippel"
+  status: 3
+  commune: 54
+  sameAs: 0
+-
+  id: 79
+  name: "Turnhalle Susten"
+  theateradministrator: 1
+  coordonnees: "46.30946375240037, 7.64483917504549"
+  adresse: "Schulhausstr. 16"
+  adresse2: 0
+  codePostal: 3952
+  ville: "Susten"
+  status: 3
+  commune: 63
+  sameAs: 0
+-
+  id: 81
+  name: "Théâtre Alizé"
+  theateradministrator: 1
+  coordonnees: "46.221556537685814, 7.368552032858133"
+  adresse: "Rte de Riddes 87"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 82
+  name: "Pont Rouge"
+  theateradministrator: 93
+  coordonnees: "46.25053375515535, 6.964313630014658"
+  adresse: "Avenue de la Plantaud 122"
+  adresse2: 0
+  codePostal: 1870
+  ville: "Monthey"
+  status: 0
+  commune: 73
+  sameAs: 0
+-
+  id: 83
+  name: "Église de St-Séverin"
+  theateradministrator: 1
+  adresse: "Rue de l'Église 10"
+  adresse2: 0
+  codePostal: 1975
+  ville: "Conthey"
+  commune: 28
+  sameAs: 0
+-
+  id: 84
+  name: "Place du village"
+  theateradministrator: 1
+  adresse: "Route du Sanetsch"
+  adresse2: 0
+  codePostal: 1976
+  ville: "Daillon"
+  commune: 28
+  sameAs: 0
+-
+  id: 85
+  name: "Rue de Gottefrey"
+  theateradministrator: 81
+  coordonnees: "46.14887872861179, 7.173778563737869"
+  adresse: "Rue de Gottefrey"
+  adresse2: 3
+  codePostal: 1907
+  ville: "Saxon"
+  status: 0
+  commune: 104
+  sameAs: 0
+-
+  id: 86
+  name: "Terrain de Lavigerie et diverses salles"
+  theateradministrator: 94
+  coordonnees: "46.220222125423255, 7.0060620456933975"
+  adresse: "Antoine de Quartery 1"
+  adresse2: 0
+  codePostal: 1890
+  ville: "St-Maurice"
+  status: 3
+  commune: 99
+  sameAs: 0
+-
+  id: 87
+  name: "Tour d'Anniviers"
+  theateradministrator: 95
+  coordonnees: "46.21459148805322, 7.585510555654764"
+  adresse: "Place de la Tour"
+  adresse2: 0
+  codePostal: 3961
+  ville: "Vissoie"
+  status: 3
+  commune: 2
+  sameAs: 0
+-
+  id: 89
+  name: "Église"
+  theateradministrator: 1
+  coordonnees: "46.255770084979524, 7.41961944848299"
+  adresse: "Rue de l'Église"
+  adresse2: 0
+  codePostal: 1958
+  ville: "St-Léonard"
+  status: 3
+  commune: 97
+  sameAs: 0
+-
+  id: 90
+  name: "Quai Provins"
+  theateradministrator: 78
+  coordonnees: "46.226778933317725, 7.361276037991047"
+  adresse: "Rue de l'Industrie 22"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 91
+  name: "Salle spectacle Susten"
+  theateradministrator: 99
+  coordonnees: "46.31156104866079, 7.642918713390827"
+  adresse: "Bahnhofstrasse 2"
+  adresse2: 0
+  codePostal: 3952
+  ville: "Susten"
+  status: 3
+  commune: 63
+  sameAs: 0
+-
+  id: 92
+  name: "Halle polyvalent Conthey"
+  theateradministrator: 99
+  adresse: ""
+  adresse2: 0
+  codePostal: 0
+  ville: "Conthey"
+  status: 1
+  commune: 28
+  sameAs: 0
+-
+  id: 93
+  name: "Eglise d'Hérémence"
+  theateradministrator: 99
+  adresse: ""
+  adresse2: 0
+  codePostal: 1987
+  ville: "Hérémence"
+  status: 1
+  commune: 50
+  sameAs: 0
+-
+  id: 94
+  name: "Brig"
+  theateradministrator: 1
+  coordonnees: "46.315269796236386, 7.9905004799366"
+  adresse: ""
+  adresse2: 0
+  codePostal: 0
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 95
+  name: "Salle de gym de Charnot"
+  theateradministrator: 1
+  coordonnees: "46.13682907858154, 7.112415321171284"
+  adresse: ""
+  adresse2: 0
+  codePostal: 1926
+  ville: "Fully"
+  status: 3
+  commune: 42
+  sameAs: 0
+-
+  id: 96
+  name: "Local Edelweiss"
+  theateradministrator: 100
+  coordonnees: "46.02951287878682, 7.144515998661518"
+  adresse: "Route de la Cotze"
+  adresse2: 0
+  codePostal: 1937
+  ville: "Orsières"
+  status: 3
+  commune: 82
+  sameAs: 0
+-
+  id: 97
+  name: "L'Hacienda"
+  theateradministrator: 101
+  coordonnees: "46.29074887254335, 7.531999186612666"
+  adresse: "Route de la Mondérêche 7"
+  adresse2: 0
+  codePostal: 3960
+  ville: "Sierre"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 98
+  name: "Terrain de foot des Hartes"
+  theateradministrator: 102
+  coordonnees: "46.31121644542892, 7.5517477467656136"
+  adresse: "-"
+  adresse2: 0
+  codePostal: 3972
+  ville: "Miège"
+  status: 3
+  commune: 69
+  sameAs: 0
+-
+  id: 101
+  name: "Salle de Martelles"
+  theateradministrator: 106
+  coordonnees: "46.28651052360287, 7.485735900700092"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3971
+  ville: "Chermignon"
+  status: 3
+  commune: 24
+  sameAs: 0
+-
+  id: 102
+  name: "Espace culturel Arbaz"
+  theateradministrator: 108
+  coordonnees: "46.27291491931016, 7.382382340729237"
+  adresse: ""
+  adresse2: 0
+  codePostal: 1974
+  ville: "Arbaz"
+  status: 3
+  commune: 3
+  sameAs: 0
+-
+  id: 103
+  name: "MZH Raron"
+  theateradministrator: 1
+  coordonnees: "46.30794075368888, 7.801592834293842"
+  adresse: "Schulhausstrasse 4"
+  adresse2: 0
+  codePostal: 3942
+  ville: "Raron"
+  status: 3
+  commune: 86
+  sameAs: 0
+-
+  id: 104
+  name: "Place Maurice Zermatten"
+  theateradministrator: 1
+  coordonnees: "46.23495024497854, 7.3643310740590096"
+  adresse: "Rue des Châteaux "
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 106
+  name: "Salle Polyvalente"
+  theateradministrator: 112
+  coordonnees: "46.314167, 7.521481"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3974
+  ville: "Mollens"
+  status: 3
+  commune: 70
+  sameAs: 0
+-
+  id: 108
+  name: "Théâtre Le Baladin"
+  theateradministrator: 113
+  adresse: "Route du  Caro 40"
+  adresse2: 0
+  codePostal: 0
+  ville: "1965 Savièse"
+  status: 1
+  commune: 103
+  sameAs: 0
+-
+  id: 109
+  name: "Le Totem"
+  theateradministrator: 114
+  coordonnees: "46.238289667914216, 7.362437434494495"
+  adresse: "Rue de Loèche 23"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 110
+  name: "Le Caveau du Moulin Semblanet"
+  theateradministrator: 114
+  coordonnees: "46.090485466068934, 7.062187939882278"
+  adresse: "Rue des Moulins 11"
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny"
+  status: 3
+  commune: 65
+  sameAs: 0
+-
+  id: 111
+  name: "Belle Usine"
+  theateradministrator: 78
+  coordonnees: "46.14295969750203, 7.117187473922968"
+  adresse: "Chemin de l'Usine"
+  adresse2: 0
+  codePostal: 0
+  ville: "Fully"
+  status: 3
+  commune: 42
+  sameAs: 0
+-
+  id: 114
+  name: "CERM"
+  theateradministrator: 37
+  coordonnees: "46.09816371144061, 7.078485041856766"
+  adresse: "Rue du Levant 91"
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny"
+  status: 3
+  commune: 65
+  sameAs: 0
+-
+  id: 115
+  name: "Salle de gmynastique"
+  theateradministrator: 37
+  adresse: ""
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny-Bourg"
+  status: 1
+  commune: 65
+  sameAs: 0
+-
+  id: 116
+  name: "CERM"
+  theateradministrator: 118
+  adresse: ""
+  adresse2: 0
+  codePostal: 0
+  ville: "Martigny"
+  status: 1
+  commune: 18
+  sameAs: 0
+-
+  id: 118
+  name: "Maison de la musique"
+  theateradministrator: 121
+  coordonnees: "46.10584483953462, 7.0772649720311165"
+  adresse: "Rte de la Maladière 11"
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny"
+  status: 3
+  commune: 65
+  sameAs: 0
+-
+  id: 120
+  name: "Aula du Collège de la Planta"
+  theateradministrator: 121
+  coordonnees: "46.23459147682841, 7.356578484177589"
+  adresse: ""
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 121
+  name: "Salle polyvalente St-Romain"
+  theateradministrator: 1
+  coordonnees: "46.283883288680606, 7.412926331162453"
+  adresse: "Route de Rawyl 3"
+  adresse2: 0
+  codePostal: 1966
+  ville: "Ayent"
+  status: 3
+  commune: 6
+  sameAs: 0
+-
+  id: 122
+  name: "Église de Miège"
+  theateradministrator: 122
+  coordonnees: "46.311409127073276, 7.547351606190205"
+  adresse: "Route de la Rotse 1"
+  adresse2: 0
+  codePostal: 3972
+  ville: "Miège"
+  status: 3
+  commune: 69
+  sameAs: 0
+-
+  id: 123
+  name: "Salle de Gym"
+  theateradministrator: 122
+  coordonnees: "46.31104576412687, 7.545146495103836"
+  adresse: "Route de la Barmette 1 BIS"
+  adresse2: 0
+  codePostal: 3972
+  ville: "Miège"
+  status: 3
+  commune: 69
+  sameAs: 0
+-
+  id: 124
+  name: "Église de Montana"
+  theateradministrator: 123
+  coordonnees: "46.29741316342506, 7.489996924996376"
+  adresse: "Rue de la Batteuse 1"
+  adresse2: 0
+  codePostal: 3963
+  ville: "Montana-Village"
+  status: 3
+  commune: 72
+  sameAs: 0
+-
+  id: 125
+  name: "Kirche Agarn"
+  theateradministrator: 124
+  coordonnees: "46.29678933363227, 7.663496620953083"
+  adresse: "Dorfstrasse 6"
+  adresse2: 0
+  codePostal: 3951
+  ville: "Agarn"
+  status: 3
+  commune: 63
+  sameAs: 0
+-
+  id: 126
+  name: "Podium \"Schlosshof\""
+  theateradministrator: 1
+  coordonnees: "46.316488,7.98943"
+  adresse: "Schlossstrasse 19"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 127
+  name: "Podium \"Stadtplatz\""
+  theateradministrator: 1
+  coordonnees: "46.31677916022256, 7.988093867897987"
+  adresse: "Stadtplatz"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 128
+  name: "Podium \"Werkhof\""
+  theateradministrator: 1
+  adresse: ""
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 129
+  name: "Podium \"Kirchplatz\""
+  theateradministrator: 1
+  coordonnees: "46.316488,7.98943"
+  adresse: "Alte Simplonstrasse 13"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 130
+  name: "Église de Ste-Croix"
+  theateradministrator: 1
+  coordonnees: "46.291907556407814, 7.524976283311844"
+  adresse: "Avenue de France 4"
+  adresse2: 0
+  codePostal: 3960
+  ville: "Sierre"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 131
+  name: "Église St-Sigismond"
+  theateradministrator: 1
+  coordonnees: "46.21730115139144, 7.003170792013407"
+  adresse: "Place de la gare 10"
+  adresse2: 0
+  codePostal: 1890
+  ville: "St-Maurice"
+  status: 3
+  commune: 99
+  sameAs: 0
+-
+  id: 132
+  name: "Basilique de Saint-Maurice"
+  theateradministrator: 1
+  coordonnees: "46.219348157704026, 7.003752831369638"
+  adresse: "Avenue Augane 15"
+  adresse2: 0
+  codePostal: 1890
+  ville: "St-Maurice"
+  status: 3
+  commune: 99
+  sameAs: 0
+-
+  id: 133
+  name: "Église de Muraz sur Sierre"
+  theateradministrator: 1
+  coordonnees: "46.29767272363469, 7.529640141874552"
+  adresse: "Rue de Mura"
+  adresse2: 0
+  codePostal: 3960
+  ville: "Sierre"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 134
+  name: "Église Sainte-Catherine"
+  theateradministrator: 1
+  coordonnees: "46.29357579107864, 7.536209709942341"
+  adresse: "Rue du Bourg 26"
+  adresse2: 0
+  codePostal: 3960
+  ville: "Sierre"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 135
+  name: "Église de Saint-Martin"
+  theateradministrator: 1
+  coordonnees: "46.172294720907466, 7.444022186100483"
+  adresse: "Chemin du Clocher 24"
+  adresse2: 0
+  codePostal: 1969
+  ville: "Saint-Martin"
+  status: 3
+  commune: 98
+  sameAs: 0
+-
+  id: 136
+  name: "Aula du Collège de la Planta"
+  theateradministrator: 1
+  coordonnees: "46.234539528304595, 7.3565516620874405"
+  adresse: "Avenue de la Gare 45"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 137
+  name: "Salle Paroissiale de Savièse"
+  theateradministrator: 1
+  coordonnees: "46.25037581013827, 7.349977316334844"
+  adresse: "Rue du Stade 3"
+  adresse2: 0
+  codePostal: 1965
+  ville: "Savièse"
+  status: 3
+  commune: 103
+  sameAs: 0
+-
+  id: 139
+  name: "Salle de gymnastique"
+  theateradministrator: 131
+  coordonnees: "46.28009785855839, 7.540976079180837"
+  adresse: "Rue des Écoles 7"
+  adresse2: 0
+  codePostal: 3965
+  ville: "Chippis"
+  status: 3
+  commune: 25
+  sameAs: 0
+-
+  id: 143
+  name: "Église de Vissoie"
+  theateradministrator: 1
+  coordonnees: "46.215113015839506, 7.584941927343607"
+  adresse: "Place de la Poste 2"
+  adresse2: 0
+  codePostal: 3961
+  ville: "Vissoie"
+  status: 3
+  commune: 2
+  sameAs: 0
+-
+  id: 145
+  name: "Église de Lens"
+  theateradministrator: 96
+  coordonnees: "46.278869088568676, 7.445271257311106"
+  adresse: "Place de l'Église"
+  adresse2: 0
+  codePostal: 1978
+  ville: "Lens"
+  status: 3
+  commune: 59
+  sameAs: 0
+-
+  id: 146
+  name: "Église de Flanthey"
+  theateradministrator: 96
+  coordonnees: "46.26978625028252, 7.453844519332051"
+  adresse: "Route de Lens 7"
+  adresse2: 0
+  codePostal: 3978
+  ville: "Flanthey"
+  status: 0
+  commune: 59
+  sameAs: 0
+-
+  id: 147
+  name: "Hôpital de Sion"
+  theateradministrator: 1
+  coordonnees: "46.234443052344155, 7.387085929512978"
+  adresse: "Avenue du Grand-Champsec 80"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 148
+  name: "Église de Eison"
+  theateradministrator: 1
+  coordonnees: "46.15355399152426, 7.4668263271451"
+  adresse: "Eison 46"
+  adresse2: 0
+  codePostal: 1969
+  ville: "Eison"
+  status: 3
+  commune: 98
+  sameAs: 0
+-
+  id: 150
+  name: "Église d'Aproz"
+  theateradministrator: 1
+  coordonnees: "46.20621481342655, 7.315173391252756"
+  adresse: "Rue de l'Église 9"
+  adresse2: 0
+  codePostal: 1994
+  ville: "Aproz"
+  status: 3
+  commune: 77
+  sameAs: 0
+-
+  id: 151
+  name: "Place du Village"
+  theateradministrator: 1
+  coordonnees: "46.07855828097613, 7.151322606950998"
+  adresse: "La Place 10"
+  adresse2: 0
+  codePostal: 1933
+  ville: "Sembrancher"
+  status: 3
+  commune: 105
+  sameAs: 0
+-
+  id: 152
+  name: "Église de Martigny-Bourg"
+  theateradministrator: 1
+  coordonnees: "46.09413523047836, 7.06332016736269"
+  adresse: "Rue de Rossetan 5"
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny"
+  status: 3
+  commune: 65
+  sameAs: 0
+-
+  id: 153
+  name: "Salle La Rosière"
+  theateradministrator: 136
+  coordonnees: "46.15037293276898, 7.044748552143574"
+  adresse: "Place du Téléphérique"
+  adresse2: 0
+  codePostal: 1905
+  ville: "Dorénaz"
+  status: 3
+  commune: 29
+  sameAs: 0
+-
+  id: 155
+  name: "Salle de gym à Haute-Nendaz"
+  theateradministrator: 138
+  coordonnees: "46.18699141735682, 7.298104567453265"
+  adresse: "Route du Village 25"
+  adresse2: 0
+  codePostal: 1997
+  ville: "Haute-Nendaz"
+  status: 3
+  commune: 77
+  sameAs: 0
+-
+  id: 156
+  name: "Centre-ville"
+  theateradministrator: 37
+  coordonnees: "46.10141241452937, 7.072999253869057"
+  adresse: ""
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny"
+  status: 3
+  commune: 65
+  sameAs: 0
+-
+  id: 157
+  name: "Kirche Törbel"
+  theateradministrator: 1
+  coordonnees: "46.236898266388245, 7.852796204388142"
+  adresse: "Zen Stapfen 1"
+  adresse2: 0
+  codePostal: 3923
+  ville: "Törbel"
+  status: 3
+  commune: 114
+  sameAs: 0
+-
+  id: 158
+  name: "Église de Fully"
+  theateradministrator: 1
+  coordonnees: "46.13810522910639, 7.113725915551186"
+  adresse: "Rue de l'Église 62"
+  adresse2: 0
+  codePostal: 1926
+  ville: "Fully"
+  status: 3
+  commune: 42
+  sameAs: 0
+-
+  id: 159
+  name: "Gemeindesaal Grächen"
+  theateradministrator: 1
+  coordonnees: "46.1967970697586, 7.840786948800087"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3925
+  ville: "Grächen"
+  status: 3
+  commune: 44
+  sameAs: 0
+-
+  id: 160
+  name: "Mehrzweckhalle St-Niklaus"
+  theateradministrator: 1
+  coordonnees: "46.17711378841949, 7.804866805672646"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3924
+  ville: "St. Niklaus"
+  status: 3
+  commune: 100
+  sameAs: 0
+-
+  id: 161
+  name: "Église de Noës"
+  theateradministrator: 1
+  coordonnees: "46.28005724951481, 7.506819739937782"
+  adresse: "Montée des Pèlerins 4"
+  adresse2: 0
+  codePostal: 3976
+  ville: "Noës"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 162
+  name: "Salle de Gym de Noës"
+  theateradministrator: 1
+  coordonnees: "46.2816169395757, 7.505053170025349"
+  adresse: "Rue des Lutins 3"
+  adresse2: 0
+  codePostal: 3976
+  ville: "Noës"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 163
+  name: "Église de Ayent"
+  theateradministrator: 1
+  coordonnees: "46.28259881943591, 7.412564400583506"
+  adresse: "Rue de l'Église 5"
+  adresse2: 0
+  codePostal: 1966
+  ville: "Ayent"
+  status: 3
+  commune: 6
+  sameAs: 0
+-
+  id: 164
+  name: "Place du Village"
+  theateradministrator: 1
+  coordonnees: "46.27906987857083, 7.498218901455402"
+  adresse: "Route de Champzabé 24"
+  adresse2: 0
+  codePostal: 3976
+  ville: "Champzabé"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 165
+  name: "Brig Kollegiumskirche"
+  theateradministrator: 1
+  coordonnees: "46.31472536829513, 7.99242127686739"
+  adresse: "Kollegiumsplatz 1"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 166
+  name: "Stockalper Schloss"
+  theateradministrator: 1
+  coordonnees: "46.31529723748433, 7.99074137583375"
+  adresse: "Alte Simplonstrasse 28"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 167
+  name: "Burgkirche Raron"
+  theateradministrator: 1
+  coordonnees: "46.3106580816885, 7.803182378411293"
+  adresse: "Haltjinen"
+  adresse2: 0
+  codePostal: 3942
+  ville: "Raron"
+  status: 3
+  commune: 86
+  sameAs: 0
+-
+  id: 168
+  name: "Felsenkirche Raron"
+  theateradministrator: 1
+  coordonnees: "46.31046539740008, 7.802581563591957"
+  adresse: "Kirchweg 10"
+  adresse2: 0
+  codePostal: 3942
+  ville: "Raron"
+  status: 3
+  commune: 86
+  sameAs: 0
+-
+  id: 169
+  name: "St German"
+  theateradministrator: 1
+  coordonnees: "46.313228453004555, 7.819923050701618"
+  adresse: "Dorfstrasse 40"
+  adresse2: 0
+  codePostal: 3942
+  ville: "St German"
+  status: 3
+  commune: 86
+  sameAs: 0
+-
+  id: 170
+  name: "Lycée-collège des Creusets"
+  theateradministrator: 40
+  coordonnees: "46.22661384553511, 7.348024668172002"
+  adresse: "Rue Saint Guérin 34"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 171
+  name: "Lac de Géronde"
+  theateradministrator: 144
+  coordonnees: "46.28894209229256, 7.542914897203445"
+  adresse: ""
+  adresse2: 0
+  codePostal: 3960
+  ville: "Sierre"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 172
+  name: "Kirche Baltschieder"
+  theateradministrator: 1
+  adresse: ""
+  adresse2: 0
+  codePostal: 3937
+  ville: "Baltschieder"
+  status: 3
+  commune: 8
+  sameAs: 0
+-
+  id: 173
+  name: "Kirche Lalden"
+  theateradministrator: 1
+  coordonnees: "46.29910323620734, 7.904366031289101"
+  adresse: "Kirchweg 1"
+  adresse2: 0
+  codePostal: 3931
+  ville: "Lalden"
+  status: 3
+  commune: 57
+  sameAs: 0
+-
+  id: 176
+  name: "Totem"
+  theateradministrator: 149
+  adresse: "Rue de Loèche 23"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 1
+  commune: 108
+  sameAs: 0
+-
+  id: 177
+  name: "Kirche Saas-Fee"
+  theateradministrator: 1
+  coordonnees: "46.10730406548368, 7.924659792333841"
+  adresse: "Im Dorf"
+  adresse2: 0
+  codePostal: 3906
+  ville: "Saas-Fee"
+  status: 3
+  commune: 93
+  sameAs: 0
+-
+  id: 178
+  name: "Eglise d'Hérémence"
+  theateradministrator: 148
+  adresse: ""
+  adresse2: 0
+  codePostal: 1987
+  ville: "Hérémence"
+  status: 1
+  commune: 50
+  sameAs: 0
+-
+  id: 179
+  name: "Église de Grimisuat"
+  theateradministrator: 1
+  coordonnees: "46.25981763059472, 7.385318102315068"
+  adresse: "Route des Combes 1"
+  adresse2: 0
+  codePostal: 1971
+  ville: "Grimisuat"
+  status: 3
+  commune: 47
+  sameAs: 0
+-
+  id: 180
+  name: "Chapelle de Vissigen"
+  theateradministrator: 1
+  coordonnees: "46.229836591696206, 7.374236136674881"
+  adresse: "Cours Roger-Bonvin"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 181
+  name: "Église du Sacré Coeur"
+  theateradministrator: 1
+  coordonnees: "46.230196782519464, 7.361673004925251"
+  adresse: "Avenue des Mayennets 12"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 182
+  name: "Salle de Gym de Charrat"
+  theateradministrator: 1
+  coordonnees: "46.12190616846934, 7.134924419224262"
+  adresse: "Avenue de la Gare 2"
+  adresse2: 0
+  codePostal: 1906
+  ville: "Charrat"
+  status: 3
+  commune: 23
+  sameAs: 0
+-
+  id: 184
+  name: "Salle de gymnastique"
+  theateradministrator: 152
+  coordonnees: "46.26371085329932, 7.500670440495014"
+  adresse: "Impasse du Collège 4"
+  adresse2: 0
+  codePostal: 3966
+  ville: "Chalais"
+  status: 3
+  commune: 20
+  sameAs: 0
+-
+  id: 185
+  name: "Maison Bourgeoisiale"
+  theateradministrator: 153
+  coordonnees: "46.25865574707644, 7.463350184261799"
+  adresse: "Rue de Fauporte 9"
+  adresse2: 0
+  codePostal: 3977
+  ville: "Granges"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 186
+  name: "Grande salle"
+  theateradministrator: 154
+  coordonnees: "46.17646235559915, 7.022738009691238"
+  adresse: "Rue Principale 54"
+  adresse2: 0
+  codePostal: 1902
+  ville: "Evionnaz"
+  status: 3
+  commune: 36
+  sameAs: 0
+-
+  id: 187
+  name: "Complexe des Muverans"
+  theateradministrator: 156
+  coordonnees: "46.18501591747828, 7.209453787654638"
+  adresse: "Route Romaine"
+  adresse2: 0
+  codePostal: 1912
+  ville: "Leytron"
+  status: 3
+  commune: 61
+  sameAs: 0
+-
+  id: 189
+  name: "salle de gym"
+  theateradministrator: 158
+  adresse: "Grande Avenue"
+  adresse2: 0
+  codePostal: 3965
+  ville: "Chippis"
+  commune: 25
+  sameAs: 0
+-
+  id: 190
+  name: "salle de gym"
+  theateradministrator: 158
+  adresse: "Grande Avenue"
+  adresse2: 0
+  codePostal: 3966
+  ville: "Chippis"
+  commune: 25
+  sameAs: 0
+-
+  id: 191
+  name: "Salle Communale"
+  theateradministrator: 1
+  coordonnees: "46.20424029454977, 6.891428120434284"
+  adresse: "Place du Village 5"
+  adresse2: 0
+  codePostal: 1873
+  ville: "Val-d'Illiez"
+  status: 3
+  commune: 119
+  sameAs: 0
+-
+  id: 192
+  name: "Centre de Congrès le Régent"
+  theateradministrator: 1
+  coordonnees: "46.30535160494838, 7.462080493569374"
+  adresse: "Route des Mélèzes 28"
+  adresse2: 0
+  codePostal: 3963
+  ville: "Crans-Montana"
+  status: 3
+  commune: 59
+  sameAs: 0
+-
+  id: 193
+  name: "MZA Stalden"
+  theateradministrator: 155
+  coordonnees: "46.23241956913998, 7.870375402271748"
+  adresse: "Bahnhof"
+  adresse2: 0
+  codePostal: 3922
+  ville: "Stalden"
+  status: 3
+  commune: 109
+  sameAs: 0
+-
+  id: 195
+  name: "Salle de Gymnastique St-Séverin"
+  theateradministrator: 162
+  coordonnees: "46.22936159078286, 7.306129485368729"
+  adresse: "Rue de Vétroz"
+  adresse2: 0
+  codePostal: 1964
+  ville: "Conthey"
+  status: 3
+  commune: 28
+  sameAs: 0
+-
+  id: 196
+  name: "Salle de Gym de Miège"
+  theateradministrator: 1
+  coordonnees: "46.31103094238758, 7.545125037431717"
+  adresse: "Route de la Barmette 1BIS"
+  adresse2: 0
+  codePostal: 3972
+  ville: "Miège"
+  status: 3
+  commune: 69
+  sameAs: 0
+-
+  id: 197
+  name: "Salle de gymnastique de Vex"
+  theateradministrator: 1
+  coordonnees: "46.212479226668975, 7.39850141108036"
+  adresse: "Route du Village 17"
+  adresse2: 0
+  codePostal: 1981
+  ville: "Vex"
+  status: 3
+  commune: 125
+  sameAs: 0
+-
+  id: 198
+  name: "Village de Vex"
+  theateradministrator: 1
+  coordonnees: "46.211386697801416, 7.398220784962177"
+  adresse: ""
+  adresse2: 0
+  codePostal: 1981
+  ville: "Vex"
+  status: 3
+  commune: 125
+  sameAs: 0
+-
+  id: 199
+  name: "Cours de la préfecture"
+  theateradministrator: 167
+  coordonnees: "46.23278777326259, 7.360107055865228"
+  adresse: "Rue de Lausanne"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 200
+  name: "Casino de Saxon"
+  theateradministrator: 1
+  coordonnees: "46.14619135854383, 7.170723024755716"
+  adresse: "Rue du Casino 4"
+  adresse2: 0
+  codePostal: 1907
+  ville: "Saxon"
+  status: 3
+  commune: 104
+  sameAs: 0
+-
+  id: 201
+  name: "Préau de la salle de gymnastique d'Ayent"
+  theateradministrator: 168
+  coordonnees: "46.27747564593133, 7.4061494786292315"
+  adresse: "Place du Pré des Soeurs"
+  adresse2: 0
+  codePostal: 1966
+  ville: "St-Romain"
+  status: 3
+  commune: 6
+  sameAs: 0
+-
+  id: 202
+  name: "Place du Midi "
+  theateradministrator: 169
+  coordonnees: "46.23167741333414, 7.361898310482502"
+  adresse: "Place du Midi 33"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 203
+  name: "Bramois salle de Gym"
+  theateradministrator: 170
+  adresse: "Salle de gymnastique"
+  adresse2: 0
+  codePostal: 1967
+  ville: "Bramois"
+  commune: 108
+  sameAs: 0
+-
+  id: 204
+  name: "Église du Châble"
+  theateradministrator: 1
+  coordonnees: "46.08007648664891, 7.208665553480387"
+  adresse: "Chemin de l'Église 15"
+  adresse2: 0
+  codePostal: 1934
+  ville: "Le Châble"
+  status: 3
+  commune: 7
+  sameAs: 0
+-
+  id: 205
+  name: "Église des Jésuites"
+  theateradministrator: 171
+  coordonnees: "46.233599576207155, 7.361871488392353"
+  adresse: "Rue du Vieux-Collège 7"
+  adresse2: 0
+  codePostal: 1950
+  ville: "Sion"
+  status: 0
+  commune: 108
+  sameAs: 0
+-
+  id: 207
+  name: "Liddes"
+  theateradministrator: 172
+  coordonnees: "45.991828395899404, 7.1858129650354385"
+  adresse: "Cantine"
+  adresse2: 0
+  codePostal: 1945
+  ville: "Liddes"
+  status: 3
+  commune: 62
+  sameAs: 0
+-
+  id: 208
+  name: "Pfarrkirche Brig"
+  theateradministrator: 1
+  coordonnees: "46.316463072561, 7.98941183835268"
+  adresse: "Alte Simplonstrasse 13"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 3
+  commune: 18
+  sameAs: 0
+-
+  id: 209
+  name: "Église de Chippis"
+  theateradministrator: 1
+  coordonnees: "46.280494736514015, 7.540261521935463"
+  adresse: "Rue de Saint-Urbain 5"
+  adresse2: 0
+  codePostal: 3965
+  ville: "Chippis"
+  status: 3
+  commune: 25
+  sameAs: 0
+-
+  id: 210
+  name: "Salle de gymnastique de Salins"
+  theateradministrator: 173
+  coordonnees: "46.211734,7.352245"
+  adresse: "Route de Pravidondaz 59"
+  adresse2: 0
+  codePostal: 1991
+  ville: "Salins"
+  status: 3
+  commune: 108
+  sameAs: 0
+-
+  id: 211
+  name: "Théâtre du Martolet"
+  theateradministrator: 175
+  adresse: ""
+  adresse2: 0
+  codePostal: 1890
+  ville: "Saint-Maurice"
+  status: 1
+  commune: 99
+  sameAs: 0
+-
+  id: 212
+  name: "Théâtre du Baladin"
+  theateradministrator: 176
+  adresse: ""
+  adresse2: 0
+  codePostal: 1965
+  ville: "St.-Germain"
+  commune: 103
+  sameAs: 0
+-
+  id: 213
+  name: "Médiathèque de St-Maurice"
+  theateradministrator: 1
+  coordonnees: "46.21714711247105, 7.004355993121862"
+  adresse: "Avenue de la Gare 4"
+  adresse2: 0
+  codePostal: 1890
+  ville: "Saint-Maurice"
+  status: 3
+  commune: 99
+  sameAs: 0
+-
+  id: 214
+  name: "Salle des écoles"
+  theateradministrator: 177
+  coordonnees: "46.26992887197183, 7.454591891728342"
+  adresse: "Ch. Creux de Flanthey 18"
+  adresse2: 0
+  codePostal: 3978
+  ville: "Flanthey"
+  status: 3
+  commune: 59
+  sameAs: 0
+-
+  id: 215
+  name: "Eglise de Saillon"
+  theateradministrator: 178
+  coordonnees: "46.17137613764222, 7.184643647633493"
+  adresse: "Rue St-Sulpice 17"
+  adresse2: 0
+  codePostal: 1913
+  ville: "Saillon"
+  status: 3
+  commune: 95
+  sameAs: 0
+-
+  id: 216
+  name: "Centre scolaire de Saillon"
+  theateradministrator: 178
+  coordonnees: "46.1723721515719, 7.186778392642736"
+  adresse: "Chemin des Écoliers 1"
+  adresse2: 0
+  codePostal: 1913
+  ville: "Saillon"
+  status: 3
+  commune: 95
+  sameAs: 0
+-
+  id: 217
+  name: "Église de Riddes"
+  theateradministrator: 178
+  coordonnees: "46.16908072977011, 7.2200592420995235"
+  adresse: "Rue de l'Église"
+  adresse2: 0
+  codePostal: 1908
+  ville: "Riddes"
+  status: 3
+  commune: 88
+  sameAs: 0
+-
+  id: 218
+  name: "Église de Erde"
+  theateradministrator: 1
+  coordonnees: "46.239094229747145, 7.293380107730627"
+  adresse: "Rue de l'Église"
+  adresse2: 0
+  codePostal: 1976
+  ville: "Erde"
+  status: 3
+  commune: 28
+  sameAs: 0
+-
+  id: 222
+  name: "Salle Communale"
+  theateradministrator: 1
+  coordonnees: "46.21485660249679, 7.585905594751239"
+  adresse: "Route d'Ayer 4"
+  adresse2: 0
+  codePostal: 3961
+  ville: "Vissoie"
+  status: 3
+  commune: 2
+  sameAs: 0
+-
+  id: 223
+  name: "La Sacoche"
+  theateradministrator: 1
+  coordonnees: "46.29451297797331, 7.535798158496618"
+  adresse: "Place de l'Europe 3"
+  adresse2: 0
+  codePostal: 3960
+  ville: "Sierre"
+  status: 3
+  commune: 106
+  sameAs: 0
+-
+  id: 224
+  name: "Kirche Agarn"
+  theateradministrator: 1
+  coordonnees: "46.29677392890767, 7.663492765277624"
+  adresse: "Dorfstrasse 6"
+  adresse2: 0
+  codePostal: 3951
+  ville: "Agarn"
+  status: 3
+  commune: 63
+  sameAs: 0
+-
+  id: 225
+  name: "Kirche Leukerbad"
+  theateradministrator: 1
+  coordonnees: "46.379449113134086, 7.629287643358111"
+  adresse: "Kirchstrasse 39"
+  adresse2: 0
+  codePostal: 3954
+  ville: "Leukerbad"
+  status: 3
+  commune: 64
+  sameAs: 0
+-
+  id: 226
+  name: "Kirche Susten"
+  theateradministrator: 1
+  coordonnees: "46.30825115843839, 7.643079562112689"
+  adresse: "Kirchstrasse 24"
+  adresse2: 0
+  codePostal: 3952
+  ville: "Susten"
+  status: 3
+  commune: 63
+  sameAs: 0
+-
+  id: 227
+  name: "Kirche Guttet"
+  theateradministrator: 1
+  coordonnees: "46.32493133324295, 7.665357990190387"
+  adresse: "Dorf Guttet 97"
+  adresse2: 0
+  codePostal: 3956
+  ville: "Guttet-Feschel"
+  status: 3
+  commune: 49
+  sameAs: 0
+-
+  id: 228
+  name: "Kirche Varen"
+  theateradministrator: 1
+  coordonnees: "46.316432563636994, 7.607046766206622"
+  adresse: "Kirchstrasse 10"
+  adresse2: 0
+  codePostal: 3953
+  ville: "Varen"
+  status: 3
+  commune: 120
+  sameAs: 0
+-
+  id: 229
+  name: "Église de Savièse"
+  theateradministrator: 185
+  coordonnees: "46.250691409911475, 7.349685039371252"
+  adresse: "Rue de Saint-Germain 46"
+  adresse2: 0
+  codePostal: 1965
+  ville: "Savièse"
+  status: 3
+  commune: 103
+  sameAs: 0
+-
+  id: 231
+  name: "Briger Altstadt"
+  theateradministrator: 186
+  adresse: "Alte Simplonstrasse"
+  adresse2: 0
+  codePostal: 3900
+  ville: "Brig"
+  status: 1
+  commune: 18
+  sameAs: 0
+-
+  id: 232
+  name: "Théâtre du Baladin"
+  theateradministrator: 176
+  adresse: ""
+  adresse2: 0
+  codePostal: 1965
+  ville: "St.-Germain"
+  commune: 8
+  sameAs: 0
+-
+  id: 233
+  name: "Salle polyvalente de Chamoson"
+  theateradministrator: 1
+  coordonnees: "46.20477775728769, 7.2234157752245665"
+  adresse: "Rue de Fosseau 15"
+  adresse2: 0
+  codePostal: 1955
+  ville: "Chamoson"
+  status: 3
+  commune: 21
+  sameAs: 0
+-
+  id: 234
+  name: "Place du Village et différentes granges"
+  theateradministrator: 1
+  coordonnees: "46.030539944448186, 7.146366639062762"
+  adresse: "Route du Grand Saint-Bernard 38"
+  adresse2: 0
+  codePostal: 1937
+  ville: "Orsières"
+  status: 3
+  commune: 82
+  sameAs: 0
+-
+  id: 235
+  name: "Ecole, bâtiments A et C"
+  theateradministrator: 37
+  adresse: "Rue des Ecoles 1"
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny"
+  commune: 65
+  sameAs: 0
+-
+  id: 236
+  name: "Ecole, bâtiments A et C"
+  theateradministrator: 37
+  adresse: ""
+  adresse2: 0
+  codePostal: 1920
+  ville: "Martigny"
+  commune: 65
+  sameAs: 0
+-
+  id: 237
+  name: "Salle polyvalente"
+  theateradministrator: 187
+  adresse: "Place du Village"
+  adresse2: 0
+  codePostal: 1873
+  ville: "Val-d'Illiez"
+  status: 1
+  commune: 119
+  sameAs: 0
+-
+  id: 238
+  name: "Monthey Tourisme"
+  theateradministrator: 187
+  adresse: "Place Centrale 3"
+  adresse2: 0
+  codePostal: 1870
+  ville: "Monthey"
+  status: 1
+  commune: 73
+  sameAs: 0
+-
+  id: 239
+  name: "Haute-Nendaz"
+  theateradministrator: 188
+  adresse: "Eglise"
+  adresse2: 0
+  codePostal: 1996
+  ville: "Haute-Nendaz"
+  status: 1
+  commune: 77
+  sameAs: 0
+...

@@ -1,0 +1,5100 @@
+%YAML 1.1
+---
+# db15162_vf.spectacles
+-
+  id: 478
+  name: "Les contes en vadrouille"
+  place: 30
+  compagnie: "ArtBacouni Juniors"
+  publie: 0
+  presentationCahier: "Et si les contes n'étaient pas politiquement corrects ? Et si le ministère de la culture décidait d'y mettre de l'ordre ? Cela donnerait un spectacle déjanté donné par la troupe des Juniors et des Ados de l'ArtBacouni. Invitation à un belle soirée de rires et de questions."
+  images: ""
+  videos: ""
+  spectacleadministrator: 30
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 479
+  name: "Crime en plaqué or"
+  place: 31
+  compagnie: "Cabotins"
+  publie: 0
+  presentationCahier: "Une pièce policière, deux lieux simultanés, des acteurs jeunes et motivés... tous les ingrédients pour une soirée palpitante."
+  images: ""
+  videos: "078.614.35.22"
+  spectacleadministrator: 30
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 480
+  name: "Concert"
+  place: 31
+  compagnie: "Savièse Chante"
+  publie: 0
+  presentationCahier: "Sur la lancée de la fête cantonale de chant, la chorale Savièse Chante a le plaisir de convier tous les amateurs de chants populaires à leur concert annuel. Bienvenue à tous !"
+  images: ""
+  videos: "079.534.49.02"
+  spectacleadministrator: 30
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 481
+  name: "Le Messie de Haendel"
+  place: 34
+  compagnie: "Chœur Novantiqua de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion du dimanche des Rameaux, le Chœur Novantiqua de Sion, dirigé par Bernard Héritier, ainsi que l'orchestre le Moment Baroque interprètent le Messie, oratorio de Georg Friedrich Haendel.\r\n\r\nPlus d'informations sur www.novantiqua-sion.ch"
+  images: "&481-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 484
+  name: "125ème Anniversaire de la Fanfare Union de Vétroz"
+  place: 38
+  compagnie: "Fanfare Union de Vétroz"
+  publie: 0
+  presentationCahier: "En 2014, la fanfare Union de Vétroz fête son 125ème anniversaire, et pour l'occasion, tout le village sera en fête.\r\nLe vendredi 11 avril débute avec l'apéro à la population, dès 18h30 à la Place du Four.\r\nLe samedi, près de 20 fanfares différentes joueront dans le village, et la fête continuera avec une soirée années 80, avec notamment le groupe ABBA for ever !"
+  images: "&484-1.jpg&"
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 1013
+  website: "http://www.fanfareunion.ch/joomla/"
+  parent: 0
+-
+  id: 486
+  name: "Starmania"
+  place: 39
+  compagnie: "Jeunes d'Ayent"
+  publie: 0
+  presentationCahier: "80 jeunes du CO d'Ayent, accompagnés de 7 musiciens, font revivre la fougue et l'esprit frondeur de la célèbre comédie musicale de Starmania, dans le cadre du 99ème festival de la FFDC."
+  images: ""
+  videos: ""
+  spectacleadministrator: 30
+  status: 4
+  categorie: 5
+  website: "http://www.anzere.ch"
+  parent: 0
+-
+  id: 487
+  name: "Concert"
+  place: 39
+  compagnie: "Fanfare Les Pommerats JU, Fanfare des Jeunes de la Fédération"
+  publie: 0
+  presentationCahier: "Soirée de musique de cuivre et de fanfares grâce aux sociétés de L'Amicale des fanfares du Centre (20h20) et à la société invitée du Jura, la fanfare Les Pommerats (22h20)."
+  images: ""
+  videos: ""
+  spectacleadministrator: 30
+  status: 4
+  categorie: 4
+  website: "http://www.anzere.ch"
+  parent: 0
+-
+  id: 488
+  name: "Festival Mase m'enchante"
+  place: 41
+  compagnie: "Mase m'enchante"
+  publie: 0
+  presentationCahier: "Festival de la Chanson francophone à Mase\r\n\r\nVendredi 30 mai 2014\r\nSamedi 31 mai 2014\r\nDimanche 1er juin 2014\r\n\r\n\r\n"
+  images: "&488-1.jpg&"
+  videos: "+41 27 565 01 58"
+  spectacleadministrator: 43
+  status: 0
+  categorie: 1013
+  website: "http://www.masemenchante.ch"
+  parent: 0
+-
+  id: 491
+  name: "Apéro-concert"
+  place: 38
+  compagnie: "In the Spirit"
+  publie: 0
+  presentationCahier: "Fanfare de rue.... Mais kesako ??? La fanfare de rue est un ensemble de musique festive destinée à animer toutes sortes de manifestations. Dans l'esprit des fanfares des beaux arts, la fanfare de rue est un mixe entre les Bandas (sud de la France), les orchestres Klezmer (Europe de l'est) et les brass-band américains, orchestre de rue que l'on trouve aux Etats-Unis. \r\n\r\n"
+  images: "&491-1.jpg&"
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 4
+  website: "http://www.inthespirit.ch/"
+  parent: 484
+-
+  id: 492
+  name: "Concert"
+  place: 38
+  compagnie: "La Contheysanne"
+  publie: 0
+  presentationCahier: "« La Contheysanne » participe régulièrement aux diverses fêtes cantonales et fédérales. Depuis 2001 et sa 3ème place décrochée à la fête fédérale des musiques à Fribourg, ainsi que la 1ère place du défilé, elle revendique son appartenance à la première catégorie Brass Band. Elle entend poursuivre sa progression musicale, pas à pas, sous l'experte baguette de son directeur, Yvan Lagger, qui occupe ce poste pour la quinzième année, soit depuis 1998."
+  images: "&492-1.jpg&"
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 4
+  website: "http://www.lacontheysanne.ch/"
+  parent: 484
+-
+  id: 493
+  name: "Concert"
+  place: 38
+  compagnie: "In the Spirit"
+  publie: 0
+  presentationCahier: "Fanfare de rue.... Mais kesako ??? La fanfare de rue est un ensemble de musique festive destinée à animer toutes sortes de manifestations. Dans l'esprit des fanfares des beaux arts, la fanfare de rue est un mixe entre les Bandas (sud de la France), les orchestres Klezmer (Europe de l'est) et les brass-band américains, orchestre de rue que l'on trouve aux Etats-Unis.\r\n"
+  images: "&493-1.jpg&"
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 484
+-
+  id: 494
+  name: "Aubade"
+  place: 42
+  compagnie: "Concordia Nendaz, Fraternité Liddes, Concordia Saxon, Villageoise Chamoson"
+  publie: 0
+  presentationCahier: "Dans le cadre du 125ème anniversaire de la fanfare Union de Vétroz, la Concordia de Nendaz, la Fraternité de Liddes, la Concordia de Saxon, et la Villagoise de Chamoson font une aubade devant le Tea-Room la Madeleine à Vétroz"
+  images: ""
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 484
+-
+  id: 495
+  name: "Aubade"
+  place: 43
+  compagnie: " Liberté Salins, Avenir Bagnes, Helvétia Isérables, Concordia Vétroz"
+  publie: 0
+  presentationCahier: "Dans le cadre du 125ème anniversaire de la fanfare Union de Vétroz, la Liberté de Salins, l'Avenir de Bagnes, l'Helvétia d'Isérables, et la Concordia de Vétroz jouent une aubade devant le Café des Amignes.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 484
+-
+  id: 496
+  name: "Aubade"
+  place: 44
+  compagnie: "Helvétia Ardon, Écho d'Orny Orsières, Persévérance Leytron, Liberté Fully, Écho des Roches Châtonnaye"
+  publie: 0
+  presentationCahier: "Dans le cadre du 125ème anniversaire de la fanfare Union de Vétroz, l'Helvétia d'Ardon, l'Echo d'Orny d'Orsières, la Persévérance de Leytron, la Liberté de Fully, l'Echo des Roches Châtonnaye jouent une aubade devant le Café de l'Union.\r\n\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 484
+-
+  id: 497
+  name: "Aubade"
+  place: 45
+  compagnie: "Lyre Conthey, Indépendante Charrat, Abeille Riddes, Echo de Corjon Rossinière"
+  publie: 0
+  presentationCahier: "Dans le cadre du 125ème anniversaire de la fanfare Union de Vétroz, la Lyre de Conthey, l'Indépendante de Charrat, l'Abeille de Riddes et l'Echo de Corjon de Rossinière jouent une aubade devant le Relais du Valais."
+  images: ""
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 484
+-
+  id: 498
+  name: "Cortège"
+  place: 38
+  compagnie: "Union de Vétroz, Concordia de Saxon, Villageoise de Chamoson, Indépendante de Charrat, Persévérance de Leytron, Abeille de Riddes, Liberté de Fully, Avenir de Bagnes, Helvétia d'Ardon, Helvétia d'Isérables, Concordia de Vétroz, Écho de Corjon de Rossinière, Liberté de Salins, Écho d'Orny d'Orsières, Lyre de Conthey, Concordia de Nendaz, Écho des Roches de Châtonnaye"
+  publie: 0
+  presentationCahier: "Cortège sur la route cantonale du Café de l'Union à la  Cave Les Celliers, avec\r\nL'Union de Vétroz, la Concordia de Saxon, la villageoise de Chamoson, l'Indépendante de Charrat, la Persévérance de Leytron, l'Abeille de Riddes, la Liberté de Fully, l'Avenir de Bagnes, l'Helvétia d'Ardon, l'Helvétia d'Isérables, la Concordia de Vétroz, l'Echo de Corjon de Rossinière, la Liberté de Salins, l'Echo d'Orny d'Orsières, la Lyre de Conthey, la Concordia de Nendaz, l'Echo des Roches de Châtonnay\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 484
+-
+  id: 499
+  name: "Abba for Ever"
+  place: 38
+  compagnie: "Abba"
+  publie: 0
+  presentationCahier: "L'univers D'ABBA traverse le temps, indémodable et séduit le public comme il y a 30 ans. Un véritable phénomène mondial avec des chansons mythiques. Incontestablement le groupe Abba appartient à la mémoire collective avec des tubes intergénérationnels.\r\n\r\n\r\n\r\n"
+  images: "&499-1.jpg&"
+  videos: ""
+  spectacleadministrator: 42
+  status: 4
+  categorie: 1000
+  website: ""
+  parent: 484
+-
+  id: 500
+  name: "Concert de la Passion"
+  place: 46
+  compagnie: "Chœur du Collège de St-Maurice"
+  publie: 0
+  presentationCahier: "« Mon Requiem, on a dit qu’il n’exprimait pas l’effroi de la mort. Quelqu’un l’a appelé une berceuse de la mort. Mais c’est ainsi que je sens la mort comme une délivrance heureuse, une aspiration au bonheur d’au-delà, plutôt que comme un passage douloureux »."
+  images: "&500-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: "http://www.theatredumartolet.ch/site/programme/musique/passion-2014.html"
+  parent: 0
+-
+  id: 501
+  name: "Concert Annuel"
+  place: 47
+  compagnie: "Écho de la Montagne de Champéry"
+  publie: 0
+  presentationCahier: "Le concert annuel est l'aboutissement de toute une année de travail. Il a lieu généralement entre la mi et la fin avril, à la salle polyvalente du Palladium de Champéry.\r\n\r\nA l'issue du concert, la fête se poursuite avec un bal populaire qui durera jusque tard dans la nuit mais heureusement, un bar prévu à cet effet permet à tous de se désaltérer. "
+  images: "&501-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: "http://www.echodelamontagne.ch/index.php?option=com_content&task=view&id=81&Itemid=117"
+  parent: 0
+-
+  id: 502
+  name: "Messe de Confirmation"
+  place: 48
+  compagnie: "Choeur St-Nicolas"
+  publie: 0
+  presentationCahier: "Le chœur compte une quarantaine de chanteurs qui animent les messes et présentent chaque année un concert dans la magnifique église d'Hérémence."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 503
+  name: "Messe de Pâques"
+  place: 48
+  compagnie: "Choeur St-Nicolas"
+  publie: 0
+  presentationCahier: "Le chœur compte une quarantaine de chanteurs qui animent les messes et présentent chaque année un concert dans la magnifique église d'Hérémence."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 504
+  name: "Messe au home St-Sylve"
+  place: 49
+  compagnie: "Choeur St-Nicolas"
+  publie: 0
+  presentationCahier: "Le chœur compte une quarantaine de chanteurs qui animent les messes et présentent chaque année un concert dans la magnifique église d'Hérémence.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 505
+  name: "Messe des Premières Communions"
+  place: 48
+  compagnie: "Choeur St-Nicolas"
+  publie: 0
+  presentationCahier: "Le chœur compte une quarantaine de chanteurs qui animent les messes et présentent chaque année un concert dans la magnifique église d'Hérémence.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 506
+  name: "Messe de l'Ascension"
+  place: 50
+  compagnie: "Choeur St-Nicolas"
+  publie: 0
+  presentationCahier: "Le chœur compte une quarantaine de chanteurs qui animent les messes et présentent chaque année un concert dans la magnifique église d'Hérémence.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 507
+  name: "Messe de la Pentecôte"
+  place: 48
+  compagnie: "Choeur St-Nicolas"
+  publie: 0
+  presentationCahier: "Le chœur compte une quarantaine de chanteurs qui animent les messes et présentent chaque année un concert dans la magnifique église d'Hérémence.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 508
+  name: "Messe de la Fête Dieu"
+  place: 48
+  compagnie: "Choeur St-Nicolas"
+  publie: 0
+  presentationCahier: "Le chœur compte une quarantaine de chanteurs qui animent les messes et présentent chaque année un concert dans la magnifique église d'Hérémence.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 509
+  name: "Jahreskonzert"
+  place: 53
+  compagnie: "Konkordia Varen"
+  publie: 0
+  presentationCahier: "Die Konkordia Varen versuchte es, mit verschiedenen zusätzlichen neuen Instrumenten-Registern, sich dem Wandel der Zeit anzupassen, so dass in den letzten Jahren immer eine Steigerung der Musikqualität erreicht werden konnte. Dies bewiesen die von Juroren abgegebenen Berichte an den Oberwalliser Musikfesten, in denen die Arbeit der KONKORDIA gewürdigt wurde."
+  images: ""
+  videos: ""
+  spectacleadministrator: 79
+  status: 4
+  categorie: 4
+  website: "http://www.mgkonkordia.ch"
+  parent: 0
+-
+  id: 510
+  name: "Robin des Bois, la légende devient musicale !"
+  place: 31
+  compagnie: "AscenDanse"
+  publie: 0
+  presentationCahier: "Après Notre Dame de Paris, les Dix Commandements et Roméo et Juliette, AscenDanse Production, la troupe saviésanne et valaisanne, revient cette année avec une nouvelle comédie musicale : \n\"Robin des Bois, la légende devient musicale !\".\n<br />\nEn l'an 1193, avec Richard Coeur de Lion, Robin de Locksley, Marianne, Azeem, Le Shériff de Nottingham, et d'autres encore, la légende devient musicale !\n<br />\nAuteur et compositeur :  Stéphane Métro"
+  images: "&510-1.jpg&"
+  videos: ""
+  spectacleadministrator: 50
+  status: 4
+  categorie: 1014
+  website: "http://www.ascendanse.ch/"
+  parent: 0
+-
+  id: 511
+  name: "Robin des Bois, la légende devient musicale !"
+  place: 55
+  compagnie: "AscenDanse"
+  publie: 0
+  presentationCahier: "Après Notre Dame de Paris, les Dix Commandements et Roméo et Juliette, AscenDanse Production, la troupe saviésanne et valaisanne, revient cette année avec une nouvelle comédie musicale : \n\"Robin des Bois, la légende devient musicale !\".\n<br />\nEn l'an 1193, avec Richard Coeur de Lion, Robin de Locksley, Marianne, Azeem, Le Shériff de Nottingham, et d'autres encore, la légende devient musicale !\n<br />\nAuteur et compositeur :  Stéphane Métro"
+  images: "&510-1.jpg&"
+  videos: ""
+  spectacleadministrator: 50
+  status: 4
+  categorie: 1014
+  website: "http://www.ascendanse.ch/"
+  parent: 0
+-
+  id: 512
+  name: "École de théâtre Sylvia Fardel"
+  place: 51
+  compagnie: "Desperados Theatro's"
+  publie: 0
+  presentationCahier: "Sylvia Fardel allie fantaisie, rigueur et respect de l'individu pour former ses futurs comédiens ou simplement pour que chacun trouve aux cours un épanouissement personnel.\r\n\r\nSon approche de la formation du comédien se base sur la révélation de l'univers de chacun, la mise en lumière et l'exploitation des qualités et des failles de tout être humain."
+  images: "&512-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 513
+  name: "École de théâtre Sylvia Fardel"
+  place: 51
+  compagnie: "P'tits Comédiens"
+  publie: 0
+  presentationCahier: "Sylvia Fardel allie fantaisie, rigueur et respect de l'individu pour former ses futurs comédiens ou simplement pour que chacun trouve aux cours un épanouissement personnel.\r\n\r\nSon approche de la formation du comédien se base sur la révélation de l'univers de chacun, la mise en lumière et l'exploitation des qualités et des failles de tout être humain.\r\n\r\n"
+  images: "&512-2.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 514
+  name: "Lapin Lapin, de Coline Serreau"
+  place: 56
+  compagnie: "Guilde Théâtrale"
+  publie: 0
+  presentationCahier: "Le Teatro Comico est un théâtre de création et d'accueil, sous la direction artistique d'Ingrid et Bernard Sartoretti.\nCe théâtre a été fondé en l'an 2000 à Sion (Suisse). Son espace est utilisé de façon très diversifiée et accueille des cours de théâtre et un atelier de création, en plus des spectacles. Ce lieu abrite également une troupe, \"La Guilde Théâtrale\", qui crée au moins deux spectacles par année. \n"
+  images: ""
+  videos: "0041 (0)27 321 22 08"
+  spectacleadministrator: 1
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 515
+  name: "Spectacle annuel"
+  place: 58
+  compagnie: "Let's Dance Studio"
+  publie: 0
+  presentationCahier: "Cette école, créée par Létitia Chesaux en 2004, a toujours été à la pointe de la danse urbaine tout en gardant son style et son originalité.\r\n\r\nPour ses 10 ans, Let's Dance Studio envahit le Théâtre du Crochetan, avec du hip-hop, de la breakdance, de la house dance, du classique/jazz, de la danse orientale, et du flamenco."
+  images: "&515-1.jpg&"
+  videos: "024 471 62 67"
+  spectacleadministrator: 1
+  status: 4
+  categorie: 6
+  website: "http://www.letsdancestudio.ch/index.php/events/spectacle-annuel"
+  parent: 0
+-
+  id: 518
+  name: "Konzert 2014"
+  place: 60
+  compagnie: "BO Stadtmusik Saltina"
+  publie: 0
+  presentationCahier: "Konzert unter dem Motto \"Movie Night\".\r\n\r\nUnter der Leitung von Armin Renggli spielt das Blasorchester Stadtmusik Saltina Melodien aus bekannten Filmen und das Selbstwahlstück für das Kantonale Musikfest in Martigny. Stephanie Magnani, eine Hornistin aus den eigenen Reihen der Saltina, tritt als Solisitin beim Stück Cape Horn auf."
+  images: "&518-1.jpg&"
+  videos: ""
+  spectacleadministrator: 80
+  status: 4
+  categorie: 4
+  website: "http://www.stadtmusik-saltina.ch"
+  parent: 0
+-
+  id: 519
+  name: "Vorbereitungskonzert KMF"
+  place: 61
+  compagnie: "BO Stadtmusik Saltina Brig, MG Illhorn Susten, MG Alpenrose Kippel"
+  publie: 0
+  presentationCahier: "Drei Musikgesellschaften bereiten sich auf das Kantonale Musikfest in Martigny vor. An einem gemeinsames Konzert im Zentrum SOSTA in Susten werden die Selbstwahl- und Aufgabenstücke präsentiert. Zu den Musikgesellschaften gehören zum heutigen Zeitpunkt das Blasorchester Stadtmusik Saltina Brig, die MG Illhorn Susten und die MG Alpenrose Kippel. Damit sind drei Vereine aus drei unterschiedlichen Wettbewerbskategorien an einem Abend zu hören. Die Saltina als Harmonie 1. Klasse, die Illhorn als Harmonie 2. Klasse und die Alpenrose als Brassband 2. Klasse."
+  images: ""
+  videos: ""
+  spectacleadministrator: 80
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 520
+  name: "Muttertagskonzert"
+  place: 62
+  compagnie: "BO Stadtmusik Saltina"
+  publie: 0
+  presentationCahier: "Das BO Stadtmusik Saltina lädt alle Mütter zum traditionellen Muttertagskonzert in den Schlosshof ein. Nebst Musik wird den Müttern gedankt: mit Worten und mit Blumen. Die Stadtgemeinde Brig-Glis offeriert ein kleines Apéro."
+  images: "&520-1.jpg&"
+  videos: ""
+  spectacleadministrator: 80
+  status: 4
+  categorie: 4
+  website: "http://www.stadtmusik-saltina.ch"
+  parent: 0
+-
+  id: 521
+  name: "53ème amicale de la Quintette"
+  place: 63
+  compagnie: "Corps de Musique"
+  publie: 0
+  presentationCahier: "25 avril 2014\r\nLe Corps de Musique accueillera ses ensembles amies de Berkheim/Allemagne et Forel/VD. Souper Gala suivit du bal animé par Jean-Paul et Jean-Paul\r\n\r\n26 avril 2014\r\n53ème amicale de la Quintette. 1900 cortège suivi des prestations sur scène des 6 fanfares suivi du bal\r\n\r\nNotre brass band récolte dans le même temps des fonds pour l'aménagement d'un nouveau local de répétition. Venez nombreux "
+  images: "&521-1.jpg&"
+  videos: 0794676458
+  spectacleadministrator: 81
+  status: 4
+  categorie: 1013
+  website: "http://www.corpsdemusique.ch"
+  parent: 0
+-
+  id: 522
+  name: "Jahreskonzert"
+  place: 53
+  compagnie: " Grape Junior Band Salgesch"
+  publie: 0
+  presentationCahier: "Die Konkordia Varen versuchte es, mit verschiedenen zusätzlichen neuen Instrumenten-Registern, sich dem Wandel der Zeit anzupassen, so dass in den letzten Jahren immer eine Steigerung der Musikqualität erreicht werden konnte. Dies bewiesen die von Juroren abgegebenen Berichte an den Oberwalliser Musikfesten, in denen die Arbeit der KONKORDIA gewürdigt wurde.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 523
+  name: "67ème Festival FMVC"
+  place: 64
+  compagnie: "La Dixence"
+  publie: 0
+  presentationCahier: "Du 23 au 25 mai 2014, la Fanfare La Dixence organise le 67 ème Festival des Musiques du Valais Central. Hérémence et le cœur de son village seront donc en fête durant 3 jours."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1013
+  website: ""
+  parent: 0
+-
+  id: 524
+  name: "Concert"
+  place: 65
+  compagnie: "Fanfares des jeunes FMVC"
+  publie: 0
+  presentationCahier: "Dans le cadre du 67ème festival FMVC, la fanfare des jeunes FMVC jouera sur la place l'Église d'Hérémence en cas de beau temps, ou dans la salle polyvalente en cas de mauvais temps."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 523
+-
+  id: 525
+  name: "Spectacle Académie de Danse ARABESQUE"
+  place: 51
+  compagnie: "Académie de Danse ARABESQUE"
+  publie: 0
+  presentationCahier: "Depuis 1990, l’Académie de Danse “Arabesque” présente un spectacle chaque 2 ans.\r\nSous la direction d’Emmanuelle Derivaz, tous les élèves se réunissent sur scène pour partager, ensemble et avec le public, leur passion : la danse.\r\nCette année, la magie illuminera ces spectacles avec comme thèmes : Mary Poppins et Merlin l’Enchanteur."
+  images: "&525-1.jpg&"
+  videos: "027/398 40 28"
+  spectacleadministrator: 52
+  status: 4
+  categorie: 6
+  website: "http://www.danse-arabesque.ch"
+  parent: 0
+-
+  id: 528
+  name: "Jahreskonzert"
+  place: 67
+  compagnie: " Grape Junior Band Salgesch/Varen"
+  publie: 0
+  presentationCahier: "Die Konkordia Varen versuchte es, mit verschiedenen zusätzlichen neuen Instrumenten-Registern, sich dem Wandel der Zeit anzupassen, so dass in den letzten Jahren immer eine Steigerung der Musikqualität erreicht werden konnte. Dies bewiesen die von Juroren abgegebenen Berichte an den Oberwalliser Musikfesten, in denen die Arbeit der KONKORDIA gewürdigt wurde."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 529
+  name: "Fronleichnam"
+  place: 68
+  compagnie: "Konkordia Varen"
+  publie: 0
+  presentationCahier: "Die Konkordia Varen versuchte es, mit verschiedenen zusätzlichen neuen Instrumenten-Registern, sich dem Wandel der Zeit anzupassen, so dass in den letzten Jahren immer eine Steigerung der Musikqualität erreicht werden konnte. Dies bewiesen die von Juroren abgegebenen Berichte an den Oberwalliser Musikfesten, in denen die Arbeit der KONKORDIA gewürdigt wurde."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 530
+  name: "Segensonntag"
+  place: 68
+  compagnie: "Konkordia Varen"
+  publie: 0
+  presentationCahier: "Die Konkordia Varen versuchte es, mit verschiedenen zusätzlichen neuen Instrumenten-Registern, sich dem Wandel der Zeit anzupassen, so dass in den letzten Jahren immer eine Steigerung der Musikqualität erreicht werden konnte. Dies bewiesen die von Juroren abgegebenen Berichte an den Oberwalliser Musikfesten, in denen die Arbeit der KONKORDIA gewürdigt wurde."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 531
+  name: "Burn out"
+  place: 69
+  compagnie: "Groupe théâtral Le Moulin"
+  publie: 0
+  presentationCahier: "Un PDG vit une grosse déprime qui l'empêche de présider une importante assemblée d'actionnaires. Un psychiatre est appelé à la rescousse, en vain. On décide alors de le remplacer par un sosie qui va donner du fil à retordre aux différents personnages de la comédie et particulièrement à Yolande son épouse. Des personnages hauts en couleur, des rebondissements, du suspense, des situations cocasses, tout pour passer une bonne soirée.\r\n\r\n"
+  images: "&531-1.jpg&"
+  videos: "027 775 38 70"
+  spectacleadministrator: 82
+  status: 4
+  categorie: 3
+  website: "http://lemoulin.fssta.ch"
+  parent: 0
+-
+  id: 532
+  name: "Plus belle la Place"
+  place: 70
+  compagnie: "Association pour l'animation culturelle de la Place Centrale"
+  publie: 0
+  presentationCahier: "\"Plus Belle la Place\", tel est le nom de la nouvelle manifestation organisée par la ville de Martigny depuis 2013.<br />\r\nLe 17 mai 2014, l'Association pour l'animation culturelle de la Place Centrale accueille des artistes renommés.<br /><br />Les spectacles sont gratuits ! Bar et restaurations sont possible sur la Place."
+  images: "&532-2.jpg&"
+  videos: ""
+  spectacleadministrator: 84
+  status: 4
+  categorie: 1013
+  website: "http://www.martigny.ch"
+  parent: 0
+-
+  id: 533
+  name: "Spectacle annuel"
+  place: 72
+  compagnie: "École de cirque Sierre-Gym"
+  publie: 0
+  presentationCahier: "L'École de cirque de Sierre-Gym présente, comme chaque année, son spectacle annuel sous le chapiteau du cirque Starlight !"
+  images: "&533-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1009
+  website: "http://cirquesierre.skyrock.com/"
+  parent: 0
+-
+  id: 534
+  name: "Le cabinet du Professeur Ambrosius"
+  place: 73
+  compagnie: "Les Tréteaux du Parvis"
+  publie: 0
+  presentationCahier: "A l'occasion de leurs 30 ans, les Tréteaux du Parvis présentent une comédie fantasque et insolite écrite et mise en scène par Michel Moulin.\r\n\r\nHistoire: La principauté de Malaterre, une île quelque part au large de la vieille Europe, est en deuil. Améthyste IV, sa souveraine est décédée. Selon la tradition, sa dauphine sera investie à la Mi-Carême. Nous sommes en plein carnaval. Le règne des intrigues et des manigances pour cette succession est à son paroxysme."
+  images: ""
+  videos: "024 485 40 40"
+  spectacleadministrator: 83
+  status: 4
+  categorie: 3
+  website: "http://www.treteauxduparvis.ch"
+  parent: 0
+-
+  id: 535
+  name: "Concert d accordéon"
+  place: 71
+  compagnie: "Le Mazot"
+  publie: 0
+  presentationCahier: "Le groupe d'accordéonistes le Mazot de Sion est une société composée d un groupe junior et un groupe senior de 6 à 40 ans. Les accordéonistes répètent une fois par semaine. Leur répertoire est très éclectique. Nous accueillons toujours très volontiers de nouveaux membres et sachez que des cours d'accordéon sont donnés par nos directrices."
+  images: ""
+  videos: ""
+  spectacleadministrator: 86
+  status: 4
+  categorie: 2
+  website: ""
+  parent: 0
+-
+  id: 536
+  name: "Festival pour enfants Hérisson sous gazon"
+  place: 74
+  compagnie: ""
+  publie: 0
+  presentationCahier: "Unique festival valaisan pour enfants, Hérisson sous gazon est une manifestation à la fois ludique et culturelle dans un espace de découvertes et de création, ouvert aux enfants et à leurs familles. Une dizaine troupes ou artistes qui se produiront durant tout le weekend sur les quatre scènes à disposition. Du théâtre, des contes, des clowns, du cirque, de la danse complètent un programme plutôt...dense. Et si l'on y ajoute 45 ateliers créatifs, ludiques, ou autres, on devrait obtenir des gamins épuisés, mais résolument heureux."
+  images: "&member-1-2.jpg&"
+  videos: ""
+  spectacleadministrator: 89
+  status: 4
+  categorie: 1013
+  website: "http://www.herisson-sous-gazon.ch"
+  parent: 0
+-
+  id: 537
+  name: "Fronleichnahm"
+  place: 76
+  compagnie: "MG Alpenrose Kippel"
+  publie: 0
+  presentationCahier: "Begleitung der Prozession und des Fahnenschwingens. Auftritt der Herrgottsgrenadiere.\r\n\r\n10.00 Uhr Messe und Prozession\r\n14.00 Uhr Segensandacht mit anschliessendem Fahnenschwingen."
+  images: "&537-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: "http://www.alpenrosekippel.ch"
+  parent: 0
+-
+  id: 538
+  name: "Galakonzert"
+  place: 77
+  compagnie: "Ancienne Cecilia"
+  publie: 0
+  presentationCahier: "Anläslich des Lötschentaler Musikfestes in Kippel dürfen wir die Anncienne Cécilia in Kippel begrüssen. Dort werden Sie und ein Galakonzert zum besten geben."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: "http://www.alpenrosekippel.ch"
+  parent: 0
+-
+  id: 539
+  name: "Jahreskonzert"
+  place: 77
+  compagnie: "MG Alpenrose Kippel"
+  publie: 0
+  presentationCahier: "Die MG Alpenrose Kippel erscheint sein Jahreskonzert !"
+  images: "&539-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: "http://www.alpenrosekippel.ch"
+  parent: 0
+-
+  id: 540
+  name: "Zapfenstreich (Platzkonzert)"
+  place: 78
+  compagnie: "MG Alpenrose Kippel"
+  publie: 0
+  presentationCahier: "Am Vorabend zu den kirchlichen Anlässen Fronleichnahm und Segensonntag in Kippel, spielen wir ein kleines Platzkonzert."
+  images: "&540-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: "http://www.alpenrosekippel.ch"
+  parent: 0
+-
+  id: 541
+  name: "Segensonntag"
+  place: 76
+  compagnie: "MG Alpenrose Kippel"
+  publie: 0
+  presentationCahier: "Begleitung der Prozession und des Fahnenschwingens. Auftritt der Herrgottsgrenadiere.<br /><br />\r\n10.00 Uhr Messe und Prozession<br />\r\n14.00 Uhr Segensandacht mit anschliessendem Fahnenschwingen."
+  images: "&541-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: "http://www.alpenrosekippel.ch"
+  parent: 0
+-
+  id: 543
+  name: "Place aux artistes !"
+  place: 101
+  compagnie: "Fanfare Cécilia de Chermignon, le Choeur Ganea, 16 artistes"
+  publie: 0
+  presentationCahier: "Le samedi 14 juin, Chermignon donne la place à ses artistes.<br /><br />Chanteurs, pianistes, guitaristes, humoristes et autres artistes se sont associés et présenteront un spectacle haut en couleurs.<BR /><BR />Une soirée unique, chargée à coup sûr de surprises, de rires, et d'émotions !\r\n\r\n\r\n\r\n\r\n"
+  images: "&543-1.jpg&"
+  videos: ""
+  spectacleadministrator: 106
+  status: 4
+  categorie: 1006
+  website: ""
+  parent: 0
+-
+  id: 547
+  name: "Soirée Karaoké"
+  place: 64
+  compagnie: "Fred Karaoké"
+  publie: 0
+  presentationCahier: "Dans le cadre du 67ème Festival de la Fédération de Musique du Valais Central (FMVC), Fred Karaoké anime le bal d'ouverture !\r\n\r\n\r\n"
+  images: "&547-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 2
+  website: "https://www.facebook.com/fmvc2014"
+  parent: 523
+-
+  id: 548
+  name: "Doc Silac"
+  place: 64
+  compagnie: "Doc Silac"
+  publie: 0
+  presentationCahier: "Dans le cadre du 67ème Festival de la Fédération des Musiques du Valais Central, le clown Doc Silac présente son spectacle. \r\n"
+  images: "&member-1-8.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1010
+  website: "http://www.docteursilac.ch/"
+  parent: 523
+-
+  id: 549
+  name: "Bal"
+  place: 64
+  compagnie: "Eric Pellissier"
+  publie: 0
+  presentationCahier: "Dans le cadre du 67ème Festival de la Fédération des Musiques du Valais Central, Éric Pellissier des Magic Men animera le bal jusqu'au bout de la nuit !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 2
+  website: ""
+  parent: 523
+-
+  id: 550
+  name: "Cortège"
+  place: 65
+  compagnie: "Fédération des Musiques du Valais Central"
+  publie: 0
+  presentationCahier: "Dans les cadre du 67ème Festival de la Fédération des Musiques du Valais Central (FMVC), un cortège avec les différentes fanfares parcourra le village d'Hérémence.<br />\nSeront présentes : Écho de la Dent-Blanche des Haudères, Écho du Mont-Noble de Nax, Dixence d'Hérémence, Harmonie municipale de Sion, Laurentia de Bramois, Echo du Rawyl d'Ayaent, Écho du Prabé de Savièse, Avenir de Champlan, Indépendante de Riddes, Grand-Garde de Saillon, Écho du Mont d'Aproz, Corps de Musique de Saxon, Contheysanne d'Aven/Conthey."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 523
+-
+  id: 551
+  name: "Concert"
+  place: 65
+  compagnie: "Fédération des Musiques du Valais Central"
+  publie: 0
+  presentationCahier: "Dans les cadre du 67ème Festival de la Fédération des Musiques du Valais Central (FMVC), les différentes sociétés se produiront sur la place de l'Église d'Hérémence.\nSeront présentes : Écho de la Dent-Blanche des Haudères, Écho du Mont-Noble de Nax, Dixence d'Hérémence, Harmonie municipale de Sion, Laurentia de Bramois, Écho du Rawyl d'Ayaent, Écho du Prabé de Savièse, Avenir de Champlan, Indépendante de Riddes, Grand-Garde de Saillon, Écho du Mont d'Aproz, Corps de Musique de Saxon, Contheysanne d'Aven/Conthey."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 523
+-
+  id: 552
+  name: "Défilé dans la rue de Gottefrey"
+  place: 85
+  compagnie: "Amicale de la Quintette"
+  publie: 0
+  presentationCahier: "Dans le cadre de la 53ème Amicale de la Quintette, les fanfares invitées défilent dans la rue de Gottefrey. Avec la Contheysanne d'Aven, le Corps de Musique de Saxon, l'écho du Prabé de Savièse,\nl'indépendante de Riddes, l'Écho du Mont d'Aproz, l'Avenir de Grimisuat Champlan, la Grande Garde de Saillon."
+  images: ""
+  videos: ""
+  spectacleadministrator: 81
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 521
+-
+  id: 553
+  name: "Concert"
+  place: 63
+  compagnie: "Fanfare de Berkheim"
+  publie: 0
+  presentationCahier: "Dans le cadre de la 53ème Amicale de la Quintette, la fanfare de Berkheim se produit dans la salle polyvalente de la Florescat."
+  images: "&member-1-9.jpg&"
+  videos: ""
+  spectacleadministrator: 81
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 521
+-
+  id: 554
+  name: "Bal"
+  place: 63
+  compagnie: "Jean-Paul et Jean-Paul"
+  publie: 0
+  presentationCahier: "Dans le cadre de la 53ème Amicale de la Quintette, Jean-Paul et Jean-Paul animent le bal !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 81
+  status: 4
+  categorie: 2
+  website: ""
+  parent: 521
+-
+  id: 555
+  name: "Concert"
+  place: 63
+  compagnie: "Brass Band Forel"
+  publie: 0
+  presentationCahier: "Dans le cadre de la 53ème Amicale de la Quintette, le Brass Band de Forel se produit dans la salle polyvalente de la Florescat."
+  images: ""
+  videos: ""
+  spectacleadministrator: 81
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 521
+-
+  id: 556
+  name: "Défilé dans la rue de Gottefrey"
+  place: 85
+  compagnie: "Amicale de la Quintette"
+  publie: 0
+  presentationCahier: "Dans le cadre de la 53ème Amicale de la Quintette, les fanfares invitées défilent dans la rue de Gottefrey. Avec la Contheysanne d'Aven, le Corps de Musique de Saxon, l'Écho du Prabé de Savièse, l'Indépendante de Riddes, l'Écho du Mont d'Aproz, l'Avenir de Grimisuat Champlan, la Grande Garde de Saillon."
+  images: ""
+  videos: ""
+  spectacleadministrator: 81
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 521
+-
+  id: 557
+  name: "Concert"
+  place: 63
+  compagnie: "Amicale de la Quintette"
+  publie: 0
+  presentationCahier: "Dans le cadre de la 53ème Amicale de la Quintette, les 6 sociétés invitées se produisent à la salle polyvalente de Florescat. Avec : la Contheysanne d'Aven, l'écho du Prabé de Savièse,\nl'indépendante de Riddes, l'écho du Mont d'Aproz, l'avenir de Grimisuat Champlan, la grande garde de Saillon."
+  images: ""
+  videos: ""
+  spectacleadministrator: 81
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 521
+-
+  id: 558
+  name: "Bal"
+  place: 63
+  compagnie: "Les Zygomatiques"
+  publie: 0
+  presentationCahier: "Dans le cadre de la 53ème Amicale de la Quintette, l'orchestre Les Zygomatiques anime le Bal ! Avec un répertoire populaire et très varié, de la musette au bavarois, du cha-cha à la samba, du disco au paso, du slow au rock'n roll, l'orchestre valaisan fera danser jusqu'au bout de la nuit !"
+  images: "&member-1-10.jpg&"
+  videos: ""
+  spectacleadministrator: 81
+  status: 4
+  categorie: 1002
+  website: "http://www.leszygomatiques.ch/"
+  parent: 521
+-
+  id: 559
+  name: "Jaylis en concert"
+  place: 87
+  compagnie: "Jaylis"
+  publie: 0
+  presentationCahier: "http://www.jaylis.com/\r\n\r\nJaylis c'est frais comme un bouquet de persil, c'est folk comme une nuit à la belle étoile entre Dallas et Houston, c'est sincère comme une poignée de main du Dalaï Lama.\r\nLa chanteuse au sourire facile et à la guitare désaccordée parfois est accompagnée par 3 musiciens de talent mais pas que...\r\n\r\nLe 12 avril 2014 à 20 heures à la Tour d'Anniviers à Vissoie."
+  images: "&559-1.jpg&"
+  videos: "079 403 63 92"
+  spectacleadministrator: 95
+  status: 4
+  categorie: 2
+  website: "http://www.touranniviers.ch"
+  parent: 0
+-
+  id: 560
+  name: "Concert annuel"
+  place: 89
+  compagnie: "La Léonardine"
+  publie: 0
+  presentationCahier: "Concert annuel du choeur de St-Léonard le samedi 10 mai à 20h à l'église de St-Léonard; entrée libre, collecte; moment de convivialité à l'issue du concert; programme musical varié; direction: Jean-David Waeber"
+  images: "&560-1.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: "http://www.choeurlaleonardine.ch"
+  parent: 0
+-
+  id: 561
+  name: "Messe des Rameaux"
+  place: 89
+  compagnie: "La Léonardine"
+  publie: 0
+  presentationCahier: "Le choeur de St-Léonard La Léonardine anime la messe des Rameaux à l'Église de St-Léonard. Entrée libre; direction: Jean-David Waeber"
+  images: "&member-1-11.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 562
+  name: "Messe de Pâques"
+  place: 89
+  compagnie: "La Léonardine"
+  publie: 0
+  presentationCahier: "Le choeur de St-Léonard La Léonardine anime la messe des Pâcques à l'Église de St-Léonard. Entrée libre; direction: Jean-David Waeber\r\n"
+  images: "&member-1-12.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 563
+  name: "Messe des Premières Communions"
+  place: 89
+  compagnie: "La Léonardine"
+  publie: 0
+  presentationCahier: "Le choeur de St-Léonard La Léonardine anime la messe des Premières Communions à l'Église de St-Léonard. Entrée libre; direction: Jean-David Waeber\r\n"
+  images: "&member-1-13.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 564
+  name: "Messe de l'Ascension"
+  place: 89
+  compagnie: "La Léonardine"
+  publie: 0
+  presentationCahier: "Le choeur de St-Léonard La Léonardine anime la messe des l'Ascension à l'Église de St-Léonard. Entrée libre; direction: Jean-David Waeber\r\n"
+  images: "&564-1.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 565
+  name: "Messe de Confirmation"
+  place: 89
+  compagnie: "La Léonardine"
+  publie: 0
+  presentationCahier: "Le choeur de St-Léonard La Léonardine anime la messe des Confirmations à l'Église de St-Léonard. Entrée libre; direction: Jean-David Waeber\r\n"
+  images: "&565-1.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 566
+  name: "Messe des Jubilaires"
+  place: 89
+  compagnie: "La Léonardine"
+  publie: 0
+  presentationCahier: "Le choeur de St-Léonard La Léonardine anime la messe des Jubilaires à l'Église de St-Léonard. Entrée libre; direction: Jean-David Waeber\r\n"
+  images: "&member-1-16.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 567
+  name: "Messe de la Fête Dieu"
+  place: 89
+  compagnie: "La Léonardine"
+  publie: 0
+  presentationCahier: "Le choeur de St-Léonard La Léonardine anime la messe de la Fête Dieu à l'Église de St-Léonard. Entrée libre; direction: Jean-David Waeber\r\n"
+  images: "&567-1.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 568
+  name: "Concert d'annonce Fête Cantonale de Chant"
+  place: 61
+  compagnie: "Ateliers Fête Cantonale"
+  publie: 0
+  presentationCahier: "Um die Kantonales Gesangfest Brig anzukündigen organisiert der Verband Walliser Gesangvereine zwei Ankändigungskonzert, in Susten und Conthey.<br />\nKonzert mit 4 Ateliers, 800 Sänger und Sängerinnen."
+  images: ""
+  videos: ""
+  spectacleadministrator: 99
+  status: 4
+  categorie: 5
+  website: "http://www.chanter.ch"
+  parent: 0
+-
+  id: 569
+  name: "Le Roi David"
+  place: 90
+  compagnie: "Choeur des Collèges de Sion et Orchestre du Conservatoire cantonal"
+  publie: 0
+  presentationCahier: "Tous deux créés en 1984, le Chœur des Collèges de Sion et l'Orchestre du Conservatoire cantonal se réunissent à nouveau le temps d'un concert pour célébrer leurs 30 ans d'existence. Ils interpréteront \"Le Roi David\" d'Arthur Honegger et \"La Forza del Destino\" de Giuseppe Verdi, sous la direction de Bernard Héritier et Richard Métrailler. \nPour l'occasion, le Quai Provins ouvre ses portes à la musique les 5 et 6 avril."
+  images: "&569-1.jpg&"
+  videos: 0273222582
+  spectacleadministrator: 78
+  status: 4
+  categorie: 4
+  website: "http://www.amisdesorchestres.ch"
+  parent: 0
+-
+  id: 570
+  name: "Concert d'annonce Fête Cantonale de Chant"
+  place: 35
+  compagnie: "Fédération des Sociétés de Chant du Valais"
+  publie: 0
+  presentationCahier: "Concert d'annonce de 5 ateliers dans le cadre de la Fête cantonale de Chant\r\n\r\nChaque atelier compte en moyenne 200 chanteurs et sont accompagné parfois par l'orchestre valaisan. Des répertoires à chaque fois bien différents à découvrir.\r\n\r\nDimanche à 17h00 à la Halle polyvalente de Conthey\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 99
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 572
+  name: "Messe radiodiffusée fête cantonale"
+  place: 48
+  compagnie: "Fédération des Sociétés de Chant du Valais"
+  publie: 0
+  presentationCahier: "Dans le cadre des concerts d'annonce de la Fête cantonale de chant, l'atelier messe de 250 chanteurs sera donné à l'Eglise d'Hérémence sous la forme d'une messe des Râmeaux radiodiffusée en direct sur Espace 2 à 09h00."
+  images: ""
+  videos: ""
+  spectacleadministrator: 99
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 575
+  name: "Fête Cantonale de Chant"
+  place: 94
+  compagnie: "Fédération des Sociétés de Chant du Valais"
+  publie: 0
+  presentationCahier: "Chaque 4 ans, la Fédération des Sociétés de Chant du Valais organise sa fête cantonale. En 2014, ce sont les choeurs de Brig qui organiseront ce grand rassemblement les 2, 3 et 4 mai.\r\n\r\n3'500 enfants le vendredi, plus de 4'000 jeunes et adultes sur le week-end pour des concerts, des aubades des ateliers et cérémonies officielles. Grande fête à Brig-Glis."
+  images: "&575-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1013
+  website: "http://www.xanginbrig.ch"
+  parent: 0
+-
+  id: 576
+  name: "Concert Annuel"
+  place: 95
+  compagnie: "Écho des Follatères et Chœur St-Nicolas"
+  publie: 0
+  presentationCahier: "Chaque année, l'Écho des Follatères de Fully et le Choeur St-Nicolas d'Hérémence donnent leur concert annuel ensemble. Venez les découvrir le samedi 17 mai à Fully à la salle polyvalente de Charnot !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 578
+  name: "Amicale des fanfares de la Noble et Louable Contrée - Place aux Art'istes"
+  place: 101
+  compagnie: "La Cécilia de Chermignon, l'Union de Venthône, le Cor des Alpes de Montana-Village, la Concordia de Miège, l'Écho des Bois de Crans Montana, d'autres invités"
+  publie: 0
+  presentationCahier: "Le dimanche 15 juin Chermignon fera, dans le cadre de l’amicale desfanfares de la noble et louable contrée, place à ses artistes. <br />En entrée, Martelles vibrera aux rythmes de la « schlager-parade des percussionnistes ».<br />Pour continuer, les fanfares associés à quelques invités assureront des prestations sur la scène de Martelles.<br />Et pour couronner le tout, la salle vivra une « ambiance brésilienne » lors du match de l'équipe de Suisse sur écran géant !\r\n"
+  images: "&543-1.jpg&"
+  videos: ""
+  spectacleadministrator: 106
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 579
+  name: "45ème festival des Tambours et Fifres du Valais Romand"
+  place: 86
+  compagnie: ""
+  publie: 0
+  presentationCahier: "Les samedi 31 mai et 1er juin 2014, la ville de St-Maurice accueillera le 45ème festival des Tambours et Fifres du Valais Romand.\r\nCes deux jours de fête et de musique débuteront avec les concours dès 8h30 et jusqu'en fin d'après-midi samedi.\r\nLa soirée sera consacrée au concert show des Tambours puis dès 21h à la grande soirée bavaroise.\r\nAprès les officialités du dimanche matin, le grand cortège illuminera la cité agaunoise dès 11h30.\r\nLe weekend se terminera avec la proclamation des résultats suivie du bal dès 18h."
+  images: "&579-1.jpg&"
+  videos: ""
+  spectacleadministrator: 94
+  status: 4
+  categorie: 1013
+  website: ""
+  parent: 0
+-
+  id: 580
+  name: "114ème Festival des Musiques des districts de Sierre et Loèche"
+  place: 98
+  compagnie: "Concordia"
+  publie: 0
+  presentationCahier: "Du 16 au 18 mai 2014, la Fanfare La Concordia organise le 114ème Festival des musiques des districts de Sierre et Loèche. Miège sera donc en fête durant 3 jours !\r\n"
+  images: "&580-1.jpg&"
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 1013
+  website: "http://www.concordia-miege.ch/"
+  parent: 0
+-
+  id: 581
+  name: "Léon et moi, on vit ensemble"
+  place: 102
+  compagnie: "Célina Ramsauer"
+  publie: 0
+  presentationCahier: "Léon, l’ami fidèle, l’accordéon, le compagnon au long cours….\nA travers ce nouveau tour de chant « Léon et moi, on vit Ensemble ! » les deux complices retrouvent leur statut de partenaires privilégiés à la scène comme à la vie.\nDans ce tour de chant compilant ses 6 albums, Célina Ramsauer raconte et chante le plus modestement du monde comment 30 ans de chanson, son histoire avec  Léon, l’ont conduite à ce 6ème et nouvel album « ENSEMBLE »."
+  images: "&581-1.jpg&"
+  videos: ""
+  spectacleadministrator: 108
+  status: 4
+  categorie: 2
+  website: "http://www.celinaramsauer.com/"
+  parent: 0
+-
+  id: 582
+  name: "Sion d'Autrefois"
+  place: 104
+  compagnie: "Sion d'Autrefois"
+  publie: 0
+  presentationCahier: "La société folklorique Sion d’Autrefois se veut à proximité de la population valaisanne et sédunoise. Nous dansons principalement les « Danses de cour » de l’époque qui suit les danses baroques.\r\n Nous dansons des quadrilles, des valses, des mazurkas, des galops…"
+  images: "&582-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1015
+  website: ""
+  parent: 0
+-
+  id: 585
+  name: "Concert"
+  place: 106
+  compagnie: "Choeurs réunis de Randogne et Mollens"
+  publie: 0
+  presentationCahier: "A vos agendas:\r\n1er concert donné par les 2 choeurs mixtes de Randogne et Mollens réunis pour chanter ensemble.\r\n\r\nDirection: José Michellod\r\n\r\nRendez-vous le mercredi 28 mai 2014 à 20 heures.\r\n\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 112
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 586
+  name: "Bal"
+  place: 64
+  compagnie: "Jean-Paul et Jean-Paul"
+  publie: 0
+  presentationCahier: "Dans le cadre du 67ème Festival de la Fédération des Musiques du Valais Central (FMVC), l'orchestre Jean-Paul et Jean-Paul animent le bal !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 2
+  website: ""
+  parent: 523
+-
+  id: 588
+  name: "Concert Annuel"
+  place: 58
+  compagnie: "Harmonie de Monthey"
+  publie: 0
+  presentationCahier: "L'Harmonie de Monthey présente son concert annuel au Théâtre du Crochetan.<br />Sous la direction d'Élie Fumeaux."
+  images: "&588-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 591
+  name: "Concert"
+  place: 98
+  compagnie: "École de Musique de la Noble Contrée"
+  publie: 0
+  presentationCahier: "L'Ecole de Musique de la Noble Contrée (EMNC) a été créée en 1993. Elle poursuit comme objectif la pratique de la musique par l'éveil musical, puis par l'étude d'un instrument.\r\nDans le cadre du 114ème Festival des musiques des districts de Sierre et Loèche, l’école de musique fêtera son vingtième anniversaire à travers un spectacle musical."
+  images: "&member-1-19.jpg&"
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 580
+-
+  id: 592
+  name: "Wildtramp"
+  place: 98
+  compagnie: "Wildtramp"
+  publie: 0
+  presentationCahier: "Créé en décembre 2012, dans les bas-fonds d'une cave de Sierre, sous l'impulsion de Nicolas Zufferey à la batterie, Christophe Devanthéry à la basse et Yves Oggier à la voix et aux claviers, \"The Wildtramp\" reprend exclusivement les titres du double CD \"Live in Paris 79\" de Supertramp."
+  images: "&member-1-20.jpg&"
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 1000
+  website: ""
+  parent: 580
+-
+  id: 593
+  name: "Chier d'être vieux !"
+  place: 98
+  compagnie: "Jacques Bonvin"
+  publie: 0
+  presentationCahier: "Nouvel humoriste, dans l'entrée du troisième âge, il écrit et joue le drame si drôle de la vieillesse pour le raconter à tous, même aux jeunes.<br /><br />\r\nUn physique passe-partout, une dégaine d'agriculteur mal équarri, mais un esprit d'une extraordinaire drôlerie. C'est une mayonnaise qui prend, et ne retombe pas au fond du bol."
+  images: "&member-1-21.jpg&"
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 1010
+  website: "http://www.jacquesbonvin.ch/"
+  parent: 580
+-
+  id: 594
+  name: "20 ans de bonheur"
+  place: 98
+  compagnie: "Marie-Thérèse Porchet née Bertholet"
+  publie: 0
+  presentationCahier: "Tout en évoquant les tournées pénibles, les hôtels miteux, les cachets misérables, les producteurs véreux, elle emmène le public dans les « coulisses du revers de la médaille » ! Elle revient tout particulièrement sur un événement douloureux, survenu ici-même, à Sion, il y a bien des années, alors que le Théâtre de Valère n’était encore qu’une modeste salle des fêtes…"
+  images: "&member-1-22.jpg&"
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 1010
+  website: ""
+  parent: 580
+-
+  id: 595
+  name: "Bal"
+  place: 98
+  compagnie: "Guy Rolland Show Band"
+  publie: 0
+  presentationCahier: "Dans le cadre du 11ème Festival des Musiques des districts de Sierre et Loèche, le Guy Rolland Show Band animera le bal !<br /><br />\r\nCet orchestre est  l'un des meilleurs orchestres de danse amateur de Suisse actuellement et ceci depuis 1967."
+  images: "&member-1-23.jpg&"
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 2
+  website: "http://www.rollandmusic.com/"
+  parent: 580
+-
+  id: 596
+  name: "Cortège Officiel"
+  place: 98
+  compagnie: "Fédération des Musiques des districts de Sierre et Loèche"
+  publie: 0
+  presentationCahier: "Un cortège avec les différentes fanfares parcourra le village de Miège.\r\nSeront présentes : Concordia de Miège ; Ancienne-Cécilia de Chermignon ; Echo des Bois de Crans-Montana ; Gérondine de Sierre ; Echo de Chippis ; Edelweiss de Lens ; Leuca de Leuk-Stadt ; Fraternité de Noës ; Union de Venthône ; Cor des Alpes de Montana-Village ; Marcelline de Grône ; Léonardine de St-Léonard ; Cécilia de Chermignon ; Harmonie de Salquenen ; Stéphania de Granges ; Echo des Alpes de Vissoie ; Avenir de Chalais"
+  images: ""
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 580
+-
+  id: 597
+  name: "Concert des sociétés"
+  place: 98
+  compagnie: "Fédération des Musiques des districts de Sierre et Loèche"
+  publie: 0
+  presentationCahier: "Les différentes sociétés présentes se produiront sur la place de fête. <br />Seront présentes : Ancienne Cécilia de Chermignon ; Écho des Bois de Crans-Montana ; Gérondine de Sierre ; Écho de Chippis ; Edelweiss de Lens ; Leuca de Leuk-Stadt ; Fraternité de Noës ; Union de Venthône ; Cor des Alpes de Montana-Village ; Marcelline de Grône ; Léonardine de St-Léonard ; Cécilia de Chermignon ; Harmonie de Salquenen ; Stéphania de Granges ; Écho des Alpes de Vissoie ; Avenir de Chalais"
+  images: ""
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 580
+-
+  id: 598
+  name: "Bal"
+  place: 98
+  compagnie: "Guy Rolland Show Band"
+  publie: 0
+  presentationCahier: "Dans le cadre du 11ème Festival des Musiques des districts de Sierre et Loèche, le Guy Rolland Show Band animera le bal !<br />Cet orchestre est l'un des meilleurs orchestres de danse amateur de Suisse actuellement et ceci depuis 1967.\r\nSpectacle « Textomusicoensolo » \r\nProduction 2014\r\nInterprète : Célina Ramsauer \r\nMise en scène: Fred Mudry \r\nTextes : Guy de Maupassant\r\nTextes Additionnels : Sarah Barman et Célina Ramsauer\r\nMusiques : Célina Ramsauer \r\nPhoto : Robert Hofer "
+  images: "&member-1-24.jpg&"
+  videos: ""
+  spectacleadministrator: 102
+  status: 4
+  categorie: 2
+  website: ""
+  parent: 580
+-
+  id: 599
+  name: "Léon, Maupassant et moi"
+  place: 109
+  compagnie: "Célina Ramsauer"
+  publie: 0
+  presentationCahier: "Léon, l’ami fidèle, l’accordéon, le compagnon au long cours….\n\n\"Léon, Maupassant et moi, une histoire à trois. Un drôle de ménage qui remue les âges...\". Hélène Ségara chante avec Joe Dassin... Je peux bien me la péter en écrivain!\nSpectacle « Textomusicoensolo » /\nProduction 2014 /\nInterprète : Célina Ramsauer /\nMise en scène: Fred Mudry /\nTextes : Guy de Maupassant /\nTextes Additionnels : Sarah Barman et Célina Ramsauer /\nMusiques : Célina Ramsauer /\nPhoto : Robert Hofer "
+  images: "&member-1-25.jpg&"
+  videos: "0041 (0)79 342 72 83"
+  spectacleadministrator: 114
+  status: 4
+  categorie: 1006
+  website: ""
+  parent: 0
+-
+  id: 600
+  name: "Léon, Maupassant et moi"
+  place: 110
+  compagnie: "Célina Ramsauer"
+  publie: 0
+  presentationCahier: "Léon, l’ami fidèle, l’accordéon, le compagnon au long cours….\n\n\"Léon, Maupassant et moi, une histoire à trois. Un drôle de ménage qui remue les âges...\". Hélène Ségara chante avec Joe Dassin... Je peux bien me la péter en écrivain!\nSpectacle « Textomusicoensolo » /\nProduction 2014 /\nInterprète : Célina Ramsauer /\nMise en scène: Fred Mudry /\nTextes : Guy de Maupassant /\nTextes Additionnels : Sarah Barman et Célina Ramsauer /\nMusiques : Célina Ramsauer /\nPhoto : Robert Hofer "
+  images: "&member-1-26.jpg&"
+  videos: "0041 (0)27 722 51 98"
+  spectacleadministrator: 114
+  status: 4
+  categorie: 1006
+  website: ""
+  parent: 0
+-
+  id: 601
+  name: "Spectacle de danse"
+  place: 111
+  compagnie: "Conservatoire cantonal"
+  publie: 0
+  presentationCahier: "Tous les deux ans, l'ensemble des classes de danse du Conservatoire cantonal se réunissent pour offrir un spectacle haut en couleurs.\r\n\r\n\r\n"
+  images: ""
+  videos: 0273222582
+  spectacleadministrator: 78
+  status: 4
+  categorie: 6
+  website: "http://www.amisdesorchestres.ch"
+  parent: 0
+-
+  id: 604
+  name: "Soirée annuelle"
+  place: 96
+  compagnie: "Les Bouetsedons"
+  publie: 0
+  presentationCahier: "Les Bouetsedons présentent leur soirée annuelle en compagnie de l'Echo de la Cuvette."
+  images: "&604-1.jpg&"
+  videos: ""
+  spectacleadministrator: 100
+  status: 4
+  categorie: 1015
+  website: ""
+  parent: 0
+-
+  id: 605
+  name: "Plus on est de fous"
+  place: 114
+  compagnie: "125ème Fête cantonale des musiques valaisannes"
+  publie: 0
+  presentationCahier: "Spectacle de gala de la 25ème Fête cantonale des musiques valaisannes, avec:<br />Marc Aymon, Jacques Bonvin,\nCuche et Barbezat, Jean-Louis Droz, Frédéric Recrosio, Nathanaël Rochat, Thierry Romanens, Sandrine Viglino,\net Franco Mento aux platines.<br />Entrée: 40.- (adultes)/ 25.- (étudiants et apprentis).<br />Réservations: Martigny Tourisme et Migros (Collombey, Monthey, Conthey, Sion, Sierre, Viège, Brigue)<br />Vendredi 6 juin 2014, 21h."
+  images: ""
+  videos: ""
+  spectacleadministrator: 37
+  status: 4
+  categorie: 1010
+  website: "http://www.martigny2014.ch"
+  parent: 0
+-
+  id: 608
+  name: "Il était une fois..."
+  place: 51
+  compagnie: "Ecole de danse Stéphanie Roduit"
+  publie: 0
+  presentationCahier: "Ma belle aventure de professeur de danse a commencé en 1995. Et depuis, chaque 2 ans nous faisons avec toute l'école un spectacle de fin d'année. Un mélange de style se produira devant vous, du hip-hop, du funky-jazz, de la danse orientale en passant par du contemporain.\r\n\r\n"
+  images: ""
+  videos: 0273221487
+  spectacleadministrator: 119
+  status: 4
+  categorie: 6
+  website: "http://www.stephanieroduit.ch"
+  parent: 0
+-
+  id: 609
+  name: "Kiosque à musique"
+  place: 120
+  compagnie: "EJMA Valais"
+  publie: 0
+  presentationCahier: ""
+  images: ""
+  videos: ""
+  spectacleadministrator: 121
+  status: 4
+  categorie: 2
+  website: "http://www.ejma-vs.ch"
+  parent: 0
+-
+  id: 610
+  name: "Spectacle 2014"
+  place: 71
+  compagnie: "EJMA Valais"
+  publie: 0
+  presentationCahier: "Le spectacle annuel de l’EJMA-Valais permet aux élèves de découvrir la scène en participant à un des vingt groupes montés pour l’occasion. Plus de 100 élèves participent à ces concerts en interprétant des standards de la chanson (Adele, Jamiroquai, Yannick Noah, Florent Pagny, etc.). Au final, un spectacle attendu et apprécié depuis plusieurs années."
+  images: ""
+  videos: ""
+  spectacleadministrator: 121
+  status: 4
+  categorie: 2
+  website: "http://www.ejma-vs.ch"
+  parent: 0
+-
+  id: 611
+  name: "Spectacle 2014"
+  place: 118
+  compagnie: "EJMA Valais"
+  publie: 0
+  presentationCahier: "Le spectacle annuel de l’EJMA-Valais permet aux élèves de découvrir la scène en participant à un des vingt groupes montés pour l’occasion. Plus de 100 élèves participent à ces concerts en interprétant des standards de la chanson (Adele, Jamiroquai, Yannick Noah, Florent Pagny, etc.). Au final, un spectacle attendu et apprécié depuis plusieurs années."
+  images: ""
+  videos: ""
+  spectacleadministrator: 121
+  status: 4
+  categorie: 2
+  website: "http://www.ejma-vs.ch"
+  parent: 0
+-
+  id: 612
+  name: "Spectacle annuel Big band"
+  place: 118
+  compagnie: "EJMA Valais"
+  publie: 0
+  presentationCahier: "Le Big Band de l'EJMA-Valais est le grand orchestre de l'Ecole de Jazz et de Musique Actuelle du Valais. Il est dirigé depuis sa création, en janvier 1999, par Pascal Walpen.\r\n\r\nL’orchestre regroupe des musiciens de tout âge (trompettes, saxophones, trombones, guitare, basse, batterie, piano, chant) venant de tout le Valais romand. Il a eu l’occasion, depuis sa création, de participer à de nombreuses manifestations culturelles et cérémonies officielles.\r\n"
+  images: "&612-1.jpg&"
+  videos: ""
+  spectacleadministrator: 121
+  status: 4
+  categorie: 2
+  website: "http://www.ejma-vs.ch"
+  parent: 0
+-
+  id: 613
+  name: "Concert"
+  place: 121
+  compagnie: "Écho du Rawyl d'Ayent"
+  publie: 0
+  presentationCahier: "La fanfare l'Écho du Rawyl d'Ayent participe régulièrement à des concours en 1ère catégorie \"fanfare mixte\". elle a  obtenu un brillant 2ème rang lors des deux dernières fêtes fédérales de Fribourg et de Lucerne.<br /> <br />Elle participe activement à la vie locale en se produisant lors de diverses manifestations."
+  images: "&613-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 614
+  name: "Humour et Chansons"
+  place: 70
+  compagnie: "Sandrine Viglino"
+  publie: 0
+  presentationCahier: "Sandrine VIGLINO est une jeune femme blonde aux yeux bleus à la radio.  Aujourd’hui, dans son nouveau spectacle, elle se sent bien et ça se voit! Elle a réussi à mettre en osmose son esprit sain et son corps de rêve. Tout ça, grâce aux nombreuses thérapies qu’elle a expérimentées pour vous !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 84
+  status: 4
+  categorie: 1010
+  website: "sandrineviglino.ch"
+  parent: 532
+-
+  id: 615
+  name: "Smarties, Kleenex et Canada Dry"
+  place: 70
+  compagnie: "Brigitte Rosset"
+  publie: 0
+  presentationCahier: "Troisième solo de Brigitte Rosset, inspiré d’une histoire vécue, déclenchée par un chagrin d’amour ! Rien de très original en fait. Sauf que cette formidable comédienne réussit, à partir d’une expérience pas très drôle à la base – un séjour dans une maison de repos suite à un «pétage de plomb» – à nous embarquer dans un univers de rire et de tendresse. «Parce que rire des autres, c’est rire de soi en premier…»"
+  images: "&member-1-27.jpg&"
+  videos: ""
+  spectacleadministrator: 84
+  status: 4
+  categorie: 1010
+  website: "http://www.brigitterosset.ch/"
+  parent: 532
+-
+  id: 616
+  name: "Bal"
+  place: 70
+  compagnie: "Linda Rao"
+  publie: 0
+  presentationCahier: "D'origine italienne mais née en Suisse, Linda Rao a déplacé les montagnes à Paris pour se consacrer pleinement à sa passion! Linda est un mélange de pop et de rock'n'roll attitude sur des mélodies envoûtantes! Les arrangements aussi fragiles que sauvages qu'elle perfectionne à l'aide de Michel Goubin, musicien/arrangeur et membre de la direction de la Manufacture Chanson à Paris et Florent Bernheim, guitariste, membre de la fondation little dreams de Phil Collins! "
+  images: "&member-1-28.jpg&"
+  videos: ""
+  spectacleadministrator: 84
+  status: 4
+  categorie: 2
+  website: "http://www.lindarao.com/"
+  parent: 532
+-
+  id: 617
+  name: "Messe de Première Communion"
+  place: 122
+  compagnie: "La Concordia"
+  publie: 0
+  presentationCahier: "Harmonie villageoise jeune, dynamique et formatrice, elle participe non seulement à l’animation des manifestations des villages de Miège et Veyras (premières communions, confirmations, Fête Dieu, etc.), mais elle offre également, chaque année, trois concerts: un concert de Noël à l’église de Miège, et deux concerts annuels, l’un à Veyras et l’autre à Miège"
+  images: "&member-1-29.jpg&"
+  videos: ""
+  spectacleadministrator: 122
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 618
+  name: "Concert Annuel"
+  place: 123
+  compagnie: "Chœur d'hommes l'Écho & Troupe de spectacle Allegria"
+  publie: 0
+  presentationCahier: "Pour son concert Annuel, l'Écho de Miège a invité Allegria, le chœur en mouvement !\r\n\r\nLe chœur d'hommes \"L'ECHO\" de Miège a été fondé en 1919 déjà et se composait alors d'une vingtaine de membres. A l'époque, le chœur avait, comme seul but, l'animation des messes.\r\n\r\n"
+  images: "&618-1.jpg&"
+  videos: ""
+  spectacleadministrator: 122
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 619
+  name: "Messe de Pâques"
+  place: 122
+  compagnie: "Chœur d'hommes l'Écho"
+  publie: 0
+  presentationCahier: "Le chœur d'hommes \"L'ECHO\" de Miège a été fondé en 1919 déjà et se composait alors d'une vingtaine de membres. A l'époque, le chœur avait, comme seul but, l'animation des messes.\r\nA l'heure actuelle, cet alerte nonagénaire regroupe plus de 40 chanteurs et  ses activités se sont diversifiées puisque, outre l'animation liturgique , la société participe à diverses manifestations profanes (concerts annuels, participation aux festivals, aux fêtes cantonales, productions auprès de sociétés hôtes…)."
+  images: "&member-1-30.jpg&"
+  videos: ""
+  spectacleadministrator: 122
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 620
+  name: "Messe de Vendredi Saint"
+  place: 124
+  compagnie: "Choeur mixte l'Écho de la Montagne"
+  publie: 0
+  presentationCahier: "La joie de se rencontrer, de chanter, de participer à un\r\nprojet commun, de partager des émotions, de rêver et de\r\nfaire la fête ensemble, sont autant de motivations qui\r\naniment les choristes de L’Echo de la Montagne et leur nouveau directeur. Comme d’autres sociétés sportives ou\r\nculturelles, le chœur mixte revêt une importance majeure\r\ndans l’animation de la communauté montanaise, tant\r\ndans le domaine profane que religieux. Il favorise la rencontre et l'intégration sociale des choristes et des membres amis."
+  images: "&member-1-31.jpg&"
+  videos: ""
+  spectacleadministrator: 123
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 621
+  name: "Messe de Pâques"
+  place: 124
+  compagnie: "Choeur mixte l'Écho de la Montagne"
+  publie: 0
+  presentationCahier: "La joie de se rencontrer, de chanter, de participer à un\r\nprojet commun, de partager des émotions, de rêver et de\r\nfaire la fête ensemble, sont autant de motivations qui\r\naniment les choristes de L’Echo de la Montagne et leur nouveau directeur. Comme d’autres sociétés sportives ou\r\nculturelles, le chœur mixte revêt une importance majeure\r\ndans l’animation de la communauté montanaise, tant\r\ndans le domaine profane que religieux. Il favorise la rencontre et l'intégration sociale des choristes et des membres amis."
+  images: "&member-1-32.jpg&"
+  videos: ""
+  spectacleadministrator: 123
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 622
+  name: "Messe de Première Communion"
+  place: 124
+  compagnie: "Choeur mixte l'Écho de la Montagne"
+  publie: 0
+  presentationCahier: "La joie de se rencontrer, de chanter, de participer à un\r\nprojet commun, de partager des émotions, de rêver et de\r\nfaire la fête ensemble, sont autant de motivations qui\r\naniment les choristes de L’Echo de la Montagne et leur nouveau directeur. Comme d’autres sociétés sportives ou\r\nculturelles, le chœur mixte revêt une importance majeure\r\ndans l’animation de la communauté montanaise, tant\r\ndans le domaine profane que religieux. Il favorise la rencontre et l'intégration sociale des choristes et des membres amis."
+  images: "&member-1-33.jpg&"
+  videos: ""
+  spectacleadministrator: 123
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 623
+  name: "Messe de Pentecôte"
+  place: 124
+  compagnie: "Choeur mixte l'Écho de la Montagne"
+  publie: 0
+  presentationCahier: "La joie de se rencontrer, de chanter, de participer à un\r\nprojet commun, de partager des émotions, de rêver et de\r\nfaire la fête ensemble, sont autant de motivations qui\r\naniment les choristes de L’Echo de la Montagne et leur nouveau directeur. Comme d’autres sociétés sportives ou\r\nculturelles, le chœur mixte revêt une importance majeure\r\ndans l’animation de la communauté montanaise, tant\r\ndans le domaine profane que religieux. Il favorise la rencontre et l'intégration sociale des choristes et des membres amis."
+  images: "&member-1-34.jpg&"
+  videos: ""
+  spectacleadministrator: 123
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 624
+  name: "Fête Dieu"
+  place: 124
+  compagnie: "Choeur mixte l'Écho de la Montagne"
+  publie: 0
+  presentationCahier: "La joie de se rencontrer, de chanter, de participer à un\r\nprojet commun, de partager des émotions, de rêver et de\r\nfaire la fête ensemble, sont autant de motivations qui\r\naniment les choristes de L’Echo de la Montagne et leur nouveau directeur. Comme d’autres sociétés sportives ou\r\nculturelles, le chœur mixte revêt une importance majeure\r\ndans l’animation de la communauté montanaise, tant\r\ndans le domaine profane que religieux. Il favorise la rencontre et l'intégration sociale des choristes et des membres amis."
+  images: "&member-1-35.jpg&"
+  videos: ""
+  spectacleadministrator: 123
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 625
+  name: "Ostern"
+  place: 125
+  compagnie: "Cäcilienverein Agarn"
+  publie: 0
+  presentationCahier: "Die Cäcilienverein ist der Chor von Agarn."
+  images: "&member-1-36.jpg&"
+  videos: ""
+  spectacleadministrator: 124
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 626
+  name: "Segensonntag"
+  place: 125
+  compagnie: "Cäcilienverein Agarn"
+  publie: 0
+  presentationCahier: "Die Cäcilienverein ist der Chor von Agarn.\r\n"
+  images: "&625-1.jpg&"
+  videos: ""
+  spectacleadministrator: 124
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 627
+  name: "Pfingsten"
+  place: 125
+  compagnie: "Cäcilienverein Agarn"
+  publie: 0
+  presentationCahier: "Die Cäcilienverein ist der Chor von Agarn.\r\n"
+  images: "&member-1-37.jpg&"
+  videos: ""
+  spectacleadministrator: 124
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 628
+  name: "Fronleichnam"
+  place: 125
+  compagnie: "Cäcilienverein Agarn"
+  publie: 0
+  presentationCahier: "Die Cäcilienverein ist der Chor von Agarn.\r\n"
+  images: "&member-1-38.jpg&"
+  videos: ""
+  spectacleadministrator: 124
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 629
+  name: "Dekanatfest"
+  place: 125
+  compagnie: "Cäcilienverein Agarn, Kirchenchor Albinen, Kirchenchor Erschmatt"
+  publie: 0
+  presentationCahier: "Für die Dekanat Messe, hat die Cäcilienverein Agarn der Kirchenchor Albinen und der Kirchenchor Erschmatt eingeladen."
+  images: "&member-1-39.jpg&"
+  videos: ""
+  spectacleadministrator: 124
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 867
+-
+  id: 630
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Kirchenchor Oberems"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 631
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Écho de la Montagne de Montana"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 632
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "La Laurentia de Saillon"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 633
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Kirchenchor Siders"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 634
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Toutankhanon de Martigny"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 635
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Gemischter Chor von Naters"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 636
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Saint-Michel de Corin"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 637
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Männerchor von Visp"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 638
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "16 4 You von Visp"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 639
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "La Cécilia de Fully"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 640
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "L'Edelweiss de Lourtier"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 641
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "La Romaine de Martigny"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 642
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Choeur Novantiqua de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 643
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Ensemble Vocal de Saint-Maurice"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 644
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Vorchor Singschule"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 645
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Konzertchor Cantiamo"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 646
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Jugendchor Singschule"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 647
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur des Jeunes de Leytron-Riddes-Saillon"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 648
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Kirchenchor Embd"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 649
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur St-Nicolas d'Orsières"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 650
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur la Croche Cœur de Savièse"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 651
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Orientierungschule Gampel"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 652
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur d'Hommes de Lens"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 653
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Spirit Singers von Brig"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 654
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Ensemble Vocal Sierrénade"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 655
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Écho des Follatères de Fully"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 656
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Écho des Alpes d'Arbaz"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 657
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur d'Hommes de Martigny"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 658
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Kirchenchor Termen"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 659
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur la Valaisanne de Grimisuat"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 660
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Kirchenchor Staldenried"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 661
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur la Theresia de Noës"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 662
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Kirchenchor Gampel"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 663
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Cäcilienverein Erschmatt"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 664
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "La Lyre d'Évionnaz"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 665
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Gospel Joy von Brig"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 666
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Ensemble Vocal D'Croches de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 667
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Kirchenchor Blatten"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 668
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur Muguet d'Aproz"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 669
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur Sainte-Famille d'Erde"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 670
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur de Randogne et Mollens"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 671
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur de Dames de Vérossaz"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 672
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Choeur St-Hymnemode de Crans-Montana"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 673
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Choeur Cantamabile de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 674
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Ensemble Vocal de St-Maurice"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 675
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Cœurs Unis de Champsec"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 676
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Choeur d'Hommes de Vérossaz"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 677
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Kirchenchor Fiesch"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 678
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Kirchenchor Bürchen"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 679
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Choeur d'Hommes de Miège"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 680
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "St-Stephan von Leuk-Stadt"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 681
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Choeur la Gentiane de Verbier"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 682
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Voci Amici de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 683
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Choeur la Cantilène de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 684
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Chorale Sédunoise de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 685
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Kirchenchor Turtmann"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 686
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Kirchenchor Kippel"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 687
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "L'Écho des Alpes d'Arbaz"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 688
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Choeur Ste-Cécile d'Ardon"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 689
+  name: "Aubade / Ständchen"
+  place: 126
+  compagnie: "Choeur la Lyre d'Évionnaz"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 690
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur la Léonardine de St-Léonard"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 691
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur la Caecilia de Chippis"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 692
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Männerchor Harmonie von Sitten"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 693
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur mixte de Champsec de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 694
+  name: "Aubade / Ständchen"
+  place: 127
+  compagnie: "Choeur St-Georges de Chermignon"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 695
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur St-Theobald de Plan-Conthey"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 696
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur Ganea de Chermignon"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 697
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur mixte de Morgins"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 698
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur mixte de Flanthey"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 699
+  name: "Aubade / Ständchen"
+  place: 128
+  compagnie: "Choeur des Jeunes de Nendaz"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 700
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Männerchor von Visp"
+  publie: 0
+  presentationCahier: "Anlässlich dem kantonalen Gesangfest singen die verschiedene walliser Choren in der Stadt Brig-Glis.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 701
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Choeur des Hommes de St-Guérin de Sion"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 702
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Choeur l'Écho du Mont-Brun du Châble"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 703
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Choeur Ste-Cécile de Bramois"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 704
+  name: "Aubade / Ständchen"
+  place: 129
+  compagnie: "Choeur d'Hommes de Miège"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête cantonale, les différents chœurs valaisans chantent dans la ville de Brig-Glis."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 705
+  name: "Office de Vendredi Saint"
+  place: 130
+  compagnie: "Choeur de Sainte-Croix"
+  publie: 0
+  presentationCahier: "Le Choeur Sainte-Croix de Sierre fondé en 1977 dans la pure tradition  des chorales mixtes de paroisses, a enrichi au cours des ans son répertoire classique par de nombreuses oeuvres liturgiques et profanes de réputés compositeurs suisses ou étrangers, de la Renaissance à nos jours. Fort de quarante chanteurs, ce chœur cherche à se renouveler régulièrement en effectif et en programme musical."
+  images: "&member-1-40.jpg&"
+  videos: ""
+  spectacleadministrator: 125
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 706
+  name: "Messe de Pâques"
+  place: 130
+  compagnie: "Choeur de Sainte-Croix"
+  publie: 0
+  presentationCahier: "Le Choeur Sainte-Croix de Sierre fondé en 1977 dans la pure tradition  des chorales mixtes de paroisses, a enrichi au cours des ans son répertoire classique par de nombreuses oeuvres liturgiques et profanes de réputés compositeurs suisses ou étrangers, de la Renaissance à nos jours. Fort de quarante chanteurs, ce chœur cherche à se renouveler régulièrement en effectif et en programme musical."
+  images: "&member-1-41.jpg&"
+  videos: ""
+  spectacleadministrator: 125
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 708
+  name: "Messe des Premières Communions"
+  place: 130
+  compagnie: "Choeur Sainte-Croix"
+  publie: 0
+  presentationCahier: "Le Choeur Sainte-Croix de Sierre fondé en 1977 dans la pure tradition des chorales mixtes de paroisses, a enrichi au cours des ans son répertoire classique par de nombreuses oeuvres liturgiques et profanes de réputés compositeurs suisses ou étrangers, de la Renaissance à nos jours. Fort de quarante chanteurs, ce chœur cherche à se renouveler régulièrement en effectif et en programme musical.\r\n"
+  images: "&member-1-43.jpg&"
+  videos: ""
+  spectacleadministrator: 125
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 709
+  name: "Concert Annuel"
+  place: 131
+  compagnie: "Choeur mixte de Saint-Maurice et Choeur St-Georges de Chermignon"
+  publie: 0
+  presentationCahier: "À l'occasion de son concert annuel, le Chœur Mixte de Saint-Maurice invite le Chœur Saint-Georges de Chermignon.\n\nFondé en 1923, le Chœur Mixte de Saint-Maurice assure les offices religieux paroissiaux et les grandes Fêtes à l’Abbaye. Musique profane et musique populaire alternent harmonieusement à l’affiche de ses concerts annuels avec le religieux et le spirituel.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 126
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 710
+  name: "Fête de la Musique"
+  place: 131
+  compagnie: "Chœur mixte de Saint-Maurice"
+  publie: 0
+  presentationCahier: "Fondé en 1923, le Chœur Mixte de Saint-Maurice assure les offices religieux paroissiaux et les grandes Fêtes à l’Abbaye. Musique profane et musique populaire alternent harmonieusement à l’affiche de ses concerts annuels avec le religieux et le spirituel.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 126
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 711
+  name: "Messe de Jeudi Saint"
+  place: 132
+  compagnie: "Choeur mixte de Saint-Maurice"
+  publie: 0
+  presentationCahier: "Fondé en 1923, le Chœur Mixte de Saint-Maurice assure les offices religieux paroissiaux et les grandes Fêtes à l’Abbaye. Musique profane et musique populaire alternent harmonieusement à l’affiche de ses concerts annuels avec le religieux et le spirituel.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 126
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 712
+  name: "Messe de Pâques"
+  place: 132
+  compagnie: "Choeur mixte de Saint-Maurice"
+  publie: 0
+  presentationCahier: "Fondé en 1923, le Chœur Mixte de Saint-Maurice assure les offices religieux paroissiaux et les grandes Fêtes à l’Abbaye. Musique profane et musique populaire alternent harmonieusement à l’affiche de ses concerts annuels avec le religieux et le spirituel.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 126
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 713
+  name: "Fête Patronale de St-Sigismond"
+  place: 131
+  compagnie: "Choeur mixte de Saint-Maurice"
+  publie: 0
+  presentationCahier: "Fondé en 1923, le Chœur Mixte de Saint-Maurice assure les offices religieux paroissiaux et les grandes Fêtes à l’Abbaye. Musique profane et musique populaire alternent harmonieusement à l’affiche de ses concerts annuels avec le religieux et le spirituel.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 126
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 714
+  name: "Messe de Pentecôte"
+  place: 132
+  compagnie: "Choeur mixte de Saint-Maurice"
+  publie: 0
+  presentationCahier: "Fondé en 1923, le Chœur Mixte de Saint-Maurice assure les offices religieux paroissiaux et les grandes Fêtes à l’Abbaye. Musique profane et musique populaire alternent harmonieusement à l’affiche de ses concerts annuels avec le religieux et le spirituel.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 126
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 715
+  name: "Messe de la Fête Dieu et procession"
+  place: 132
+  compagnie: "Choeur mixte de Saint-Maurice"
+  publie: 0
+  presentationCahier: "Fondé en 1923, le Chœur Mixte de Saint-Maurice assure les offices religieux paroissiaux et les grandes Fêtes à l’Abbaye. Musique profane et musique populaire alternent harmonieusement à l’affiche de ses concerts annuels avec le religieux et le spirituel.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 126
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 716
+  name: "Messe de Pâques"
+  place: 133
+  compagnie: "Choeur mixte l'Edelweiss"
+  publie: 0
+  presentationCahier: "Le Choeur mixte l'Edelweiss anime les messes à Muraz sur Sierre"
+  images: "&member-1-44.jpg&"
+  videos: ""
+  spectacleadministrator: 127
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 717
+  name: "Messe de Pentecôte"
+  place: 133
+  compagnie: "Choeur mixte l'Edelweiss"
+  publie: 0
+  presentationCahier: "Le Choeur mixte l'Edelweiss anime les messes à Muraz sur Sierre\r\n"
+  images: "&member-1-45.jpg&"
+  videos: ""
+  spectacleadministrator: 127
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 718
+  name: "Messe de la Fête Dieu"
+  place: 134
+  compagnie: "Choeur mixte l'Edelweiss, Choeur  mixte Sainte-Cécile, Choeur Sainte-Croix"
+  publie: 0
+  presentationCahier: "A l'occasion de la Fête Dieu, les différents choeurs de la paroisse de Sierre animent la messe ensemble !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 127
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 719
+  name: "Animations liturgiques"
+  place: 135
+  compagnie: "Chorale Ste-Cécile"
+  publie: 0
+  presentationCahier: "La Chorale Sainte-Cécile de Saint-Martin anime les messes  hebdomadaires !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 128
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 720
+  name: "Concert Annuel"
+  place: 136
+  compagnie: "Choeur des Jeunes de St-Guérin, Choeur d'enfants de St-Guérin, Choeur mixte de St-Guérin, Choeur des hommes de St-Guérin"
+  publie: 0
+  presentationCahier: "Pour leur concert annuel, les 4 choeur de Saint-Guérin se réunissent."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 721
+  name: "Messe des Rameaux"
+  place: 133
+  compagnie: "Choeur mixte l'Edelweiss"
+  publie: 0
+  presentationCahier: "Le Choeur mixte l'Edelweiss anime les messes à Muraz sur Sierre\n"
+  images: "&member-1-46.jpg&"
+  videos: ""
+  spectacleadministrator: 127
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 722
+  name: "Messe de l'Ascension"
+  place: 133
+  compagnie: "Choeur mixte l'Edelweiss"
+  publie: 0
+  presentationCahier: "Le Choeur mixte l'Edelweiss anime les messes à Muraz sur Sierre\r\n"
+  images: "&member-1-47.jpg&"
+  videos: ""
+  spectacleadministrator: 127
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 723
+  name: "Concert Annuel"
+  place: 137
+  compagnie: "Choeur des Colombes, Choeur la Chanterelle"
+  publie: 0
+  presentationCahier: "Pour son concert annuel, le Choeur d'enfants Des Colombes de Savièse invite le Choeur d'enfant La Chanterelle d'Arbaz !\nVenez nombreux !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 129
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 724
+  name: "Concert des 20 ans"
+  place: 89
+  compagnie: "Choeur d'Hommes Voci Amici"
+  publie: 0
+  presentationCahier: "18h30 : Messe d’Action de Grâce et du Souvenir, célébrée par Monseigneur Rémy Berchier, Vicaire Episcopal du canton de Fribourg et animée par Voci Amici.<br  />20h00 : Pour ses 20 ans et les 40 ans de direction chorale de sa directrice, l’Ensemble Choral masculin Voci Amici, de Sion, convie le Chœur de Femmes, La Cantilène.<br />\r\nVenez nombreux !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 130
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 726
+  name: "Concert annuel"
+  place: 139
+  compagnie: "La Caecilia de Chippis"
+  publie: 0
+  presentationCahier: "Evita, Notre-Dame de Paris, Starmania, Les misérables… des comédies musicales à succès dont les airs ont fait le tour du monde !!\r\nCette année,  ces fameuses mélodies font escale à Chippis. Le chœur mixte la Caecilia, sous la baguette de Mme Romaine Zorn-Métrailler, vous invite à les (re)découvrir  le temps d’un concert annuel.\r\nInvitation cordiale à tous le samedi 10 mai 2014. Entrée libre.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 131
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 727
+  name: "Chemin de Croix"
+  place: 135
+  compagnie: "Choeur des Jeunes de St-Martin"
+  publie: 0
+  presentationCahier: "Chemin de Croix chanté et joué par le Choeur des Jeunes et les enfants de la région."
+  images: ""
+  videos: ""
+  spectacleadministrator: 132
+  status: 4
+  categorie: 5
+  website: "http://www.cdjstmartin.ch"
+  parent: 0
+-
+  id: 728
+  name: "Samedi Saint"
+  place: 135
+  compagnie: "Choeur des Jeunes de St-Martin"
+  publie: 0
+  presentationCahier: "Messe du Samedi Saint animée par le Choeur des Jeunes de St-Martin\r\n\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 132
+  status: 4
+  categorie: 5
+  website: "http://www.cdjstmartin.ch"
+  parent: 0
+-
+  id: 729
+  name: "Aubade de la fête des mères"
+  place: 143
+  compagnie: "Caecilia de Vissoie"
+  publie: 0
+  presentationCahier: "À l'occasion de la fête des mères, La Caecilia de Vissoie chante une aubade après la messe, devant l'Église."
+  images: "&729-1.jpg&"
+  videos: ""
+  spectacleadministrator: 161
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 731
+  name: "Animations liturgiques"
+  place: 145
+  compagnie: "Choeur d'hommes de Lens"
+  publie: 0
+  presentationCahier: "Animations de messes par le Choeur d'hommes de Lens dont le répertoire va du chant grégorien à la musique liturgique récente, en passant par des pièces de la Renaissance et de l'époque romantique. \r\n"
+  images: "&731-1.jpg&"
+  videos: ""
+  spectacleadministrator: 96
+  status: 4
+  categorie: 5
+  website: "http://www.choeurdhommesdelens.ch"
+  parent: 0
+-
+  id: 733
+  name: "Animations liturgiques"
+  place: 135
+  compagnie: "Choeur des Jeunes de St-Martin"
+  publie: 0
+  presentationCahier: "Messe animée par le Choeur des Jeunes de St-Martin.<br />\r\nPar ailleurs, le Choeur des Jeunes de St-Martin recrute des jeunes entre 11 et 35 ans ! N'hésitez pas à nous rejoindre lors des répétitions !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 132
+  status: 4
+  categorie: 5
+  website: "http://www.cdjstmartin.ch"
+  parent: 0
+-
+  id: 734
+  name: "Animations liturgiques"
+  place: 147
+  compagnie: "Choeur des Jeunes de St-Martin"
+  publie: 0
+  presentationCahier: "Messe animée par le Choeur des Jeunes de St-Martin\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 132
+  status: 4
+  categorie: 5
+  website: "http://www.cdjstmartin.ch"
+  parent: 0
+-
+  id: 735
+  name: "Animations liturgiques"
+  place: 148
+  compagnie: "Choeur des Jeunes de St-Martin"
+  publie: 0
+  presentationCahier: "Messe animée par le Choeur des Jeunes de St-Martin."
+  images: ""
+  videos: ""
+  spectacleadministrator: 132
+  status: 4
+  categorie: 5
+  website: "http://www.cdjstmartin.ch"
+  parent: 0
+-
+  id: 736
+  name: "www.bouse.ch"
+  place: 81
+  compagnie: "Les Baladingues"
+  publie: 0
+  presentationCahier: "Une ferme de montagne un peu assoupie est soudain contrainte d’entrer de plein pied dans le monde des nouvelles technologies sous peine de voir s’envoler toutes les subventions qui assurent sa survie<br />\r\nLa famille Charron verra toutes ses petites habitudes totalement chamboulées par le défilé d’experts, consultants et autres éthologues qui s’abattront sur son exploitation.\r\n"
+  images: "&736-1.jpg&"
+  videos: "+41 79 193 77 52"
+  spectacleadministrator: 1
+  status: 4
+  categorie: 3
+  website: "http://www.alize-theatre.ch/"
+  parent: 0
+-
+  id: 737
+  name: "Un amour de Swann"
+  place: 81
+  compagnie: "Compagnie Musique&Texte "
+  publie: 0
+  presentationCahier: "Gabriel Fauré raconte Marcel Proust.<br />\r\nLes sonates pour violoncelle et piano de Gabriel Fauré et des extraits de la Recherche du temps perdu de Marcel Proust racontent en dialoguant l’histoire de l’amour de Charles Swann pour Odette de Grécy.<br />L’aventure de Swann qui aime Odette et dont l’amour se change en une passion inquiète, ombrageuse et maladive.\r\n"
+  images: "&737-1.jpg&"
+  videos: "079 193 77 52"
+  spectacleadministrator: 1
+  status: 4
+  categorie: 3
+  website: "http://www.alize-theatre.ch/#swann"
+  parent: 0
+-
+  id: 738
+  name: "Dernières lettres de Stalingrad"
+  place: 81
+  compagnie: "Françoise Gugger"
+  publie: 0
+  presentationCahier: "En janvier 1943, dans Stalingrad encerclée, des soldats s’éteignent lentement, en proie à un froid atroce et à un manque total de ravitaillement. Ils attendent la mort, abandonnés par leur armée en déroute.\r\n\r\nUn dernier avion quitte l’enfer de Stalingrad avec sept sacs postaux, emportant les dernières lettres de ces soldats. Adieux à une épouse, un père, un enfant, un ami… \r\n"
+  images: "&738-1.jpg&"
+  videos: "+41 79 193 77 52"
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1005
+  website: "http://www.alize-theatre.ch/#lettres"
+  parent: 0
+-
+  id: 739
+  name: "Spectacle des Ateliers"
+  place: 81
+  compagnie: "Ateliers Françoise Gugger"
+  publie: 0
+  presentationCahier: "Comme chaque année, les Ateliers présentent un spectacle abouti, le fruit du travail d’une année, avec des comédiens tout neufs, plus avancés ou presque pros. Pour certains, le grand saut dans l’inconnu, pour d’autres, les retrouvailles avec les peurs et les bonheurs vécus les années précédentes : Palace, Le Songe d’une nuit d’été, Téléjournal, Tragédies, Zapp et tant d’autres…\r\n\r\nCinq soirées à découvrir !\r\n"
+  images: "&739-1.jpg&"
+  videos: "+41 79 193 77 52"
+  spectacleadministrator: 1
+  status: 4
+  categorie: 3
+  website: "http://www.alize-theatre.ch/#sp_at"
+  parent: 0
+-
+  id: 740
+  name: "Concert Annuel"
+  place: 150
+  compagnie: "Chœur mixte Le Muguet, Choeur mixte de Champsec"
+  publie: 0
+  presentationCahier: "Le Chœur mixte Le Muguet d'Aproz et le Choeur mixte de Champsec vous convient à leur concert annuel !<br />\nLa première partie est un concert classique (Mozart, Bizet, Verdi) avec accompagnement au piano.<br />\nLa seconde partie sera interprétée par un chœur d'homme d'Estavayer-le-Lac.\n\n"
+  images: "&740-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 741
+  name: "Concert ArtSonic"
+  place: 97
+  compagnie: "Overgrass"
+  publie: 0
+  presentationCahier: "Trio basse batterie guitare-voix, Overgrass est avant tout un noyau bien solide. Joël Groda avait depuis longtemps des idées musicales en tête, il a su s'entourer des deux personnes idéales pour les concrétiser.Ce sont les deux frères, César et Julio Roméro, qui assurent la section rythmique du groupe.<br />Les trois musiciens sont mordus de rock'n roll ! Plein d'ambition, les trois musiciens ont signé cette année chez « CHAMOSUND Records », label musical Valaisan. \r\n"
+  images: "&member-1-15.jpg&"
+  videos: ""
+  spectacleadministrator: 101
+  status: 4
+  categorie: 1000
+  website: "http://www.art-sonic.ch/index.php?page=programmation"
+  parent: 0
+-
+  id: 742
+  name: "Concert ArtSonic"
+  place: 97
+  compagnie: "Doppelgänger"
+  publie: 0
+  presentationCahier: "Nous sommes deux et parfois plus, mais toujours un.\r\nNous créons de la musique et des textes, puis les assemblons pour en faire des chansons.\r\nNous sommes bruyamment sourds. \r\nEt magnifiquement entendus.\r\nNous sommes DOPPELGÄNGER."
+  images: "&member-1-17.jpg&"
+  videos: ""
+  spectacleadministrator: 101
+  status: 4
+  categorie: 1000
+  website: "http://www.art-sonic.ch/index.php?page=programmation"
+  parent: 0
+-
+  id: 743
+  name: "Concert ArtSonic"
+  place: 97
+  compagnie: "BPM"
+  publie: 0
+  presentationCahier: "BPM est un jeune groupe de funk valaisan."
+  images: ""
+  videos: ""
+  spectacleadministrator: 101
+  status: 4
+  categorie: 1000
+  website: "http://www.art-sonic.ch/index.php?page=programmation"
+  parent: 0
+-
+  id: 744
+  name: "Soirée Mélangiste"
+  place: 97
+  compagnie: "ArtSonic"
+  publie: 0
+  presentationCahier: "Devenue incontournable dans l'agenda des soirées de l'Hacienda ArtSonic, la Mélangiste porte bien son nom puisqu'elle propose à une cinquantaine de musiciens valaisans de se rencontrer et de se mélanger allègrement le temps d'une soirée. Après s'être inscrits quelques semaines avant l'événement, chaque musicien se voit remettre un morceau existant et relativement connu qu'il doit s'approprier avant la date fatidique. S'il sait quel morceau et quelle partie il interprète, il ignore totalement avec qui il se commettra avant de monter sur scène. Résultat : une succession d'une cinquantaine de musiciens interprétant une trentaine de morceaux dans des formations improbables dont les membres n'ont jamais répété ensemble… Garanti sans filets !<br />Les inscriptions ouvriront durant le mois d'avril."
+  images: "&member-1-48.jpg&"
+  videos: ""
+  spectacleadministrator: 101
+  status: 4
+  categorie: 1000
+  website: "http://www.art-sonic.ch/index.php?page=programmation"
+  parent: 0
+-
+  id: 745
+  name: "Messe de Pâques"
+  place: 150
+  compagnie: "Chœur mixte Le Muguet"
+  publie: 0
+  presentationCahier: "Le Chœur mixte Le Muguet anime la messe de Pâques."
+  images: "&745-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 746
+  name: "Animations liturgiques"
+  place: 150
+  compagnie: "Chœur mixte Le Muguet"
+  publie: 0
+  presentationCahier: "Le Chœur mixte Le Muguet chante la messe !\r\n"
+  images: "&746-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 747
+  name: "64ème Festival des Fanfares Libérales Radicales de l'Entremont"
+  place: 151
+  compagnie: "Fanfare l'Avenir de Sembrancher"
+  publie: 0
+  presentationCahier: "Programme du samedi soir : <br />19:00 : Réception des sociétés place de la Fontaine <br />19:45 : Défilé jusqu’à la place de fête <br />20:30 : Production des sociétés <br />22:45 : Bal : animation bavaroise <br />03:00 : Clôture de la soirée <br /><br />Programme du dimanche : Fête de la Bière <br />13:00 : Réception des sociétés<br />Défilé jusqu'à la place de fête <br />14:30 Production des sociétés<br />17:50 : Clôture de la manifestation<br />18:00 : Bal et repas des sociétés sous cantine."
+  images: "&747-1.jpg&"
+  videos: ""
+  spectacleadministrator: 135
+  status: 4
+  categorie: 1013
+  website: "http://www.avenirsembrancher.ch/"
+  parent: 0
+-
+  id: 748
+  name: "Aubade de Pâques"
+  place: 150
+  compagnie: "Écho du Mont d'Aproz"
+  publie: 0
+  presentationCahier: "Après la messe de Pâques, l'Écho du Mont joue une Aubade devant l'Église d'Aproz."
+  images: "&748-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: "http://echodumont.ch/"
+  parent: 0
+-
+  id: 749
+  name: "Messe des Rameaux"
+  place: 152
+  compagnie: "Choeur Saint-Michel de Martigny-Bourg"
+  publie: 0
+  presentationCahier: "Depuis près d’une vingtaine d’années le Chœur St Michel chante sous la baguette de Dominique Delaloye. Chœur d’église par vocation, la société participe également aux différentes fêtes de chants profanes du canton. Dans une ambiance chaleureuse où l’humour a ses droits de noblesse, les répétitions sont autant de moments agréables à partager. Les concerts se préparent à un rythme bisannuel, la sortie familiale alterne avec un voyage de quelques jours. C’est ainsi que le chœur a vu Varsovie, Marseille, Vienne, Venise et Dublin."
+  images: "&749-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 750
+  name: "Messe de Jeudi Saint"
+  place: 152
+  compagnie: "Choeur Saint-Michel de Martigny-Bourg, Choeur la Schola"
+  publie: 0
+  presentationCahier: "À l'occasion du Jeudi Saint, le choeur Saint-Michel de Martigny-Bourg anime la messe avec le Choeur la Schola !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 751
+  name: "50ème Anniversaire du Choeur St-Michel"
+  place: 152
+  compagnie: "Choeur Saint-Michel de Martigny-Bourg"
+  publie: 0
+  presentationCahier: "Afin de souligner les deux visages de la chorale, à savoir l’animation liturgique et l’animation profane, une Messe festive et une grande fête « villageoise » avec animation dans le centre de Martigny-Bourg seront organisées. Le Choeur St-Michel existe aujourd’hui grâce aux personnes qui ont eu la volonté de créer et de faire vivre cette société. Nous voulons leur rendre hommage en mettant sur pied cette fête solennelle. De plus, le Choeur St-Michel est heureux et fier de représenter cette partie de la ville qu’est le Bourg."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1013
+  website: ""
+  parent: 0
+-
+  id: 752
+  name: "Concert"
+  place: 153
+  compagnie: "La Cécilia"
+  publie: 0
+  presentationCahier: "Le Chœur mixte La Cécilia vous convie à son concert annuel !\r\n\r\n\r\nLa seconde partie sera assurée par le chœur mixte St-Michel des Evouettes.\r\n\r\nA l'issue du concert, la fête se poursuivra par un agréable moment de convivialité suivi d'un bal populaire.\r\n\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 136
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 755
+  name: "Gottesdienst"
+  place: 157
+  compagnie: "Kirchenchor Törbel"
+  publie: 0
+  presentationCahier: "Der Kirchenchor von Törbel singt in der Kirche von Törbel."
+  images: ""
+  videos: ""
+  spectacleadministrator: 140
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 756
+  name: "Messe du 40ème Anniversaire du Choeur la Cécilia"
+  place: 158
+  compagnie: "Choeur mixte la Cécilia de Fully"
+  publie: 0
+  presentationCahier: "À l'occasion de son 40ème anniversaire, le Choeur mixte la Cécilia de Fully anime une messe extraordinaire.<br />\r\nLa messe sera suivie par un repas avec animations à la salle polyvalente de Charnot. Réservations obligatoires pour le repas."
+  images: "&member-1-1.JPG&"
+  videos: "079 748 14 70"
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 757
+  name: "Souper Concert"
+  place: 95
+  compagnie: "Choeur mixte la Cécilia de Fully"
+  publie: 0
+  presentationCahier: "À l'occasion de son 40ème anniversaire, le Choeur mixte La Cécilia de Fully organise deux soupers-concerts. Venez nombreux pour participer aux différentes animations et écouter de la chanson française harmonisée !<br />\r\nRéservations obligatoires !"
+  images: ""
+  videos: "079 748 14 70"
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 758
+  name: "Geschöpf der Nacht"
+  place: 159
+  compagnie: "Jugendchor Zaniglas-Greechu"
+  publie: 0
+  presentationCahier: "Der Jugendchor Zaniglas-Greechu präsentiert sein neues Musical : Taschenlampenmusical ! <br />\r\n"
+  images: "&member-1-51.jpg&"
+  videos: ""
+  spectacleadministrator: 142
+  status: 4
+  categorie: 1014
+  website: ""
+  parent: 0
+-
+  id: 759
+  name: "Geschöpf der Nacht"
+  place: 160
+  compagnie: "Jugendchor Zaniglas-Greechu"
+  publie: 0
+  presentationCahier: "Der Jugendchor Zaniglas-Greechu präsentiert sein neues Musical : Taschenlampenmusical ! <br />\r\n"
+  images: "&member-1-51.jpg&"
+  videos: ""
+  spectacleadministrator: 142
+  status: 4
+  categorie: 1014
+  website: ""
+  parent: 0
+-
+  id: 760
+  name: "Messe de Pâques"
+  place: 161
+  compagnie: "Fraternité de Noës"
+  publie: 0
+  presentationCahier: "Fondée en 1943 par une poignée de musiciens énergiques et compétents, la fanfare la Fraternité de Noës compte aujourd'hui près de 45 musiciens."
+  images: "&member-1-52.jpg&"
+  videos: ""
+  spectacleadministrator: 143
+  status: 4
+  categorie: 4
+  website: "http://www.fraternite.ch"
+  parent: 0
+-
+  id: 761
+  name: "Concert Annuel"
+  place: 162
+  compagnie: "Fraternité de Noës"
+  publie: 0
+  presentationCahier: "Fondée en 1943 par une poignée de musiciens énergiques et compétents, la fanfare la Fraternité de Noës compte aujourd'hui près de 45 musiciens."
+  images: "&member-1-53.jpg&"
+  videos: ""
+  spectacleadministrator: 143
+  status: 4
+  categorie: 4
+  website: "http://www.fraternite.ch"
+  parent: 0
+-
+  id: 762
+  name: "Concert"
+  place: 164
+  compagnie: "Fraternité de Noës"
+  publie: 0
+  presentationCahier: "Fondée en 1943 par une poignée de musiciens énergiques et compétents, la fanfare la Fraternité de Noës compte aujourd'hui près de 45 musiciens."
+  images: "&member-1-54.jpg&"
+  videos: ""
+  spectacleadministrator: 143
+  status: 4
+  categorie: 4
+  website: "http://www.fraternite.ch"
+  parent: 0
+-
+  id: 763
+  name: "Messe de la Fête Dieu"
+  place: 161
+  compagnie: "Fraternité de Noës"
+  publie: 0
+  presentationCahier: "Fondée en 1943 par une poignée de musiciens énergiques et compétents, la fanfare la Fraternité de Noës compte aujourd'hui près de 45 musiciens."
+  images: "&member-1-55.jpg&"
+  videos: ""
+  spectacleadministrator: 143
+  status: 4
+  categorie: 4
+  website: "http://www.fraternite.ch"
+  parent: 0
+-
+  id: 764
+  name: "Concert d'Atelier - Vivaldi"
+  place: 165
+  compagnie: "Choeur St-Michel de Corin, Choeur l'Écho de la Montagne de Montana, Choeur la Davidica de Basse-Nendaz, Choeur St-Théobald de Plan-Conthey, Choeur l'Écho de Moiry de Grimentz, Sociétés de Chant les Coeurs-Unis de Champsec, Choeur St-Nicolas d'Orsières"
+  publie: 0
+  presentationCahier: "Sous la direction de Damien Luy, les 210 chanteurs de l'atelier Vivaldi se joignent à un orchestre de 25 musiciens pour un concert."
+  images: "&member-1-56.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 765
+  name: "Concert D'atelier - Cantiamo / Schola"
+  place: 165
+  compagnie: "Konzertchor Cantiamo, Choeur la Schola"
+  publie: 0
+  presentationCahier: "Sous la direction de H. Kämpfen et de M. Bo chud, Le Konzertchor Cantiamo et le Choeur la Schola se réunissent pour un concert d'atelier d'exception à l'occasion de la fête cantonale de Chant de Brig !"
+  images: "&member-1-57.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 766
+  name: "Concert d'Atelier - Messe "
+  place: 166
+  compagnie: "Choeur mixte de St-Maurice, Choeur mixte de Morgins, Choeur St-Georges de Chermignon, St-Martinschor von Visp, Gesangsverein Termen, Kirchenchor Glis, Kirchenchor Staldenried"
+  publie: 0
+  presentationCahier: "Sous la direction d'Adrian Zenhäusern, les 253 membres des 7 choeurs réunis chantent une messe exceptionnelle."
+  images: "&member-1-58.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 767
+  name: "Concert d'Atelier - Musique africaine"
+  place: 165
+  compagnie: "Choeur Cantamabile de Sion, Ensemble Vocal D'Croches de Sion, Choeur mixte de Muzot de Veyras, Choeur la Valaisanne de Grimisuat, Choeur mixte Écho d'Arbignon de Collonges, Choeur mixte St-Laurent de Riddes, La Laurentia de Saillon"
+  publie: 0
+  presentationCahier: "Sous la direction de Dominique Tille, les 187 chanteurs des 7 choeurs réunis chantent un concert exceptionnel de musique africaine."
+  images: "&member-1-59.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 768
+  name: "Concert d'Atelier - Top Classics"
+  place: 165
+  compagnie: "Choeur mixte de Collombey-Muraz, La Cécilia de Finhaut, L'Écho des Follatères de Fully, Choeur la Mauritia de Salvan, Chorale Ste-Cécile de Veysonnaz, La Caecilia de Vissoie, Choeur mixte l'Écho du Coteau de Choëx, Choeur mixte l'Amitié de Vouvry, Choeur mixte de Monthey"
+  publie: 0
+  presentationCahier: "Sous la direction de Hansruedi Kämpfen, les 263 chanteurs des 9 choeurs réunis chantent les Top Classics."
+  images: "&member-1-60.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 769
+  name: "Concert d'Atelier - Top Classics"
+  place: 165
+  compagnie: "Choeur mixte la Cécilienne de Venthône, Choeur mixte Ste-Cécile de Bramois, Choeur mixte de Collombey, Choeur l'Écho du Mont Brun du Châble, Choeur mixte de Champsec de Sion, Choeur mixte la Chanson des Fougères de Châteauneuf, Choeur mixte la Cécilia de Savièse, Choeur le Muguet d'Aproz"
+  publie: 0
+  presentationCahier: "Sous la direction de Hansruedi Kämpfen, les 248 chanteurs des 8 choeurs réunis chantent les Top Classics."
+  images: "&member-1-61.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 575
+-
+  id: 770
+  name: "Concert d'Atelier - Choeurs de jeunes"
+  place: 165
+  compagnie: "Choeur Chante la vie de Monthey, Choeur des Jeunes de Fully, Choeur des Jeunes de St-Guérin de Sion, Choeur des Jeunes de St-Martin, Choeurs des Jeunes de Leytron-Riddes-Saillon, Choeurs des Jeunes de Bramois, Choeur du Cycle d'Orientation de Monthey, Choeur du Cycle d'Orientation d'Anniviers, Choeur du Cycle d'Orientation de Nendaz, Choeur du Cycle d'Orientation de Martigny"
+  publie: 0
+  presentationCahier: "Sous la direction de Norbert Carlen, les 248 chanteurs de 10 choeurs des jeunes chantent un concert exceptionnel."
+  images: "&member-1-62.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 771
+  name: "Concert d'Atelier - Bovet Inédit"
+  place: 165
+  compagnie: "Choeur mixte la Cécilia de Grône, Choeur St-Nicolas d'Hérémence, Choeur mixte l'Edelweiss de Muraz, Choeur mixte Ste-Cécile de Sierre, Choeur mixte Cécilia de Dorénaz, La Léonardine St-Léonard, Choeur mixte Polyphonia de Vernayaz, Kirchenchor Mund"
+  publie: 0
+  presentationCahier: "Sous la direction de Samuel Émery, les 208 chanteurs des 8 choeurs réunis chantent des chansons inédites de l'Abbé Joseph Bovet pour un concert exceptionnel."
+  images: "&member-1-63.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 772
+  name: "Concert d'Atelier - La Chantée"
+  place: 165
+  compagnie: "Choeur mixte de Flanthey, Chorale St-Hymnemode de Montana, Choeur mixte de Lourtier, Choeur mixte Savièse Chante de Savièse, Choeur mixte la Voix des Champs de Charrat, La Gentiane de Verbier, Société de Chant Ste-Cécile de Chamoson"
+  publie: 0
+  presentationCahier: "Sous la direction de Sophie Bender et d'Élisabeth Gillioz, les 221 chanteurs des 8 choeurs réunis chante un concert exceptionnel."
+  images: "&member-1-64.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 773
+  name: "Concert d'Atelier - Choeur valaisan de jeunes"
+  place: 165
+  compagnie: "Choeur Valaisan de Jeunes"
+  publie: 0
+  presentationCahier: "Sous la direction de A. Zenhäusern et de Stève Bobiller, le Choeur Valaisan de Jeunes chante un concert d'exception."
+  images: "&member-1-65.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 774
+  name: "Concert d'Atelier - Gluschtige Häppchen"
+  place: 165
+  compagnie: "Choeurs divers"
+  publie: 0
+  presentationCahier: "Sous la direction de Johannes Diederen, 200 chanteurs chantent \"Gluschtige Häppchen\" pour un concert exceptionnel."
+  images: "&member-1-66.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 775
+  name: "Concert d'Atelier - Sternstunden der Operette"
+  place: 165
+  compagnie: "Choeurs divers"
+  publie: 0
+  presentationCahier: "Sous la direction de Roberto Schmidt, les 170 chanteurs des choeurs réunis chanteront \"Sternstunden der Operette\" pour un concert exceptionnel."
+  images: "&member-1-67.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 575
+-
+  id: 776
+  name: "Jahreskonzert"
+  place: 103
+  compagnie: "MG Echo Raronia"
+  publie: 0
+  presentationCahier: "'Echo Raronia' heisst der neue Musikverein, der aus der Fusion der MG 'Echo' St. German und der MG 'Raronia' Raron entstanden ist."
+  images: "&member-1-68.jpg&"
+  videos: ""
+  spectacleadministrator: 109
+  status: 4
+  categorie: 4
+  website: "http://www.raronia.ch/"
+  parent: 0
+-
+  id: 777
+  name: "Osterständli"
+  place: 169
+  compagnie: "MG Echo Raronia"
+  publie: 0
+  presentationCahier: "'Echo Raronia' heisst der neue Musikverein, der aus der Fusion der MG 'Echo' St. German und der MG 'Raronia' Raron entstanden ist."
+  images: "&member-1-69.jpg&"
+  videos: ""
+  spectacleadministrator: 109
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 778
+  name: "1. Kommunion"
+  place: 168
+  compagnie: "MG Echo Raronia"
+  publie: 0
+  presentationCahier: "'Echo Raronia' heisst der neue Musikverein, der aus der Fusion der MG 'Echo' St. German und der MG 'Raronia' Raron entstanden ist."
+  images: "&778-1.jpg&"
+  videos: ""
+  spectacleadministrator: 109
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 779
+  name: "Fronleichnahm"
+  place: 168
+  compagnie: "MG Echo Raronia"
+  publie: 0
+  presentationCahier: "'Echo Raronia' heisst der neue Musikverein, der aus der Fusion der MG 'Echo' St. German und der MG 'Raronia' Raron entstanden ist."
+  images: "&member-1-70.jpg&"
+  videos: ""
+  spectacleadministrator: 109
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 780
+  name: "Le Cercle de craie caucasien"
+  place: 170
+  compagnie: "Troupe des Creusets"
+  publie: 0
+  presentationCahier: "Après le succès d'Incendies de Wajdi Mouawad et le prix du public gagné au concours Friscènes de Fribourg, la Troupe des Creusets présente l'une des plus belles pièce de Bertolt Brecht: Le Cercle de craie caucasien.  Suite à un coup d'état, Michel, le fils du gouverneur, est abandonné.  Il est recueilli par Groucha, une servante. S'ensuit une errance jusqu'au jour où Natella, la mère légitime réclame l'enfant devant les tribunaux... Le jugement dépendra d'Azdak, un juge décadent et alcoolique! Poétique, musical et délirant!\r\n"
+  images: "&member-1-6.jpeg&"
+  videos: 0792445850
+  spectacleadministrator: 40
+  status: 4
+  categorie: 3
+  website: "http://theatrecreusets.weebly.com"
+  parent: 0
+-
+  id: 781
+  name: "Concert Brass Band & Piano"
+  place: 31
+  compagnie: "Ensemble de Cuivres Valaisan"
+  publie: 0
+  presentationCahier: "Pour ce concert hors-abonnement du Théâtre Le Baladin, l'Ensemble de Cuivres Valaisan à l'honneur d'accueillir la pianiste Béatrice Berrut (http://www.beatriceberrut.com/) pour un concert exceptionnelle. Née dans le Canton du Valais en 1985, après avoir passé par les classes du Conservatoire de Lausanne et de la Fondation Heinrich Neuhaus de Zürich, Béatrice Berrut se forme à la Hochschule für Musik \"Hanns Eisler\" de Berlin, où elle suivra durant cinq ans l'enseignement de Galina Iwanzowa."
+  images: "&781-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1002
+  website: "http://www.lebaladin.ch/theatre/ensemble-cuivres-valaisan.html"
+  parent: 0
+-
+  id: 782
+  name: "Festival Week-end au bord de l'eau"
+  place: 171
+  compagnie: "Association du Week-end au bord de l'eau"
+  publie: 0
+  presentationCahier: "Le Festival “Week-end au bord de l’eau” a été créé à Sierre en 2007. Depuis, il a su charmer un public venant de toute la Suisse et des pays voisins grâce à sa programmation artistique pointue, à son atmosphère conviviale et à son environnement idyllique. En programmant des artistes suisses et internationaux, le festival met à l’honneur la musique groove et les arts visuels. De nombreuses animations et activités complètent la partie musicale du Festival, comme notamment un tournoi de pétanque, du street art, et des activités aquatiques et estivales. A l’approche des vacances, l’objectif est de plonger le public dans une ambiance festive, chaude et décontractée tout en privilégiant un cadre intimiste, authentique et soigné.\r\n "
+  images: "&782-1.jpg&"
+  videos: 0274558535
+  spectacleadministrator: 144
+  status: 4
+  categorie: 1013
+  website: "http://www.aubordeleau.ch"
+  parent: 0
+-
+  id: 784
+  name: "Karfreitag"
+  place: 172
+  compagnie: "Sebastianchor Baltschieder"
+  publie: 0
+  presentationCahier: "Der St. Sebastianchor ist der Kirchenchor von Baltschieder und besteht aus 28 Mitglieder.\r\nGeprobt wird jeweils am Montagabend \r\nim Übungslokal der Spielhalle um 19:30 Uhr."
+  images: "&member-1-73.jpg&"
+  videos: ""
+  spectacleadministrator: 145
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 785
+  name: "Ostern"
+  place: 172
+  compagnie: "Sebastianchor Baltschieder"
+  publie: 0
+  presentationCahier: "Der St. Sebastianchor ist der Kirchenchor von Baltschieder und besteht aus 28 Mitglieder.\r\nGeprobt wird jeweils am Montagabend \r\nim Übungslokal der Spielhalle um 19:30 Uhr."
+  images: "&member-1-74.jpg&"
+  videos: ""
+  spectacleadministrator: 145
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 786
+  name: "Auffahrt"
+  place: 172
+  compagnie: "Sebastianchor Baltschieder"
+  publie: 0
+  presentationCahier: "Der St. Sebastianchor ist der Kirchenchor von Baltschieder und besteht aus 28 Mitglieder.\r\nGeprobt wird jeweils am Montagabend \r\nim Übungslokal der Spielhalle um 19:30 Uhr."
+  images: "&member-1-75.jpg&"
+  videos: ""
+  spectacleadministrator: 145
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 787
+  name: "Pfingsten"
+  place: 172
+  compagnie: "Sebastianchor Baltschieder"
+  publie: 0
+  presentationCahier: "Der St. Sebastianchor ist der Kirchenchor von Baltschieder und besteht aus 28 Mitglieder.\r\nGeprobt wird jeweils am Montagabend \r\nim Übungslokal der Spielhalle um 19:30 Uhr."
+  images: "&member-1-76.jpg&"
+  videos: ""
+  spectacleadministrator: 145
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 788
+  name: "Fronleichnam"
+  place: 172
+  compagnie: "Sebastianchor Baltschieder"
+  publie: 0
+  presentationCahier: "Der St. Sebastianchor ist der Kirchenchor von Baltschieder und besteht aus 28 Mitglieder.\r\nGeprobt wird jeweils am Montagabend \r\nim Übungslokal der Spielhalle um 19:30 Uhr."
+  images: "&member-1-77.jpg&"
+  videos: ""
+  spectacleadministrator: 145
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 789
+  name: "Gründonnerstag Messe"
+  place: 173
+  compagnie: "Kirchenchor Lalden"
+  publie: 0
+  presentationCahier: "Der Kirchenchor Lalden sing in der Kirche von Lalden."
+  images: "&member-1-1.jpeg&"
+  videos: ""
+  spectacleadministrator: 146
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 791
+  name: "Osternachts Messe"
+  place: 173
+  compagnie: "Kirchenchor Lalden"
+  publie: 0
+  presentationCahier: "Der Kirchenchor Lalden sing in der Kirche von Lalden."
+  images: "&member-1-2.jpeg&"
+  videos: ""
+  spectacleadministrator: 146
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 792
+  name: "Ostern Messe"
+  place: 173
+  compagnie: "Kirchenchor Lalden"
+  publie: 0
+  presentationCahier: "Der Kirchenchor Lalden sing in der Kirche von Lalden."
+  images: "&792-1.jpg&"
+  videos: ""
+  spectacleadministrator: 146
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 793
+  name: "Firmung"
+  place: 173
+  compagnie: "Kirchenchor Lalden"
+  publie: 0
+  presentationCahier: "Der Kirchenchor Lalden sing in der Kirche von Lalden."
+  images: "&member-1-4.jpeg&"
+  videos: ""
+  spectacleadministrator: 146
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 794
+  name: "Fronleichnam Messe"
+  place: 173
+  compagnie: "Kirchenchor Lalden"
+  publie: 0
+  presentationCahier: "Der Kirchenchor Lalden sing in der Kirche von Lalden."
+  images: "&member-1-5.jpeg&"
+  videos: ""
+  spectacleadministrator: 146
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 796
+  name: "Gaëtan"
+  place: 109
+  compagnie: "Les Farfadets"
+  publie: 0
+  presentationCahier: "Les Farfadets :\nProgramme culturel pour les enfants dès 4 ans organisé par le comité Les Farfadets.\nLes spectacles ont lieu à 16h30 au Totem.\nPrix : 10fr à payer sur place, collation offerte à la fin.\nRéservation conseillée au 079 751 37 33\nLes enfants doivent être accompagnés d'un adulte responsable.\n"
+  images: "&796-1.jpg&"
+  videos: "079/751 37 33"
+  spectacleadministrator: 149
+  status: 4
+  categorie: 2
+  website: "http://farfadets.ch/Infos_pratiques.html"
+  parent: 0
+-
+  id: 798
+  name: "Messe"
+  place: 177
+  compagnie: "Kirchenchor Saas-Fee"
+  publie: 0
+  presentationCahier: "Der Kirchenchor von Saas-Fee singt in der Kirche von Saas-Fee.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 800
+  name: "Messe de la Fête Dieu"
+  place: 179
+  compagnie: "Fanfare l'Avenir de Grimisuat-Champlan"
+  publie: 0
+  presentationCahier: "L’Avenir est une société de musique composée d’une trentaine membres. Elle anime la vie villageoise et participe à des manifestations régionales tandis que son école de musique se charge d'assurer la relève.<br />\r\nSur le coup des 5 heures, l'avenir joue la Diane, puis, dès 10h, elle anime la messe, qui sera suivie d'une procession dans tout le village."
+  images: "&800-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 801
+  name: "Messe de Pâques"
+  place: 180
+  compagnie: "Choeur mixte Champsec"
+  publie: 0
+  presentationCahier: "Le choeur mixte de Champsec anime la messe de Pâques"
+  images: ""
+  videos: ""
+  spectacleadministrator: 150
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 802
+  name: "Animations liturgiques"
+  place: 180
+  compagnie: "Choeur mixte de Champsec de Sion"
+  publie: 0
+  presentationCahier: "Le Choeur mixte de Champsec anime la messe."
+  images: ""
+  videos: ""
+  spectacleadministrator: 150
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 803
+  name: "Fête paroissiale"
+  place: 181
+  compagnie: "Choeur mixte de Champsec de Sion"
+  publie: 0
+  presentationCahier: "Le Choeur mixte de Champsec chante à l 'occasion de la Fête paroissiale.\n\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 150
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 804
+  name: "40 ans du Choeur Mixte la Cécilia de Fully"
+  place: 95
+  compagnie: "Choeur mixte la Cécilia de Fully"
+  publie: 0
+  presentationCahier: "Le Choeur mixte de Fully fête ses 40 ans.<br />\r\nPour l'occasion, le Choeur Saint-Nicolas d'Orsières, L'Edelweiss de Lourtier, le Choeur St-Laurent de Riddes, la Chorale de Massongex, la Chorale de Collombey-Muraz, ainsi que la Lyre d'Évionnaz ont répondu présent.<br />\r\nRéservation obligatoire pour les soupers-concerts \"Spécial chansons françaises\" de vendredi et samedi soir à la salle de gym de Charnot."
+  images: "&804-1.jpg&"
+  videos: "079 375 68 84"
+  spectacleadministrator: 137
+  status: 4
+  categorie: 1013
+  website: ""
+  parent: 0
+-
+  id: 805
+  name: "Concert"
+  place: 95
+  compagnie: "Choeur la Cécilia de Fully"
+  publie: 0
+  presentationCahier: "Dans le cadre des 40 ans du Choeur mixte la Cécilia de Fully, la Cécilia de Fully chante."
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 806
+  name: "Concert"
+  place: 95
+  compagnie: "Choeur Saint-Nicolas d'Orsières"
+  publie: 0
+  presentationCahier: "Dans le cadre des 40 ans du Choeur mixte la Cécilia de Fully, e choeur Saint-Nicolas d'Orsières chante."
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 807
+  name: "Concert"
+  place: 95
+  compagnie: "Choeur l'Edelweiss de Lourtier"
+  publie: 0
+  presentationCahier: "Dans le cadre des 40 ans du Choeur mixte la Cécilia de Fully, le choeur l'Edelweiss de Lourtier chante."
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 808
+  name: "Concert"
+  place: 95
+  compagnie: "Choeur Saint-Laurent de Riddes"
+  publie: 0
+  presentationCahier: "Dans le cadre des 40 ans du Choeur mixte la Cécilia de Fully, le choeur Saint-Laurent de Riddes chante."
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 809
+  name: "Concert"
+  place: 95
+  compagnie: "La Chorale de Massongex"
+  publie: 0
+  presentationCahier: "Dans le cadre des 40 ans du Choeur mixte la Cécilia de Fully, la Chorale de Massongex chante."
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 810
+  name: "Concert"
+  place: 95
+  compagnie: "La Chorale de Collombey-Muraz"
+  publie: 0
+  presentationCahier: "Dans le cadre des 40 ans du Choeur mixte la Cécilia de Fully, la Chorale de Muraz-Collombey chante."
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 811
+  name: "Concert"
+  place: 95
+  compagnie: "Choeur la Lyre d'Évionnaz"
+  publie: 0
+  presentationCahier: "Dans le cadre des 40 ans du Choeur mixte la Cécilia de Fully, le choeur la Lyre d'Évionnaz."
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 812
+  name: "Chants d'ensemble"
+  place: 95
+  compagnie: "Choeur la Cécilia de Fully, Choeur Saint-Nicolas d'Orsières, Choeur l'Edelweiss de Lourtier, Choeur Saint-Laurent de Riddes, Chorale de Massongex, Chorale de Muraz-Collombey, Choeur la Lyre d'Évionnaz"
+  publie: 0
+  presentationCahier: "À l'occasion des 40 ans du Choeur mixte la Cécilia de Fully, toutes les sociétés invitées chantent ensemble, accompagnées par Jean-Félix Roduit à l'accordéon."
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 804
+-
+  id: 813
+  name: "Bal"
+  place: 95
+  compagnie: "Pelco"
+  publie: 0
+  presentationCahier: "Pour clore les 40 ans du Choeur mixte la Cécilia de Fully, Pelco anime le bal !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 137
+  status: 4
+  categorie: 2
+  website: ""
+  parent: 804
+-
+  id: 814
+  name: "Concert Annuel"
+  place: 182
+  compagnie: "La Voix des Champs de Charrat, Toutankhanon de Martigny"
+  publie: 0
+  presentationCahier: "Le choeur mixte La Voix des Champs met sur pied un concert cabaret sur une idée\r\net une mise en scène de Paul-\r\nMarie Rard avec des enfants de Charrat.<br />La 2me partie sera assurée par le groupe Toutankhanon."
+  images: ""
+  videos: ""
+  spectacleadministrator: 134
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 816
+  name: "Concert annuel"
+  place: 184
+  compagnie: "Amicale des accordéonistes de Chalais"
+  publie: 0
+  presentationCahier: "Le concert annuel est un moment privilégié, aussi bien pour les musiciens qui l'ont préparé durant toute l'année que pour les spectateurs qui ne demandent qu'à être ravis.\r\n\r\nL'Amicale des accordéonistes, forte d'une vingtaine de musiciens et acteurs, vous suprendra en deuxième partie de concert par un spectacle original, alliant la musique et le théâtre, sur un thème à décourvrir sur place.\r\n\r\nSalle de gymnastique Chalai, samedi 17 mai 2014, 20 heures"
+  images: ""
+  videos: ""
+  spectacleadministrator: 152
+  status: 4
+  categorie: 2
+  website: "http://www.accordeonistesdechalais.ch/"
+  parent: 0
+-
+  id: 817
+  name: "Alors, on la pend ?"
+  place: 185
+  compagnie: "ArtYFYce"
+  publie: 0
+  presentationCahier: "Un souper-spectacle à déguster sans retenue.\r\n\r\nAvec ArtYFYce, vous serez les acteurs de votre soirée !"
+  images: ""
+  videos: "+41 79 693 33 64"
+  spectacleadministrator: 153
+  status: 4
+  categorie: 3
+  website: "http://www.artyfyce.ch"
+  parent: 0
+-
+  id: 818
+  name: "Bach - Dix ans de cantates"
+  place: 34
+  compagnie: "Fondation Musique sacrée & Maîtrise de la Cathédrale de Sion"
+  publie: 0
+  presentationCahier: "Fondé en juin 2004, l'Ensemble Vocal et Instrumental de la Maîtrise poursuite depuis lors, chaque troisième dimanche du mois, son intégrale des cantates de Bach. Il vous propose un florilège des meilleurs moments de la centaine de cantates qu'il a déjà interprétées."
+  images: ""
+  videos: ""
+  spectacleadministrator: 157
+  status: 4
+  categorie: 2
+  website: "http://www.maitrise-cathedrale.ch"
+  parent: 0
+-
+  id: 819
+  name: "Concert annuel"
+  place: 191
+  compagnie: "Choeur d'homme Ste-Cécile"
+  publie: 0
+  presentationCahier: "La première partie du concert est chantée par le Choeur d'hommes du Val-d'Illiez.<br />\r\nLa seconde partie accueille les amis du cuivre du Chablais.<br />\r\nEt dès 22h30, l'orchestre Esperanza anime le bal !\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 159
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 820
+  name: "Concert Annuel"
+  place: 192
+  compagnie: "Écho des Bois de Crans-Montana"
+  publie: 0
+  presentationCahier: "Traditionnel concert annuel avec des pièces modernes et classiques"
+  images: ""
+  videos: ""
+  spectacleadministrator: 160
+  status: 4
+  categorie: 4
+  website: "http://www.echodesbois.ch"
+  parent: 0
+-
+  id: 821
+  name: "Animations liturgiques"
+  place: 143
+  compagnie: "Caecilia de Vissoie"
+  publie: 0
+  presentationCahier: "Le Choeur mixte la Caecilia de Vissoie anime les messes à Vissoie."
+  images: "&821-1.jpg&"
+  videos: ""
+  spectacleadministrator: 161
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 822
+  name: "Konzert"
+  place: 193
+  compagnie: "Harmonie Stalden"
+  publie: 0
+  presentationCahier: "Jahreskonzert\r\n\r\n"
+  images: "&822-1.jpg&"
+  videos: 0796463013
+  spectacleadministrator: 155
+  status: 4
+  categorie: 2
+  website: "http://www.harmonie-stalden.ch"
+  parent: 0
+-
+  id: 824
+  name: "Concert Annuel"
+  place: 186
+  compagnie: "Choeur mixte la Lyre d'Évionnaz"
+  publie: 0
+  presentationCahier: "Le Choeur mixte la Lyre d'Évionnaz présente son concert annuel !"
+  images: ""
+  videos: ""
+  spectacleadministrator: 154
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 826
+  name: "Concert annuel"
+  place: 195
+  compagnie: "LA MI 2 Choeur de Conthey"
+  publie: 0
+  presentationCahier: "Concert annuel du Choeur d'enfants et adolescents  \"La Mi 2 choeurs\"."
+  images: ""
+  videos: ""
+  spectacleadministrator: 162
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 827
+  name: "3èmes Rencontres Théâtrales"
+  place: 196
+  compagnie: "Rencontres Théâtrales de Miège"
+  publie: 0
+  presentationCahier: "La troisième édition des \"Rencontres Théâtrales\" s'inscrit dans le calendrier des passionnés de théâtre comme un lieu incontournable de partage entre spectateurs et acteurs, tous deux, amateurs de cet art. "
+  images: "&827-1.jpg&"
+  videos: "027/452.30.20"
+  spectacleadministrator: 163
+  status: 4
+  categorie: 1013
+  website: "http://www.rencontres-theatrales-miege.ch/"
+  parent: 0
+-
+  id: 828
+  name: "À qui ma femme ?"
+  place: 196
+  compagnie: "Groupe théâtral de Salins"
+  publie: 0
+  presentationCahier: "Marcassol est marié à Clarisse. Ce qui l'a poussé à l'épouser c'était son caractère sauvage et indomptable. Elle lui a toujours dit qu'elle l'épousait faute de mieux, que lorsqu'elle trouverait l'homme idéal, elle divorcerait.<br>Depuis, de l'eau a coulé sous les ponts. Clarisse est heureuse en ménage. Et ce pour le plus grand désespoir de Marcassol. Du coup, il va trouver réconfort dans les bras de la  comtesse Kaskoff. <br>\r\nMarcassol va chercher par tous les moyens, à dégotter un autre mari pour sa femme."
+  images: ""
+  videos: "027/452.30.20"
+  spectacleadministrator: 163
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 827
+-
+  id: 829
+  name: "Sale attente"
+  place: 196
+  compagnie: "Cercle Théâtrale de Chippis"
+  publie: 0
+  presentationCahier: "Cette pièce décrit une situation que nous avons tous connue un jour ou l’autre - patienter dans la salle d’attente d’un dentiste alors que l’on est pressé et que l’angoisse du fauteuil nous gagne. Une patiente qui n’a pas de rendez-vous est prête à tout pour bénéficier d’une annulation et passer entre les mains expertes du docteur. Stratégies, roueries et mythomanie seront ses armes et engendreront un concours de situations rebondissantes et hilarantes pour votre plaisir ! "
+  images: "&829-1.jpg&"
+  videos: "027/452.30.20"
+  spectacleadministrator: 163
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 827
+-
+  id: 830
+  name: "Les Colles"
+  place: 196
+  compagnie: "Classe 4H et 5H de l'École de Miège"
+  publie: 0
+  presentationCahier: "Les classes de 4 H et 5 H de Madame Carole Rion à Miège se sont réunies pour un spectacle créé de A à Z par les enfants eux-mêmes: Les Colles. En passant par la création des décors, l'élaboration d'histoires inspirées par Ionesco, Molière, Pagnol ainsi que leur propre imaginaire, le choix des costumes et l'ambiance sonore, les vingt enfants qui évoluent sur scène nous entraînent dans le vaste monde de l'école.\r\n"
+  images: ""
+  videos: "027 452 30 20"
+  spectacleadministrator: 163
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 827
+-
+  id: 831
+  name: "Il était nu ! Madame la Commissaire"
+  place: 196
+  compagnie: "Les Compagnons de la Navizence d'Anniviers"
+  publie: 0
+  presentationCahier: "Le commissaire se faisant opérer d’urgence, confie la “maison” à l’une de ses deux inspectrices, COLOMBA. \r\nSa collègue ISABELLE, pas contente du tout, va être confrontée à un grave problème… Le matin même, suite à un enterrement de vie de garçon bien arrosé, elle met à la porte de son appartement, son petit ami MAURICE dans son plus simple appareil.\r\nCelui-ci va très vite être arrêté par « l’équipe » de COLOMBA, deux policiers pas très malins surnommés « les duponts »…"
+  images: "&831-1.jpg&"
+  videos: "027/452.30.20"
+  spectacleadministrator: 163
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 827
+-
+  id: 832
+  name: "www.bouse.ch"
+  place: 196
+  compagnie: "Les Baladingues"
+  publie: 0
+  presentationCahier: "Une ferme de montagne un peu assoupie est soudain contrainte d’entrer de plein pied dans le monde des nouvelles technologies sous peine de voir s’envoler toutes les subventions qui assurent sa survie\r\nLa famille Charron verra toutes ses petites habitudes totalement chamboulées par le défilé d’experts, consultants et autres éthologues qui s’abattront sur son exploitation."
+  images: "&832-1.jpg&"
+  videos: "027/452.30.20"
+  spectacleadministrator: 163
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 827
+-
+  id: 833
+  name: "En voiture SVP"
+  place: 31
+  compagnie: "École de danse Dominique Cherix Bader"
+  publie: 0
+  presentationCahier: "Grand spectacle de fin d'année, de l'école de danse au Baladin à Savièse. Plus de 200 danseurs sur scènes... Décors... Costumes... Venez Rêver..."
+  images: "&833-1.jpg&"
+  videos: "079 285 72 32"
+  spectacleadministrator: 165
+  status: 4
+  categorie: 6
+  website: "http://www.dominiquecherixbader.com"
+  parent: 0
+-
+  id: 835
+  name: "De \" LA DANSE à LA VIE \""
+  place: 170
+  compagnie: "La Permadanse"
+  publie: 0
+  presentationCahier: " La Permadanse (danse classique, modern jazz, claquettes) propose une escapade qui nous emmènera de «  LA DANSE À LA VIE  »\nLe mercredi 28 mai à 20h. à l’Aula du Collège des Creusets.\n"
+  images: "&835-1.jpg&"
+  videos: "027 323 34 48"
+  spectacleadministrator: 164
+  status: 4
+  categorie: 6
+  website: ""
+  parent: 0
+-
+  id: 836
+  name: "49ème Amicale des Fanfares du Val d'Hérens"
+  place: 198
+  compagnie: "Fanfare l'Écho des Glaciers de Vex, sociétés villageoises"
+  publie: 0
+  presentationCahier: "Dès 12h00 : fête au village\nDès 16h30 : amicale des fanfares du Val d'Hérens avec l'Echo des Glaciers de Vex, l'Écho du Mont-Noble de Nax, la Perce-Neige d'Hérens, l'Écho de la Dent-Blanche des Haudères et la Dixence d'Hérémence.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 166
+  status: 4
+  categorie: 1013
+  website: ""
+  parent: 0
+-
+  id: 837
+  name: "100ème Anniversaire de la Fanfare l'Écho des Glaciers de Vex et inauguration de la nouvelle bannière"
+  place: 198
+  compagnie: "Fanfare l'Écho des Glaciers de Vex"
+  publie: 0
+  presentationCahier: "En 2014, l'Echo des Glaciers fête son 100ème anniversaire et l'inauguration de sa nouvelle bannière. Elle célèbre son anniversaire avec TOUTES les sociétés de la FFDCC, soit 20 sociétés.\r\n"
+  images: "&837-1.jpg&"
+  videos: ""
+  spectacleadministrator: 166
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 839
+  name: "Célimène et le Cardinal"
+  place: 199
+  compagnie: "Théâtre des Collines"
+  publie: 0
+  presentationCahier: "Pièce de Jacques Rampal. Suite \"imaginée\" du Misanthrope où Alceste (entré dans les ordres pour fuir le monde et devenir Cardinal) se souvient, vingt ans après, de Célimène (mariée et mère de famille depuis) à qui il décide de rendre visite. Il prétexte un rêve lui ayant fait voir Célimène en danger de mort. Leurs retrouvailles donnent lieu à des échanges de propos tantôt frivoles, tendres, cocasses et émouvants.\r\n"
+  images: "&839-1.jpg&"
+  videos: "078 964 59 97"
+  spectacleadministrator: 167
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 840
+  name: "La Revue du Valais \"Comme en 14\""
+  place: 200
+  compagnie: "Troupe de la Revue du Casino de Saxon, École de danse Dominique Cherix-Bader"
+  publie: 0
+  presentationCahier: "L'événement à ne pas manquer, qui devient incontournable en Valais! 2ème du nom, La Revue retrace les moments forts de l'année valaisanne 2013, à la sauce Alexis Giroud. Rires garantis.<br>MARS-AVRIL-MAI 2014!<br>LA REVUE DU VALAIS \"Comme en 14\"\r\nDeuxième du nom, cette revue retrace les exploits, les tracas, les hauts faits, les soucis et les petits travers d'un canton toujours fertile en péripéties de toutes sortes.<br>Les sujets foisonnent, tant est riche et variée la vie politique, artistique et culture du Valais"
+  images: "&840-1.jpg&"
+  videos: "+41 27 743 2000"
+  spectacleadministrator: 164
+  status: 4
+  categorie: 1006
+  website: "http://www.casinodesaxon.ch/?page=3304"
+  parent: 0
+-
+  id: 841
+  name: "Outburst Festival"
+  place: 201
+  compagnie: "\"Crazy night\", local des jeunes "
+  publie: 0
+  presentationCahier: "Le \"Outburst\" est un festival de musiques actuelles organisé par l'association des jeunes d'Ayent qui désire mettre en avant des jeunes talents. Trois groupes de jeunes de la région se succèderont ainsi sur scène:\r\nLes patates (reggae)\r\nSail (rock alternatif)\r\nRandom (rock/metal)\r\n\r\nLa soirée continuera avec le groupe de reprises \"rock\" confirmé Psychose.\r\n\r\nEn fin de soirée, place aux  jeunes DJs .\r\nAvec:\r\nDSG 21 (électro)\r\nHEARTBEAZ (électro)\r\n\r\n"
+  images: "&841-1.jpg&"
+  videos: ""
+  spectacleadministrator: 168
+  status: 4
+  categorie: 2
+  website: "https://www.facebook.com/outburstfestival"
+  parent: 0
+-
+  id: 843
+  name: "Messe de Pâques"
+  place: 204
+  compagnie: "Fanfare la Concordia de Bagnes"
+  publie: 0
+  presentationCahier: "La Concordia de Bagnes regroupe plus de 40 musiciens."
+  images: "&843-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: "http://www.concordia-bagnes.ch"
+  parent: 0
+-
+  id: 846
+  name: "Concert des 5 ans du Choeur des Jeunes de Nendaz"
+  place: 155
+  compagnie: "Choeur des Jeunes de Nendaz"
+  publie: 0
+  presentationCahier: "Le Choeur des Jeunes fête ses 5 ans et vous présente son nouveau spectacle."
+  images: ""
+  videos: ""
+  spectacleadministrator: 138
+  status: 4
+  categorie: 2
+  website: ""
+  parent: 0
+-
+  id: 847
+  name: "Country Line Dance"
+  place: 202
+  compagnie: "Rodeo Line Dancers"
+  publie: 0
+  presentationCahier: "Flash Mob<br />Démonstrations<br />Initiation à la Line Dance<br />Danse\r\n\r\n"
+  images: "&847-1.jpg&"
+  videos: ""
+  spectacleadministrator: 169
+  status: 4
+  categorie: 6
+  website: "http://www.rodeoline.ch/"
+  parent: 0
+-
+  id: 848
+  name: "Amicale DC des Dranses"
+  place: 207
+  compagnie: "Union Instrumentale"
+  publie: 0
+  presentationCahier: "La fête se déroulera sur deux jours. Le samedi soir, après un cortège dans les rues du village, un spectacle sous cantine animé par Léo et les Enfoirés de Bovernier précédera le bal animé par Magic Men. \n\nLe dimanche 1er\njuin, les sociétés de l’Amicale des fanfares DC des Dranses rallieront Liddes pour la partie officielle, l’interprétation du morceau d’ensemble et, bien entendu, le traditionnel cortège agrémenté de nombreux chars !"
+  images: "&848-1.jpg&"
+  videos: ""
+  spectacleadministrator: 172
+  status: 4
+  categorie: 2
+  website: ""
+  parent: 0
+-
+  id: 849
+  name: "Concert \" Requiem de Dvoràk \""
+  place: 208
+  compagnie: "Choeur Pro Arte de Sion, Konzertgesellschaft Brig"
+  publie: 0
+  presentationCahier: "Ces deux concerts seront placés sous la direction de Norbert Carlen (prix culturel de I'état du Valais 2012).<br />\nL'orchestre du KOGEO est dirigé par Paul Locher.<br />Solistes:<br />Soprano :Olga Valmond<br />Alto: Eve-Maude Hubeaux<br />Tenor: Michael Nowak<br />Basse: Robert Koller"
+  images: "&849-1.jpg&"
+  videos: ""
+  spectacleadministrator: 139
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 850
+  name: "Concert \" Requiem de Dvoràk \""
+  place: 209
+  compagnie: "Choeur Pro Arte de Sion, Konzertgesellschaft Brig"
+  publie: 0
+  presentationCahier: "Ces deux concerts seront placés sous la direction de Norbert Carlen (prix culturel de I'état du Valais 2012).<br />\nL'orchestre du KOGEO est dirigé par Paul Locher.<br />Solistes:<br />Soprano :Olga Valmond<br />Alto: Eve-Maude Hubeaux<br />Tenor: Michael Nowak<br />Basse: Robert Koller"
+  images: "&850-1.jpg&"
+  videos: ""
+  spectacleadministrator: 139
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 851
+  name: "Concert annuel"
+  place: 210
+  compagnie: "Liberté de Salins"
+  publie: 0
+  presentationCahier: "La fanfare La Liberté, placée sous la direction de M. Yvan Lagger, a le plaisir de vous convier à son concert annuel.<br /><br />Elle espère vivement que son programme coloré et varié vous permettra de passer une agréable soirée en sa compagnie.\r\n\r\n"
+  images: "&851-1.jpg&"
+  videos: ""
+  spectacleadministrator: 173
+  status: 4
+  categorie: 4
+  website: "http://www.libertedesalins.ch"
+  parent: 0
+-
+  id: 852
+  name: "Café Littéraire"
+  place: 213
+  compagnie: "Anne Nivat"
+  publie: 0
+  presentationCahier: "Café littéraire avec la reporter de guerre Anne Nivat, animé par Geneviève Erard."
+  images: ""
+  videos: ""
+  spectacleadministrator: 175
+  status: 4
+  categorie: 1005
+  website: ""
+  parent: 0
+-
+  id: 853
+  name: "La Marmite de Plaute"
+  place: 55
+  compagnie: "Troupe du Collège de St-Maurice"
+  publie: 0
+  presentationCahier: "La troupe du collège de Saint-Maurice joue la Marmite, de Plaute, monté par Bastien Fournier, professeur et metteur en scène."
+  images: ""
+  videos: ""
+  spectacleadministrator: 175
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 854
+  name: "Messe en Famille"
+  place: 215
+  compagnie: "Le choeur d'Enfants Les PinSaillons"
+  publie: 0
+  presentationCahier: "Le choeur d'enfants Les PinSaillons anime la Messe dominicale.\r\nDirection : Mireille Stragiotti"
+  images: ""
+  videos: ""
+  spectacleadministrator: 178
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 855
+  name: "Concert annuel"
+  place: 216
+  compagnie: "Le choeur d'Enfants Les PinSaillons"
+  publie: 0
+  presentationCahier: "Le choeur d'Enfans Les PinSaillons présente son traditionnel concert annuel en collaboration avec le choeur La Laurentia.\nDirection Mireille Stragiotti et Inès Produit."
+  images: ""
+  videos: ""
+  spectacleadministrator: 178
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 856
+  name: "Messe du Secteur des Deux-Rives"
+  place: 217
+  compagnie: "Le choeur d'Enfants Les PinSaillons"
+  publie: 0
+  presentationCahier: "Animation de la Messe dominicale par le choeur d'Enfants Les PinSaillons, le choeur des Jeunes de Leytron-Saillon-Riddes et le choeur La Laurentia.\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 178
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 857
+  name: "Pic et pique et colle et rame"
+  place: 214
+  compagnie: "Troupe théâtrale Toc'Art de Lens-Icogne"
+  publie: 0
+  presentationCahier: "Alain est plasticien avec Olivier, son ami cardiologue, sa jolie maîtresse, Charlene et Monique, la dynamique épouse d’Olivier, ils partent faire une randonnée en montagne. Lors d’une halte, ils rencontrent 4 autres personnages hauts en couleurs.<br />Entre ce maniaque de la liposuccion, une « madame propre », un couple de jeunes mariés et un ancien militaire, cette aire de repos n’aura sans doute jamais aussi mal porté son nom…"
+  images: ""
+  videos: ""
+  spectacleadministrator: 177
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 858
+  name: "Animations liturgiques"
+  place: 181
+  compagnie: "Choeur la Schola de Sion"
+  publie: 0
+  presentationCahier: "Fondée en 1930, la Schola de Notre-Dame de Valère forme près de 150 chanteuses et chanteurs répartis en différents chœurs : le Chœur des Petits Nouveaux et le Chœur des Petites Nouvelles (6 à 9 ans), le Petit Chœur de filles (9 à 11 ans), le Grand Chœur de filles (dès 12 ans), les Petits Chanteurs (dès 9 ans) et le Chœur d’hommes (dès la mue)."
+  images: ""
+  videos: ""
+  spectacleadministrator: 179
+  status: 4
+  categorie: 5
+  website: "http://www.schola-sion.ch/"
+  parent: 0
+-
+  id: 859
+  name: "Animations liturgiques"
+  place: 180
+  compagnie: "Choeur la Schola de Sion"
+  publie: 0
+  presentationCahier: "Fondée en 1930, la Schola de Notre-Dame de Valère forme près de 150 chanteuses et chanteurs répartis en différents chœurs : le Chœur des Petits Nouveaux et le Chœur des Petites Nouvelles (6 à 9 ans), le Petit Chœur de filles (9 à 11 ans), le Grand Chœur de filles (dès 12 ans), les Petits Chanteurs (dès 9 ans) et le Chœur d’hommes (dès la mue)."
+  images: ""
+  videos: ""
+  spectacleadministrator: 179
+  status: 4
+  categorie: 5
+  website: "http://www.schola-sion.ch/"
+  parent: 0
+-
+  id: 860
+  name: "Animations liturgiques"
+  place: 34
+  compagnie: "Choeur la Schola de Sion"
+  publie: 0
+  presentationCahier: "Fondée en 1930, la Schola de Notre-Dame de Valère forme près de 150 chanteuses et chanteurs répartis en différents chœurs : le Chœur des Petits Nouveaux et le Chœur des Petites Nouvelles (6 à 9 ans), le Petit Chœur de filles (9 à 11 ans), le Grand Chœur de filles (dès 12 ans), les Petits Chanteurs (dès 9 ans) et le Chœur d’hommes (dès la mue)."
+  images: ""
+  videos: ""
+  spectacleadministrator: 179
+  status: 4
+  categorie: 5
+  website: "http://www.schola-sion.ch/"
+  parent: 0
+-
+  id: 861
+  name: "Animations liturgiques"
+  place: 218
+  compagnie: "Choeur la Schola de Sion"
+  publie: 0
+  presentationCahier: "Fondée en 1930, la Schola de Notre-Dame de Valère forme près de 150 chanteuses et chanteurs répartis en différents chœurs : le Chœur des Petits Nouveaux et le Chœur des Petites Nouvelles (6 à 9 ans), le Petit Chœur de filles (9 à 11 ans), le Grand Chœur de filles (dès 12 ans), les Petits Chanteurs (dès 9 ans) et le Chœur d’hommes (dès la mue)."
+  images: ""
+  videos: ""
+  spectacleadministrator: 179
+  status: 4
+  categorie: 5
+  website: "http://www.schola-sion.ch/"
+  parent: 0
+-
+  id: 862
+  name: "Magic Dance"
+  place: 55
+  compagnie: "Monthey Dance Center"
+  publie: 0
+  presentationCahier: "Le \"Monthey Dance Center\" a le plaisir de vous présenter son 6ème spectacle d'école les 7&8 juin 2014 au Théâtre du Martolet de St-Maurice."
+  images: ""
+  videos: "024/471.07.71"
+  spectacleadministrator: 181
+  status: 4
+  categorie: 6
+  website: "www.mdc-dance.ch"
+  parent: 0
+-
+  id: 863
+  name: "La Gare"
+  place: 51
+  compagnie: "Sion Dance Center"
+  publie: 0
+  presentationCahier: "Moderne Danse, Eveil Danse, Danse Classique, Hip Hop, Break Dance, Girly, Ragga Dance Hall, House Dance, Flamenco, Salsa, Danse Orientale et Bollywood.\r\nZumba, Zumba Sentao, Zumbatomic (kids) et Bokwa\r\nAéro Zen Yoga, Aérobic Danse, Balet Worshop, Body Combat, Gym Douce, Pilates, Renforcement Assouplissement.<br />Un grand spectacle de danse se produira  le 13, 14 et 15 juin 2014 avec tous nos élèves pour clôturer l'année."
+  images: ""
+  videos: "+41 79 220 43 33"
+  spectacleadministrator: 180
+  status: 4
+  categorie: 6
+  website: "http://www.siondancecenter.ch"
+  parent: 0
+-
+  id: 864
+  name: "Concert Annuel"
+  place: 222
+  compagnie: "Fanfare Écho des Alpes de Vissoie Anniviers"
+  publie: 0
+  presentationCahier: "L’Echo des Alpes compte actuellement une cinquantaine de musiciennes et musiciens. Menée d’une main jeune et ferme par son directeur M. Fabien Crettaz et présidée remarquablement par M. Jean-Marc Savioz, la fanfare se produit à de multiples occasions (fêtes religieuses et culturelles traditionnelles, concerts annuels, manifestations touristiques anniviardes, festivals, fêtes cantonales de musique, etc.)."
+  images: "&864-1.jpg&"
+  videos: ""
+  spectacleadministrator: 160
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 865
+  name: "Fête Dieu"
+  place: 143
+  compagnie: "Fanfare l'Écho des Alpes de Vissoie Anniviers"
+  publie: 0
+  presentationCahier: "L’Echo des Alpes compte actuellement une cinquantaine de musiciennes et musiciens. Menée d’une main jeune et ferme par son directeur M. Fabien Crettaz et présidée remarquablement par M. Jean-Marc Savioz, la fanfare se produit à de multiples occasions (fêtes religieuses et culturelles traditionnelles, concerts annuels, manifestations touristiques anniviardes, festivals, fêtes cantonales de musique, etc.).l"
+  images: ""
+  videos: ""
+  spectacleadministrator: 160
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 0
+-
+  id: 866
+  name: "Musée con atemporel"
+  place: 223
+  compagnie: "13 étudiant-e-s de l'École de commerce et de culture générale de Sierre"
+  publie: 0
+  presentationCahier: "Librement adapté de différentes saynètes de Jean-Michel Ribes.<br />Au travers d'une série de scènes cocasses et absurdes, drôle et décalées, la révélation inattendue d'un musée ludique qui est le reflet de notre condition.<br />L'espace du musée devient, contre toute attente, un lieu de confrontation où la communication, l'amitié et le couple prennent un tout autre sens.<br/>La pièce nous révèle que le meilleur moyen de savoir qui on est, c'est de se promener dans un musée. Car on y croise toute sorte de gens."
+  images: ""
+  videos: ""
+  spectacleadministrator: 182
+  status: 4
+  categorie: 3
+  website: ""
+  parent: 0
+-
+  id: 867
+  name: "Dekanatfest Leuk"
+  place: 225
+  compagnie: "Cäcilientagung"
+  publie: 0
+  presentationCahier: "Das Dekanatsfest beginnt am 6. April 2014 um 10.00 Uhr mit Gottesdiensten in:<br />Agarn, mit den Chören Albinen, Erschmatt und Agarn<br />\r\nSusten, mit den Chören Salgesch, Sitten und Susten<br />Leukerbad, mit den Chören Niedergampel, Gampel und Leukerbad<br />Guttet, mit den Chören Leuk, Turtmann und Guttet<br />Varen, mit den Chören Oberems, Siders und Varen<br />\r\nDie Bevölkerung ist herzlich zur Teilnahme an den diversen Messfeiern eingeladen. Nach dem Gottesdienst Apero."
+  images: ""
+  videos: ""
+  spectacleadministrator: 183
+  status: 4
+  categorie: 1013
+  website: ""
+  parent: 0
+-
+  id: 869
+  name: "Dekanatfest"
+  place: 225
+  compagnie: "Chor Niedergampel, Chor Gampel, Chor Leukerbad"
+  publie: 0
+  presentationCahier: "Anlässlich dem Dekanatfest von Leuk nimmt die verschiedene Chören von Dekanat an Gottesdienst in ganzen Dekanat teil !\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 183
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 867
+-
+  id: 870
+  name: "Dekanatfest"
+  place: 226
+  compagnie: "Chor Salgesch, Chor Sitten, Chor Susten"
+  publie: 0
+  presentationCahier: "Anlässlich dem Dekanatfest von Leuk nimmt die verschiedene Chören von Dekanat an Gottesdienst in ganzen Dekanat teil !\r\n\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 183
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 867
+-
+  id: 871
+  name: "Dekanatfest"
+  place: 227
+  compagnie: "Chor Leuk, Chor Turtmann, Chor Guttet"
+  publie: 0
+  presentationCahier: "Anlässlich dem Dekanatfest von Leuk nimmt die verschiedene Chören von Dekanat an Gottesdienst in ganzen Dekanat teil !\r\n\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 183
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 867
+-
+  id: 872
+  name: "Dekanatfest"
+  place: 228
+  compagnie: "Chor Oberems, Chor Siders, Chor Varen"
+  publie: 0
+  presentationCahier: "Anlässlich dem Dekanatfest von Leuk nimmt die verschiedene Chören von Dekanat an Gottesdienst in ganzen Dekanat teil !\r\n\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 183
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 867
+-
+  id: 873
+  name: "Messe de la Fête Dieu"
+  place: 229
+  compagnie: "Choeur -mixte La Cécilia de Savièse"
+  publie: 0
+  presentationCahier: "La Cécilia de Savièse a été créée en 1892, et compte 55 choristes."
+  images: ""
+  videos: ""
+  spectacleadministrator: 185
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 874
+  name: "Messe de Pâques"
+  place: 229
+  compagnie: "Choeur mixte la Cécilia de Savièse"
+  publie: 0
+  presentationCahier: "La Cécilia de Savièse a été créée en 1892, et compte 55 choristes."
+  images: ""
+  videos: ""
+  spectacleadministrator: 185
+  status: 4
+  categorie: 5
+  website: ""
+  parent: 0
+-
+  id: 875
+  name: "Amicale DC du District de Martigny"
+  place: 187
+  compagnie: "Union Instrumentale de Leytron"
+  publie: 0
+  presentationCahier: "Les vendredi 25 et samedi 26 avril 2014, L'Union Instrumentale de Leytron organise la 35e Amicale des Fanfares DC du District de Martigny. A cette occasion, L'Union Instrumentale procèdera à l'inauguration de sa bannière. Vous êtes cordialement invités à participer à la fête villageoise du vendredi et la fête des fanfares du samedi.\r\n "
+  images: "&875-1.jpg&"
+  videos: ""
+  spectacleadministrator: 156
+  status: 4
+  categorie: 1013
+  website: ""
+  parent: 0
+-
+  id: 877
+  name: "L'Oubli des Anges"
+  place: 15
+  compagnie: "Compagnie INTERFACE"
+  publie: 0
+  presentationCahier: "Après avoir rencontré un franc succès au Festival d'Avignon Off 2013...<br />Après avoir émerveillé PARIS d'octobre à décembre 2013...<br />Après \"SUCCÈS! REPRISE\" de mars à avril 2014 à PARIS...<br />Après une tournée en CORÉE DU SUD...<br />À l'occasion du Valais Festival, L'OUBLI DES ANGES est de retour en Valais, au Théâtre INTERFACE !"
+  images: "&877-1.jpg&"
+  videos: "027 203 55 50"
+  spectacleadministrator: 1
+  status: 4
+  categorie: 6
+  website: "http://www.theatreinterface.ch/"
+  parent: 0
+-
+  id: 878
+  name: "Matador"
+  place: 15
+  compagnie: "Hugo"
+  publie: 0
+  presentationCahier: "Hugo. Chanson française underground et mouvante. Chanson libre. Dans l'arène, des histoires comme des instantanés, courts métrages depuis le compartiment rêveur d'un train de nuit.<br />Matador. Nouveau projet, nouvelle trajectoire redéfinie dans une formation composée de poly-instrumentistes talentueux.<br />Matador. Nouveau virage inattendu et surprenant, nouvelle signature de l'un des projets musicaux qui s'affirme définitivement comme l'un des plus originaux et intègres de Romandie."
+  images: "&878-1.jpg&"
+  videos: "027 203 55 50"
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1000
+  website: "http://www.theatreinterface.ch/programme/2013%3A2014/hugo_matador.html"
+  parent: 0
+-
+  id: 879
+  name: "34ème Amicale des fanfares des districts de Conthey - Sion - Sierre"
+  place: 233
+  compagnie: "Fanfare l'Avenir de Chamoson"
+  publie: 0
+  presentationCahier: "L'Harmonie la Villageoise de Chamoson organise la 34e Amicale des Fanfares des districts de Conthey - Sion - Sierre :<br />30 mai Caves ouvertes l'après-midi et soirée villageoise le soir <br />31 mai Concert annuel et concert de Bratsch, suivie d'un DJ !<br />\r\n01 juin Amicale des fanfares<br />Nous vous attendons nombreux.\r\n"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1013
+  website: ""
+  parent: 0
+-
+  id: 880
+  name: "Brut de Bratsch"
+  place: 233
+  compagnie: "Bratsch"
+  publie: 0
+  presentationCahier: "Bonnes et honnêtes gens de bien, planquez vos poules, cachez vos enfants, Bratsch vient !<br />2013: Il fallait faire quelque chose ! Le groupe avait passé plusieurs caps : plus de 40 ans d'existence, plus de 2000 concerts, plus de 30 pays visités...<br />\r\nTous ces souvenirs, toutes ces rêveries sur les routes, toutes ces heures sur scène... Nous nous somme dit qu'il était temps de faire une ANTHOLOGIE !\r\n"
+  images: "&880-1.jpg&"
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1000
+  website: ""
+  parent: 879
+-
+  id: 881
+  name: "Concert Annuel : Le Tour du monde dans un fauteuil"
+  place: 233
+  compagnie: "Harmonie Villageoise de Chamoson"
+  publie: 0
+  presentationCahier: "L'Harmonie la Villageoise de Chamoson présente son concert annuel à l'occasion de la 34ème Amicale.<br />Soliste invité : Jean Duperrex, poly-instrumentiste et compositeur suisse"
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 879
+-
+  id: 882
+  name: "Amicale des fanfares"
+  place: 233
+  compagnie: "Fanfare de Chamoson, Ardon, Vétroz, Conthey, Nendaz, Salins"
+  publie: 0
+  presentationCahier: "Dimanche traditionnel de l'amicale des fanfares. Avec prestations des différentes sociétés invitées."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 4
+  website: ""
+  parent: 879
+-
+  id: 883
+  name: "Fête de la Musique d'Orsières"
+  place: 234
+  compagnie: "Comité d'organisation de la Fête de la Musique d'Orsières"
+  publie: 0
+  presentationCahier: "La Fête de la musique revient à Orsières les 20 et 21 juin prochains. Réservez les dates, invitez vos amis. On se retrouve très bientôt pour vous montrer ce qu'on a préparé durant nos deux ans de silence..."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1013
+  website: "http://www.fetedelamusiqueorsieres.ch"
+  parent: 0
+-
+  id: 884
+  name: "Marie et le peintre"
+  place: 31
+  compagnie: "Sociétés des Costumes et du Patois de Savièse, Chanson de la Montagne de Nendaz"
+  publie: 0
+  presentationCahier: "De Savièse à Nendaz, suivez les aventures d'un jeune artiste peintre genevois trop amoureux de son modèle, la belle Marie."
+  images: ""
+  videos: ""
+  spectacleadministrator: 1
+  status: 4
+  categorie: 1014
+  website: ""
+  parent: 0
+-
+  id: 885
+  name: "Giron des Fanfares de la Vallée d'Illiez"
+  place: 237
+  compagnie: "Fanfare Echo de la Vallée"
+  publie: 0
+  presentationCahier: "42e Giron des Fanfares de la Vallée d'Illiez organisée par la fanfare de  Val-d'Illiez \"Echo de la Vallée\".\r\nProgramme :\r\nSamedi dès 17h30 :\r\nConcert avec la fanfare des jeunes, Revue de la vallée, Fanfare de Waldkirch, Spectacle humoristique avec Dr Silac, Bal avec Alpen Gmbh.\r\nDimanche dès 10h30 :\r\nPartie officielle et morceaux d'ensemble, Cortège avec les fanfares et sociétés locales, Production des sociétés et Bal.\r\nRestauration et bars."
+  images: ""
+  videos: ""
+  spectacleadministrator: 187
+  status: 1
+  categorie: 2
+  website: "www.echodelavallee.ch"
+  parent: 0
+-
+  id: 886
+  name: "Fête de la Musique"
+  place: 238
+  compagnie: "Monthey Tourisme"
+  publie: 0
+  presentationCahier: "La 4ème édition de Fête de la Musique aura lieu du 18 au 23 juin 2014 au coeur de la ville de Monthey !\r\nPlusieurs lieux de concerts, tels que des scènes, des bars, le Château, le Home des Tilleuls ou encore les Jardins de Malévoz accuiellerons près de 400 musiciens durant 4 jours.\r\nTous les styles de musique seront au rendez-vous avec du rock, pop, métal, électro, jazz, classique, fanfares et même un concert pour les enfants !\r\nEntrée libre."
+  images: ""
+  videos: "024 475 79 63"
+  spectacleadministrator: 187
+  status: 1
+  categorie: 2
+  website: "www.montheytourisme.ch"
+  parent: 0
+-
+  id: 887
+  name: "Fête de la Musique"
+  place: 238
+  compagnie: "Monthey Tourisme"
+  publie: 0
+  presentationCahier: "La 4ème édition de Fête de la Musique aura lieu du 18 au 23 juin 2014 au coeur de la ville de Monthey !\r\nPlusieurs lieux de concerts, tels que des scènes, des bars, le Château, le Home des Tilleuls ou encore les Jardins de Malévoz accuiellerons près de 400 musiciens durant 4 jours.\r\nTous les styles de musique seront au rendez-vous avec du rock, pop, métal, électro, jazz, classique, fanfares et même un concert pour les enfants !\r\nEntrée libre."
+  images: ""
+  videos: "024 475 79 63"
+  spectacleadministrator: 187
+  status: 1
+  categorie: 2
+  website: "www.montheytourisme.ch"
+  parent: 0
+-
+  id: 888
+  name: "Concert annuel"
+  place: 239
+  compagnie: "Choeur St-Michel"
+  publie: 0
+  presentationCahier: "D'Afrique du sud en Norvège en passant par la Belgique, la Russie! C'est un voyage musical original que vous propose le Choeur St-Michel de Haute-Nendaz sous le geste d'Elisabeth Gillioz avec en seconde partie le Choeur L'Edelweiss de Lourtier dirigé par Sophie Bender."
+  images: ""
+  videos: ""
+  spectacleadministrator: 188
+  status: 1
+  categorie: 5
+  website: "www.choeurstmichelnendaz.ch"
+  parent: 0
+...

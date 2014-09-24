@@ -1,0 +1,4021 @@
+%YAML 1.1
+---
+# db15162_vf.representations
+-
+  id: 70
+  idSpectacle: 44
+  debut: "2014-03-26 19:00:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 71
+  idSpectacle: 44
+  debut: "2014-03-27 19:00:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 72
+  idSpectacle: 44
+  debut: "2014-03-28 20:30:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 73
+  idSpectacle: 44
+  debut: "2014-03-29 20:30:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 74
+  idSpectacle: 44
+  debut: "2014-03-30 19:00:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 75
+  idSpectacle: 44
+  debut: "2014-04-02 19:00:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 77
+  idSpectacle: 44
+  debut: "2014-04-04 20:30:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 78
+  idSpectacle: 44
+  debut: "2014-04-05 20:30:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 80
+  idSpectacle: 44
+  debut: "2014-04-09 19:00:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 81
+  idSpectacle: 44
+  debut: "2014-04-10 19:00:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 82
+  idSpectacle: 44
+  debut: "2014-04-11 20:30:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 83
+  idSpectacle: 44
+  debut: "2014-04-12 20:30:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 84
+  idSpectacle: 44
+  debut: "2014-04-13 19:00:00"
+  fin: "2013-09-21 19:00:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 111
+  idSpectacle: 477
+  debut: "2014-04-02 19:00:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 112
+  idSpectacle: 477
+  debut: "2014-04-03 19:00:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 113
+  idSpectacle: 477
+  debut: "2014-04-04 20:30:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 114
+  idSpectacle: 477
+  debut: "2014-04-05 20:30:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 115
+  idSpectacle: 477
+  debut: "2014-04-06 19:00:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 116
+  idSpectacle: 477
+  debut: "2014-04-09 19:00:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 117
+  idSpectacle: 477
+  debut: "2014-04-10 19:00:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 118
+  idSpectacle: 477
+  debut: "2014-04-11 20:30:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 119
+  idSpectacle: 477
+  debut: "2014-04-12 20:30:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 120
+  idSpectacle: 477
+  debut: "2014-04-13 19:00:00"
+  fin: "2013-10-23 11:51:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 121
+  idSpectacle: 478
+  debut: "2014-05-23 20:00:00"
+  fin: "2013-10-28 16:37:55"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 122
+  idSpectacle: 478
+  debut: "2014-05-24 20:00:00"
+  fin: "2013-10-28 16:37:55"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 123
+  idSpectacle: 478
+  debut: "2014-05-25 17:00:00"
+  fin: "2013-10-28 16:37:55"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 124
+  idSpectacle: 479
+  debut: "2014-05-09 20:00:00"
+  fin: "2013-10-28 16:41:23"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 125
+  idSpectacle: 480
+  debut: "2014-05-17 20:00:00"
+  fin: "2013-10-28 16:46:21"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 126
+  idSpectacle: 481
+  debut: "2014-04-13 17:00:00"
+  fin: "2013-11-02 17:01:21"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 127
+  idSpectacle: 482
+  debut: "2014-04-26 19:00:00"
+  fin: "2013-11-02 17:35:36"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 128
+  idSpectacle: 483
+  debut: "2014-04-27 16:00:00"
+  fin: "2013-11-02 17:38:48"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 129
+  idSpectacle: 484
+  debut: "2014-04-12 15:30:00"
+  fin: "2013-11-08 14:58:49"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 130
+  idSpectacle: 485
+  debut: "2014-04-11 18:30:00"
+  fin: "2013-11-04 18:35:32"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 131
+  idSpectacle: 486
+  debut: "2014-05-16 21:00:00"
+  fin: "2013-11-06 14:48:58"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 132
+  idSpectacle: 487
+  debut: "2014-05-17 20:20:00"
+  fin: "2013-11-06 14:58:01"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 133
+  idSpectacle: 491
+  debut: "2014-04-11 18:30:00"
+  fin: "2013-11-08 11:44:02"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 134
+  idSpectacle: 493
+  debut: "2014-04-11 21:30:00"
+  fin: "2013-11-08 13:17:48"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 135
+  idSpectacle: 492
+  debut: "2014-04-11 19:30:00"
+  fin: "2013-11-08 13:18:41"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 136
+  idSpectacle: 494
+  debut: "2014-04-12 15:30:00"
+  fin: "2013-11-08 14:29:05"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 137
+  idSpectacle: 495
+  debut: "2014-04-12 15:30:00"
+  fin: "2013-11-08 14:32:21"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 138
+  idSpectacle: 496
+  debut: "2014-04-12 15:30:00"
+  fin: "2013-11-08 14:36:05"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 139
+  idSpectacle: 497
+  debut: "2014-04-12 15:30:00"
+  fin: "2013-11-08 14:38:01"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 140
+  idSpectacle: 498
+  debut: "2014-04-12 17:45:00"
+  fin: "2013-11-08 14:46:42"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 141
+  idSpectacle: 499
+  debut: "2014-04-12 20:30:00"
+  fin: "2013-11-08 14:49:33"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 142
+  idSpectacle: 500
+  debut: "2014-04-13 15:30:00"
+  fin: "2013-11-08 16:49:16"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 143
+  idSpectacle: 501
+  debut: "2014-05-03 20:30:00"
+  fin: "2013-11-08 17:08:53"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 144
+  idSpectacle: 502
+  debut: "2014-04-06 11:00:00"
+  fin: "2013-11-09 11:15:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 145
+  idSpectacle: 503
+  debut: "2014-04-20 10:30:00"
+  fin: "2013-11-09 11:17:17"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 146
+  idSpectacle: 504
+  debut: "2014-04-21 15:00:00"
+  fin: "2013-11-09 11:20:35"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 147
+  idSpectacle: 505
+  debut: "2014-05-18 10:30:00"
+  fin: "2013-11-09 11:22:19"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 148
+  idSpectacle: 506
+  debut: "2014-05-29 11:00:00"
+  fin: "2013-11-09 11:28:41"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 149
+  idSpectacle: 507
+  debut: "2014-06-08 10:30:00"
+  fin: "2013-11-09 11:29:50"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 150
+  idSpectacle: 508
+  debut: "2014-06-19 10:30:00"
+  fin: "2013-11-09 11:30:30"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 151
+  idSpectacle: 510
+  debut: "2014-04-03 20:00:00"
+  fin: "2013-11-13 09:25:50"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 152
+  idSpectacle: 510
+  debut: "2014-04-04 20:00:00"
+  fin: "2013-11-13 09:25:50"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 153
+  idSpectacle: 510
+  debut: "2014-04-05 20:00:00"
+  fin: "2013-11-13 09:25:50"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 154
+  idSpectacle: 510
+  debut: "2014-04-06 17:00:00"
+  fin: "2013-11-13 09:25:50"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 155
+  idSpectacle: 511
+  debut: "2014-05-03 20:00:00"
+  fin: "2013-11-13 09:29:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 156
+  idSpectacle: 511
+  debut: "2014-05-04 17:00:00"
+  fin: "2013-11-13 09:29:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 157
+  idSpectacle: 512
+  debut: "2014-06-06 19:30:00"
+  fin: "2013-11-13 10:37:51"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 158
+  idSpectacle: 513
+  debut: "2014-06-07 18:00:00"
+  fin: "2013-11-13 10:39:02"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 159
+  idSpectacle: 514
+  debut: "2014-05-01 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 160
+  idSpectacle: 514
+  debut: "2014-05-02 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 161
+  idSpectacle: 514
+  debut: "2014-05-03 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 162
+  idSpectacle: 514
+  debut: "2014-05-04 19:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 163
+  idSpectacle: 514
+  debut: "2014-05-08 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 164
+  idSpectacle: 514
+  debut: "2014-05-09 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 165
+  idSpectacle: 514
+  debut: "2014-05-10 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 166
+  idSpectacle: 514
+  debut: "2014-05-11 19:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 167
+  idSpectacle: 514
+  debut: "2014-05-15 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 168
+  idSpectacle: 514
+  debut: "2014-05-16 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 169
+  idSpectacle: 514
+  debut: "2014-05-17 20:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 170
+  idSpectacle: 514
+  debut: "2014-05-18 19:00:00"
+  fin: "2013-11-13 11:35:24"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 171
+  idSpectacle: 515
+  debut: "2014-06-07 20:00:00"
+  fin: "2013-11-13 15:27:02"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 172
+  idSpectacle: 518
+  debut: "2014-04-26 20:00:00"
+  fin: "2013-11-16 15:15:59"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 173
+  idSpectacle: 519
+  debut: "2014-05-18 17:00:00"
+  fin: "2013-11-29 12:36:55"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 174
+  idSpectacle: 520
+  debut: "2014-05-11 11:00:00"
+  fin: "2013-11-29 07:23:06"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 175
+  idSpectacle: 509
+  debut: "2014-04-26 20:15:00"
+  fin: "2013-11-16 17:21:25"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 176
+  idSpectacle: 522
+  debut: "2014-05-02 20:00:00"
+  fin: "2013-11-21 17:23:36"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 177
+  idSpectacle: 523
+  debut: "2014-05-23 18:00:00"
+  fin: "2013-11-19 10:50:00"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 178
+  idSpectacle: 523
+  debut: "2014-05-24 08:00:00"
+  fin: "2013-11-19 10:50:00"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 179
+  idSpectacle: 523
+  debut: "2014-05-25 08:00:00"
+  fin: "2013-11-19 10:50:00"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 180
+  idSpectacle: 484
+  debut: "2014-04-11 18:30:00"
+  fin: "2013-11-08 14:58:49"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 181
+  idSpectacle: 524
+  debut: "2014-05-24 19:00:00"
+  fin: "2013-11-19 11:54:44"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 193
+  idSpectacle: 528
+  debut: "2014-05-03 20:00:00"
+  fin: "2013-11-21 17:50:21"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 194
+  idSpectacle: 529
+  debut: "2014-06-19 09:00:00"
+  fin: "2013-11-21 17:52:08"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 195
+  idSpectacle: 530
+  debut: "2014-06-22 09:00:00"
+  fin: "2013-11-21 17:53:02"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 196
+  idSpectacle: 531
+  debut: "2014-04-25 20:30:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 197
+  idSpectacle: 531
+  debut: "2014-04-26 20:30:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 198
+  idSpectacle: 531
+  debut: "2014-04-27 17:00:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 199
+  idSpectacle: 531
+  debut: "2014-05-02 20:30:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 200
+  idSpectacle: 531
+  debut: "2014-05-03 20:30:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 201
+  idSpectacle: 531
+  debut: "2014-05-04 17:00:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 202
+  idSpectacle: 531
+  debut: "2014-05-09 20:30:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 203
+  idSpectacle: 531
+  debut: "2014-05-10 20:30:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 204
+  idSpectacle: 531
+  debut: "2014-05-11 17:00:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 205
+  idSpectacle: 531
+  debut: "2014-05-16 20:30:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 206
+  idSpectacle: 531
+  debut: "2014-05-17 20:30:00"
+  fin: "2013-11-23 21:32:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 207
+  idSpectacle: 532
+  debut: "2014-05-17 18:00:00"
+  fin: "2013-12-17 11:04:58"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 208
+  idSpectacle: 533
+  debut: "2014-06-09 14:30:00"
+  fin: "2013-11-26 12:28:10"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 231
+  idSpectacle: 535
+  debut: "2014-05-11 16:30:00"
+  fin: "2013-11-26 21:07:37"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 234
+  idSpectacle: 534
+  debut: "2014-04-03 20:30:00"
+  fin: "2013-11-26 23:43:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 235
+  idSpectacle: 534
+  debut: "2014-04-04 20:30:00"
+  fin: "2013-11-26 23:43:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 236
+  idSpectacle: 534
+  debut: "2014-04-05 20:30:00"
+  fin: "2013-11-26 23:43:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 237
+  idSpectacle: 534
+  debut: "2014-04-10 20:30:00"
+  fin: "2013-11-26 23:43:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 238
+  idSpectacle: 534
+  debut: "2014-04-11 20:30:00"
+  fin: "2013-11-26 23:43:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 239
+  idSpectacle: 534
+  debut: "2014-04-12 20:30:00"
+  fin: "2013-11-26 23:43:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 240
+  idSpectacle: 537
+  debut: "2014-06-19 10:00:00"
+  fin: "2013-11-28 10:01:33"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 241
+  idSpectacle: 538
+  debut: "2014-06-14 20:00:00"
+  fin: "2013-11-28 10:05:18"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 242
+  idSpectacle: 539
+  debut: "2014-05-04 19:00:00"
+  fin: "2013-11-28 10:07:41"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 243
+  idSpectacle: 540
+  debut: "2014-06-18 19:30:00"
+  fin: "2013-11-28 10:15:00"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 244
+  idSpectacle: 540
+  debut: "2014-06-21 19:30:00"
+  fin: "2013-11-28 10:15:00"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 245
+  idSpectacle: 541
+  debut: "2014-06-22 10:00:00"
+  fin: "2014-02-03 17:22:27"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 246
+  idSpectacle: 543
+  debut: "2014-06-14 20:15:00"
+  fin: "2014-01-30 07:53:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 248
+  idSpectacle: 525
+  debut: "2014-05-09 20:00:00"
+  fin: "2013-12-03 12:13:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 249
+  idSpectacle: 525
+  debut: "2014-05-10 16:00:00"
+  fin: "2013-12-03 12:13:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 250
+  idSpectacle: 525
+  debut: "2014-05-10 20:00:00"
+  fin: "2013-12-03 12:13:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 251
+  idSpectacle: 525
+  debut: "2014-05-11 17:30:00"
+  fin: "2013-12-03 12:13:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 268
+  idSpectacle: 547
+  debut: "2014-05-23 23:00:00"
+  fin: "2013-12-03 11:24:46"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 269
+  idSpectacle: 548
+  debut: "2014-05-24 20:30:00"
+  fin: "2013-12-03 11:45:52"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 270
+  idSpectacle: 549
+  debut: "2014-05-24 22:30:00"
+  fin: "2013-12-03 11:50:00"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 271
+  idSpectacle: 550
+  debut: "2014-05-25 11:30:00"
+  fin: "2013-12-03 11:57:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 272
+  idSpectacle: 551
+  debut: "2014-05-25 13:30:00"
+  fin: "2013-12-03 12:09:09"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 273
+  idSpectacle: 552
+  debut: "2014-04-25 19:00:00"
+  fin: "2013-12-04 11:34:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 274
+  idSpectacle: 553
+  debut: "2014-04-25 19:45:00"
+  fin: "2013-12-04 11:38:41"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 275
+  idSpectacle: 554
+  debut: "2014-04-25 23:15:00"
+  fin: "2013-12-04 11:40:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 276
+  idSpectacle: 555
+  debut: "2014-04-25 21:30:00"
+  fin: "2013-12-04 11:42:14"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 277
+  idSpectacle: 521
+  debut: "2014-04-25 18:30:00"
+  fin: "2013-12-04 11:43:46"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 278
+  idSpectacle: 521
+  debut: "2014-04-26 18:00:00"
+  fin: "2013-12-04 11:43:46"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 279
+  idSpectacle: 556
+  debut: "2014-04-26 19:00:00"
+  fin: "2013-12-04 11:44:59"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 280
+  idSpectacle: 557
+  debut: "2014-04-26 19:45:00"
+  fin: "2013-12-04 11:47:29"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 281
+  idSpectacle: 558
+  debut: "2014-04-26 23:00:00"
+  fin: "2013-12-04 11:52:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 284
+  idSpectacle: 559
+  debut: "2014-04-12 20:00:00"
+  fin: "2013-12-05 10:02:34"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 285
+  idSpectacle: 560
+  debut: "2014-05-10 20:00:00"
+  fin: "2013-12-05 10:12:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 286
+  idSpectacle: 561
+  debut: "2014-04-13 10:00:00"
+  fin: "2013-12-05 10:37:41"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 287
+  idSpectacle: 562
+  debut: "2014-04-20 10:00:00"
+  fin: "2013-12-05 10:40:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 288
+  idSpectacle: 563
+  debut: "2014-05-11 10:00:00"
+  fin: "2013-12-05 10:42:20"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 289
+  idSpectacle: 564
+  debut: "2014-05-29 10:00:00"
+  fin: "2013-12-05 10:44:14"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 290
+  idSpectacle: 565
+  debut: "2014-06-07 18:00:00"
+  fin: "2013-12-05 10:45:28"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 291
+  idSpectacle: 566
+  debut: "2014-06-15 10:00:00"
+  fin: "2013-12-05 10:47:20"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 292
+  idSpectacle: 567
+  debut: "2014-06-19 10:00:00"
+  fin: "2013-12-05 10:48:24"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 296
+  idSpectacle: 569
+  debut: "2014-04-05 19:00:00"
+  fin: "2013-12-05 14:41:35"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 297
+  idSpectacle: 569
+  debut: "2014-04-06 17:00:00"
+  fin: "2013-12-05 14:41:35"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 303
+  idSpectacle: 568
+  debut: "2014-04-05 20:00:00"
+  fin: "2013-12-05 16:13:06"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 304
+  idSpectacle: 570
+  debut: "2014-04-06 17:00:00"
+  fin: "2013-12-05 16:13:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 305
+  idSpectacle: 572
+  debut: "2014-04-13 09:00:00"
+  fin: "2013-12-05 16:14:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 306
+  idSpectacle: 575
+  debut: "2014-05-02 09:00:00"
+  fin: "2013-12-05 16:32:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 307
+  idSpectacle: 575
+  debut: "2014-05-03 07:30:00"
+  fin: "2013-12-05 16:32:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 308
+  idSpectacle: 575
+  debut: "2014-05-04 08:30:00"
+  fin: "2013-12-05 16:32:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 309
+  idSpectacle: 576
+  debut: "2014-05-17 20:30:00"
+  fin: "2013-12-05 16:56:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 311
+  idSpectacle: 578
+  debut: "2014-06-15 13:30:00"
+  fin: "2013-12-09 10:53:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 312
+  idSpectacle: 580
+  debut: "2014-05-16 20:00:00"
+  fin: "2013-12-13 11:06:35"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 313
+  idSpectacle: 581
+  debut: "2014-04-26 20:00:00"
+  fin: "2013-12-11 09:07:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 314
+  idSpectacle: 582
+  debut: "2014-06-28 15:00:00"
+  fin: "2013-12-11 11:58:27"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 318
+  idSpectacle: 585
+  debut: "2014-05-28 20:00:00"
+  fin: "2013-12-11 23:11:43"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 319
+  idSpectacle: 586
+  debut: "2014-05-25 18:30:00"
+  fin: "2013-12-12 10:39:59"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 320
+  idSpectacle: 588
+  debut: "2014-04-13 17:00:00"
+  fin: "2013-12-12 11:46:22"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 322
+  idSpectacle: 580
+  debut: "2014-05-17 20:00:00"
+  fin: "2013-12-13 11:06:35"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 323
+  idSpectacle: 580
+  debut: "2014-05-18 20:00:00"
+  fin: "2013-12-13 11:06:35"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 324
+  idSpectacle: 591
+  debut: "2014-05-16 20:00:00"
+  fin: "2013-12-13 11:09:01"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 325
+  idSpectacle: 592
+  debut: "2014-05-16 22:00:00"
+  fin: "2013-12-13 11:10:37"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 326
+  idSpectacle: 593
+  debut: "2014-05-17 20:00:00"
+  fin: "2013-12-13 11:12:44"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 327
+  idSpectacle: 594
+  debut: "2014-05-17 21:00:00"
+  fin: "2013-12-13 11:17:16"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 328
+  idSpectacle: 595
+  debut: "2014-05-17 23:00:00"
+  fin: "2013-12-13 11:21:45"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 329
+  idSpectacle: 596
+  debut: "2014-05-18 11:00:00"
+  fin: "2013-12-13 11:24:52"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 330
+  idSpectacle: 597
+  debut: "2014-05-18 14:00:00"
+  fin: "2013-12-13 11:26:23"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 331
+  idSpectacle: 598
+  debut: "2014-05-18 18:45:00"
+  fin: "2013-12-13 11:27:39"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 332
+  idSpectacle: 599
+  debut: "2014-05-02 20:30:00"
+  fin: "2013-12-13 13:30:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 333
+  idSpectacle: 599
+  debut: "2014-05-03 20:30:00"
+  fin: "2013-12-13 13:30:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 334
+  idSpectacle: 599
+  debut: "2014-05-09 20:30:00"
+  fin: "2013-12-13 13:30:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 335
+  idSpectacle: 599
+  debut: "2014-05-10 20:30:00"
+  fin: "2013-12-13 13:30:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 336
+  idSpectacle: 600
+  debut: "2014-06-12 19:00:00"
+  fin: "2013-12-13 13:33:10"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 337
+  idSpectacle: 600
+  debut: "2014-06-14 19:00:00"
+  fin: "2013-12-13 13:33:10"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 338
+  idSpectacle: 600
+  debut: "2014-06-19 19:00:00"
+  fin: "2013-12-13 13:33:10"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 339
+  idSpectacle: 600
+  debut: "2014-06-20 19:00:00"
+  fin: "2013-12-13 13:33:10"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 340
+  idSpectacle: 601
+  debut: "2014-05-31 19:00:00"
+  fin: "2013-12-13 17:33:57"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 341
+  idSpectacle: 601
+  debut: "2014-06-01 17:00:00"
+  fin: "2013-12-13 17:33:57"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 351
+  idSpectacle: 609
+  debut: "2014-04-26 11:00:00"
+  fin: "2013-12-16 10:11:34"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 352
+  idSpectacle: 610
+  debut: "2014-04-11 20:00:00"
+  fin: "2013-12-16 10:06:15"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 353
+  idSpectacle: 611
+  debut: "2014-04-12 20:00:00"
+  fin: "2013-12-16 10:08:36"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 354
+  idSpectacle: 611
+  debut: "2014-04-13 17:00:00"
+  fin: "2013-12-16 10:08:36"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 355
+  idSpectacle: 612
+  debut: "2014-04-04 20:30:00"
+  fin: "2013-12-16 10:09:23"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 356
+  idSpectacle: 613
+  debut: "2014-04-05 20:00:00"
+  fin: "2013-12-17 10:51:06"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 357
+  idSpectacle: 614
+  debut: "2014-05-17 19:30:00"
+  fin: "2013-12-17 11:08:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 358
+  idSpectacle: 615
+  debut: "2014-05-17 20:00:00"
+  fin: "2013-12-17 11:17:08"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 359
+  idSpectacle: 616
+  debut: "2014-05-17 22:00:00"
+  fin: "2013-12-17 11:19:38"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 360
+  idSpectacle: 579
+  debut: "2014-05-31 08:30:00"
+  fin: "2013-12-17 12:36:38"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 361
+  idSpectacle: 579
+  debut: "2014-06-01 08:30:00"
+  fin: "2013-12-17 12:36:38"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 362
+  idSpectacle: 608
+  debut: "2014-05-23 20:00:00"
+  fin: "2013-12-18 09:59:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 363
+  idSpectacle: 608
+  debut: "2014-05-24 20:00:00"
+  fin: "2013-12-18 09:59:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 364
+  idSpectacle: 608
+  debut: "2014-05-25 15:30:00"
+  fin: "2013-12-18 09:59:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 365
+  idSpectacle: 604
+  debut: "2014-04-11 20:00:00"
+  fin: "2013-12-19 10:18:37"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 366
+  idSpectacle: 617
+  debut: "2014-06-01 11:00:00"
+  fin: "2014-01-02 15:54:32"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 367
+  idSpectacle: 618
+  debut: "2014-04-12 20:00:00"
+  fin: "2014-01-02 15:57:40"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 368
+  idSpectacle: 619
+  debut: "2014-04-17 19:00:00"
+  fin: "2014-01-02 16:01:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 369
+  idSpectacle: 619
+  debut: "2014-04-20 10:00:00"
+  fin: "2014-01-02 16:01:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 370
+  idSpectacle: 620
+  debut: "2014-04-18 15:00:00"
+  fin: "2014-01-02 17:34:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 371
+  idSpectacle: 621
+  debut: "2014-04-20 11:00:00"
+  fin: "2014-01-02 17:34:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 372
+  idSpectacle: 622
+  debut: "2014-05-11 11:00:00"
+  fin: "2014-01-02 17:35:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 373
+  idSpectacle: 623
+  debut: "2014-06-08 11:00:00"
+  fin: "2014-01-02 17:36:30"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 374
+  idSpectacle: 624
+  debut: "2014-06-19 11:00:00"
+  fin: "2014-01-02 17:37:05"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 375
+  idSpectacle: 625
+  debut: "2014-04-17 20:00:00"
+  fin: "2014-01-02 18:37:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 376
+  idSpectacle: 625
+  debut: "2014-04-18 20:00:00"
+  fin: "2014-01-02 18:37:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 377
+  idSpectacle: 625
+  debut: "2014-04-19 20:00:00"
+  fin: "2014-01-02 18:37:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 378
+  idSpectacle: 625
+  debut: "2014-04-20 10:30:00"
+  fin: "2014-01-02 18:37:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 379
+  idSpectacle: 626
+  debut: "2014-05-10 18:00:00"
+  fin: "2014-01-02 18:39:11"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 380
+  idSpectacle: 627
+  debut: "2014-06-08 18:00:00"
+  fin: "2014-01-02 18:40:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 381
+  idSpectacle: 628
+  debut: "2014-06-19 09:30:00"
+  fin: "2014-01-02 18:41:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 382
+  idSpectacle: 629
+  debut: "2014-04-06 10:00:00"
+  fin: "2014-01-02 18:44:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 383
+  idSpectacle: 630
+  debut: "2014-05-03 11:00:00"
+  fin: "2014-01-03 10:29:16"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 384
+  idSpectacle: 631
+  debut: "2014-05-03 11:30:00"
+  fin: "2014-01-03 10:33:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 385
+  idSpectacle: 632
+  debut: "2014-05-03 13:00:00"
+  fin: "2014-01-03 10:34:12"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 386
+  idSpectacle: 633
+  debut: "2014-05-03 13:30:00"
+  fin: "2014-01-03 10:34:57"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 387
+  idSpectacle: 634
+  debut: "2014-05-03 14:00:00"
+  fin: "2014-01-03 10:36:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 388
+  idSpectacle: 635
+  debut: "2014-05-03 14:30:00"
+  fin: "2014-01-03 10:36:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 389
+  idSpectacle: 636
+  debut: "2014-05-03 15:00:00"
+  fin: "2014-01-03 10:37:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 390
+  idSpectacle: 637
+  debut: "2014-05-03 15:30:00"
+  fin: "2014-01-03 10:38:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 391
+  idSpectacle: 638
+  debut: "2014-05-03 16:00:00"
+  fin: "2014-01-03 10:38:53"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 392
+  idSpectacle: 639
+  debut: "2014-05-03 16:30:00"
+  fin: "2014-01-03 10:40:02"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 393
+  idSpectacle: 640
+  debut: "2014-05-03 17:00:00"
+  fin: "2014-01-03 10:40:46"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 394
+  idSpectacle: 641
+  debut: "2014-05-03 17:30:00"
+  fin: "2014-01-03 10:41:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 395
+  idSpectacle: 642
+  debut: "2014-05-03 18:00:00"
+  fin: "2014-01-03 10:42:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 396
+  idSpectacle: 643
+  debut: "2014-05-03 18:30:00"
+  fin: "2014-01-03 10:43:02"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 397
+  idSpectacle: 644
+  debut: "2014-05-03 11:00:00"
+  fin: "2014-01-03 10:45:29"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 398
+  idSpectacle: 645
+  debut: "2014-05-03 11:30:00"
+  fin: "2014-01-03 10:46:08"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 399
+  idSpectacle: 646
+  debut: "2014-05-03 13:00:00"
+  fin: "2014-01-03 10:47:12"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 400
+  idSpectacle: 647
+  debut: "2014-05-03 13:30:00"
+  fin: "2014-01-03 10:48:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 401
+  idSpectacle: 648
+  debut: "2014-05-03 14:00:00"
+  fin: "2014-01-03 10:49:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 402
+  idSpectacle: 649
+  debut: "2014-05-03 14:30:00"
+  fin: "2014-01-03 10:50:25"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 403
+  idSpectacle: 650
+  debut: "2014-05-03 15:00:00"
+  fin: "2014-01-03 10:51:25"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 404
+  idSpectacle: 651
+  debut: "2014-05-03 15:30:00"
+  fin: "2014-01-03 10:51:57"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 405
+  idSpectacle: 652
+  debut: "2014-05-03 16:00:00"
+  fin: "2014-01-03 10:52:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 406
+  idSpectacle: 653
+  debut: "2014-05-03 16:30:00"
+  fin: "2014-01-03 10:59:30"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 407
+  idSpectacle: 654
+  debut: "2014-05-03 17:00:00"
+  fin: "2014-01-03 11:00:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 408
+  idSpectacle: 655
+  debut: "2014-05-03 17:30:00"
+  fin: "2014-01-03 11:00:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 409
+  idSpectacle: 656
+  debut: "2014-05-03 18:00:00"
+  fin: "2014-01-03 11:01:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 410
+  idSpectacle: 657
+  debut: "2014-05-03 18:30:00"
+  fin: "2014-01-03 11:01:58"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 411
+  idSpectacle: 658
+  debut: "2014-05-03 11:00:00"
+  fin: "2014-01-03 11:02:52"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 412
+  idSpectacle: 659
+  debut: "2014-05-03 11:30:00"
+  fin: "2014-01-03 11:03:33"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 413
+  idSpectacle: 660
+  debut: "2014-05-03 13:00:00"
+  fin: "2014-01-03 11:04:05"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 414
+  idSpectacle: 661
+  debut: "2014-05-03 13:30:00"
+  fin: "2014-01-03 11:04:46"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 415
+  idSpectacle: 662
+  debut: "2014-05-03 14:00:00"
+  fin: "2014-01-03 11:05:57"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 416
+  idSpectacle: 663
+  debut: "2014-05-03 14:30:00"
+  fin: "2014-01-03 11:07:33"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 417
+  idSpectacle: 664
+  debut: "2014-05-03 15:00:00"
+  fin: "2014-01-03 11:08:10"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 418
+  idSpectacle: 665
+  debut: "2014-05-03 15:30:00"
+  fin: "2014-01-03 11:16:14"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 419
+  idSpectacle: 666
+  debut: "2014-05-03 16:00:00"
+  fin: "2014-01-03 11:17:08"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 420
+  idSpectacle: 667
+  debut: "2014-05-03 16:30:00"
+  fin: "2014-01-03 11:17:38"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 421
+  idSpectacle: 668
+  debut: "2014-05-03 17:00:00"
+  fin: "2014-01-03 11:18:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 422
+  idSpectacle: 669
+  debut: "2014-05-03 17:30:00"
+  fin: "2014-01-03 11:19:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 423
+  idSpectacle: 670
+  debut: "2014-05-03 18:00:00"
+  fin: "2014-01-03 11:19:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 424
+  idSpectacle: 671
+  debut: "2014-05-03 18:30:00"
+  fin: "2014-01-03 11:20:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 425
+  idSpectacle: 672
+  debut: "2014-05-03 11:00:00"
+  fin: "2014-01-03 11:21:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 426
+  idSpectacle: 673
+  debut: "2014-05-03 11:30:00"
+  fin: "2014-01-03 11:21:58"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 427
+  idSpectacle: 674
+  debut: "2014-05-03 13:00:00"
+  fin: "2014-01-03 11:33:50"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 428
+  idSpectacle: 675
+  debut: "2014-05-03 13:30:00"
+  fin: "2014-01-03 11:34:38"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 429
+  idSpectacle: 676
+  debut: "2014-05-03 14:00:00"
+  fin: "2014-01-03 11:35:14"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 430
+  idSpectacle: 677
+  debut: "2014-05-03 14:30:00"
+  fin: "2014-01-03 11:35:45"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 431
+  idSpectacle: 678
+  debut: "2014-05-03 15:00:00"
+  fin: "2014-01-03 11:36:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 432
+  idSpectacle: 679
+  debut: "2014-05-03 15:30:00"
+  fin: "2014-01-03 11:36:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 433
+  idSpectacle: 680
+  debut: "2014-05-03 16:00:00"
+  fin: "2014-01-03 11:37:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 434
+  idSpectacle: 681
+  debut: "2014-05-03 16:30:00"
+  fin: "2014-01-03 11:37:54"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 435
+  idSpectacle: 682
+  debut: "2014-05-03 17:00:00"
+  fin: "2014-01-03 11:38:22"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 436
+  idSpectacle: 683
+  debut: "2014-05-03 17:30:00"
+  fin: "2014-01-03 11:39:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 437
+  idSpectacle: 684
+  debut: "2014-05-03 18:00:00"
+  fin: "2014-01-03 11:39:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 438
+  idSpectacle: 685
+  debut: "2014-05-03 18:30:00"
+  fin: "2014-01-03 11:40:07"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 439
+  idSpectacle: 686
+  debut: "2014-05-04 12:00:00"
+  fin: "2014-01-03 11:53:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 440
+  idSpectacle: 687
+  debut: "2014-05-04 12:30:00"
+  fin: "2014-01-03 11:54:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 441
+  idSpectacle: 688
+  debut: "2014-05-04 13:00:00"
+  fin: "2014-01-03 11:54:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 442
+  idSpectacle: 689
+  debut: "2014-05-04 13:30:00"
+  fin: "2014-01-03 11:55:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 443
+  idSpectacle: 690
+  debut: "2014-05-04 11:30:00"
+  fin: "2014-01-03 11:56:18"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 444
+  idSpectacle: 691
+  debut: "2014-05-04 12:00:00"
+  fin: "2014-01-03 11:56:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 445
+  idSpectacle: 692
+  debut: "2014-05-04 12:30:00"
+  fin: "2014-01-03 11:57:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 446
+  idSpectacle: 693
+  debut: "2014-05-04 13:00:00"
+  fin: "2014-01-03 11:58:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 447
+  idSpectacle: 694
+  debut: "2014-05-04 13:30:00"
+  fin: "2014-01-03 11:58:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 448
+  idSpectacle: 695
+  debut: "2014-05-04 11:30:00"
+  fin: "2014-01-03 11:59:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 449
+  idSpectacle: 696
+  debut: "2014-05-04 12:00:00"
+  fin: "2014-01-03 11:59:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 450
+  idSpectacle: 697
+  debut: "2014-05-04 12:30:00"
+  fin: "2014-01-03 12:00:29"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 451
+  idSpectacle: 698
+  debut: "2014-05-04 13:00:00"
+  fin: "2014-01-03 12:01:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 452
+  idSpectacle: 699
+  debut: "2014-05-04 13:30:00"
+  fin: "2014-01-03 12:03:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 453
+  idSpectacle: 700
+  debut: "2014-05-04 11:30:00"
+  fin: "2014-01-03 12:03:40"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 454
+  idSpectacle: 701
+  debut: "2014-05-04 12:00:00"
+  fin: "2014-01-03 12:06:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 455
+  idSpectacle: 702
+  debut: "2014-05-04 12:30:00"
+  fin: "2014-01-03 12:06:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 456
+  idSpectacle: 703
+  debut: "2014-05-04 13:00:00"
+  fin: "2014-01-03 12:07:32"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 457
+  idSpectacle: 704
+  debut: "2014-05-04 13:30:00"
+  fin: "2014-01-03 12:08:02"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 458
+  idSpectacle: 705
+  debut: "2014-04-18 20:00:00"
+  fin: "2014-01-03 17:40:31"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 459
+  idSpectacle: 706
+  debut: "2014-04-20 10:30:00"
+  fin: "2014-01-03 17:41:31"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 460
+  idSpectacle: 707
+  debut: "2014-06-15 10:30:00"
+  fin: "2014-01-03 18:31:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 461
+  idSpectacle: 708
+  debut: "2014-06-15 10:30:00"
+  fin: "2014-01-03 18:32:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 462
+  idSpectacle: 709
+  debut: "2014-05-11 17:00:00"
+  fin: "2014-01-03 19:51:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 463
+  idSpectacle: 710
+  debut: "2014-06-21 17:30:00"
+  fin: "2014-01-03 19:53:17"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 464
+  idSpectacle: 711
+  debut: "2014-04-17 20:00:00"
+  fin: "2014-01-03 19:54:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 465
+  idSpectacle: 712
+  debut: "2014-04-20 10:00:00"
+  fin: "2014-01-03 19:55:18"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 466
+  idSpectacle: 713
+  debut: "2014-04-26 18:00:00"
+  fin: "2014-01-03 19:56:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 467
+  idSpectacle: 714
+  debut: "2014-06-08 10:00:00"
+  fin: "2014-01-03 19:58:06"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 468
+  idSpectacle: 715
+  debut: "2014-06-19 09:30:00"
+  fin: "2014-01-03 19:59:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 469
+  idSpectacle: 536
+  debut: "2014-06-14 11:00:00"
+  fin: "2014-01-04 11:01:30"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 470
+  idSpectacle: 536
+  debut: "2014-06-15 11:00:00"
+  fin: "2014-01-04 11:01:30"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 471
+  idSpectacle: 716
+  debut: "2014-04-20 09:15:00"
+  fin: "2014-01-04 14:10:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 472
+  idSpectacle: 717
+  debut: "2014-06-08 09:15:00"
+  fin: "2014-01-04 14:11:32"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 473
+  idSpectacle: 718
+  debut: "2014-06-19 11:00:00"
+  fin: "2014-01-04 14:14:46"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 474
+  idSpectacle: 719
+  debut: "2014-04-05 18:00:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 475
+  idSpectacle: 719
+  debut: "2014-04-20 10:30:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 476
+  idSpectacle: 719
+  debut: "2014-04-27 10:30:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 477
+  idSpectacle: 719
+  debut: "2014-05-30 18:00:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 478
+  idSpectacle: 719
+  debut: "2014-05-18 10:30:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 479
+  idSpectacle: 719
+  debut: "2014-05-25 10:30:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 480
+  idSpectacle: 719
+  debut: "2014-06-07 18:00:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 481
+  idSpectacle: 719
+  debut: "2014-06-22 10:30:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 482
+  idSpectacle: 719
+  debut: "2014-06-29 10:30:00"
+  fin: "2014-01-04 14:28:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 483
+  idSpectacle: 720
+  debut: "2014-05-10 20:00:00"
+  fin: "2014-01-04 15:27:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 484
+  idSpectacle: 721
+  debut: "2014-04-13 09:15:00"
+  fin: "2014-01-04 15:34:57"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 485
+  idSpectacle: 722
+  debut: "2014-05-29 10:00:00"
+  fin: "2014-01-04 15:35:58"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 486
+  idSpectacle: 723
+  debut: "2014-06-07 20:00:00"
+  fin: "2014-01-05 14:55:28"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 487
+  idSpectacle: 724
+  debut: "2014-06-14 20:00:00"
+  fin: "2014-01-05 16:19:02"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 490
+  idSpectacle: 726
+  debut: "2014-05-10 20:15:00"
+  fin: "2014-01-09 15:19:37"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 492
+  idSpectacle: 728
+  debut: "2014-04-19 15:00:00"
+  fin: "2014-01-09 10:58:59"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 493
+  idSpectacle: 729
+  debut: "2014-05-11 11:00:00"
+  fin: "2014-01-08 18:59:16"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 497
+  idSpectacle: 727
+  debut: "2014-05-18 15:00:00"
+  fin: "2014-01-09 10:57:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 498
+  idSpectacle: 731
+  debut: "2014-06-19 09:30:00"
+  fin: "2014-01-09 15:30:06"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 501
+  idSpectacle: 733
+  debut: "2014-05-11 10:00:00"
+  fin: "2014-01-10 10:31:38"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 502
+  idSpectacle: 734
+  debut: "2014-05-18 09:30:00"
+  fin: "2014-01-09 15:41:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 503
+  idSpectacle: 735
+  debut: "2014-06-08 10:30:00"
+  fin: "2014-01-09 15:44:20"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 504
+  idSpectacle: 605
+  debut: "2014-06-06 21:00:00"
+  fin: "2014-01-09 16:00:50"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 505
+  idSpectacle: 736
+  debut: "2014-04-10 20:15:00"
+  fin: "2014-01-10 09:09:33"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 506
+  idSpectacle: 736
+  debut: "2014-04-11 20:15:00"
+  fin: "2014-01-10 09:09:33"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 507
+  idSpectacle: 737
+  debut: "2014-04-25 20:15:00"
+  fin: "2014-01-10 09:13:00"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 508
+  idSpectacle: 737
+  debut: "2014-04-26 20:15:00"
+  fin: "2014-01-10 09:13:00"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 509
+  idSpectacle: 738
+  debut: "2014-05-01 20:15:00"
+  fin: "2014-01-10 09:15:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 510
+  idSpectacle: 738
+  debut: "2014-05-02 20:15:00"
+  fin: "2014-01-10 09:15:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 511
+  idSpectacle: 739
+  debut: "2014-05-30 20:15:00"
+  fin: "2014-01-10 09:18:54"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 512
+  idSpectacle: 739
+  debut: "2014-05-31 20:15:00"
+  fin: "2014-01-10 09:18:54"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 513
+  idSpectacle: 739
+  debut: "2014-06-01 17:00:00"
+  fin: "2014-01-10 09:18:54"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 514
+  idSpectacle: 739
+  debut: "2014-06-06 20:15:00"
+  fin: "2014-01-10 09:18:54"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 515
+  idSpectacle: 739
+  debut: "2014-06-07 20:15:00"
+  fin: "2014-01-10 09:18:54"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 516
+  idSpectacle: 740
+  debut: "2014-06-07 20:00:00"
+  fin: "2014-01-10 09:59:13"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 517
+  idSpectacle: 741
+  debut: "2014-04-05 23:45:00"
+  fin: "2014-01-10 10:56:29"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 518
+  idSpectacle: 742
+  debut: "2014-05-03 23:45:00"
+  fin: "2014-01-10 11:00:37"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 519
+  idSpectacle: 743
+  debut: "2014-05-24 23:45:00"
+  fin: "2014-01-10 11:01:49"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 520
+  idSpectacle: 744
+  debut: "2014-06-07 21:00:00"
+  fin: "2014-01-10 11:05:54"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 521
+  idSpectacle: 745
+  debut: "2014-04-20 09:00:00"
+  fin: "2014-01-10 12:34:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 522
+  idSpectacle: 746
+  debut: "2014-05-17 19:00:00"
+  fin: "2014-01-10 12:35:49"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 523
+  idSpectacle: 747
+  debut: "2014-05-03 19:00:00"
+  fin: "2014-01-10 12:55:29"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 524
+  idSpectacle: 747
+  debut: "2014-05-04 13:00:00"
+  fin: "2014-01-10 12:55:29"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 525
+  idSpectacle: 748
+  debut: "2014-04-20 10:00:00"
+  fin: "2014-01-10 16:19:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 526
+  idSpectacle: 749
+  debut: "2014-04-13 09:30:00"
+  fin: "2014-01-10 16:28:53"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 527
+  idSpectacle: 750
+  debut: "2014-04-17 20:00:00"
+  fin: "2014-01-10 16:31:26"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 528
+  idSpectacle: 752
+  debut: "2014-05-10 20:30:00"
+  fin: "2014-01-10 19:36:10"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 529
+  idSpectacle: 755
+  debut: "2014-04-06 09:00:00"
+  fin: "2014-01-14 10:13:45"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 530
+  idSpectacle: 755
+  debut: "2014-06-01 09:00:00"
+  fin: "2014-01-14 10:13:45"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 531
+  idSpectacle: 755
+  debut: "2014-05-04 09:00:00"
+  fin: "2014-01-14 10:13:45"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 532
+  idSpectacle: 756
+  debut: "2014-06-08 10:00:00"
+  fin: "2014-01-14 11:24:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 533
+  idSpectacle: 757
+  debut: "2014-06-06 19:00:00"
+  fin: "2014-01-14 11:29:14"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 534
+  idSpectacle: 757
+  debut: "2014-06-07 19:00:00"
+  fin: "2014-01-14 11:29:14"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 535
+  idSpectacle: 758
+  debut: "2014-05-23 20:00:00"
+  fin: "2014-01-14 13:42:18"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 536
+  idSpectacle: 759
+  debut: "2014-05-24 20:00:00"
+  fin: "2014-01-14 13:52:41"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 537
+  idSpectacle: 760
+  debut: "2014-04-20 10:30:00"
+  fin: "2014-01-15 11:28:24"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 538
+  idSpectacle: 761
+  debut: "2014-04-20 20:00:00"
+  fin: "2014-01-15 11:31:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 539
+  idSpectacle: 762
+  debut: "2014-06-13 19:30:00"
+  fin: "2014-01-15 11:34:12"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 540
+  idSpectacle: 763
+  debut: "2014-06-19 10:30:00"
+  fin: "2014-01-15 11:38:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 541
+  idSpectacle: 764
+  debut: "2014-05-02 20:30:00"
+  fin: "2014-01-15 12:15:18"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 542
+  idSpectacle: 765
+  debut: "2014-05-02 21:00:00"
+  fin: "2014-01-15 12:29:29"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 543
+  idSpectacle: 766
+  debut: "2014-05-04 09:00:00"
+  fin: "2014-01-15 12:33:26"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 544
+  idSpectacle: 767
+  debut: "2014-05-03 21:30:00"
+  fin: "2014-01-15 12:50:22"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 545
+  idSpectacle: 768
+  debut: "2014-05-04 15:00:00"
+  fin: "2014-01-15 12:57:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 546
+  idSpectacle: 769
+  debut: "2014-05-03 20:00:00"
+  fin: "2014-01-15 13:01:57"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 547
+  idSpectacle: 770
+  debut: "2014-05-03 20:30:00"
+  fin: "2014-01-15 13:05:18"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 548
+  idSpectacle: 771
+  debut: "2014-05-03 21:00:00"
+  fin: "2014-01-15 13:58:53"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 549
+  idSpectacle: 772
+  debut: "2014-05-04 15:30:00"
+  fin: "2014-01-15 14:03:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 550
+  idSpectacle: 773
+  debut: "2014-05-02 22:00:00"
+  fin: "2014-01-15 14:05:54"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 551
+  idSpectacle: 774
+  debut: "2014-05-02 21:30:00"
+  fin: "2014-01-15 14:35:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 552
+  idSpectacle: 775
+  debut: "2014-05-04 14:30:00"
+  fin: "2014-01-15 14:38:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 553
+  idSpectacle: 776
+  debut: "2014-04-05 20:00:00"
+  fin: "2014-01-15 17:46:06"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 554
+  idSpectacle: 777
+  debut: "2014-04-20 09:00:00"
+  fin: "2014-01-15 18:00:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 555
+  idSpectacle: 778
+  debut: "2014-05-18 09:15:00"
+  fin: "2014-01-15 18:02:18"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 556
+  idSpectacle: 779
+  debut: "2014-06-19 09:00:00"
+  fin: "2014-01-15 18:05:18"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 557
+  idSpectacle: 781
+  debut: "2014-04-15 20:30:00"
+  fin: "2014-01-16 09:08:27"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 561
+  idSpectacle: 780
+  debut: "2014-05-02 20:30:00"
+  fin: "2014-01-17 14:30:16"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 562
+  idSpectacle: 780
+  debut: "2014-05-03 20:30:00"
+  fin: "2014-01-17 14:30:16"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 563
+  idSpectacle: 784
+  debut: "2014-04-18 19:00:00"
+  fin: "2014-01-18 09:58:00"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 564
+  idSpectacle: 785
+  debut: "2014-04-20 19:00:00"
+  fin: "2014-01-18 10:00:29"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 565
+  idSpectacle: 786
+  debut: "2014-05-29 19:00:00"
+  fin: "2014-01-18 10:01:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 566
+  idSpectacle: 787
+  debut: "2014-06-08 19:00:00"
+  fin: "2014-01-18 10:02:02"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 567
+  idSpectacle: 788
+  debut: "2014-06-19 09:00:00"
+  fin: "2014-01-18 10:02:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 568
+  idSpectacle: 782
+  debut: "2014-06-27 14:00:00"
+  fin: "2014-01-18 10:08:58"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 569
+  idSpectacle: 782
+  debut: "2014-06-28 14:00:00"
+  fin: "2014-01-18 10:08:58"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 570
+  idSpectacle: 782
+  debut: "2014-06-29 12:00:00"
+  fin: "2014-01-18 10:08:58"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 571
+  idSpectacle: 789
+  debut: "2014-04-17 19:30:00"
+  fin: "2014-01-18 12:15:18"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 572
+  idSpectacle: 791
+  debut: "2014-04-19 20:30:00"
+  fin: "2014-01-18 12:18:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 573
+  idSpectacle: 792
+  debut: "2014-04-20 09:00:00"
+  fin: "2014-01-18 12:18:40"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 574
+  idSpectacle: 793
+  debut: "2014-04-27 10:00:00"
+  fin: "2014-01-18 12:19:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 575
+  idSpectacle: 794
+  debut: "2014-06-19 10:00:00"
+  fin: "2014-01-18 12:22:02"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 577
+  idSpectacle: 796
+  debut: "2014-04-13 16:30:00"
+  fin: "2014-01-20 09:32:10"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 578
+  idSpectacle: 797
+  debut: "2014-02-15 20:00:00"
+  fin: "2014-01-20 09:35:55"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 579
+  idSpectacle: 798
+  debut: "2014-04-13 09:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 580
+  idSpectacle: 798
+  debut: "2014-04-20 09:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 581
+  idSpectacle: 798
+  debut: "2014-05-11 09:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 582
+  idSpectacle: 798
+  debut: "2014-05-29 09:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 583
+  idSpectacle: 798
+  debut: "2014-06-08 09:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 584
+  idSpectacle: 798
+  debut: "2014-06-29 09:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 585
+  idSpectacle: 798
+  debut: "2014-04-17 20:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 586
+  idSpectacle: 798
+  debut: "2014-04-18 15:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 587
+  idSpectacle: 798
+  debut: "2014-04-19 21:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 588
+  idSpectacle: 798
+  debut: "2014-04-27 10:30:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 589
+  idSpectacle: 798
+  debut: "2014-06-19 09:00:00"
+  fin: "2014-01-20 09:43:44"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 590
+  idSpectacle: 795
+  debut: "2014-02-22 20:00:00"
+  fin: "2014-01-20 09:55:59"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 592
+  idSpectacle: 800
+  debut: "2014-06-19 05:00:00"
+  fin: "2014-01-20 13:08:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 593
+  idSpectacle: 800
+  debut: "2014-06-19 10:00:00"
+  fin: "2014-01-20 13:08:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 594
+  idSpectacle: 801
+  debut: "2014-04-20 11:00:00"
+  fin: "2014-01-22 09:37:37"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 595
+  idSpectacle: 802
+  debut: "2014-05-18 11:00:00"
+  fin: "2014-01-22 09:38:24"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 596
+  idSpectacle: 803
+  debut: "2014-06-15 09:30:00"
+  fin: "2014-01-23 10:06:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 597
+  idSpectacle: 804
+  debut: "2014-06-06 19:30:00"
+  fin: "2014-01-23 10:26:26"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 598
+  idSpectacle: 804
+  debut: "2014-06-07 19:30:00"
+  fin: "2014-01-23 10:26:26"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 599
+  idSpectacle: 804
+  debut: "2014-06-08 10:00:00"
+  fin: "2014-01-23 10:26:26"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 600
+  idSpectacle: 805
+  debut: "2014-06-08 13:45:00"
+  fin: "2014-01-23 10:33:17"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 601
+  idSpectacle: 806
+  debut: "2014-06-08 14:15:00"
+  fin: "2014-01-23 10:34:16"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 602
+  idSpectacle: 807
+  debut: "2014-06-08 14:45:00"
+  fin: "2014-01-23 10:35:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 603
+  idSpectacle: 808
+  debut: "2014-06-08 15:15:00"
+  fin: "2014-01-23 10:36:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 604
+  idSpectacle: 809
+  debut: "2014-06-08 15:45:00"
+  fin: "2014-01-23 10:36:49"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 605
+  idSpectacle: 810
+  debut: "2014-06-08 16:15:00"
+  fin: "2014-01-23 10:37:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 606
+  idSpectacle: 811
+  debut: "2014-06-08 16:45:00"
+  fin: "2014-01-23 10:39:11"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 607
+  idSpectacle: 812
+  debut: "2014-06-08 17:15:00"
+  fin: "2014-01-23 10:42:11"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 608
+  idSpectacle: 813
+  debut: "2014-06-08 17:30:00"
+  fin: "2014-01-23 10:43:01"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 609
+  idSpectacle: 814
+  debut: "2014-04-11 20:00:00"
+  fin: "2014-01-23 11:08:09"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 612
+  idSpectacle: 817
+  debut: "2014-05-09 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 613
+  idSpectacle: 817
+  debut: "2014-05-10 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 614
+  idSpectacle: 817
+  debut: "2014-05-16 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 615
+  idSpectacle: 817
+  debut: "2014-05-17 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 616
+  idSpectacle: 817
+  debut: "2014-05-23 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 617
+  idSpectacle: 817
+  debut: "2014-05-24 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 618
+  idSpectacle: 817
+  debut: "2014-05-29 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 619
+  idSpectacle: 817
+  debut: "2014-05-30 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 620
+  idSpectacle: 817
+  debut: "2014-05-31 19:30:00"
+  fin: "2014-01-26 22:36:29"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 621
+  idSpectacle: 818
+  debut: "2014-05-25 17:00:00"
+  fin: "2014-01-24 09:16:22"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 622
+  idSpectacle: 819
+  debut: "2014-04-26 20:00:00"
+  fin: "2014-01-24 12:04:07"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 623
+  idSpectacle: 816
+  debut: "2014-05-17 20:00:00"
+  fin: "2014-01-24 13:16:49"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 624
+  idSpectacle: 820
+  debut: "2014-04-05 20:15:00"
+  fin: "2014-01-24 14:11:32"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 625
+  idSpectacle: 821
+  debut: "2014-04-13 10:00:00"
+  fin: "2014-01-24 14:26:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 626
+  idSpectacle: 821
+  debut: "2014-04-19 20:00:00"
+  fin: "2014-01-24 14:26:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 627
+  idSpectacle: 821
+  debut: "2014-04-20 10:00:00"
+  fin: "2014-01-24 14:26:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 628
+  idSpectacle: 821
+  debut: "2014-05-25 10:00:00"
+  fin: "2014-01-24 14:26:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 629
+  idSpectacle: 821
+  debut: "2014-06-15 10:00:00"
+  fin: "2014-01-24 14:26:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 630
+  idSpectacle: 821
+  debut: "2014-06-29 09:15:00"
+  fin: "2014-01-24 14:26:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 631
+  idSpectacle: 822
+  debut: "2014-04-26 20:00:00"
+  fin: "2014-01-24 14:40:19"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 632
+  idSpectacle: 824
+  debut: "2014-05-17 20:30:00"
+  fin: "2014-01-24 15:21:50"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 633
+  idSpectacle: 827
+  debut: "2014-04-03 20:30:00"
+  fin: "2014-01-24 18:44:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 634
+  idSpectacle: 827
+  debut: "2014-04-04 20:30:00"
+  fin: "2014-01-24 18:44:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 635
+  idSpectacle: 827
+  debut: "2014-04-05 14:00:00"
+  fin: "2014-01-24 18:44:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 636
+  idSpectacle: 827
+  debut: "2014-04-06 17:00:00"
+  fin: "2014-01-24 18:44:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 637
+  idSpectacle: 828
+  debut: "2014-04-03 20:30:00"
+  fin: "2014-01-24 18:56:41"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 638
+  idSpectacle: 829
+  debut: "2014-04-04 20:30:00"
+  fin: "2014-01-30 08:42:13"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 639
+  idSpectacle: 830
+  debut: "2014-04-05 14:00:00"
+  fin: "2014-01-24 19:06:24"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 640
+  idSpectacle: 831
+  debut: "2014-04-05 20:30:00"
+  fin: "2014-01-24 19:10:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 641
+  idSpectacle: 832
+  debut: "2014-04-06 17:00:00"
+  fin: "2014-01-24 19:11:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 642
+  idSpectacle: 826
+  debut: "2014-05-17 20:00:00"
+  fin: "2014-01-24 19:29:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 643
+  idSpectacle: 833
+  debut: "2014-05-30 20:00:00"
+  fin: "2014-01-27 11:01:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 644
+  idSpectacle: 833
+  debut: "2014-05-31 20:00:00"
+  fin: "2014-01-27 11:01:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 645
+  idSpectacle: 833
+  debut: "2014-06-01 16:00:00"
+  fin: "2014-01-27 11:01:21"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 646
+  idSpectacle: 834
+  debut: "2014-03-15 20:15:00"
+  fin: "2014-01-27 09:03:52"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 647
+  idSpectacle: 835
+  debut: "2014-05-28 20:00:00"
+  fin: "2014-01-27 09:13:46"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 648
+  idSpectacle: 836
+  debut: "2014-06-14 12:00:00"
+  fin: "2014-01-27 09:25:12"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 649
+  idSpectacle: 837
+  debut: "2014-06-15 09:00:00"
+  fin: "2014-01-27 09:26:26"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 651
+  idSpectacle: 840
+  debut: "2014-04-03 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 652
+  idSpectacle: 840
+  debut: "2014-04-04 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 653
+  idSpectacle: 840
+  debut: "2014-04-05 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 654
+  idSpectacle: 840
+  debut: "2014-04-10 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 655
+  idSpectacle: 840
+  debut: "2014-04-11 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 656
+  idSpectacle: 840
+  debut: "2014-04-12 15:00:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 657
+  idSpectacle: 840
+  debut: "2014-04-12 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 658
+  idSpectacle: 840
+  debut: "2014-04-23 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 659
+  idSpectacle: 840
+  debut: "2014-04-25 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 660
+  idSpectacle: 840
+  debut: "2014-04-26 15:00:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 661
+  idSpectacle: 840
+  debut: "2014-04-26 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 662
+  idSpectacle: 840
+  debut: "2014-04-30 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 663
+  idSpectacle: 840
+  debut: "2014-05-02 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 664
+  idSpectacle: 840
+  debut: "2014-05-07 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 665
+  idSpectacle: 840
+  debut: "2014-05-09 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 666
+  idSpectacle: 840
+  debut: "2014-05-14 20:30:00"
+  fin: "2014-01-27 11:24:15"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 668
+  idSpectacle: 841
+  debut: "2014-04-26 18:30:00"
+  fin: "2014-01-27 19:44:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 671
+  idSpectacle: 843
+  debut: "2014-04-20 10:30:00"
+  fin: "2014-01-28 10:56:42"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 674
+  idSpectacle: 846
+  debut: "2014-04-05 20:15:00"
+  fin: "2014-01-28 21:25:12"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 676
+  idSpectacle: 848
+  debut: "2014-05-31 21:00:00"
+  fin: "2014-01-29 14:07:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 677
+  idSpectacle: 849
+  debut: "2014-04-12 20:00:00"
+  fin: "2014-01-29 13:44:24"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 678
+  idSpectacle: 850
+  debut: "2014-04-13 16:00:00"
+  fin: "2014-01-29 14:04:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 679
+  idSpectacle: 848
+  debut: "2014-06-01 19:00:00"
+  fin: "2014-01-29 14:07:36"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 680
+  idSpectacle: 851
+  debut: "2014-04-20 20:30:00"
+  fin: "2014-01-29 15:02:18"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 681
+  idSpectacle: 847
+  debut: "2014-05-17 16:00:00"
+  fin: "2014-02-01 12:07:08"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 682
+  idSpectacle: 852
+  debut: "2014-04-29 12:30:00"
+  fin: "2014-01-30 09:32:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 683
+  idSpectacle: 853
+  debut: "2014-04-15 20:00:00"
+  fin: "2014-01-30 09:34:49"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 688
+  idSpectacle: 854
+  debut: "2014-04-06 09:30:00"
+  fin: "2014-01-30 10:25:08"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 689
+  idSpectacle: 855
+  debut: "2014-05-18 17:30:00"
+  fin: "2014-01-30 10:25:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 690
+  idSpectacle: 856
+  debut: "2014-06-08 10:00:00"
+  fin: "2014-01-30 10:26:49"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 691
+  idSpectacle: 857
+  debut: "2014-05-02 20:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 692
+  idSpectacle: 857
+  debut: "2014-05-03 20:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 693
+  idSpectacle: 857
+  debut: "2014-05-04 17:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 694
+  idSpectacle: 857
+  debut: "2014-05-09 20:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 695
+  idSpectacle: 857
+  debut: "2014-05-10 20:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 696
+  idSpectacle: 857
+  debut: "2014-05-16 20:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 697
+  idSpectacle: 857
+  debut: "2014-05-17 20:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 698
+  idSpectacle: 857
+  debut: "2014-05-18 17:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 699
+  idSpectacle: 857
+  debut: "2014-05-23 20:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 700
+  idSpectacle: 857
+  debut: "2014-05-24 20:00:00"
+  fin: "2014-01-30 10:42:51"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 701
+  idSpectacle: 858
+  debut: "2014-04-05 17:30:00"
+  fin: "2014-01-30 10:49:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 702
+  idSpectacle: 858
+  debut: "2014-04-13 09:30:00"
+  fin: "2014-01-30 10:49:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 703
+  idSpectacle: 858
+  debut: "2014-04-18 15:00:00"
+  fin: "2014-01-30 10:49:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 704
+  idSpectacle: 858
+  debut: "2014-04-18 20:00:00"
+  fin: "2014-01-30 10:49:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 705
+  idSpectacle: 858
+  debut: "2014-04-19 20:30:00"
+  fin: "2014-01-30 10:49:35"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 706
+  idSpectacle: 859
+  debut: "2014-04-06 11:00:00"
+  fin: "2014-01-30 10:51:41"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 707
+  idSpectacle: 860
+  debut: "2014-04-17 09:30:00"
+  fin: "2014-01-30 10:54:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 708
+  idSpectacle: 860
+  debut: "2014-04-20 10:30:00"
+  fin: "2014-01-30 10:54:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 709
+  idSpectacle: 861
+  debut: "2014-04-17 20:00:00"
+  fin: "2014-01-30 10:54:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 710
+  idSpectacle: 860
+  debut: "2014-06-19 10:00:00"
+  fin: "2014-01-30 10:54:19"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 716
+  idSpectacle: 862
+  debut: "2014-06-07 20:00:00"
+  fin: "2014-01-30 16:44:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 717
+  idSpectacle: 862
+  debut: "2014-06-08 17:00:00"
+  fin: "2014-01-30 16:44:43"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 718
+  idSpectacle: 863
+  debut: "2014-06-13 20:00:00"
+  fin: "2014-01-30 16:48:45"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 719
+  idSpectacle: 863
+  debut: "2014-06-14 20:00:00"
+  fin: "2014-01-30 16:48:45"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 720
+  idSpectacle: 863
+  debut: "2014-06-15 15:00:00"
+  fin: "2014-01-30 16:48:45"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 721
+  idSpectacle: 864
+  debut: "2014-04-12 20:00:00"
+  fin: "2014-01-30 17:08:00"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 722
+  idSpectacle: 865
+  debut: "2014-06-19 09:00:00"
+  fin: "2014-01-30 17:12:26"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 723
+  idSpectacle: 866
+  debut: "2014-05-01 20:00:00"
+  fin: "2014-01-30 18:05:24"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 724
+  idSpectacle: 866
+  debut: "2014-05-02 20:00:00"
+  fin: "2014-01-30 18:05:24"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 725
+  idSpectacle: 867
+  debut: "2014-04-06 10:00:00"
+  fin: "2014-01-30 18:36:06"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 726
+  idSpectacle: 868
+  debut: "2014-04-06 10:00:00"
+  fin: "2014-01-30 18:38:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 727
+  idSpectacle: 869
+  debut: "2014-04-06 10:00:00"
+  fin: "2014-01-30 18:40:00"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 728
+  idSpectacle: 870
+  debut: "2014-04-06 10:00:00"
+  fin: "2014-01-30 18:41:28"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 729
+  idSpectacle: 871
+  debut: "2014-04-06 10:00:00"
+  fin: "2014-01-30 18:43:05"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 730
+  idSpectacle: 872
+  debut: "2014-04-06 10:00:00"
+  fin: "2014-01-30 18:44:12"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 733
+  idSpectacle: 873
+  debut: "2014-06-19 09:30:00"
+  fin: "2014-01-31 10:43:52"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 734
+  idSpectacle: 874
+  debut: "2014-04-20 09:30:00"
+  fin: "2014-01-31 10:46:20"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 735
+  idSpectacle: 875
+  debut: "2014-04-25 18:30:00"
+  fin: "2014-01-31 11:16:16"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 736
+  idSpectacle: 875
+  debut: "2014-04-26 17:30:00"
+  fin: "2014-01-31 11:16:16"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 737
+  idSpectacle: 876
+  debut: "2014-05-02 08:30:00"
+  fin: "2014-01-31 13:56:13"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 738
+  idSpectacle: 876
+  debut: "2014-05-03 08:00:00"
+  fin: "2014-01-31 13:56:14"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 739
+  idSpectacle: 876
+  debut: "2014-05-04 08:00:00"
+  fin: "2014-01-31 13:56:14"
+  montrerDebut: 1
+  montrerFin: 1
+  status: 1
+-
+  id: 740
+  idSpectacle: 839
+  debut: "2014-06-07 20:00:00"
+  fin: "2014-02-02 11:08:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 741
+  idSpectacle: 839
+  debut: "2014-06-08 20:00:00"
+  fin: "2014-02-02 11:08:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 742
+  idSpectacle: 839
+  debut: "2014-06-14 17:00:00"
+  fin: "2014-02-02 11:08:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 743
+  idSpectacle: 839
+  debut: "2014-06-15 17:00:00"
+  fin: "2014-02-02 11:08:47"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 744
+  idSpectacle: 877
+  debut: "2014-06-06 20:30:00"
+  fin: "2014-02-02 11:16:55"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 745
+  idSpectacle: 877
+  debut: "2014-06-07 20:30:00"
+  fin: "2014-02-02 11:16:55"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 746
+  idSpectacle: 877
+  debut: "2014-06-08 19:00:00"
+  fin: "2014-02-02 11:16:55"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 747
+  idSpectacle: 878
+  debut: "2014-06-12 19:00:00"
+  fin: "2014-02-02 11:23:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 748
+  idSpectacle: 878
+  debut: "2014-06-13 20:30:00"
+  fin: "2014-02-02 11:23:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 749
+  idSpectacle: 878
+  debut: "2014-06-14 20:30:00"
+  fin: "2014-02-02 11:23:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 750
+  idSpectacle: 878
+  debut: "2014-06-15 19:00:00"
+  fin: "2014-02-02 11:23:04"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 751
+  idSpectacle: 879
+  debut: "2014-05-30 19:00:00"
+  fin: "2014-02-02 12:18:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 752
+  idSpectacle: 879
+  debut: "2014-05-31 14:00:00"
+  fin: "2014-02-02 12:18:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 753
+  idSpectacle: 879
+  debut: "2014-06-01 12:30:00"
+  fin: "2014-02-02 12:18:56"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 754
+  idSpectacle: 880
+  debut: "2014-05-31 22:30:00"
+  fin: "2014-02-02 12:29:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 755
+  idSpectacle: 881
+  debut: "2014-05-31 21:00:00"
+  fin: "2014-02-02 12:35:39"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 756
+  idSpectacle: 882
+  debut: "2014-06-01 12:30:00"
+  fin: "2014-02-02 12:39:03"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 757
+  idSpectacle: 883
+  debut: "2014-06-20 19:00:00"
+  fin: "2014-02-02 12:43:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 758
+  idSpectacle: 883
+  debut: "2014-06-21 12:00:00"
+  fin: "2014-02-02 12:43:48"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 759
+  idSpectacle: 884
+  debut: "2014-05-10 20:30:00"
+  fin: "2014-02-02 12:46:52"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 766
+  idSpectacle: 751
+  debut: "2014-05-18 15:00:00"
+  fin: "2014-02-06 11:44:23"
+  montrerDebut: 1
+  montrerFin: 1
+-
+  id: 767
+  idSpectacle: 751
+  debut: "2014-05-24 15:00:00"
+  fin: "2014-02-06 11:44:23"
+  montrerDebut: 1
+  montrerFin: 1
+...

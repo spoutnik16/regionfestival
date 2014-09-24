@@ -2,11 +2,15 @@
   <dictionary name="spoutnik16">
     <words>
       <w>backends</w>
+      <w>clickjacking</w>
       <w>csrf</w>
       <w>cypn</w>
       <w>howto</w>
+      <w>importcommunes</w>
+      <w>loadyml</w>
       <w>regionfestival</w>
       <w>sqlite</w>
+      <w>valais</w>
       <w>vmjv</w>
       <w>wsgi</w>
     </words>

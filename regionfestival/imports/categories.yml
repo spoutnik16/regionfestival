@@ -1,0 +1,115 @@
+%YAML 1.1
+---
+# db15162_vf.categories
+-
+  id: 999
+  parentId: 0
+  name: "Autre"
+  name-fr: "Autre"
+-
+  id: 2
+  parentId: 0
+  name: "Musique"
+  name-fr: "Musique"
+-
+  id: 3
+  parentId: 0
+  name: "Théâtre"
+  name-fr: "Théâtre"
+-
+  id: 4
+  parentId: 2
+  name: "Fanfare"
+  name-fr: "Fanfare"
+-
+  id: 5
+  parentId: 2
+  name: "Chorale"
+  name-fr: "Chorale"
+-
+  id: 6
+  parentId: 0
+  name: "Danse"
+  name-fr: "Danse"
+-
+  id: 1000
+  parentId: 2
+  name: "Rock"
+  name-fr: "Rock"
+-
+  id: 1001
+  parentId: 2
+  name: "Musique populaire"
+  name-fr: "Musique populaire"
+-
+  id: 1002
+  parentId: 2
+  name: "Orchestre"
+  name-fr: "Orchestre"
+-
+  id: 1003
+  parentId: 0
+  name: "Art de rue"
+  name-fr: "Art de rue"
+-
+  id: 1004
+  parentId: 3
+  name: "Conte"
+  name-fr: "Conte"
+-
+  id: 1005
+  parentId: 3
+  name: "Lecture"
+  name-fr: "Lecture"
+-
+  id: 1006
+  parentId: 0
+  name: "Art multidisciplinaire"
+  name-fr: "Art multidisciplinaire"
+-
+  id: 1007
+  parentId: 2
+  name: "Jazz"
+  name-fr: "Jazz"
+-
+  id: 1008
+  parentId: 0
+  name: "Performence"
+  name-fr: "Performence"
+-
+  id: 1009
+  parentId: 0
+  name: "Cirque"
+  name-fr: "Cirque"
+-
+  id: 1010
+  parentId: 3
+  name: "Humour"
+  name-fr: "Humour"
+-
+  id: 1011
+  parentId: 6
+  name: "Danse-Théâtre"
+  name-fr: "Danse-Théâtre"
+-
+  id: 1012
+  parentId: 2
+  name: "Opéra"
+  name-fr: "Opéra"
+-
+  id: 1013
+  parentId: 0
+  name: "Festival"
+  name-fr: "Festival"
+  name-de: "Festival"
+-
+  id: 1014
+  parentId: 3
+  name: "Comédie-musicale"
+  name-fr: "Comédie-musicale"
+-
+  id: 1015
+  parentId: 6
+  name: "danse folklorique"
+  name-fr: "Danse folklorique"
+...
