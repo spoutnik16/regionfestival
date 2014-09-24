@@ -7,14 +7,15 @@ from django.conf import settings
 import yaml
 
 from spectacles.models import *
-from associations.models import *
+from associations.models import RegionChild2, Association, CategorieAssociation
 
 
 class ImportDFI:
     def importall(self):
         # self.importcommunes()
         self.importplaces()
-        self.importcategories()
+        self.importcategoriesspectacle()
+        self.importcategoriesassociation()
         self.importspectacles()
         self.importrepresentations()
         self.importimages()
@@ -23,27 +24,27 @@ class ImportDFI:
     def loadyml(file):
         return yaml.load(open(settings.BASE_DIR + '/spectacles/imports/' + file))
 
-    def importcommunes(self):
-        changes_commune = False
-        if not Region.objects.filter(name='valais').exists():
-            valais = Region(name='valais')
-            valais.save()
-            changes_commune = True
-        valais = Region.objects.get(name='valais')
-        base = self.loadyml('communes.yml')
-        for commune in base:
-            if not RegionChild.objects.filter(name=commune['district'].lower()).exists():
-                child = RegionChild(name=commune['district'].lower(), region=valais)
-                child.save()
-                print('district ' + child.name + ' sauvé')
-                changes_commune = True
-            child = RegionChild.objects.get(name=commune['district'].lower())
-            if not RegionChild2.objects.filter(name=commune['commune']).exists():
-                commune = RegionChild2(name=commune['commune'].lower(), order=commune['order'], region_child=child)
-                commune.save()
-                print('commune ' + commune.name + ' sauvée')
-                changes_commune = True
-        return changes_commune
+    # def importcommunes(self):
+    # changes_commune = False
+    # if not Region.objects.filter(name='valais').exists():
+    #         valais = Region(name='valais')
+    #         valais.save()
+    #         changes_commune = True
+    #     valais = Region.objects.get(name='valais')
+    #     base = self.loadyml('communes.yml')
+    #     for commune in base:
+    #         if not RegionChild.objects.filter(name=commune['district'].lower()).exists():
+    #             child = RegionChild(name=commune['district'].lower(), region=valais)
+    #             child.save()
+    #             print('district ' + child.name + ' sauvé')
+    #             changes_commune = True
+    #         child = RegionChild.objects.get(name=commune['district'].lower())
+    #         if not RegionChild2.objects.filter(name=commune['commune']).exists():
+    #             commune = RegionChild2(name=commune['commune'].lower(), order=commune['order'], region_child=child)
+    #             commune.save()
+    #             print('commune ' + commune.name + ' sauvée')
+    #             changes_commune = True
+    #     return changes_commune
 
     def importplaces(self):
         changes_places = False
@@ -76,27 +77,49 @@ class ImportDFI:
                 changes_places = True
         return changes_places
 
-    def importcategories(self):
+    def importcategoriesspectacle(self):
         categories = self.loadyml('categories.yml')
         for categorie in categories:
-            self.importcategorie(categorie, categories)
+            self.importcategoriespectacle(categorie, categories)
 
-    def importcategorie(self, categorie, categories):
-        if not Categorie.objects.filter(name=categorie['name']):
-            cat = Categorie(name=categorie['name'])
+    def importcategoriespectacle(self, categorie, categories):
+        if not CategorieSpectacle.objects.filter(name=categorie['name']):
+            cat = CategorieSpectacle(name=categorie['name'])
             cat.slug = slugify(cat.name)
             parentid = int(categorie['parentId'])
             if parentid > 0:
                 parent = [element for element in categories if int(element['id']) == parentid][0]
-                if not Categorie.objects.filter(name=parent['name']):
-                    parent = self.importcategorie(parent, categories)
+                if not CategorieSpectacle.objects.filter(name=parent['name']):
+                    parent = self.importcategorieSpectaclem(parent, categories)
                 else:
-                    parent = Categorie.objects.filter(name=parent['name']).first()
+                    parent = CategorieSpectacle.objects.filter(name=parent['name']).first()
                 cat.parent = parent
             cat.save()
             print('catégorie ' + cat.name + ' sauvée')
             return cat
-        return Categorie.objects.filter(name=categorie['name']).first()
+        return CategorieSpectacle.objects.filter(name=categorie['name']).first()
+
+    def importcategoriesassociation(self):
+        categories = self.loadyml('categories.yml')
+        for categorie in categories:
+            self.importcategorieassociation(categorie, categories)
+
+    def importcategorieassociation(self, categorie, categories):
+        if not CategorieAssociation.objects.filter(name=categorie['name']):
+            cat = CategorieAssociation(name=categorie['name'])
+            cat.slug = slugify(cat.name)
+            parentid = int(categorie['parentId'])
+            if parentid > 0:
+                parent = [element for element in categories if int(element['id']) == parentid][0]
+                if not CategorieAssociation.objects.filter(name=parent['name']):
+                    parent = self.importcategorie(parent, categories)
+                else:
+                    parent = CategorieAssociation.objects.filter(name=parent['name']).first()
+                cat.parent = parent
+            cat.save()
+            print('catégorie ' + cat.name + ' sauvée')
+            return cat
+        return CategorieAssociation.objects.filter(name=categorie['name']).first()
 
     def importspectacles(self):
         spectacles = self.loadyml('spectacles.yml')
@@ -108,7 +131,7 @@ class ImportDFI:
     def importspectacle(self, spectacle, spectacles, categories):
         cat_id = int(spectacle['categorie'])
         categorie_dic = [e for e in categories if int(e['id']) == cat_id][0]
-        categorie = Categorie.objects.filter(name=categorie_dic['name']).first()
+        categorie = CategorieSpectacle.objects.filter(name=categorie_dic['name']).first()
         s = Spectacle(name=spectacle['name'],
                       presentation_cahier=spectacle['presentationCahier'],
                       status=spectacle['status'],

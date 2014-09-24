@@ -1,3 +1,6 @@
+# -*- encoding: utf-8 -*-
+
+
 # Create your models here.
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
@@ -29,7 +32,7 @@ class RegionChild(models.Model):
         return self.name
 
 
-class Categorie(models.Model):
+class CategorieAssociation(models.Model):
     name = models.CharField(max_length=512,
                             verbose_name=_("categorie"))
     parent = models.ForeignKey("self",
@@ -66,7 +69,7 @@ class Association(models.Model):
     name = models.CharField(max_length=2048,
                             help_text=_("nom officiel de l'association"),
                             verbose_name=_('nom'))
-    categorie = models.ForeignKey(Categorie)
+    categorie = models.ForeignKey(CategorieAssociation)
     region_child2 = models.ForeignKey(RegionChild2)
     website = models.CharField(max_length=512,
                                verbose_name=_('site web'),
