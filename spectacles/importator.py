@@ -1,4 +1,5 @@
 from urllib.request import urlopen
+from datetime import date
 
 from django.core.files import File
 from django.core.files.temp import NamedTemporaryFile
@@ -12,6 +13,7 @@ from associations.models import RegionChild2, Association, CategorieAssociation
 
 class ImportDFI:
     def importall(self):
+        self.createfestival()
         # self.importcommunes()
         self.importplaces()
         self.importcategoriesspectacle()
@@ -45,6 +47,14 @@ class ImportDFI:
     #             print('commune ' + commune.name + ' sauvée')
     #             changes_commune = True
     #     return changes_commune
+
+    def createfestival(self):
+        if not Festival.objects.filter(name='Valais Festival 2014').exists():
+            festival = Festival(name='Valais Festival 2014')
+            festival.startdate = date(2014, 4, 1)
+            festival.enddate = date(2014, 6, 30)
+            festival.save()
+
 
     def importplaces(self):
         changes_places = False
@@ -195,7 +205,7 @@ class ImportDFI:
             spectacle.save()
 
     def importrepresentations(self):
-        representations = self.loadyml('repkeresentations.yml')
+        representations = self.loadyml('representations.yml')
         spectacles = self.loadyml('spectacles.yml')
         lieux = self.loadyml('places.yml')
         for representation in representations:
@@ -212,6 +222,8 @@ class ImportDFI:
                     representation.lieu = lieu
                     representation.spectacle = spectacle
                     representation.save()
+                    # representation.festival = Festival.objects.get(name='Valais Festival 2014')
+                    # representation.save()
                     print(
                         'representation du spectacle ' + spectacle.name + ' au ' + lieu.name + ' le ' +
                         str(representation.datetime) + ' sauvée')

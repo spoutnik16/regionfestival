@@ -9,6 +9,7 @@ from crm.models import CustomUser
 
 
 
+
 # Create your models here.
 class Artiste(models.Model):
     name = models.CharField(max_length=512)
@@ -99,7 +100,7 @@ class Spectacle(models.Model):
                              blank=True,
                              help_text=_("le numéro auquel appelé pour réserver"),
                              verbose_name=_("numéro de téléphone pour les réservations"))
-    photo = models.ImageField(upload_to="images",
+    photo = models.ImageField(upload_to="images-spectacle",
                               null=True,
                               blank=True,
                               verbose_name=_("image"))
@@ -213,6 +214,10 @@ class Representation(models.Model):
                                       help_text=_(
                                           "0 = en création, 1 = en validation, 3 = public, 4 = exporté vers le cahier "
                                           "spécial"))
+    festival = models.ManyToManyField(Festival,
+                                      null=True,
+                                      blank=True,
+                                      verbose_name=_('festival auquel participe le spectacle'))
 
     class Meta:
         verbose_name = _('représentation')
