@@ -90,7 +90,7 @@ class ImportDFI:
             if parentid > 0:
                 parent = [element for element in categories if int(element['id']) == parentid][0]
                 if not CategorieSpectacle.objects.filter(name=parent['name']):
-                    parent = self.importcategorieSpectaclem(parent, categories)
+                    parent = self.importcategoriespectacle(parent, categories)
                 else:
                     parent = CategorieSpectacle.objects.filter(name=parent['name']).first()
                 cat.parent = parent
@@ -112,7 +112,7 @@ class ImportDFI:
             if parentid > 0:
                 parent = [element for element in categories if int(element['id']) == parentid][0]
                 if not CategorieAssociation.objects.filter(name=parent['name']):
-                    parent = self.importcategorie(parent, categories)
+                    parent = self.importcategorieassociation(parent, categories)
                 else:
                     parent = CategorieAssociation.objects.filter(name=parent['name']).first()
                 cat.parent = parent
@@ -185,8 +185,7 @@ class ImportDFI:
                 a = Association.objects.filter(name=asso_name).first()
             else:
                 a = Association(name=asso_name)
-                cat_asso = int(spectacle.categorie.id)
-                cat_dic = [e for e in categories if int(e['id']) == cat_asso][0]
+                cat_dic = [e for e in categories if e['name'] == spectacle.categorie.name][0]
                 categorie = CategorieAssociation.objects.filter(name=cat_dic['name']).first()
                 a.categorie = categorie
                 a.save()

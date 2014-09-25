@@ -72,7 +72,8 @@ class Association(models.Model):
     categorie = models.ForeignKey(CategorieAssociation)
     region_child2 = models.ForeignKey(RegionChild2,
                                       blank=True,
-                                      null=True)
+                                      null=True,
+                                      default=None)
     website = models.CharField(max_length=512,
                                verbose_name=_('site web'),
                                blank=True,
