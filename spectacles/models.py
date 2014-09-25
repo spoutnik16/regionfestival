@@ -8,6 +8,7 @@ from crm.models import CustomUser
 
 
 
+
 # Create your models here.
 class Artiste(models.Model):
     name = models.CharField(max_length=512)
@@ -102,10 +103,6 @@ class Spectacle(models.Model):
                               null=True,
                               blank=True,
                               verbose_name=_("image"))
-    allowedusers = models.ManyToManyField(CustomUser,
-                                          verbose_name=_('utilisateur authorisé'),
-                                          null=True,
-                                          blank=True)
     parent = models.ManyToManyField('self',
                                     null=True,
                                     blank=True,
@@ -123,6 +120,10 @@ class Spectacle(models.Model):
                                  blank=True,
                                  null=True)
     categorie = models.ForeignKey(CategorieSpectacle)
+    allowed_user = models.ManyToManyField(CustomUser,
+                                          null=True,
+                                          blank=True,
+                                          verbose_name=_("utilisateurs authorisés"))
 
     class Meta:
         verbose_name = _('spectacle')

@@ -70,7 +70,9 @@ class Association(models.Model):
                             help_text=_("nom officiel de l'association"),
                             verbose_name=_('nom'))
     categorie = models.ForeignKey(CategorieAssociation)
-    region_child2 = models.ForeignKey(RegionChild2)
+    region_child2 = models.ForeignKey(RegionChild2,
+                                      blank=True,
+                                      null=True)
     website = models.CharField(max_length=512,
                                verbose_name=_('site web'),
                                blank=True,

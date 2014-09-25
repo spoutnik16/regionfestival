@@ -150,7 +150,7 @@ class ImportDFI:
                 print('parent trouvé : ' + parent.name)
             s.parent.add(parent)
         print('spectacle ' + s.name + ' sauvé')
-        self.importasso(spectacle['compagnie'], s)
+        self.importasso(spectacle['compagnie'], s, categories)
         return s
 
     def importimages(self):
@@ -177,7 +177,7 @@ class ImportDFI:
                     print('image ' + img_name + ' sauvée')
 
     @staticmethod
-    def importasso(asso_name, spectacle):
+    def importasso(asso_name, spectacle, categories):
         associations = asso_name.split(',')
         for asso_name in associations:
             asso_name = asso_name.strip()
@@ -185,13 +185,18 @@ class ImportDFI:
                 a = Association.objects.filter(name=asso_name).first()
             else:
                 a = Association(name=asso_name)
+                cat_asso = int(spectacle.categorie.id)
+                cat_dic = [e for e in categories if int(e['id']) == cat_asso][0]
+                categorie = CategorieAssociation.objects.filter(name=cat_dic['name']).first()
+                a.categorie = categorie
                 a.save()
                 print('association ' + a.name + ' sauvée')
             spectacle.associations.add(a)
+            # TODO ajouter la region_child_2
             spectacle.save()
 
     def importrepresentations(self):
-        representations = self.loadyml('representations.yml')
+        representations = self.loadyml('repkeresentations.yml')
         spectacles = self.loadyml('spectacles.yml')
         lieux = self.loadyml('places.yml')
         for representation in representations:
