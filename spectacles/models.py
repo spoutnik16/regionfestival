@@ -7,9 +7,6 @@ from crm.models import CustomUser
 
 
 
-
-
-
 # Create your models here.
 class Artiste(models.Model):
     name = models.CharField(max_length=512)
@@ -23,8 +20,7 @@ class Artiste(models.Model):
     allowed_users = models.ManyToManyField(CustomUser,
                                            verbose_name=_('utilisateur authorise'),
                                            null=True,
-                                           blank=True
-    )
+                                           blank=True)
     status = models.SmallIntegerField(verbose_name=_("status"),
                                       help_text=_(
                                           "0 = en création, 1 = en validation, 3 = public, "

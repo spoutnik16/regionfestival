@@ -13,7 +13,7 @@ from associations.models import RegionChild2, Association, CategorieAssociation
 
 class ImportDFI:
     def importall(self):
-        self.createfestival()
+        ImportDFI.createfestival()
         # self.importcommunes()
         self.importplaces()
         self.importcategoriesspectacle()
@@ -48,13 +48,13 @@ class ImportDFI:
     #             changes_commune = True
     #     return changes_commune
 
-    def createfestival(self):
+    @staticmethod
+    def createfestival():
         if not Festival.objects.filter(name='Valais Festival 2014').exists():
             festival = Festival(name='Valais Festival 2014')
             festival.startdate = date(2014, 4, 1)
             festival.enddate = date(2014, 6, 30)
             festival.save()
-
 
     def importplaces(self):
         changes_places = False

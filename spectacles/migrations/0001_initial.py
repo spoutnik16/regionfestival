@@ -132,7 +132,8 @@ class Migration(migrations.Migration):
                                         to='associations.Association', null=True, blank=True)),
                 ('categorie', models.ForeignKey(to='spectacles.CategorieSpectacle')),
                 ('parent', models.ManyToManyField(to='spectacles.Spectacle', related_name='parent_rel_+', null=True,
-                                                  help_text="dans le cas d'un festival, les différents événements qui s'y passent sont des sous-événements",
+                                                  help_text="dans le cas d'un festival, les différents événements qui "
+                                                            "s'y passent sont des sous-événements",
                                                   verbose_name='Festival', blank=True)),
                 ('participants',
                  models.ManyToManyField(to='spectacles.Artiste', verbose_name='artiste', null=True, blank=True)),
