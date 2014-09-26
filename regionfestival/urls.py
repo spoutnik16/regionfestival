@@ -9,3 +9,4 @@ urlpatterns = patterns(
 
     url(r'^admin/', include(admin.site.urls)),
 )
+# TODO ajouter les images, les différentes apps, etc...
