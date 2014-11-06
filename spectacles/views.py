@@ -36,7 +36,7 @@ from django.core.paginator import Paginator, EmptyPage
 from django.db.models import Q
 from spectacles.forms import ContactForm, ConnexionForm, RegisterForm, SearchForm
 from spectacles.forms import SpectacleSimpleForm, AssociationSimpleForm
-from spectacles.models import Spectacle, Representation, Lieu
+from spectacles.models import Spectacle, Representation, Lieu, CategorieSpectacle
 from associations.models import CategorieAssociation, Region, RegionChild, RegionChild2
 from spectacles.models import Festival
 # Create your views here.
@@ -108,7 +108,7 @@ def spectacles(request, page=1, categorie=None, search_term=None):
                 return redirect(spectacles_redir, page=1, categorie=categorie)
             else:
                 return redirect(spectacles_redir, page=1)
-    categories_list = Categorie.objects.all()
+    categories_list = CategorieSpectacle.objects.all()
     spectacles_list = Spectacle.objects.all()
     if categorie:
         categorie = get_object_or_404(Categorie, slug=categorie)
