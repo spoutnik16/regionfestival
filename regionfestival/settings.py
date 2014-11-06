@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from django.utils.translation import ugettext_lazy as _
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -24,6 +25,8 @@ SECRET_KEY = '-wrz)vmjv5ix1fps)&47(k+9!7b2cypn&2r@po!u23quf8ov_a'
 DEBUG = True
 
 TEMPLATE_DEBUG = True
+
+SITE_ID = 1
 
 ALLOWED_HOSTS = []
 
@@ -40,6 +43,8 @@ INSTALLED_APPS = (
     'associations',
     'spectacles',
     'crm',
+    'django.contrib.sites',
+    'django.contrib.flatpages',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -70,7 +75,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'fr-ch'
 
 TIME_ZONE = 'UTC'
 
@@ -84,7 +89,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/web/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
+
+LANGUAGES = (
+                ('fr', _('Français')),
+                ('de', _('Allemand')),
+            )
+
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates/'),
+    )

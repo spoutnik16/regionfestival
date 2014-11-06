@@ -1,4 +1,5 @@
 {% load i18n %}
+{%  load staticfiles %}
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,12 +8,12 @@
     <meta name="description"
           content="Le Valais Festival est LE festival de toutes les associations culturelles valaisannes."/>
 
-    <link rel="icon" type="image/x-icon" href="/web/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="{% static "favicon.ico" %}" />
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
-    <link rel="Stylesheet" type="text/css" href="/web/css/main.css"/>
+    <link rel="Stylesheet" type="text/css" href="{% static "css/main.css" %}"/>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/web/js/jquery.responsiveMenu.js"></script>
+    <script type="text/javascript" src="{% static "js/jquery.responsiveMenu.js" %}"></script>
     {% block javascript %}
     {% endblock %}
     <title>{% trans "Valais Festival" %} - {% block title %}Valais Festival{% endblock %}</title>
@@ -40,7 +41,7 @@
                                 href="{% url 'spectacles.views.spectacles' %}">{% trans "par catégorie" %}</a></li>
                         <li class="sub"><a href="{% url 'spectacles.views.agenda' %}">{% trans "par date" %}</a></li>
                         <li class="sub"><a href="/fr/communes.html">{% trans "par lieu" %}</a></li>
-                        <li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li>
+                        {% comment  %}<li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li> {% endcomment %}
                         <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
                         {% if user.is_authenticated %}
                             <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
