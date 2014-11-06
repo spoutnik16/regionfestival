@@ -7,7 +7,7 @@
     </ul>
 {% endif %}
 <form action="" method="POST" style="display: inline;">
-    <input type="text" name="search_term" value={{ unquoted_url|default_if_none:"" }}>
+    <input label="search" type="text" name="search_term" value={{ unquoted_url|default_if_none:"" }}>
     <input type="submit" value="{% trans "Rechercher" %}">
     {% csrf_token %}
 </form>
