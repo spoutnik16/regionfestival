@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Se connecter" %}{% endblock %}
+
+{% block content %}
+
+
+    {% if error %}
+        <p><strong>{% blocktrans %}Utilisateur inexistant ou mauvais de mot de passe.{% endblocktrans %}</strong></p>
+    {% endif %}
+
+    {% if user.is_authenticated %}
+        Vous êtes connecté, {{ user.username }} !
+    {% else %}
+        <form method="post" action=".">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit"/>
+        </form>
+    {% endif %}
+{% endblock %}

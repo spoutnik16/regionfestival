@@ -1,0 +1,40 @@
+{% load i18n %}
+<div class="spectacle">
+    <div class="headers">
+        <h3 class="compagnie" itemprop="description">
+            {% for association in spectacle.associations.all %}{{ association.name }}{% if not forloop.last %},
+            {% endif %}{% endfor %}</h3>
+
+        <h2><a href="{% url 'spectacles.views.spectacle' spectacle.id %}"><span itemprop="summary"
+                                                                                class="titre">{{ spectacle.name }}</span></a>
+        </h2>
+        <span class="categorie" itemprop="eventType">{{ spectacle.categorie.name }}</span><br/>
+
+        {% if spectacle.photo %}
+            <img src="{{ spectacle.photo.url }}"/>
+        {% endif %}
+        <p class="DescriptionSpectacle" itemprop="description">{{ spectacle.presentation_cahier|linebreaksbr }}</p>
+
+        {% for representation in spectacle.representation_set.all %}
+            {% ifchanged representation.lieu %}
+                <span itemprop="location" itemscope itemtype="http://data-vocabulary.org/​Organization">
+                <br/><span class="lieu">{% trans "lieu" %} :</span>
+                <a href="place-show-<?=$spectacle['idLieu']?>.html"><span itemprop="name"
+                                                                          class="lieutext">{{ representation.lieu.name }}</span></a>
+                <br/>
+                <span class="ville">{% trans "ville" %}: </span>
+                <span itemprop="adress" itemscope itemtype="http://data-vocabulary.org/Address">
+		<a href="commune-show-<?=$spectacle['idCommune']?>.html"><span itemprop="locality"
+                                                                       class="ville">{{ representation.lieu.city }}</span></a>
+		<span itemprop="street-adress" style="font-size: 0px;">{{ representation.lieu.adress }}</span>
+	</span>
+            {% endifchanged %}
+        <span>{{ representation.datetime|date:"l d F Y" }} {% trans "à" context "tel jour À telle heure" %} {{ representation.datetime|date:"H \h i" }}</span>
+        <br/>
+        {% ifchanged representation.lieu %}
+            </div>
+            <span style="font-size: 0px;" itemprop="geo"></span>
+            </span>
+        {% endifchanged %}
+        {% endfor %}
+</div>

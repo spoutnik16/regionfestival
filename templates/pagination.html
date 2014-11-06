@@ -1,0 +1,31 @@
+{% if list.paginator.num_pages > 1 %}
+    <ul class="pagination">
+        {% for page_num in list.paginator.page_range %}
+            {% if page_num < 4 or page_num|add:"3" > list.paginator.num_pages or list.number < page_num and page_num < list.number|add:"4" or page_num < list.number and list.number < page_num|add:"4" or page_num = list.number %}
+                {% if page_num == list.number %}
+                    <li>{{ page_num }}</li>
+                {% else %}
+                    {% if categorie %}
+                        {% if search_term %}
+                            <li><a class="page"
+                                   href="{% url view categorie=categorie.slug page=page_num search_term=search_term %}">{{ page_num }}</a>
+                            </li>
+                        {% else %}
+                            <li><a class="page"
+                                   href="{% url view categorie=categorie.slug page=page_num %}">{{ page_num }}</a></li>
+                        {% endif %}
+                    {% else %}
+                        {% if search_term %}
+                            <li><a class="page"
+                                   href="{% url view page=page_num search_term=search_term %}">{{ page_num }}</a></li>
+                        {% else %}
+                            <li><a class="page" href="{% url view page=page_num %}">{{ page_num }}</a></li>
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% elif page_num < 5 or page_num|add:"2" > lit.paginator.num_pages or list.number|add:"1" < page_num and page_num < list.number|add:"5" or page_num < list.number|add:"1" and list.number < page_num|add:"5" %}
+                <li>...</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endif %}

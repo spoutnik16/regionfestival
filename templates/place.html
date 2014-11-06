@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Liste des spectacles" %}{% endblock %}
+{% block content %}
+    <div class="place">
+<span>
+<h1>{{ lieu.name }}</h1>
+	<span itemprop="address" itemscope itemptype="http://data-vocabulary.org/Address">
+		<span itemprop="locality"><a href="commune-show-103.html">{{ lieu.city }}</a></span><br/>
+		<span itemprop="street-adress">{{ lieu.adress }}</span>
+	</span>
+    </div>
+    {% for representation in representations %}
+        {% include 'representation.html' %}
+    {% endfor %}
+
+{% endblock %}

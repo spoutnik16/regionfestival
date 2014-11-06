@@ -1,0 +1,653 @@
+@CHARSET "ISO-8859-1";
+
+/*img#banner {
+	width: 30%;
+}*/
+
+li div.spectacle {
+    border-bottom: none;
+}
+
+li div.representationsColumnss {
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+}
+
+ul.pagination li {
+    display: inline;
+    margin: 6px;
+}
+
+img.banner {
+    max-width: 587px;
+    width: 62%;
+    position: absolute;
+    top: 2px;
+    margin-left: 2px;
+}
+
+option:disabled {
+    color: gray;
+}
+
+label.agenda {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+
+}
+
+div.listeSpectaclesLieux, div.listeSpectaclesCommune {
+    padding-top: 20px;
+    clear: both;
+}
+
+img#sponsor {
+    width: 19%;
+    float: right;
+}
+
+div.maplieu div#map-canvas, div.mapSpectacle div#map-canvas {
+    width: 300px !important;
+    height: 200px !important;
+    float: left;;
+}
+
+div.child {
+    clear: both;
+}
+
+body {
+    padding: 20px;
+    /*background-color: #f4f6f7;*/
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+span.FormErrorMessage {
+    color: red;
+}
+
+p.messageFlash {
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+div #container {
+
+    /*background-color: #fff;
+    background: #fff url('../images/valais_logo.jpg') no-repeat;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.05);*/
+    background: no-repeat;
+    background-size: 60%;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-size: 12px;
+    color: red;
+}
+
+/*div #header{
+	margin-left:auto;
+	margin-right:auto;
+}*/
+
+div #menus, nav {
+    margin-right: 2%;
+}
+
+/*div .menu{
+min-height: 20px;
+padding: 19px;
+padding-left: 0px;
+margin-bottom: 20px;
+background-color: #f5f5f5;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}*/
+
+#header {
+    padding-top: 20%;
+}
+
+/*#header h1 a{
+	text-decoration: none;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}*/
+
+div #footer {
+    clear: both;
+}
+
+div #map-canvas {
+    width: 750px;
+    height: 600px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: inline;
+}
+
+li input, li label {
+    display: inline;
+}
+
+div.spectacle img {
+    width: 150px;
+}
+
+div.spectacle {
+    width: 100%;
+    clear: both;
+    /*border: 1px solid;*/
+
+    border-top: 1px solid;
+
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.mainSpectacle div.spectacle, .childLieu div.spectacle, .spectacleAll div.spectacle {
+    border-top: none;
+
+    border-bottom: none;
+    /*margin-bottom: 10px;*/
+}
+
+.mainSpectacle {
+    border-top: 1px solid;
+
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.childLieu, .spectacleAll {
+    border-top: 1px solid;
+
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+}
+
+li.commune, li.districts {
+    width: 200px;
+    display: block;
+    float: left;
+}
+
+li.hasSpectacle a {
+    color: black;
+}
+
+li.noSpectacle {
+    color: gray;
+}
+
+ul.commune, ul.districts {
+    display: inline;
+}
+
+/******************** personal style (maxime) ********************/
+
+* {
+    font-family: Montserrat, Arial, sans-serif;
+    /* Ne pas oublier d'ajouter cette ligne dans le head: <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'> */
+    color: #c80014;
+}
+
+body {
+    /*background-color: #760F27;*/
+}
+
+#container {
+    background-color: #F5F5F5;
+}
+
+#container #main {
+    float: right;
+    width: 68%;
+    min-height: 580px;
+    margin-top: 4%;
+}
+
+p {
+    color: #121212;
+}
+
+a {
+    /*color: #9F0B0B;*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AAA;
+}
+
+#menus, nav {
+    float: left;
+    width: 25%;
+}
+
+ul {
+    padding: 8px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#main #map-canvas {
+    width: 100%;
+    margin: 10px;
+}
+
+#sponsors {
+    /*float: left;*/
+    width: 25%;
+    text-align: center;
+}
+
+#sponsors img {
+    width: 100%;
+}
+
+address p {
+    margin: 10px;
+    float: left;
+}
+
+div.headerSpectacles li, .mois li {
+
+    border-bottom: 1px solid;
+
+}
+
+.headers {
+    margin-left: 10px;
+}
+
+span.lieu, span.ville {
+    display: inline-block;
+    width: 50px;
+}
+
+.spectacle img {
+    margin: 10px;
+    float: left;
+}
+
+p.DescriptionSpectacle {
+    margin: 0 15px;
+}
+
+.headerSpectacles, .footerSpectacles {
+    text-align: center;
+}
+
+.footerSpectacles {
+    border-top: 1px solid #760F27;
+    clear: both;
+}
+
+li.current {
+    color: #D8D1BC;
+    font-weight: bold;
+    background: #c80014;
+}
+
+li.current a {
+    color: #D8D1BC;
+    font-weight: bold;
+}
+
+ul.pages, ul.categorie {
+    margin: 0 auto;
+}
+
+.pages li, .categorie li, .mois li {
+    border-bottom: 1px solid;
+
+    line-height: 30px;
+    margin: 0 10px;
+
+    padding: 4px;
+
+    display: inline;
+
+    -moz-border-radius: 10px;
+
+    -webkit-border-radius: 10px;
+
+    border-radius: 10px;
+}
+
+.field label {
+    width: 120px;
+    display: inline-block;
+}
+
+#presentationCahier_LineHeight + label {
+    display: block;
+    min-width: 300px;
+}
+
+input {
+    margin: 5px 5px 5px 0;
+}
+
+#NomDesLieux {
+    border: none;
+}
+
+#NomDesLieux th, #NomDesLieux td {
+    text-align: left;
+    margin: 0 2px;
+}
+
+#NomDesLieux td {
+    background-color: #EDE8E8;
+}
+
+.representationsSpectacle {
+    clear: both;
+    margin-left: 5px;
+}
+
+div.representationColumns {
+    width: 30%;
+    float: left;
+    margin: 0 5px;
+}
+
+.presentation {
+    margin: 10px 0;
+}
+
+#wizard_tabs fieldset {
+    clear: both;
+}
+
+#wizard_tabs label {
+    width: 200px;
+}
+
+#wizard_tabs select {
+    margin: 5px 5px 5px 0;
+    min-width: 133px;
+}
+
+#wizard_tabs li {
+    height: 30px;
+}
+
+p.ajouter {
+    margin: 30px 0;
+}
+
+p.ajouter a {
+    padding: 18px 10px;
+    font-size: 20px;
+    background-color: #EDE8E8;
+    border: 1px solid #000;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+button.next, button.prev {
+    border: 1px solid black;
+    min-width: 80px;
+    background-color: #EDE8E8;
+}
+
+button.next:hover, button.prev:hover {
+    min-width: 80px;
+    cursor: pointer;
+    color: #D8D1BC;
+}
+
+img.uploadedImage {
+    max-width: 100%;
+}
+
+#x:hover {
+    cursor: pointer;
+}
+
+.lang {
+    display: inline-block;
+    font-size: 1.2em;
+    -webkit-transform: rotate(336deg);
+    -moz-transform: rotate(336deg);
+    -ms-transform: rotate(336deg);
+    -o-transform: rotate(336deg);
+    transform: rotate(336deg);
+}
+
+.lang a {
+    width: 40px;
+    display: inline-block;
+    padding: 5px;
+    background-color: #EDE8E8;
+    text-align: center;
+}
+
+p.representation {
+    line-height: 14px;
+}
+
+#representation label.date, #representation label.time, #participant label.nom, #participant label.prenome {
+    float: left;
+    width: 135px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/*
+    Responsive menu
+*/
+.responsive-menu {
+    /*background:#EDE8E8;*/
+    margin-top: 44%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.responsive-menu .trigger,
+.responsive-menu h5,
+.responsive-menu h6 {
+    display: none;
+}
+
+.responsive-menu a {
+
+    font-size: 1.1 sem;
+
+}
+
+.responsive-menu ul {
+    padding-top: 26%;
+    background: url('../images/tube.jpg') no-repeat;
+    background-size: 240px;
+    background-position: center top;
+    min-height: 420px;
+}
+
+.responsive-menu ul li a {
+    display: block;
+    padding: 10px;
+    height: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.responsive-menu ul li.sub a {
+    text-transform: lowercase;
+    font-size: 1em;
+}
+
+.responsive-menu:first-child ul li:first-child a {
+    margin: 16px auto;
+    height: 16px;
+    color: #fff;
+    background-color: #c80014;
+    width: 60%;
+}
+
+.responsive-menu:first-child ul li:first-child a:hover {
+    background: none;
+}
+
+.responsive-menu ul li:first-child a:hover {
+    color: #AAA;
+}
+
+@media only screen and (max-width: 568px) {
+
+    .lang {
+        margin-top: 60px;
+        float: right;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    .responsive-menu {
+        margin-top: 16%;
+    }
+
+    .responsive-menu .trigger {
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        margin-bottom: 4px;
+        padding: 10px;
+        font-size: 0.98em;
+        font-weight: bold;
+        background-color: #9F0B0B;
+    }
+
+    .responsive-menu.open .trigger {
+        background-color: #760F27;
+    }
+
+    .responsive-menu ul li a,
+    .responsive-menu ul li {
+        display: align-block;
+    }
+
+    .responsive-menu ul {
+        padding-top: 60px;
+        display: none;
+    }
+
+    img.banner {
+        width: 100%;
+    }
+
+    #container #main {
+        clear: both;
+        width: 100%;
+        min-height: 0;
+        margin-top: 0;
+    }
+
+    div #menus, nav {
+        width: 100%;
+    }
+
+    #main object {
+        width: 100%;
+    }
+
+    img#banner {
+        width: 100%;
+    }
+
+    #sponsors {
+        width: 100%;
+    }
+
+    #sponsors ul {
+        display: inline-flex;
+    }
+
+    #sponsors li {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .field label {
+        display: block;
+    }
+
+    .listeLieux, .progression, .listeSpectacles {
+        overflow: scroll;
+    }
+
+    table {
+        min-width: 650px;
+    }
+
+    p.ajouter {
+        text-align: center;
+    }
+
+    p.ajouter a {
+        display: inline-block;
+        width: 80%;
+    }
+
+    div #container {
+        background-size: 100%;
+    }
+
+    /*div#filedrag{
+        display: none;
+    }*/
+}
+
+
+
+

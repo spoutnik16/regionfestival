@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+    {% trans "Bienvenue dans l'espace membre " %}
+    <a href="{% url 'spectacles.views.association_form' %}">{% trans "Ajouter une association" %}</a>
+{% endblock %}

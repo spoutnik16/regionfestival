@@ -1,0 +1,22 @@
+{% load i18n %}
+{% if errors %}
+    <ul>
+        {% for error in errors %}
+            <li>{{ error }}</lui>
+        {% endfor %}
+    </ul>
+{% endif %}
+<form action="" method="POST" style="display: inline;">
+    <input type="text" name="search_term" value={{ unquoted_url|default_if_none:"" }}>
+    <input type="submit" value="{% trans "Rechercher" %}">
+    {% csrf_token %}
+</form>
+{% if search_term %}
+    <form method="GET" action="{% if categorie %}
+	{% url 'spectacles.views.spectacles' categorie=categorie.slug %}
+	{% else %}
+	{% url 'spectacles.views.spectacles' %}
+	{% endif %}" style="display: inline"><input type="Submit" value="{% trans "Effacer la recherche" %}"/>
+        {% csrf_token %}
+    </form>
+{% endif %}

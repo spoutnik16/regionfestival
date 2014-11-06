@@ -1,0 +1,95 @@
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+    var marker;
+    var infowindow;
+
+    var styleJSON = [
+        {
+            "featureType": "administrative.country",
+            "stylers": [
+                { "visibility": "on" },
+                { "weight": 7.9 },
+                { "color": "#ff0000" }
+            ]
+        },
+        {
+            "featureType": "administrative.province",
+            "stylers": [
+                { "weight": 8 },
+                { "color": "#ff0000" }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "labels",
+            "stylers": [
+                { "visibility": "off" }
+            ]
+        },
+        {
+            "featureType": "poi",
+            "stylers": [
+                { "visibility": "off" }
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "stylers": [
+                { "hue": "#ff0000" },
+                { "saturation": 100 },
+                { "gamma": 0.33 }
+            ]
+        }
+    ];
+
+
+    function initialize() {
+        var latlng = new google.maps.LatLng(46.24974234461709, 7.349731810390949);
+        var options = {
+            zoom: 13,
+            center: latlng,
+            mapTypeIds: [google.maps.MapTypeId.HYBRID, 'valaisfestival']
+
+        }
+        var map = new google.maps.Map(document.getElementById("map-canvas"), options);
+
+        var styledMap = new google.maps.StyledMapType(styleJSON, {name: "Valais Festival"});
+        var image = {
+            url: '/web/images/tube_map.png',
+            size: new google.maps.Size(25, 50)
+        };
+        map.mapTypes.set('valaisfestival', styledMap);
+        map.setMapTypeId('valaisfestival');
+
+
+        var latlngPlace31 = new google.maps.LatLng(46.24974234461709, 7.349731810390949);
+
+        var markerPlace31 = new google.maps.Marker(
+                {
+                    position: latlngPlace31,
+                    url: '/fr/place-show-31.html',
+                    map: map,
+                    icon: image
+                });
+
+        google.maps.event.addListener(markerPlace31, 'click', function () {
+            window.location.href = markerPlace31.url;
+        });
+
+        var mc = new MarkerClusterer(map);
+    }
+
+    function loadScript() {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+                'callback=initialize';
+        document.body.appendChild(script);
+    }
+
+
+    window.onload = loadScript;
+
+    function doNothing() {
+    }
+</script>

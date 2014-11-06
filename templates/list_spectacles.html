@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Liste des spectacles" %}{% endblock %}
+{% block content %}
+    <ul class="categorie">
+        <li{% if not categorie %} class="current"{% endif %}>
+            <a href="{% if search_term %}
+{% url 'spectacles.views.spectacles' search_term=search_term %}
+{% else %}
+{% url 'spectacles.views.spectacles' %}
+{% endif %}">{% trans 'Tous' %}</a>
+        </li>
+        {% for cat in categories_list %}
+            {% if cat == categorie %}
+                <li class="current">{{ cat.name }}</li>
+            {% else %}
+                {% if search_term %}
+                    <li>
+                        <a href="{% url 'spectacles.views.spectacles' categorie=cat.slug search_term=search_term %}">{{ cat.name }}</a>
+                    </li>
+                {% else %}
+                    <li><a href="{% url 'spectacles.views.spectacles' categorie=cat.slug %}">{{ cat.name }}</a></li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+    {% include 'pagination.html' with list=spectacles view='spectacles.views.spectacles' %}
+    {% include 'search_form.html' with form=form %}
+    <ul>
+        {% for spectacle in spectacles %}
+            <li>{% include "spectacle.html" %}</li>
+        {% empty %}
+
+        {% endfor %}
+    </ul>
+
+{% endblock %}

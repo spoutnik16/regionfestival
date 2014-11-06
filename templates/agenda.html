@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Liste des spectacles" %}{% endblock %}
+{% block content %}
+    {% include 'calendrier.html' %}
+    {% for representation in reps %}
+        {% include 'representation.html' %}
+    {% empty %}
+        {% trans "Pas de spectacle ce jour" %}
+
+    {% endfor %}
+    </ul>
+
+{% endblock %}
