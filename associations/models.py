@@ -32,21 +32,6 @@ class RegionChild(models.Model):
         return self.name
 
 
-class CategorieAssociation(models.Model):
-    name = models.CharField(max_length=512,
-                            verbose_name=_("categorie"))
-    parent = models.ForeignKey("self",
-                               null=True,
-                               blank=True)
-
-    class Meta:
-        verbose_name = _('categorie')
-        verbose_name_plural = _('categorie')
-
-    def __str__(self):
-        return self.name
-
-
 class RegionChild2(models.Model):
     name = models.CharField(max_length=512,
                             verbose_name=_("commune"))
@@ -60,6 +45,30 @@ class RegionChild2(models.Model):
     class Meta:
         verbose_name = _('commune')
         verbose_name_plural = _('communes')
+
+    def __str__(self):
+        return self.name
+
+
+class CategorieAssociation(models.Model):
+    name = models.CharField(max_length=512,
+                            verbose_name=_("categorie"))
+    parent = models.ForeignKey("self",
+                               null=True,
+                               blank=True)
+    slug = models.SlugField(max_length=40,
+                            null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
+    region_child2 = models.ForeignKey(RegionChild2,
+                                      null=True,
+                                      blank=True,
+                                      help_text=_("commune d'origine"),
+                                      verbose_name=_("commune"))
+
+    class Meta:
+        verbose_name = _('categorie')
+        verbose_name_plural = _('categorie')
 
     def __str__(self):
         return self.name

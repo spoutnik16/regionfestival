@@ -100,7 +100,7 @@ def spectacles(request, page=1, categorie=None, search_term=None):
         if request.POST.get('search_term'):
             search_term = urlquote_plus(request.POST.get('search_term'))
             if categorie:
-                return redirect(spectacles_redir, page=1, xcategorie=categorie, search_term=search_term)
+                return redirect(spectacles_redir, page=1, categorie=categorie, search_term=search_term)
             else:
                 return redirect(spectacles_redir, page=1, search_term=search_term)
         else:
@@ -111,7 +111,7 @@ def spectacles(request, page=1, categorie=None, search_term=None):
     categories_list = CategorieSpectacle.objects.all()
     spectacles_list = Spectacle.objects.all()
     if categorie:
-        categorie = get_object_or_404(Categorie, slug=categorie)
+        categorie = get_object_or_404(CategorieSpectacle, slug=categorie)
         spectacles_list = spectacles_list.filter(categorie__in=get_children(categorie))
     if search_term:
         spectacles_list = search(search_term, spectacles_list)
@@ -241,8 +241,8 @@ def search(search_text, spectacles):
     
 
 def get_children(cat):
-    if Categorie.objects.filter(parent=cat):
-        children = Categorie.objects.filter(parent=cat)
+    if CategorieSpectacle.objects.filter(parent=cat):
+        children = CategorieSpectacle.objects.filter(parent=cat)
         cat_and_children = set({cat}) | set(children)
         for child in children:
             cat_and_children = cat_and_children | get_children(child)

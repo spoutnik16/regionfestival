@@ -1,3 +1,5 @@
+{%  load staticfiles %}
+
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
     var marker;
@@ -55,7 +57,7 @@
 
         var styledMap = new google.maps.StyledMapType(styleJSON, {name: "Valais Festival"});
         var image = {
-            url: '/web/images/tube_map.png',
+            url: '{%  static "images/tube_map.png" %}',
             size: new google.maps.Size(25, 50)
         };
         map.mapTypes.set('valaisfestival', styledMap);

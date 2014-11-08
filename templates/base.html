@@ -25,7 +25,7 @@
 <div id="page">
     <div id="container">
         <div id="header">
-            <a href="{% url 'spectacles.views.accueil' %}"><img class="banner" src="/web/images/valais_logo.png" /</a>
+            <a href="{% url 'spectacles.views.accueil' %}"><img class="banner" src="{% static "images/valais_logo.png" %}" /</a>
         </div>
         <div id="content">
             <div class="lang"><a href="/fr/">fr</a> <a href="/de/">de</a></div>
@@ -136,18 +136,18 @@
                 {% endblock %} </div>
             <div id=sponsors>
                 <ul>
-                    <li><a href="http://www.loro.ch/" target="_blank"><img src="/web/images/loro.jpg"
+                    <li><a href="http://www.loro.ch/" target="_blank"><img src="{% static "images/loro.jpg" %}"
                                                                            alt="Loterie Romande"></a></li>
-                    <li><a href="http://www.ubs.com/" target="_blank"><img src="/web/images/ubs.jpg" alt="ubs"></a></li>
-                    <li><a href="http://www.migros.ch/" target="_blank"><img src="/web/images/migros.jpg" alt="Migros"></a>
+                    <li><a href="http://www.ubs.com/" target="_blank"><img src="{% static "images/ubs.jpg" %}" alt="ubs"></a></li>
+                    <li><a href="http://www.migros.ch/" target="_blank"><img src="{% static "images/migros.jpg" %}" alt="Migros"></a>
                     </li>
-                    <li><a href="http://www.lenouvelliste.ch/" target="_blank"><img src="/web/images/nouvelliste.jpg"
+                    <li><a href="http://www.lenouvelliste.ch/" target="_blank"><img src="{% static "images/nouvelliste.jpg" %}"
                                                                                     alt="Nouvelliste"></a></li>
-                    <li><a href="http://www.canal9.ch/" target="_blank"><img src="/web/images/canal9.jpg" alt="Canal 9"></a>
+                    <li><a href="http://www.canal9.ch/" target="_blank"><img src="{% static "images/canal9.jpg" %}" alt="Canal 9"></a>
                     </li>
-                    <li><a href="http://www.rhonefm.ch/" target="_blank"><img src="/web/images/rhoneFm.jpg"
+                    <li><a href="http://www.rhonefm.ch/" target="_blank"><img src="{% static "images/rhoneFm.jpg" %}"
                                                                               alt="Rhône FM"></a></li>
-                    <li><a href="http://www.theatreinterface.ch/" target="_blank"><img src="/web/images/interface.jpg"
+                    <li><a href="http://www.theatreinterface.ch/" target="_blank"><img src="{% static "images/interface.jpg" %}"
                                                                                        alt="Interface"></a></li>
                 </ul>
             </div>
@@ -156,6 +156,6 @@
     </div>
 </div>
 
-<script type="text/javascript" src="/web/js/jqueryApp.js"></script>
+<script type="text/javascript" src="{% static "js/jqueryApp.js" %}"></script>
 </body>
 </html>page generee en 0.023968935012817

@@ -188,6 +188,7 @@ class ImportDFI:
 
     @staticmethod
     def importasso(asso_name, spectacle, categories):
+        import operator
         associations = asso_name.split(',')
         for asso_name in associations:
             asso_name = asso_name.strip()
@@ -201,8 +202,19 @@ class ImportDFI:
                 a.save()
                 print('association ' + a.name + ' sauvée')
             spectacle.associations.add(a)
-            # TODO ajouter la region_child_2
             spectacle.save()
+            communes = {}
+            for spect in a.spectacle_set.all():
+                for rep in spect.representation_set.all():
+                    if rep.lieu.region in communes.keys():
+                        communes[rep.lieu.region] += 1
+                    else:
+                        communes[rep.lieu.region] = 1
+            if len(communes)>1:
+                a.region_child2 = sorted(communes.items(), key=operator.itemgetter(1), reverse=True)[0][0]
+                a.save()
+
+
 
     def importrepresentations(self):
         representations = self.loadyml('representations.yml')

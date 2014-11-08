@@ -42,6 +42,10 @@ class CategorieSpectacle(models.Model):
     parent = models.ForeignKey("self",
                                null=True,
                                blank=True)
+    slug = models.SlugField(max_length=40,
+                            null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
 
     class Meta:
         verbose_name = _('categorie')

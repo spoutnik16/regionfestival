@@ -3,7 +3,7 @@
 
 {% block title %}{% trans "Liste des spectacles" %}{% endblock %}
 {% block content %}
-    <ul class="categorie">
+   <ul class="categorie">
         <li{% if not categorie %} class="current"{% endif %}>
             <a href="{% if search_term %}
 {% url 'spectacles.views.spectacles' search_term=search_term %}
