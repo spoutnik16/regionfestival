@@ -37,7 +37,7 @@ from django.db.models import Q
 from spectacles.forms import ContactForm, ConnexionForm, RegisterForm, SearchForm
 from spectacles.forms import SpectacleSimpleForm, AssociationSimpleForm
 from spectacles.models import Spectacle, Representation, Lieu, CategorieSpectacle
-from associations.models import CategorieAssociation, Region, RegionChild, RegionChild2
+from associations.models import CategorieAssociation, Region, RegionChild, RegionChild2, Association
 from spectacles.models import Festival
 # Create your views here.
 
@@ -212,11 +212,11 @@ def redirect_old_commune(request, id):
 def search(search_text, spectacles):
     search_text = unquote_plus(search_text)
     list_region = Region.objects.filter(name__icontains=search_text)
-    list_region_child = Region_child.objects.filter(
+    list_region_child = RegionChild.objects.filter(
                 Q(name__icontains=search_text) 
                 | Q(region__in=list_region.values_list('id'))
                 )
-    list_region_child2 = Region_child2.objects.filter(
+    list_region_child2 = RegionChild2.objects.filter(
                 Q(name__icontains=search_text)
                 | Q(region_child__in=list_region_child.values_list('id'))
                 )

@@ -13,7 +13,7 @@
         {% if spectacle.photo %}
             <img src="{{ spectacle.photo.url }}"/>
         {% endif %}
-        <p class="DescriptionSpectacle" itemprop="description">{{ spectacle.presentation_cahier|linebreaksbr }}</p>
+        <p class="DescriptionSpectacle" itemprop="description">{{ spectacle.presentation_cahier }}</p>
 
         {% for representation in spectacle.representation_set.all %}
             {% ifchanged representation.lieu %}
