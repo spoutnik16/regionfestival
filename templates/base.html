@@ -20,12 +20,52 @@
 
 
 </head>
+<body>
+    <header>
+        <a href="{% url 'spectacles.views.accueil' %}">
+            <img class="banner" src="{% static "images/valais_logo.png" %}" />
+        </a>
+    </header>
 
+    <nav>
+        <ul class="languages">
+            <li><a href="/fr/">fr</a></li>
+            <li><a href="/de/">de</a></li>
+        </ul>
+        <ul class="main-menu">
+                    {% block main-menu %}
+                    {% if not user.is_authenticated %}<li><a href="{% url 'inscription' %}">{% trans "Inscription" %}</a></li>{% endif %}
+                    <li><a href="{% url 'spectacles.views.spectacles' %}">{% trans "Programme" %}</a></li>
+                    <li class="sub"><a href="{% url 'spectacles.views.spectacles' %}">{% trans "par catégorie" %}</a></li>
+                    <li class="sub"><a href="{% url 'spectacles.views.agenda' %}">{% trans "par date" %}</a></li>
+                    <li class="sub"><a href="/fr/communes.html">{% trans "par lieu" %}</a></li>
+                    {% comment  %}<li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li> {% endcomment %}
+                    <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
+                    {% else %}
+                        <li><a href="{% url 'connection' %}">{% trans "Se connecter" %}</a></li>
+                    {% endif %}
+                    {% endblock main-menu %}
+        </ul>
+        {% if user.is_authenticated %}
+        <ul class="member-menu">
+            {% block member-menu %}
+                <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
+            {% endblock member-menu %}
+        </ul>
+        {% endif %}
+    </nav>
+
+
+</body>
+
+<!--
 <body>
 <div id="page">
     <div id="container">
         <div id="header">
-            <a href="{% url 'spectacles.views.legacy_accueil' %}"><img class="banner" src="{% static "images/valais_logo.png" %}" /</a>
+            <a href="{% url 'spectacles.views.accueil' %}"><img class="banner" src="{% static "images/valais_logo.png" %}" /</a>
         </div>
         <div id="content">
             <div class="lang"><a href="/fr/">fr</a> <a href="/de/">de</a></div>
@@ -42,7 +82,7 @@
                         <li class="sub"><a href="{% url 'spectacles.views.agenda' %}">{% trans "par date" %}</a></li>
                         <li class="sub"><a href="/fr/communes.html">{% trans "par lieu" %}</a></li>
                         {% comment  %}<li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li> {% endcomment %}
-                        <li><a href="{% url 'spectacles.views.legacy_contact' %}">{% trans "Contact" %}</a></li>
+                        <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
                         {% if user.is_authenticated %}
                             <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
                         {% else %}
@@ -158,4 +198,4 @@
 
 <script type="text/javascript" src="{% static "js/jqueryApp.js" %}"></script>
 </body>
-</html>page generee en 0.023968935012817
+-->

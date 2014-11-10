@@ -13,7 +13,7 @@
         <span class="categorie" itemprop="eventType">{{ representation.spectacle.categorie.name }}</span><br/>
 <span itemprop="location" itemscope itemtype="http://data-vocabulary.org/​Organization">
 	<br/><span class="lieu">{% trans "Lieu" %} :</span><a
-        href="{% url 'spectacles.views.legacy_place' id=representation.lieu.id %}"><span itemprop="name"
+        href="{% url 'spectacles.views.place' id=representation.lieu.id %}"><span itemprop="name"
                                                                                   class="lieutext">{{ representation.lieu.name }}</span></a> <br/>
 	<span class="ville">Ville : </span>
 	<span itemprop="adress" itemscope itemtype="http://data-vocabulary.org/Address">
