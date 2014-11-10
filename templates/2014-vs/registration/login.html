@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "2014-vs/base.html" %}
 {% load i18n %}
 
 {% block title %}{% trans "Se connecter" %}{% endblock %}
@@ -13,7 +13,7 @@
     {% if user.is_authenticated %}
         Vous êtes connecté, {{ user.username }} !
     {% else %}
-        <form method="post" action=".">
+        <form method="post" action="">
             {% csrf_token %}
             {{ form.as_p }}
             <input type="submit"/>

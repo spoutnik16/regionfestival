@@ -1,11 +1,11 @@
-{% extends "base.html" %}
+{% extends "2014-vs/base.html" %}
 {% load i18n %}
 
 {% block title %}{% trans "Liste des spectacles" %}{% endblock %}
 {% block content %}
-    {% include 'calendrier.html' %}
+    {% include '2014-vs/calendrier.html' %}
     {% for representation in reps %}
-        {% include 'representation.html' %}
+        {% include '2014-vs/representation.html' %}
     {% empty %}
         {% trans "Pas de spectacle ce jour" %}
 

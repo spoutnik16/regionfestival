@@ -25,7 +25,7 @@
 <div id="page">
     <div id="container">
         <div id="header">
-            <a href="{% url 'spectacles.views.accueil' %}"><img class="banner" src="{% static "images/valais_logo.png" %}" /</a>
+            <a href="{% url 'spectacles.views.legacy_accueil' %}"><img class="banner" src="{% static "images/valais_logo.png" %}" /</a>
         </div>
         <div id="content">
             <div class="lang"><a href="/fr/">fr</a> <a href="/de/">de</a></div>
@@ -42,7 +42,7 @@
                         <li class="sub"><a href="{% url 'spectacles.views.agenda' %}">{% trans "par date" %}</a></li>
                         <li class="sub"><a href="/fr/communes.html">{% trans "par lieu" %}</a></li>
                         {% comment  %}<li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li> {% endcomment %}
-                        <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
+                        <li><a href="{% url 'spectacles.views.legacy_contact' %}">{% trans "Contact" %}</a></li>
                         {% if user.is_authenticated %}
                             <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
                         {% else %}

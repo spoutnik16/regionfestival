@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "2014-vs/base.html" %}
 {% load i18n %}
 
 {% block title %}{% trans "Liste des spectacles" %}{% endblock %}
@@ -12,7 +12,7 @@
 	</span>
     </div>
     {% for representation in representations %}
-        {% include 'representation.html' %}
+        {% include '2014-vs/representation.html' %}
     {% endfor %}
 
 {% endblock %}

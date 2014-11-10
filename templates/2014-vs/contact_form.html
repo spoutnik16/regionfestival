@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "2014-vs/base.html" %}
 {% load i18n %}
 
 {% block title %}{% trans "Contact" %}{% endblock %}
@@ -6,7 +6,7 @@
     {% if envoi %}{% trans "Votre message a bien été envoyé !" %}{% endif %}
 
     <strong>{% trans "Contacts" %}</strong>
-    <form action="{% url "spectacles.views.contact" %}" method="POST">{% csrf_token %}
+    <form action="{% url "spectacles.views.legacy_contact" %}" method="POST">{% csrf_token %}
         {{ form.as_p }}
         <input type="submit" value="{% trans "Envoyer" %}"/>
     </form>
