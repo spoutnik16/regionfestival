@@ -60,6 +60,7 @@ class Festival(models.Model):
     startdate = models.DateField()
     enddate = models.DateField()
 
+
     class Meta:
         verbose_name = _("festival")
         verbose_name_plural = _("festivals")
@@ -67,6 +68,12 @@ class Festival(models.Model):
     def __str__(self):
         return self.name
 
+class FestivalDays(models.Model):
+    festival = models.ForeignKey(Festival,
+                                 null=True,
+                                 blank=True)
+    day = models.DateField()
+    count = models.IntegerField()
 
 class Spectacle(models.Model):
     name = models.CharField(max_length=512,

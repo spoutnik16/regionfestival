@@ -23,4 +23,5 @@ if settings.DEBUG:
 
 urlpatterns += patterns(
     url(r'^presentation/$', 'flatpage', {'url': '/about/'}, name='about'),
+    url(r'^i18n/', include('django.conf.urls.i18n')),
     )
