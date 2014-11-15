@@ -506,9 +506,8 @@ p.representation {
 
 .responsive-menu ul {
     padding-top: 26%;
-    background: url('../images/tube.jpg') no-repeat;
     background-size: 240px;
-    background-position: center top;
+    background: url('../images/tube.jpg') no-repeat center top;
     min-height: 420px;
 }
 

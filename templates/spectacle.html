@@ -26,14 +26,14 @@
                 <span itemprop="adress" itemscope itemtype="http://data-vocabulary.org/Address">
 		<a href="commune-show-<?=$spectacle['idCommune']?>.html"><span itemprop="locality"
                                                                        class="ville">{{ representation.lieu.city }}</span></a>
-		<span itemprop="street-adress" style="font-size: 0px;">{{ representation.lieu.adress }}</span>
+		<span itemprop="street-adress" style="font-size: 0;">{{ representation.lieu.adress }}</span>
 	</span>
             {% endifchanged %}
         <span>{{ representation.datetime|date:"l d F Y" }} {% trans "à" context "tel jour À telle heure" %} {{ representation.datetime|date:"H \h i" }}</span>
         <br/>
         {% ifchanged representation.lieu %}
             </div>
-            <span style="font-size: 0px;" itemprop="geo"></span>
+            <span style="font-size: 0;" itemprop="geo"></span>
             </span>
         {% endifchanged %}
         {% endfor %}

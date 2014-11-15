@@ -96,15 +96,14 @@ STATICFILES_DIRS = (
     'static',
 )
 
-
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
 
 LANGUAGES = (
-                ('fr', _('Français')),
-                ('de', _('Allemand')),
-            )
+    ('fr', _('Français')),
+    ('de', _('Allemand')),
+)
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates/'),
-    )
+)

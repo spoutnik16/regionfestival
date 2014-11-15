@@ -6,7 +6,6 @@ from associations.models import Association, RegionChild2
 from crm.models import CustomUser
 
 
-
 # Create your models here.
 class Artiste(models.Model):
     name = models.CharField(max_length=512)
@@ -66,7 +65,6 @@ class Festival(models.Model):
 
     def __str__(self):
         return self.name
-
 
 
 class Spectacle(models.Model):

@@ -8,18 +8,18 @@
                     {% if categorie %}
                         {% if search_term %}
                             <li><a class="page"
-                                   href="{% url view categorie=categorie.slug page=page_num search_term=search_term %}">{{ page_num }}</a>
+                                   href="{% url 'view' categorie=categorie.slug page=page_num search_term=search_term %}">{{ page_num }}</a>
                             </li>
                         {% else %}
                             <li><a class="page"
-                                   href="{% url view categorie=categorie.slug page=page_num %}">{{ page_num }}</a></li>
+                                   href="{% url 'view' categorie=categorie.slug page=page_num %}">{{ page_num }}</a></li>
                         {% endif %}
                     {% else %}
                         {% if search_term %}
                             <li><a class="page"
-                                   href="{% url view page=page_num search_term=search_term %}">{{ page_num }}</a></li>
+                                   href="{% url 'view' page=page_num search_term=search_term %}">{{ page_num }}</a></li>
                         {% else %}
-                            <li><a class="page" href="{% url view page=page_num %}">{{ page_num }}</a></li>
+                            <li><a class="page" href="{% url 'view' page=page_num %}">{{ page_num }}</a></li>
                         {% endif %}
                     {% endif %}
                 {% endif %}

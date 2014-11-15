@@ -14,14 +14,16 @@ urlpatterns = patterns(
 
 if settings.DEBUG:
     from os import path
+
     urlpatterns += patterns('',
-        (r'^media/(?P<path>.*)$', 'django.views.static.serve', {
-            'document_root': settings.MEDIA_ROOT}),
-        (r'^web/(?P<path>.*)$', 'django.views.static.serve', {'document_root': path.join(path.dirname(__file__),
-                                                                                         '../regionfestival/../static/')}),
-        )
+                            (r'^media/(?P<path>.*)$', 'django.views.static.serve', {
+                                'document_root': settings.MEDIA_ROOT}),
+                            (r'^web/(?P<path>.*)$', 'django.views.static.serve',
+                             {'document_root': path.join(path.dirname(__file__),
+                                                         '../regionfestival/../static/')}),
+    )
 
 urlpatterns += patterns(
     url(r'^presentation/$', 'flatpage', {'url': '/about/'}, name='about'),
     url(r'^i18n/', include('django.conf.urls.i18n')),
-    )
+)

@@ -29,7 +29,7 @@ class ImportDFI:
     # def importcommunes(self):
     # changes_commune = False
     # if not Region.objects.filter(name='valais').exists():
-    #         valais = Region(name='valais')
+    # valais = Region(name='valais')
     #         valais.save()
     #         changes_commune = True
     #     valais = Region.objects.get(name='valais')
@@ -189,6 +189,7 @@ class ImportDFI:
     @staticmethod
     def importasso(asso_name, spectacle, categories):
         import operator
+
         associations = asso_name.split(',')
         for asso_name in associations:
             asso_name = asso_name.strip()
@@ -210,10 +211,9 @@ class ImportDFI:
                         communes[rep.lieu.region] += 1
                     else:
                         communes[rep.lieu.region] = 1
-            if len(communes)>1:
+            if len(communes) > 1:
                 a.region_child2 = sorted(communes.items(), key=operator.itemgetter(1), reverse=True)[0][0]
                 a.save()
-
 
 
     def importrepresentations(self):
