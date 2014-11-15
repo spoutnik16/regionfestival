@@ -76,7 +76,6 @@ def place(request, id):
 def agenda(request, day=None, month=None, year=None):
     festival = Festival.objects.all().first()
     daterange = lambda d1, d2: (d1 + datetime.timedelta(days = i) for i in range((d2-d1).days + 1))
-    list_days = []
     try:
         date = datetime.date(int(year), int(month), int(day))
     except:
@@ -84,12 +83,8 @@ def agenda(request, day=None, month=None, year=None):
         pass
     if date not in daterange(festival.startdate, festival.enddate):
         date = festival.startdate
-    for day in daterange(festival.startdate, festival.enddate):
-        count = Representation.objects.filter(datetime__year=day.year,
-                                              datetime__month=day.month,
-                                              datetime__day=day.day).count()
-        list_days.append({'day': day,
-                          'count': count})
+    from django.db.models import Count
+    list_days = Representation.objects.filter(status__gte=3).extra({'day':'date'}).values('day').annotate(Count('id'))
     reps = Representation.objects.filter(datetime__year=date.year, 
                                          datetime__month=date.month, 
                                          datetime__day=date.day).order_by('datetime')
