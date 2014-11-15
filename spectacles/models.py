@@ -60,15 +60,6 @@ class Festival(models.Model):
     startdate = models.DateField()
     enddate = models.DateField()
 
-    def save(self, *args, **kwargs):
-        import datetime
-        daterange = lambda d1, d2: (d1 + datetime.timedelta(days = i) for i in range((d2-d1).days + 1))
-        for day in daterange(self.startdate, self.enddate):
-            if not FestivalDay.objects.filter(festival=self).filter(day=day).exists():
-                festivalDay = FestivalDay(festival=self, day=day)
-                festivalDay.save()
-        super(Festival, self).save(*args, **kwargs)
-
     class Meta:
         verbose_name = _("festival")
         verbose_name_plural = _("festivals")
@@ -76,17 +67,7 @@ class Festival(models.Model):
     def __str__(self):
         return self.name
 
-class FestivalDay(models.Model):
-    festival = models.ForeignKey(Festival,
-                                 null=True,
-                                 blank=True)
-    day = models.DateField()
-    count = models.IntegerField(null=True,
-                                blank=True)
 
-    def save(self, *args, **kwargs):
-        Representation.objects.filter(status__gte=3).filter(datetime=datetime(self.day))
-        super(FestivalDay, self).save(*args, **kwargs)
 
 class Spectacle(models.Model):
     name = models.CharField(max_length=512,
