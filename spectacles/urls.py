@@ -20,7 +20,7 @@ urlpatterns = patterns('spectacles.views',
                            '$', 'spectacles_redir', name='spectacles_redir'),
                        url(r'^spectacle/(?P<id>\d+)/$', 'spectacle', name='spectacle'),
                        url(r'^commune/(?P<id>\d+)/$', 'region_child2', name='region_child2'),
-                       url(r'^lieu/(?P<id>\d+)/$', 'place', name='place'),
+                       url(r'^lieu/(?P<id>\d+)/$', 'place'  , name='place'),
                        url(r'^agenda/'
                            '(?:(?P<day>\d{1,2})/'
                            '(?P<month>\d{1,2})/'

@@ -1,6 +1,4 @@
 {% load i18n %}
-<div class="spectacle">
-    <div class="headers">
         <h3 class="compagnie" itemprop="description">
             {% for association in spectacle.associations.all %}{{ association.name }}{% if not forloop.last %},
             {% endif %}{% endfor %}</h3>
@@ -32,9 +30,7 @@
         <span>{{ representation.datetime|date:"l d F Y" }} {% trans "à" context "tel jour À telle heure" %} {{ representation.datetime|date:"H \h i" }}</span>
         <br/>
         {% ifchanged representation.lieu %}
-            </div>
             <span style="font-size: 0;" itemprop="geo"></span>
             </span>
         {% endifchanged %}
         {% endfor %}
-</div>

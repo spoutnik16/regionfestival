@@ -10,6 +10,9 @@ from django.utils.translation import ugettext_lazy as _
 class Region(models.Model):
     name = models.CharField(max_length=512,
                             verbose_name=_("nom du canton"))
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
 
     class Meta:
         verbose_name = _('canton')
@@ -17,12 +20,19 @@ class Region(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Region, self).save(**kwargs)
 
 
 class RegionChild(models.Model):
     name = models.CharField(max_length=512,
                             verbose_name=_("district"))
     region = models.ForeignKey(Region)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
 
     class Meta:
         verbose_name = _('district')
@@ -30,6 +40,10 @@ class RegionChild(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(RegionChild, self).save(**kwargs)
 
 
 class RegionChild2(models.Model):
@@ -38,6 +52,9 @@ class RegionChild2(models.Model):
     region_child = models.ForeignKey(RegionChild)
     order = models.CharField(max_length=512,
                              verbose_name=_("ordre"))
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
     old_id = models.IntegerField(help_text=_("n'existe plus"),
                                  null=True,
                                  blank=True)
@@ -48,6 +65,10 @@ class RegionChild2(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(RegionChild2, self).save(**kwargs)
 
 
 class CategorieAssociation(models.Model):
@@ -58,6 +79,9 @@ class CategorieAssociation(models.Model):
                                blank=True)
     slug = models.SlugField(max_length=40,
                             null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
+    slug = models.SlugField(null=True,
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
     region_child2 = models.ForeignKey(RegionChild2,
@@ -72,6 +96,10 @@ class CategorieAssociation(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(CategorieAssociation, self).save(**kwargs)
 
 
 class Association(models.Model):
@@ -126,6 +154,9 @@ class Association(models.Model):
                                  verbose_name=_('remarques'),
                                  blank=True,
                                  null=True)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
 
     class Meta:
         verbose_name = _('association')
@@ -133,3 +164,7 @@ class Association(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Association, self).save(**kwargs)

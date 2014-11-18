@@ -26,6 +26,9 @@ class Artiste(models.Model):
                                           "4 = exporté vers le cahier spécial"),
                                       blank=True,
                                       null=True)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
 
     class Meta:
         verbose_name = _("artiste")
@@ -33,6 +36,10 @@ class Artiste(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Artiste, self).save(**kwargs)
 
 
 class CategorieSpectacle(models.Model):
@@ -49,6 +56,10 @@ class CategorieSpectacle(models.Model):
     class Meta:
         verbose_name = _('categorie')
         verbose_name_plural = _('categorie')
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(CategorieSpectacle, self).save(**kwargs)
 
     def __str__(self):
         return self.name
@@ -58,10 +69,17 @@ class Festival(models.Model):
     name = models.CharField(max_length=512)
     startdate = models.DateField()
     enddate = models.DateField()
-
+    slug = models.SlugField(max_length=40,
+                            null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
     class Meta:
         verbose_name = _("festival")
         verbose_name_plural = _("festivals")
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Festival, self).save(**kwargs)
 
     def __str__(self):
         return self.name
@@ -120,6 +138,9 @@ class Spectacle(models.Model):
                                  blank=True,
                                  null=True)
     categorie = models.ForeignKey(CategorieSpectacle)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
     allowed_user = models.ManyToManyField(CustomUser,
                                           null=True,
                                           blank=True,
@@ -131,6 +152,10 @@ class Spectacle(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Spectacle, self).save(**kwargs)
 
 
 class Lieu(models.Model):
@@ -176,6 +201,9 @@ class Lieu(models.Model):
     long = models.FloatField(verbose_name=_("longitude"),
                              null=True,
                              blank=True)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
     old_id = models.IntegerField(null=True,
                                  blank=True)
     """location = LocationField(based_fields=[city],
@@ -190,6 +218,10 @@ class Lieu(models.Model):
     class Meta:
         verbose_name = _('lieu')
         verbose_name_plural = _('lieux')
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Lieu, self).save(**kwargs)
 
     def __str__(self):
         return self.name

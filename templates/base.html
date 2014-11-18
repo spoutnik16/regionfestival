@@ -11,12 +11,7 @@
           content="Le Valais Festival est LE festival de toutes les associations culturelles valaisannes."/>
 
     <link rel="icon" type="image/x-icon" href="{% static "favicon.ico" %}" />
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
-    <link rel="alternate" href="/de/" hreflang=""de" />
-    <!--<link rel="Stylesheet" type="text/css" href="{% static "css/main.css" %}"/>-->
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="{% static "js/jquery.responsiveMenu.js" %}"></script>
+    <link rel="Stylesheet" type="text/css" href="{% static "css/main.css" %}"/>
     {% block javascript %}
     {% endblock %}
     <title>{% trans "Valais Festival" %} - {% block title %}Valais Festival{% endblock %}</title>
@@ -60,7 +55,7 @@
         {% if user.is_authenticated %}
         <ul class="member-menu">
             {% block member-menu %}
-                <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
+                <li><a href="{% url 'espace_membre' %}">{% trans "Espace membre" %}</a></li>
             {% endblock member-menu %}
         </ul>
         {% endif %}
@@ -68,20 +63,6 @@
 
     <section>
         <article id="main">
-            <section id="video">
-            <object name="player" id="_fp_0.12748635467141867" width="400" height="226"
-                    data="http://www.canal9.ch/flash/flowplayer/flowplayer.commercial-3.2.16.swf"
-                    type="application/x-shockwave-flash">
-                <param value="true" name="allowfullscreen"/>
-                <param value="always" name="allowscriptaccess"/>
-                <param value="transparent" name="wmode"/>
-                <param value="high" name="quality"/>
-                <param name="movie"
-                       value="http://www.canal9.ch/flash/flowplayer/flowplayer.commercial-3.2.16.swf"/>
-                <param value="config=%7B%22clip%22%3A%7B%22pageUrl%22%3A%22http%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%7D%2C%22playlist%22%3A%5B%7B%22pageUrl%22%3A%22http%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%2C%22url%22%3A%22http%3A//media.canal9.ch/media/l-info-en-continu/2013/11/2013-11-25-festival-pour-la-vie-associative.jpg%22%2C%22scaling%22%3A%22orig%22%7D%2C%7B%22urlResolvers%22%3A%5B%22f4m%22%5D%2C%22url%22%3A%22http%3A//httpstream.canal9.ch/hds-vod/media/l-info-en-continu/2013/11/2013-11-25-festival-pour-la-vie-associative.mp4.f4m%22%2C%22autoPlay%22%3Afalse%2C%22autoBuffering%22%3Atrue%2C%22pageUrl%22%3A%22http%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%2C%22provider%22%3A%22httpstreaming%22%7D%5D%2C%22logo%22%3A%7B%22fullscreenOnly%22%3Afalse%2C%22right%22%3A10%2C%22url%22%3A%22http%3A//www.canal9.ch/img/logo_player_canal9.png%22%2C%22linkUrl%22%3A%22http%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%2C%22top%22%3A10%2C%22opacity%22%3A1%7D%2C%22key%22%3A%5B%22%23%2450405ffa38cdf5c3005%22%2C%22%23%24351d2eabac840c4a432%22%5D%2C%22play%22%3A%7B%22width%22%3A92%2C%22height%22%3A92%2C%22url%22%3A%22http%3A//www.canal9.ch/img/play_c9Player.png%22%7D%2C%22plugins%22%3A%7B%22dock%22%3A%7B%22width%22%3A%2210pct%22%2C%22left%22%3A15%2C%22horizontal%22%3Atrue%2C%22autoHide%22%3Atrue%7D%2C%22sharing%22%3A%7B%22email%22%3A%7B%22subject%22%3A%22A%20voir%20sur%20Canal9%20%3A%20Festival%20pour%20la%20vie%20associative%22%2C%22message%22%3A%22Diffusion%20le%2025.11.2013%20%22%2C%22template%22%3A%22%7B0%7D%5Cn%5Cnhttp%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%7D%2C%22facebook%22%3A%7B%22shareWindow%22%3A%22_popup%22%7D%2C%22buttons%22%3A%7B%22overColor%22%3A%22%23ffbf00%22%7D%2C%22url%22%3A%22http%3A//www.canal9.ch/flash/flowplayer/flowplayer.sharing-3.2.14.swf%22%2C%22twitter%22%3A%7B%22shareWindow%22%3A%22_popup%22%2C%22description%22%3A%22A%20voir%20sur%20Canal9%20%3A%20%22%7D%2C%22callType%22%3A%22default%22%2C%22share%22%3Afalse%7D%2C%22f4m%22%3A%7B%22callType%22%3A%22default%22%2C%22url%22%3A%22http%3A//www.canal9.ch/flash/flowplayer/flowplayer.f4m-3.2.9.swf%22%7D%2C%22httpstreaming%22%3A%7B%22callType%22%3A%22default%22%2C%22url%22%3A%22http%3A//www.canal9.ch/flash/flowplayer/flowplayer.httpstreaming-3.2.10.swf%22%7D%7D%7D"
-                       name="flashvars"/>
-            </object>
-            </section>
             <section id="article-accueil">
             {% block content %}
             {% blocktrans %}

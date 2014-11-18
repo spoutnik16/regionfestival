@@ -38,9 +38,6 @@ from spectacles.models import Spectacle, Representation, Lieu, CategorieSpectacl
 from associations.models import Region, RegionChild, RegionChild2, Association
 from spectacles.models import Festival
 
-# Create your views here.
-
-
 # Vues qui sont liées à l'affichage pour le public
 def accueil(request):
     return render(request, 'base.html')
@@ -95,7 +92,7 @@ def agenda(request, day=None, month=None, year=None):
     return render(request, 'agenda.html', locals())
 
 
-def spectacles(request, page=1, categorie=None, search_term=None):
+def spectacles(request, page=None, categorie=None, search_term=None):
     if request.method == 'POST':
         if request.POST.get('search_term'):
             search_term = urlquote_plus(request.POST.get('search_term'))
@@ -180,8 +177,11 @@ def inscription(request):
     return render(request, 'registration/register.html', {'form': form, })
 
 
-# les parties de l'espace admin
 
+#
+#
+# les parties de l'espace admin
+#
 
 def espace_membre(request):
     return render(request, 'espace_membre.html')
@@ -201,8 +201,11 @@ def spectacle_form(request):
         form = SpectacleSimpleForm()
     return render(request, 'espace_membre.html', {'form': form, })
 
-
 # les différentes redirections des vielles pages du site PHP
+#
+#
+#
+
 def redirect_old_spectacle(request, id):
     id = get_object_or_404(Spectacle, old_id=id).id
     return redirect('spectacles.views.spectacle', id=id)
