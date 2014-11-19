@@ -18,13 +18,15 @@ urlpatterns = patterns('spectacles.views',
                            '(?:(?P<categorie>[-a-z]+)/)?'
                            '(?:(?P<page>\d+)/)?'
                            '$', 'spectacles_redir', name='spectacles_redir'),
-                       url(r'^spectacle/(?P<id>\d+)/$', 'spectacle', name='spectacle'),
-                       url(r'^commune/(?P<id>\d+)/$', 'region_child2', name='region_child2'),
-                       url(r'^lieu/(?P<id>\d+)/$', 'place'  , name='place'),
+                       url(r'^spectacle/(?P<slug>[-\w]+)/$', 'spectacle', name='spectacle'),
+                       url(r'^commune/(?P<slug>[-\w]+)/$', 'region_child2', name='region_child2'),
+                       url(r'^association/(?P<slug>[-\w]+)/$', 'association', name='association'),
+                       url(r'^lieu/(?P<slug>[-\w]+)/$', 'place'  , name='place'),
                        url(r'^agenda/'
                            '(?:(?P<day>\d{1,2})/'
                            '(?P<month>\d{1,2})/'
-                           '(?P<year>\d{4})/)?$', 'agenda', name='agenda'),
+                           '(?P<year>\d{4})/)?'
+                           '(?:page/(?P<page>\d+)/)?$', 'agenda', name='agenda'),
 
                        # #patterns auth'd
                        url(r'^inscription/$', 'inscription', name='inscription'),

@@ -53,6 +53,9 @@ class CategorieSpectacle(models.Model):
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
 
+    def get_absolute_url(self):
+        from django.core.urlresolvers import reverse
+        return reverse('spectacles', kwargs={'categorie': self.slug})
     class Meta:
         verbose_name = _('categorie')
         verbose_name_plural = _('categorie')
@@ -145,6 +148,9 @@ class Spectacle(models.Model):
                                           null=True,
                                           blank=True,
                                           verbose_name=_("utilisateurs authorisés"))
+    def get_absolute_url(self):
+        from django.core.urlresolvers import reverse
+        return reverse("spectacle", args=[self.slug,])
 
     class Meta:
         verbose_name = _('spectacle')
@@ -215,6 +221,9 @@ class Lieu(models.Model):
                              blank = True)
     objects = models.GeoManager()"""
 
+    def get_absolute_url(self):
+        from django.core.urlresolvers import reverse
+        return reverse('place', args=[self.slug])
     class Meta:
         verbose_name = _('lieu')
         verbose_name_plural = _('lieux')

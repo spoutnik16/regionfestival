@@ -9,9 +9,7 @@
             <select onchange="location = this.options[this.selectedIndex].value;">
             <option>{% trans "jour" %}</option>
         {% endifchanged %}
-        <option value="{% url 'spectacles.views.agenda' year=day.day.year month=day.day.month day=day.day.day %}"
-                {% if not day.id__count %} disabled{% endif %}{% if day.day == date %} selected="selected"{% endif %}>
-
+        <option value="{% url 'spectacles.views.agenda' year=day.day.year month=day.day.month day=day.day.day %}"{% if not day.id__count %} disabled{% endif %}{% if day.day == date %} selected="selected"{% endif %}>
             {{ day.day|date:"l d" }}
         </option>
     {% endfor %}

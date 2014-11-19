@@ -62,7 +62,9 @@ class RegionChild2(models.Model):
     class Meta:
         verbose_name = _('commune')
         verbose_name_plural = _('communes')
-
+    def get_absolute_url(self):
+        from django.core.urlresolvers import reverse
+        return reverse('region_child2', args=[self.slug])
     def __str__(self):
         return self.name
     def save(self, **kwargs):
@@ -161,7 +163,9 @@ class Association(models.Model):
     class Meta:
         verbose_name = _('association')
         verbose_name_plural = _('associations')
-
+    def get_absolute_url(self):
+        from django.core.urlresolvers import reverse
+        return reverse('association', args=[self.slug,])
     def __str__(self):
         return self.name
     def save(self, **kwargs):

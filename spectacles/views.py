@@ -67,13 +67,13 @@ def spectacles_redir(request, page=1, categorie=None, search_term=None):
             return redirect(spectacles, page=1)
 
 
-def place(request, id):
-    lieu = get_object_or_404(Lieu, id=id)
+def place(request, slug):
+    lieu = get_object_or_404(Lieu, slug=slug)
     representations = Representation.objects.filter(lieu=lieu)
     return render(request, 'place.html', locals())
 
 
-def agenda(request, day=None, month=None, year=None):
+def agenda(request, day=None, month=None, year=None, page=None):
     festival = Festival.objects.all().first()
     daterange = lambda d1, d2: (d1 + datetime.timedelta(days=i) for i in range((d2 - d1).days + 1))
     try:
@@ -84,11 +84,11 @@ def agenda(request, day=None, month=None, year=None):
     if date not in daterange(festival.startdate, festival.enddate):
         date = festival.startdate
     from django.db.models import Count
-
     list_days = Representation.objects.filter(status__gte=3).extra({'day': 'date'}).values('day').annotate(Count('id'))
     reps = Representation.objects.filter(datetime__year=date.year,
                                          datetime__month=date.month,
                                          datetime__day=date.day).order_by('datetime')
+
     return render(request, 'agenda.html', locals())
 
 
@@ -125,13 +125,12 @@ def spectacles(request, page=None, categorie=None, search_term=None):
     return render(request, 'list_spectacles.html', locals())
 
 
-def spectacle(request, id):
-    spectacle = get_object_or_404(Spectacle, id=id)
+def spectacle(request, slug):
+    spectacle = get_object_or_404(Spectacle, slug=slug)
     return render(request, 'spectacle_solo.html', {'spectacle': spectacle})
 
-
-def region_child2(request, id):
-    region_child2 = get_object_or_404(RegionChild2, id=id)
+def region_child2(request, slug):
+    region_child2 = get_object_or_404(RegionChild2, slug=slug)
     spectacles = []
     for lieu in region_child2.lieu_set.all():
         for representation in lieu.representation_set.all():
@@ -139,6 +138,11 @@ def region_child2(request, id):
     spectacles = set(spectacles)
     return render(request, 'region_child2.html', {'region_child2': region_child2, 'spectacles': spectacles})
 
+def association(request, slug):
+    association = get_object_or_404(Association, slug=slug)
+    spectacles = Spectacle.objects.filter(associations=association)
+    spectacles = set(spectacles)
+    return render(request, 'association.html', {'association': association, 'spectacles': spectacles})
 
 def admin(request):
     return render(request, 'accueil.html')
