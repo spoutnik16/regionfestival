@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="2c0cb1a3-9e99-453f-8b66-b4ce8ea9e1e9">
+      <user-name>valaisfestival</user-name>
+      <user-password>dff8dfcfdfc4dfcbdfdfdfc6dfdedfe7dfcbdfd9dfdedfcfdfd8df98df9adf9bdf9e</user-password>
+    </data-source>
+    <data-source name="Django default" uuid="30d6f6e9-5c5e-4605-a4fd-98a53f10e159">
+      <secret-storage>memory</secret-storage>
+      <table-pattern>*</table-pattern>
+    </data-source>
+  </component>
+</project>
