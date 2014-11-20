@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.5490088" />
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="database prod sur settings.py">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regionfestival/settings.py" afterPath="$PROJECT_DIR$/regionfestival/settings.py" />
+    </list>
+    <ignored path="regionfestival.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/regionfestival$models.coverage" NAME="models Coverage Results" MODIFIED="1411546478706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/associations" />
+    <SUITE FILE_PATH="coverage/regionfestival$admin.coverage" NAME="admin Coverage Results" MODIFIED="1416487176442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moderation" />
+    <SUITE FILE_PATH="coverage/regionfestival$settings.coverage" NAME="settings Coverage Results" MODIFIED="1416487139652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regionfestival" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="true" />
+  </component>
+  <component name="DjangoConsoleOptions" module-name="regionfestival" is-module-sdk="true">
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="regionfestival" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="regionfestival" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/moderation/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.703125" vertical-offset="0" max-vertical-offset="3135">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="spoutnik16" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/associations/imports/import.py" />
+        <option value="$PROJECT_DIR$/crm/admin.py" />
+        <option value="$PROJECT_DIR$/associations/importator.py" />
+        <option value="$PROJECT_DIR$/crm/views.py" />
+        <option value="$PROJECT_DIR$/crm/tests.py" />
+        <option value="$PROJECT_DIR$/spectacles/tests.py" />
+        <option value="$PROJECT_DIR$/spectacles/admin.py" />
+        <option value="$PROJECT_DIR$/associations/admin.py" />
+        <option value="$PROJECT_DIR$/associations/migrations/0003_auto_20140923_1243.py" />
+        <option value="dbtable:/76bd2c9d/2c0cb1a3-9e99-453f-8b66-b4ce8ea9e1e9/..crm_customuser" />
+        <option value="$PROJECT_DIR$/crm/migrations/0001_initial.py" />
+        <option value="dbtable:/76bd2c9d/30d6f6e9-5c5e-4605-a4fd-98a53f10e159/..crm_customuser" />
+        <option value="$PROJECT_DIR$/crm/models.py" />
+        <option value="dbtable:/76bd2c9d/30d6f6e9-5c5e-4605-a4fd-98a53f10e159/..associations_association" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/spectacles/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/templates/search_form.html" />
+        <option value="$PROJECT_DIR$/templates/map.html" />
+        <option value="dbtable:/76bd2c9d/2c0cb1a3-9e99-453f-8b66-b4ce8ea9e1e9/..spectacles_spectacle_associations" />
+        <option value="dbtable:/76bd2c9d/2c0cb1a3-9e99-453f-8b66-b4ce8ea9e1e9/..spectacles_spectacle" />
+        <option value="$PROJECT_DIR$/templates/2014-vs/base.html" />
+        <option value="$PROJECT_DIR$/templates/contact_form.html" />
+        <option value="$PROJECT_DIR$/templates/espace_membre.html" />
+        <option value="$PROJECT_DIR$/templates/flatpages.html" />
+        <option value="$PROJECT_DIR$/templates/member_form.html" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/templates/registration/register.html" />
+        <option value="$PROJECT_DIR$/templates/spectacle_solo.html" />
+        <option value="$PROJECT_DIR$/templates/agenda.html" />
+        <option value="$PROJECT_DIR$/templates/xlegacy_base.html" />
+        <option value="$PROJECT_DIR$/templates/place.html" />
+        <option value="$PROJECT_DIR$/spectacles/importator.py" />
+        <option value="$PROJECT_DIR$/associations/migrations/0003_auto_20141108_1032.py" />
+        <option value="$PROJECT_DIR$/regionfestival/urls.py" />
+        <option value="$PROJECT_DIR$/spectacles/forms.py" />
+        <option value="$PROJECT_DIR$/templates/pagination.html" />
+        <option value="$PROJECT_DIR$/templates/list_spectacles.html" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/regionfestival/snippets.py" />
+        <option value="$PROJECT_DIR$/spectacles/models.py" />
+        <option value="$PROJECT_DIR$/templates/spectacle.html" />
+        <option value="$PROJECT_DIR$/templates/region_child2.html" />
+        <option value="$PROJECT_DIR$/templates/representation.html" />
+        <option value="$PROJECT_DIR$/templates/asociation.html" />
+        <option value="$PROJECT_DIR$/associations/models.py" />
+        <option value="$PROJECT_DIR$/templates/calendrier.html" />
+        <option value="$PROJECT_DIR$/spectacles/urls.py" />
+        <option value="$PROJECT_DIR$/spectacles/views.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/regionfestival/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2640" />
+    <option name="y" value="24" />
+    <option name="width" value="960" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Django</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssUnusedSymbol</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.4.0 (/usr/bin/python3.4) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spectacles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moderation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="associations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="LayoutCode.rearrangeEntriesPython" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Téléchargements" />
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="59" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="84" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="88" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="722" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="59" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="74" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="78" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="742" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="regionfestival" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="regionfestival" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/spectacles/templates" />
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spectacles/imports" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/2014-vs" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/regionfestival" />
+      <recent name="$PROJECT_DIR$/media/pdf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.admin">
+    <configuration default="false" name="importator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spectacles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spectacles/importator.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonCover" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
+      <method />
+    </configuration>
+    <configuration default="false" name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/associations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/associations/models.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonCover" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regionfestival" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regionfestival/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moderation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moderation/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="regionfestival" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="regionfestival.settings" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.4" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonCover" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Django server.regionfestival" />
+      <item index="1" class="java.lang.String" itemvalue="Python.importator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.models" />
+      <item index="3" class="java.lang.String" itemvalue="Python.settings" />
+      <item index="4" class="java.lang.String" itemvalue="Python.admin" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.admin" />
+        <item index="1" class="java.lang.String" itemvalue="Python.settings" />
+        <item index="2" class="java.lang.String" itemvalue="Python.models" />
+        <item index="3" class="java.lang.String" itemvalue="Python.importator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="2" Folder0="/bin" Folder1="$USER_HOME$/Téléchargements" Dictionaries="0" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="" />
+      <created>1411468536501</created>
+      <updated>1411468536501</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1411469888767</created>
+      <updated>1411469888767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first models">
+      <created>1411470132057</created>
+      <updated>1411470132057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="models into admin">
+      <created>1411470757932</created>
+      <updated>1411470757932</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit&#10;">
+      <created>1411471070309</created>
+      <updated>1411471070309</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <created>1411475879529</created>
+      <updated>1411475879529</updated>
+    </task>
+    <task id="LOCAL-00006" summary="db setup and working">
+      <created>1411476240446</created>
+      <updated>1411476240446</updated>
+    </task>
+    <task id="LOCAL-00007" summary="region imported&#10;">
+      <created>1411479677571</created>
+      <updated>1411479677571</updated>
+    </task>
+    <task id="LOCAL-00008" summary="region imported&#10;">
+      <created>1411479746586</created>
+      <updated>1411479746586</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add models to crm and spectacles&#10;db syncd">
+      <created>1411480833945</created>
+      <updated>1411480833945</updated>
+    </task>
+    <task id="LOCAL-00010" summary="intégration">
+      <created>1411549096823</created>
+      <updated>1411549096823</updated>
+    </task>
+    <task id="LOCAL-00011" summary="with all files">
+      <created>1411559944134</created>
+      <updated>1411559944135</updated>
+    </task>
+    <task id="LOCAL-00012" summary="with all files">
+      <created>1411640464893</created>
+      <updated>1411640464893</updated>
+    </task>
+    <task id="LOCAL-00013" summary="importator spectacle working">
+      <created>1411657190319</created>
+      <updated>1411657190319</updated>
+    </task>
+    <task id="LOCAL-00014" summary="importator spectacle working">
+      <created>1411659527701</created>
+      <updated>1411659527701</updated>
+    </task>
+    <task id="LOCAL-00015" summary="importator spectacle working">
+      <created>1411669978459</created>
+      <updated>1411669978459</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fin ile de ré">
+      <created>1411713654119</created>
+      <updated>1411713654119</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fin ile de ré">
+      <created>1411713942373</created>
+      <updated>1411713942373</updated>
+    </task>
+    <task id="LOCAL-00018" summary="début paris">
+      <created>1415267604569</created>
+      <updated>1415267604569</updated>
+    </task>
+    <task id="LOCAL-00019" summary="rajout old static + media + templates">
+      <created>1415268776512</created>
+      <updated>1415268776513</updated>
+    </task>
+    <task id="LOCAL-00020" summary="rajout old static + media + templates">
+      <created>1415270086944</created>
+      <updated>1415270086944</updated>
+    </task>
+    <task id="LOCAL-00021" summary="avant la grosse modif pour les static (là ils marchent pas">
+      <created>1415284043145</created>
+      <updated>1415284043145</updated>
+    </task>
+    <task id="LOCAL-00022" summary="on avance petit à petit sur les views">
+      <created>1415459280231</created>
+      <updated>1415459280231</updated>
+    </task>
+    <task id="LOCAL-00023" summary="avancées&#10;">
+      <created>1415469825836</created>
+      <updated>1415469825836</updated>
+    </task>
+    <task id="LOCAL-00024" summary="avancées&#10;">
+      <created>1415635396039</created>
+      <updated>1415635396039</updated>
+    </task>
+    <task id="LOCAL-00025" summary="asdfasdfasdf">
+      <created>1415636743802</created>
+      <updated>1415636743802</updated>
+    </task>
+    <task id="LOCAL-00026" summary="base.html changé en html5">
+      <created>1415698483715</created>
+      <updated>1415698483715</updated>
+    </task>
+    <task id="LOCAL-00027" summary="base.html changé en html5">
+      <created>1415784850276</created>
+      <updated>1415784850276</updated>
+    </task>
+    <task id="LOCAL-00028" summary="test bitbucket">
+      <created>1415897636340</created>
+      <updated>1415897636340</updated>
+    </task>
+    <task id="LOCAL-00029" summary="count refait, et plein de trucs cools ajoutés (et des choses corrigées)">
+      <created>1416059893665</created>
+      <updated>1416059893665</updated>
+    </task>
+    <task id="LOCAL-00030" summary="count refait, et plein de trucs cools ajoutés (et des choses corrigées)">
+      <created>1416059919468</created>
+      <updated>1416059919468</updated>
+    </task>
+    <task id="LOCAL-00031" summary="count refait, et plein de trucs cools ajoutés (et des choses corrigées)">
+      <created>1416071688602</created>
+      <updated>1416071688602</updated>
+    </task>
+    <task id="LOCAL-00032" summary="ajouté un tas d'unique slug partout :)&#10;">
+      <created>1416323174545</created>
+      <updated>1416323174545</updated>
+    </task>
+    <task id="LOCAL-00033" summary="pas grand chose">
+      <created>1416410581768</created>
+      <updated>1416410581768</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add moderation">
+      <created>1416418973152</created>
+      <updated>1416418973152</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2640" y="24" width="960" height="1056" extended-state="4" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3555317" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15528281" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17943107" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977092" sideWeight="0.49968132" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31500572" sideWeight="0.45466492" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18915929" sideWeight="0.50157726" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781065" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60022146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33887044" sideWeight="0.4994664" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16595517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41466084" sideWeight="0.4984227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1755603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3145072" sideWeight="0.5453351" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3190118" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3757159" sideWeight="0.49904397" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="MAXIMUM_HISTORY_ROWS" value="10000" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="first models" />
+    <MESSAGE value="&#10;&#10;" />
+    <MESSAGE value="models into admin" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="db setup and working" />
+    <MESSAGE value="region imported&#10;" />
+    <MESSAGE value="add models to crm and spectacles&#10;db syncd" />
+    <MESSAGE value="intégration" />
+    <MESSAGE value="with all files" />
+    <MESSAGE value="importator spectacle working" />
+    <MESSAGE value="fin ile de ré" />
+    <MESSAGE value="début paris" />
+    <MESSAGE value="rajout old static + media + templates" />
+    <MESSAGE value="avant la grosse modif pour les static (là ils marchent pas" />
+    <MESSAGE value="on avance petit à petit sur les views" />
+    <MESSAGE value="avancées&#10;" />
+    <MESSAGE value="&#10;" />
+    <MESSAGE value="asdfasdfasdf" />
+    <MESSAGE value="base.html changé en html5" />
+    <MESSAGE value="test bitbucket" />
+    <MESSAGE value="count refait, et plein de trucs cools ajoutés (et des choses corrigées)" />
+    <MESSAGE value="ajouté un tas d'unique slug partout :)&#10;" />
+    <MESSAGE value="pas grand chose" />
+    <MESSAGE value="add moderation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add moderation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file:///usr/local/lib/python3.4/dist-packages/django/db/models/base.py</url>
+          <line>552</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="dbDummy://dbtable:/76bd2c9d/2c0cb1a3-9e99-453f-8b66-b4ce8ea9e1e9/..crm_customuser">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/76bd2c9d/30d6f6e9-5c5e-4605-a4fd-98a53f10e159/..crm_customuser">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/76bd2c9d/30d6f6e9-5c5e-4605-a4fd-98a53f10e159/..associations_association">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4409938" vertical-offset="770" max-vertical-offset="1575">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44537815" vertical-offset="1730" max-vertical-offset="2355">
+          <caret line="135" column="61" selection-start-line="135" selection-start-column="61" selection-end-line="135" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/home/spoutnik16/PycharmProjects/regionfestival/spectacles">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/home/spoutnik16/PycharmProjects/regionfestival/spectacles</OriginalElement>
+          <nodes>
+            <node x="" y="">spectacles.forms.ContactForm</node>
+            <node x="" y="">spectacles.importator.ImportDFI</node>
+            <node x="" y="">django.db.migrations.migration.Migration</node>
+            <node x="" y="">django.forms.models.BaseModelForm</node>
+            <node x="" y="">spectacles.models.Festival</node>
+            <node x="" y="">django.forms.forms.Form</node>
+            <node x="" y="">object</node>
+            <node x="" y="">spectacles.models.CategorieSpectacle</node>
+            <node x="" y="">spectacles.forms.AssociationSimpleForm</node>
+            <node x="" y="">spectacles.forms.ConnexionForm</node>
+            <node x="" y="">django.forms.models.ModelForm</node>
+            <node x="" y="">django.contrib.auth.forms.UserCreationForm</node>
+            <node x="" y="">spectacles.forms.RegisterForm</node>
+            <node x="" y="">spectacles.models.Spectacle</node>
+            <node x="" y="">_collections_abc.Hashable</node>
+            <node x="" y="">spectacles.forms.SearchForm</node>
+            <node x="" y="">spectacles.forms.SpectacleSimpleForm</node>
+            <node x="" y="">_collections_abc.Iterator</node>
+            <node x="" y="">_collections_abc.Iterable</node>
+            <node x="" y="">spectacles.models.Artiste</node>
+            <node x="" y="">spectacles.models.Representation</node>
+            <node x="" y="">django.db.models.base.Model</node>
+            <node x="" y="">django.forms.forms.BaseForm</node>
+            <node x="" y="">null.Migration</node>
+            <node x="" y="">spectacles.models.Lieu</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.4034402911015549" x="2296.0" y="1686.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/valais_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/importator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7070707" vertical-offset="0" max-vertical-offset="594">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/76bd2c9d/2c0cb1a3-9e99-453f-8b66-b4ce8ea9e1e9/..spectacles_spectacle">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/76bd2c9d/2c0cb1a3-9e99-453f-8b66-b4ce8ea9e1e9/..spectacles_spectacle_associations">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flatpages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/member_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="536">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="405">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/spectacle_solo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/xlegacy_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="990" max-vertical-offset="2475">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/espace_membre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/migrations/0003_auto_20141108_1032.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035587188" vertical-offset="0" max-vertical-offset="843">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regionfestival/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40925267" vertical-offset="0" max-vertical-offset="843">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035587188" vertical-offset="0" max-vertical-offset="843">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/importator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2351" max-vertical-offset="3540">
+          <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74336284" vertical-offset="0" max-vertical-offset="565">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regionfestival/snippets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1170">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57798165" vertical-offset="435" max-vertical-offset="2055">
+          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.responsiveMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1200">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14563107" vertical-offset="0" max-vertical-offset="975">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40838853" vertical-offset="1015" max-vertical-offset="1530">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list_spectacles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="615">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/representation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="570">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/association.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/region_child2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="345">
+          <caret line="5" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/spectacle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64468086" vertical-offset="72" max-vertical-offset="630">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/place.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
+          <caret line="17" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6572936" vertical-offset="1503" max-vertical-offset="4110">
+          <caret line="205" column="14" selection-start-line="205" selection-start-column="14" selection-end-line="205" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7363796" vertical-offset="2101" max-vertical-offset="2670">
+          <caret line="169" column="24" selection-start-line="169" selection-start-column="20" selection-end-line="169" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/agenda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendrier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024834437" vertical-offset="0" max-vertical-offset="604">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1950">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/AUTHORS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regionfestival/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37072244" vertical-offset="1035" max-vertical-offset="2025">
+          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="96" selection-end-column="15" />
+          <folding>
+            <element signature="e#325#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38112524" vertical-offset="0" max-vertical-offset="551">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2801358" vertical-offset="0" max-vertical-offset="589">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moderation/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.703125" vertical-offset="0" max-vertical-offset="3135">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="3" />
+        <entry key="regex" value="\&quot;\/web\/(?P&lt;path&gt;.*)\&quot;?" />
+        <entry key="replacement" value="" />
+        <entry key="text" value="{% load i18n %}&#10;{%  load staticfiles %}&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;fr&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta http-equiv=&quot;Content-type&quot; content=&quot;text/html; charset=UTF-8&quot;/&gt;&#10;    &lt;meta name=&quot;language&quot; content=&quot;fr-FR&quot;/&gt;&#10;    &lt;meta name=&quot;description&quot;&#10;          content=&quot;Le Valais Festival est LE festival de toutes les associations culturelles valaisannes.&quot;/&gt;&#10;&#10;    &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;{% static &quot;favicon.ico&quot; %}&quot; /&gt;&#10;    &lt;link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/&gt;&#10;    &lt;link rel=&quot;Stylesheet&quot; type=&quot;text/css&quot; href=&quot;{% static &quot;css/main.css&quot; %}&quot;/&gt;&#10;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;{% static &quot;js/jquery.responsiveMenu.js&quot; %}&quot;&gt;&lt;/script&gt;&#10;    {% block javascript %}&#10;    {% endblock %}&#10;    &lt;title&gt;{% trans &quot;Valais Festival&quot; %} - {% block title %}Valais Festival{% endblock %}&lt;/title&gt;&#10;&#10;&#10;&lt;/head&gt;&#10;&#10;&lt;body&gt;&#10;&lt;div id=&quot;page&quot;&gt;&#10;    &lt;div id=&quot;container&quot;&gt;&#10;        &lt;div id=&quot;header&quot;&gt;&#10;            &lt;a href=&quot;{% url 'spectacles.views.accueil' %}&quot;&gt;&lt;img class=&quot;banner&quot; src=&quot;/web/images/valais_logo.png&quot; /&lt;/a&gt;&#10;        &lt;/div&gt;&#10;        &lt;div id=&quot;content&quot;&gt;&#10;            &lt;div class=&quot;lang&quot;&gt;&lt;a href=&quot;/fr/&quot;&gt;fr&lt;/a&gt; &lt;a href=&quot;/de/&quot;&gt;de&lt;/a&gt;&lt;/div&gt;&#10;            &lt;nav&gt;{% block nav %}&#10;&#10;&#10;                &lt;div id=&quot;responsive-menu&quot; class=&quot;responsive-menu clearfix&quot;&gt;&#10;                    &lt;h5&gt;{% trans &quot;Menu Principal&quot; %}&lt;/h5&gt;&#10;                    &lt;ul&gt;&#10;                        &lt;li&gt;&lt;a href=&quot;{% url 'inscription' %}&quot;&gt;{% trans &quot;Inscription&quot; %}&lt;/a&gt;&lt;/li&gt;&#10;                        &lt;li&gt;&lt;a href=&quot;{% url 'spectacles.views.spectacles' %}&quot;&gt;{% trans &quot;Programme&quot; %}&lt;/a&gt;&lt;/li&gt;&#10;                        &lt;li class=&quot;sub&quot;&gt;&lt;a&#10;                                href=&quot;{% url 'spectacles.views.spectacles' %}&quot;&gt;{% trans &quot;par catégorie&quot; %}&lt;/a&gt;&lt;/li&gt;&#10;                        &lt;li class=&quot;sub&quot;&gt;&lt;a href=&quot;{% url 'spectacles.views.agenda' %}&quot;&gt;{% trans &quot;par date&quot; %}&lt;/a&gt;&lt;/li&gt;&#10;                        &lt;li class=&quot;sub&quot;&gt;&lt;a href=&quot;/fr/communes.html&quot;&gt;{% trans &quot;par lieu&quot; %}&lt;/a&gt;&lt;/li&gt;&#10;                        {% comment  %}&lt;li&gt;&lt;a href=&quot;{% url 'about' %}&quot;&gt;{% trans &quot;Présentation&quot; %}&lt;/a&gt;&lt;/li&gt; {% endcomment %}&#10;                        &lt;li&gt;&lt;a href=&quot;{% url 'spectacles.views.contact' %}&quot;&gt;{% trans &quot;Contact&quot; %}&lt;/a&gt;&lt;/li&gt;&#10;                        {% if user.is_authenticated %}&#10;                            &lt;li&gt;&lt;a href=&quot;{% url 'deconnection' %}&quot;&gt;{% trans &quot;Se déconnecter&quot; %}&lt;/a&gt;&lt;/li&gt;&#10;                        {% else %}&#10;                            &lt;li&gt;&lt;a href=&quot;{% url 'connection' %}&quot;&gt;{% trans &quot;Se connecter&quot; %}&lt;/a&gt;&lt;/li&gt;&#10;                        {% endif %}&#10;                    &lt;/ul&gt;&#10;                &lt;/div&gt;&#10;&#10;&#10;&#10;            {% endblock %}&#10;            &lt;/nav&gt;&#10;            &lt;div id=&quot;main&quot;&gt;&#10;&#10;                {% block content %}&#10;&#10;&#10;&#10;                    &lt;div style=&quot;width: 100%&quot;&gt;&#10;                        &lt;object name=&quot;player&quot; id=&quot;_fp_0.12748635467141867&quot; width=&quot;400&quot; height=&quot;226&quot;&#10;                                data=&quot;http://www.canal9.ch/flash/flowplayer/flowplayer.commercial-3.2.16.swf&quot;&#10;                                type=&quot;application/x-shockwave-flash&quot;&gt;&#10;                            &lt;param value=&quot;true&quot; name=&quot;allowfullscreen&quot;/&gt;&#10;                            &lt;param value=&quot;always&quot; name=&quot;allowscriptaccess&quot;/&gt;&#10;                            &lt;param value=&quot;transparent&quot; name=&quot;wmode&quot;/&gt;&#10;                            &lt;param value=&quot;high&quot; name=&quot;quality&quot;/&gt;&#10;                            &lt;param name=&quot;movie&quot;&#10;                                   value=&quot;http://www.canal9.ch/flash/flowplayer/flowplayer.commercial-3.2.16.swf&quot;/&gt;&#10;                            &lt;param value=&quot;config=%7B%22clip%22%3A%7B%22pageUrl%22%3A%22http%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%7D%2C%22playlist%22%3A%5B%7B%22pageUrl%22%3A%22http%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%2C%22url%22%3A%22http%3A//media.canal9.ch/media/l-info-en-continu/2013/11/2013-11-25-festival-pour-la-vie-associative.jpg%22%2C%22scaling%22%3A%22orig%22%7D%2C%7B%22urlResolvers%22%3A%5B%22f4m%22%5D%2C%22url%22%3A%22http%3A//httpstream.canal9.ch/hds-vod/media/l-info-en-continu/2013/11/2013-11-25-festival-pour-la-vie-associative.mp4.f4m%22%2C%22autoPlay%22%3Afalse%2C%22autoBuffering%22%3Atrue%2C%22pageUrl%22%3A%22http%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%2C%22provider%22%3A%22httpstreaming%22%7D%5D%2C%22logo%22%3A%7B%22fullscreenOnly%22%3Afalse%2C%22right%22%3A10%2C%22url%22%3A%22http%3A//www.canal9.ch/img/logo_player_canal9.png%22%2C%22linkUrl%22%3A%22http%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%2C%22top%22%3A10%2C%22opacity%22%3A1%7D%2C%22key%22%3A%5B%22%23%2450405ffa38cdf5c3005%22%2C%22%23%24351d2eabac840c4a432%22%5D%2C%22play%22%3A%7B%22width%22%3A92%2C%22height%22%3A92%2C%22url%22%3A%22http%3A//www.canal9.ch/img/play_c9Player.png%22%7D%2C%22plugins%22%3A%7B%22dock%22%3A%7B%22width%22%3A%2210pct%22%2C%22left%22%3A15%2C%22horizontal%22%3Atrue%2C%22autoHide%22%3Atrue%7D%2C%22sharing%22%3A%7B%22email%22%3A%7B%22subject%22%3A%22A%20voir%20sur%20Canal9%20%3A%20Festival%20pour%20la%20vie%20associative%22%2C%22message%22%3A%22Diffusion%20le%2025.11.2013%20%22%2C%22template%22%3A%22%7B0%7D%5Cn%5Cnhttp%3A//www.canal9.ch/television-valaisanne/emissions/l-info-en-continu/25-11-2013/festival-pour-la-vie-associative.html%22%7D%2C%22facebook%22%3A%7B%22shareWindow%22%3A%22_popup%22%7D%2C%22buttons%22%3A%7B%22overColor%22%3A%22%23ffbf00%22%7D%2C%22url%22%3A%22http%3A//www.canal9.ch/flash/flowplayer/flowplayer.sharing-3.2.14.swf%22%2C%22twitter%22%3A%7B%22shareWindow%22%3A%22_popup%22%2C%22description%22%3A%22A%20voir%20sur%20Canal9%20%3A%20%22%7D%2C%22callType%22%3A%22default%22%2C%22share%22%3Afalse%7D%2C%22f4m%22%3A%7B%22callType%22%3A%22default%22%2C%22url%22%3A%22http%3A//www.canal9.ch/flash/flowplayer/flowplayer.f4m-3.2.9.swf%22%7D%2C%22httpstreaming%22%3A%7B%22callType%22%3A%22default%22%2C%22url%22%3A%22http%3A//www.canal9.ch/flash/flowplayer/flowplayer.httpstreaming-3.2.10.swf%22%7D%7D%7D&quot;&#10;                                   name=&quot;flashvars&quot;/&gt;&#10;                        &lt;/object&gt;&#10;                        &lt;aside class=&quot;contentRight&quot; style=&quot;width: 35%; float: right; margin: 4px;&quot;&gt;&#10;                            &lt;div style=&quot;border: 1px solid; margin: 4px; padding: 4px; border-radius: 4px;&quot;&gt;&#10;                                {% blocktrans %}&lt;a href=&quot;inscription.html&quot;&gt;&lt;h3&gt; Inscrivez-vous ! &lt;/h3&gt;&lt;/a&gt;&#10;                                    &lt;p class=&quot;datelimite&quot;&gt;&lt;strong&gt;&lt;a href=&quot;inscription.html&quot;&gt;&lt;em&gt;Inscriptions jusqu'au&#10;                                        31 janvier !&lt;/em&gt;&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;&#10;                                    &lt;p&gt;Dates du Valais Festival : du 1 avril 2014 au 30 juin 2014&lt;/p&gt;&#10;&#10;                                    &lt;/p&gt;{% endblocktrans %}&lt;/div&gt;&#10;&#10;&#10;                        &lt;/aside&gt;&#10;                    &lt;/div&gt;&#10;&#10;                    &lt;article class=&quot;texteaccueil&quot; style=&quot;text-align: justify;&quot;&gt;&#10;                        {% blocktrans %}&#10;                            &lt;p&gt;&lt;strong&gt;Le Valais Festival&lt;/strong&gt; est LE festival de toutes les &lt;em&gt;associations&#10;                                culturelles valaisannes&lt;/em&gt;.&lt;br/&gt;&#10;                                Son ambition est de réunir toutes les activités artistiques de la scène d’&lt;em&gt;avril à&#10;                                    juin&lt;/em&gt; dans l’ensemble du canton.&lt;br/&gt;&lt;/p&gt;&#10;                            &lt;h2&gt;Le Projet&lt;/h2&gt;&#10;                            &lt;p&gt;À travers cet événement, nous voulons présenter l’incroyable diversité des &lt;em&gt;activités&#10;                                culturelles&lt;/em&gt; de notre canton, en plaçant sous une même égide troupes de théâtre,&#10;                                fanfares, chorales, spectacles d’école, concerts de musique actuelle, concerts de&#10;                                musique classique, spectacles de danse, etc... Une activité foisonnante, voilà ce que&#10;                                nous voulons rappeler à travers ce festival.&lt;br/&gt;&lt;/p&gt;&#10;                            &lt;p&gt;Concrètement, pour sa première édition, le Valais Festival veut réunir, à travers un &lt;em&gt;cahier&#10;                                spécial&lt;/em&gt;, toutes les activités culturelles du canton ayant lieu durant la période&#10;                                d’avril à juin 2014. &lt;br/&gt;&lt;/p&gt;&#10;                            &lt;p&gt;Le festival cherche également, par son existence, à stimuler les lieux à organiser des&#10;                                événements durant la période choisie. Par exemple, un bistrot pourrait décider&#10;                                d’organiser des concerts plutôt entre avril et juin, et ainsi bénéficier de la&#10;                                visibilité offerte par le cahier spécial.&lt;br/&gt;&lt;/p&gt;&#10;                            &lt;p&gt;Un site Internet a été créé à cet effet. Il permet aux associations et organisateurs de&#10;                                s’inscrire au Valais Festival.&lt;br/&gt;&lt;/p&gt;&#10;                            &lt;p&gt;Le rôle du Valais Festival est de créer la plus grande visibilité possible pour les&#10;                                activités du canton. Ce « &lt;em&gt;Valais Festival&lt;/em&gt;» doit être vécu comme une grande fête&#10;                                au cœur de notre canton, dans laquelle chaque valaisan est à la fois acteur et&#10;                                spectateur !&lt;br/&gt;&lt;/p&gt;&#10;                            &lt;p&gt;Un projet que seul le Valais peut mener à bien. Un tel festival mettra dans aucun doute&#10;                                en exergue la force du Valais, ceci à travers la qualité de ses innombrables artistes&#10;                                qui s’engagent quotidiennement à rendre la vie de notre canton toujours plus belle et&#10;                                surprenante ! &lt;br/&gt;&lt;/p&gt;&#10;                            &lt;p&gt;En conclusion, la vocation d’un tel festival serait de faire sortir tous les valaisans de&#10;                                chez eux pendant ces trois mois pour découvrir la force artistique de notre canton. &lt;/p&gt;&#10;                        {% endblocktrans %}&lt;/article&gt;&#10;                    &lt;div&gt;&lt;strong&gt;Contacts&lt;/strong&gt;&lt;/div&gt;&#10;                    &lt;address&gt;&#10;                        &lt;p&gt;&#10;                            Fabienne Luyet : &lt;br/&gt;&#10;                            Natel: 079 723 26 57&lt;br/&gt;&#10;                            Mail: fab.luyet@netplus.ch&#10;                        &lt;/p&gt;&#10;&#10;                        &lt;p&gt;&#10;                            Jérôme Hugon :&lt;br/&gt;&#10;                            Natel: 078 672 11 13br /&gt;&#10;                            Mail: jerome@valaisfestival.ch&#10;                        &lt;/p&gt;&#10;                    &lt;/address&gt;&#10;                {% endblock %} &lt;/div&gt;&#10;            &lt;div id=sponsors&gt;&#10;                &lt;ul&gt;&#10;                    &lt;li&gt;&lt;a href=&quot;http://www.loro.ch/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;{% static &quot;images/loro.jpg&quot; %}&quot;&#10;                                                                           alt=&quot;Loterie Romande&quot;&gt;&lt;/a&gt;&lt;/li&gt;&#10;                    &lt;li&gt;&lt;a href=&quot;http://www.ubs.com/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/web/images/ubs.jpg&quot; alt=&quot;ubs&quot;&gt;&lt;/a&gt;&lt;/li&gt;&#10;                    &lt;li&gt;&lt;a href=&quot;http://www.migros.ch/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/web/images/migros.jpg&quot; alt=&quot;Migros&quot;&gt;&lt;/a&gt;&#10;                    &lt;/li&gt;&#10;                    &lt;li&gt;&lt;a href=&quot;http://www.lenouvelliste.ch/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/web/images/nouvelliste.jpg&quot;&#10;                                                                                    alt=&quot;Nouvelliste&quot;&gt;&lt;/a&gt;&lt;/li&gt;&#10;                    &lt;li&gt;&lt;a href=&quot;http://www.canal9.ch/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/web/images/canal9.jpg&quot; alt=&quot;Canal 9&quot;&gt;&lt;/a&gt;&#10;                    &lt;/li&gt;&#10;                    &lt;li&gt;&lt;a href=&quot;http://www.rhonefm.ch/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/web/images/rhoneFm.jpg&quot;&#10;                                                                              alt=&quot;Rhône FM&quot;&gt;&lt;/a&gt;&lt;/li&gt;&#10;                    &lt;li&gt;&lt;a href=&quot;http://www.theatreinterface.ch/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/web/images/interface.jpg&quot;&#10;                                                                                       alt=&quot;Interface&quot;&gt;&lt;/a&gt;&lt;/li&gt;&#10;                &lt;/ul&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;        &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot; src=&quot;/web/js/jqueryApp.js&quot;&gt;&lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;page generee en 0.023968935012817" />
+      </map>
+    </option>
+  </component>
+</project>
+
