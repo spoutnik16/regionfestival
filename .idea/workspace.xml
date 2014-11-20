@@ -5,7 +5,7 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="">
+    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="static endly fixed&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regionfestival/settings.py" afterPath="$PROJECT_DIR$/regionfestival/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -57,8 +57,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regionfestival/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7635727" vertical-offset="1379" max-vertical-offset="1980">
-              <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.50087565" vertical-offset="1379" max-vertical-offset="1965">
+              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -805,7 +805,13 @@
       <option name="project" value="LOCAL" />
       <updated>1416507184964</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="static endly fixed&#10;">
+      <created>1416508076649</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1416508076649</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -876,7 +882,6 @@
       <TodoPanelSettings />
     </option>
     <option name="MAXIMUM_HISTORY_ROWS" value="10000" />
-    <MESSAGE value="models into admin" />
     <MESSAGE value="commit" />
     <MESSAGE value="db setup and working" />
     <MESSAGE value="region imported&#10;" />
@@ -901,7 +906,8 @@
     <MESSAGE value="database prod sur settings.py" />
     <MESSAGE value="ajout readme.txt" />
     <MESSAGE value="changement d'IDE" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement d'IDE" />
+    <MESSAGE value="static endly fixed&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="static endly fixed&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1305,8 +1311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regionfestival/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7635727" vertical-offset="1379" max-vertical-offset="1980">
-          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.50087565" vertical-offset="1379" max-vertical-offset="1965">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding />
         </state>
       </provider>
