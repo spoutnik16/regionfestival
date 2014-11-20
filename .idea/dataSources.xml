@@ -5,17 +5,13 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/valaisfestival</jdbc-url>
-      <user-name>valaisfestival</user-name>
-      <user-password>dff8dfcfdfc4dfcbdfdfdfc6dfdedfe7dfcbdfd9dfdedfcfdfd8df98df9adf9bdf9e</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Django default" uuid="30d6f6e9-5c5e-4605-a4fd-98a53f10e159">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
-      <table-pattern>*</table-pattern>
       <libraries />
     </data-source>
   </component>
 </project>
-
