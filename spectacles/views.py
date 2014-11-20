@@ -24,27 +24,25 @@ Custom_Paginator
 
 """
 import datetime
+
 from django.shortcuts import render, get_object_or_404, redirect
-from django.http import HttpResponse, Http404
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.forms import UserCreationForm
-from django import forms
-from django.utils.html import escape
 from django.utils.http import urlquote_plus, unquote_plus
 from django.core.urlresolvers import reverse
 from django.core.paginator import Paginator, EmptyPage
 from django.db.models import Q
-from spectacles.forms import ContactForm, ConnexionForm, RegisterForm, SearchForm
+
+from spectacles.forms import ContactForm, ConnexionForm, RegisterForm
 from spectacles.forms import SpectacleSimpleForm, AssociationSimpleForm
 from spectacles.models import Spectacle, Representation, Lieu, CategorieSpectacle
-from associations.models import CategorieAssociation, Region, RegionChild, RegionChild2, Association
+from associations.models import Region, RegionChild, RegionChild2, Association
 from spectacles.models import Festival
-# Create your views here.
 
-
-#Vues qui sont liées à l'affichage pour le public
+# Vues qui sont liées à l'affichage pour le public
 def accueil(request):
-    return render(request, 'base.html')   
+    return render(request, 'base.html')
+
+
 def contact(request):
     form = ContactForm(request.POST)
     if form.is_valid():
@@ -54,6 +52,7 @@ def contact(request):
     else:
         form = ContactForm
     return render(request, 'contact_form.html', locals())
+
 
 def spectacles_redir(request, page=1, categorie=None, search_term=None):
     if search_term:
@@ -67,16 +66,16 @@ def spectacles_redir(request, page=1, categorie=None, search_term=None):
         else:
             return redirect(spectacles, page=1)
 
-def place(request, id):
-    lieu = get_object_or_404(Lieu, id=id)
+
+def place(request, slug):
+    lieu = get_object_or_404(Lieu, slug=slug)
     representations = Representation.objects.filter(lieu=lieu)
     return render(request, 'place.html', locals())
 
 
-def agenda(request, day=None, month=None, year=None):
+def agenda(request, day=None, month=None, year=None, page=None):
     festival = Festival.objects.all().first()
-    daterange = lambda d1, d2: (d1 + datetime.timedelta(days = i) for i in range((d2-d1).days + 1))
-    list_days = []
+    daterange = lambda d1, d2: (d1 + datetime.timedelta(days=i) for i in range((d2 - d1).days + 1))
     try:
         date = datetime.date(int(year), int(month), int(day))
     except:
@@ -84,18 +83,16 @@ def agenda(request, day=None, month=None, year=None):
         pass
     if date not in daterange(festival.startdate, festival.enddate):
         date = festival.startdate
-    for day in daterange(festival.startdate, festival.enddate):
-        count = Representation.objects.filter(datetime__year=day.year,
-                                              datetime__month=day.month,
-                                              datetime__day=day.day).count()
-        list_days.append({'day': day,
-                          'count': count})
-    reps = Representation.objects.filter(datetime__year=date.year, 
-                                         datetime__month=date.month, 
+    from django.db.models import Count
+    list_days = Representation.objects.filter(status__gte=3).extra({'day': 'date'}).values('day').annotate(Count('id'))
+    reps = Representation.objects.filter(datetime__year=date.year,
+                                         datetime__month=date.month,
                                          datetime__day=date.day).order_by('datetime')
+
     return render(request, 'agenda.html', locals())
 
-def spectacles(request, page=1, categorie=None, search_term=None):
+
+def spectacles(request, page=None, categorie=None, search_term=None):
     if request.method == 'POST':
         if request.POST.get('search_term'):
             search_term = urlquote_plus(request.POST.get('search_term'))
@@ -128,18 +125,24 @@ def spectacles(request, page=1, categorie=None, search_term=None):
     return render(request, 'list_spectacles.html', locals())
 
 
-def spectacle(request, id):
-    spectacle = get_object_or_404(Spectacle, id=id)
+def spectacle(request, slug):
+    spectacle = get_object_or_404(Spectacle, slug=slug)
     return render(request, 'spectacle_solo.html', {'spectacle': spectacle})
-def region_child2(request, id):
-    region_child2 = get_object_or_404(Region_child2, id=id)
+
+def region_child2(request, slug):
+    region_child2 = get_object_or_404(RegionChild2, slug=slug)
     spectacles = []
     for lieu in region_child2.lieu_set.all():
         for representation in lieu.representation_set.all():
             spectacles.append(representation.spectacle)
     spectacles = set(spectacles)
-    return render(request, 'region_child2.html', {'region_child2': region_child2, 'spectacles':spectacles})
+    return render(request, 'region_child2.html', {'region_child2': region_child2, 'spectacles': spectacles})
 
+def association(request, slug):
+    association = get_object_or_404(Association, slug=slug)
+    spectacles = Spectacle.objects.filter(associations=association)
+    spectacles = set(spectacles)
+    return render(request, 'association.html', {'association': association, 'spectacles': spectacles})
 
 def admin(request):
     return render(request, 'accueil.html')
@@ -152,8 +155,8 @@ def connection(request):
         if form.is_valid():
             username = form.cleaned_data["username"]
             password = form.cleaned_data["password"]
-            user = authenticate(username = username, 
-                                password = password)
+            user = authenticate(username=username,
+                                password=password)
             if user:
                 login(request, user)
             else:
@@ -161,29 +164,37 @@ def connection(request):
     else:
         form = ConnexionForm()
     return render(request, 'registration/login.html', locals())
-def deconnection (request):
+
+
+def deconnection(request):
     logout(request)
     return redirect(reverse(connection))
-def inscription (request):
+
+
+def inscription(request):
     if request.method == 'POST':
         form = RegisterForm(request.POST)
         if form.is_valid():
-            new_user = form.save()
             return redirect('connection')
     else:
         form = RegisterForm()
-    return render(request, 'registration/register.html', { 'form': form, })
+    return render(request, 'registration/register.html', {'form': form, })
 
 
 
-#les parties de l'espace admin
-
+#
+#
+# les parties de l'espace admin
+#
 
 def espace_membre(request):
     return render(request, 'espace_membre.html')
+
+
 def association_form(request, id=None):
     form = AssociationSimpleForm()
     return render(request, 'member_form.html', locals())
+
 
 def spectacle_form(request):
     if request.method == 'POST':
@@ -194,58 +205,63 @@ def spectacle_form(request):
         form = SpectacleSimpleForm()
     return render(request, 'espace_membre.html', {'form': form, })
 
-
 # les différentes redirections des vielles pages du site PHP
+#
+#
+#
+
 def redirect_old_spectacle(request, id):
-    id = get_object_or_404(Spectacle, old_id = id).id
-    return redirect('spectacles.views.spectacle', id = id)
+    id = get_object_or_404(Spectacle, old_id=id).id
+    return redirect('spectacles.views.spectacle', id=id)
+
+
 def redirect_old_lieu(request, id):
-    id = get_object_or_404(Lieu, old_id = id).id
-    return redirect('spectacles.views.place', id = id)
+    id = get_object_or_404(Lieu, old_id=id).id
+    return redirect('spectacles.views.place', id=id)
+
+
 def redirect_old_commune(request, id):
-    id = get_object_or_404(Region_child2, old_id=id).id
+    id = get_object_or_404(Child2, old_id=id).id
     return redirect('spectacles.views.commune', id=id)
-
-
 
 
 def search(search_text, spectacles):
     search_text = unquote_plus(search_text)
     list_region = Region.objects.filter(name__icontains=search_text)
     list_region_child = RegionChild.objects.filter(
-                Q(name__icontains=search_text) 
-                | Q(region__in=list_region.values_list('id'))
-                )
+        Q(name__icontains=search_text)
+        | Q(region__in=list_region.values_list('id'))
+    )
     list_region_child2 = RegionChild2.objects.filter(
-                Q(name__icontains=search_text)
-                | Q(region_child__in=list_region_child.values_list('id'))
-                )
+        Q(name__icontains=search_text)
+        | Q(region_child__in=list_region_child.values_list('id'))
+    )
     list_lieux = Lieu.objects.filter(
-                Q(name__icontains=search_text)
-                | Q(adress__icontains=search_text)
-                | Q(city__icontains=search_text)
-                | Q(region__in=list_region_child2.values_list('id'))
-                )
+        Q(name__icontains=search_text)
+        | Q(adress__icontains=search_text)
+        | Q(city__icontains=search_text)
+        | Q(region__in=list_region_child2.values_list('id'))
+    )
     list_rep = Representation.objects.filter(lieu_id__in=list_lieux.values_list('id'))
-    
+
     list_associations = Association.objects.filter(name__icontains=search_text)
-    
+
     list_spectacles = spectacles.filter(
-                Q(name__icontains=search_text)
-                | Q(presentation_cahier__icontains=search_text)
-                | Q(presentation__icontains=search_text)
-                | Q(id__in=list_rep.values_list('spectacle'))
-                | Q(associations__in=list_associations.values_list('id'))
-                )
+        Q(name__icontains=search_text)
+        | Q(presentation_cahier__icontains=search_text)
+        | Q(presentation__icontains=search_text)
+        | Q(id__in=list_rep.values_list('spectacle'))
+        | Q(associations__in=list_associations.values_list('id'))
+    )
     return list_spectacles
-    
+
 
 def get_children(cat):
     if CategorieSpectacle.objects.filter(parent=cat):
         children = CategorieSpectacle.objects.filter(parent=cat)
-        cat_and_children = set({cat}) | set(children)
+        cat_and_children = {cat} | set(children)
         for child in children:
             cat_and_children = cat_and_children | get_children(child)
     else:
-        cat_and_children = set({cat})
+        cat_and_children = {cat}
     return cat_and_children

@@ -6,7 +6,6 @@ from associations.models import Association, RegionChild2
 from crm.models import CustomUser
 
 
-
 # Create your models here.
 class Artiste(models.Model):
     name = models.CharField(max_length=512)
@@ -27,6 +26,9 @@ class Artiste(models.Model):
                                           "4 = exporté vers le cahier spécial"),
                                       blank=True,
                                       null=True)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
 
     class Meta:
         verbose_name = _("artiste")
@@ -34,6 +36,10 @@ class Artiste(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Artiste, self).save(**kwargs)
 
 
 class CategorieSpectacle(models.Model):
@@ -47,9 +53,16 @@ class CategorieSpectacle(models.Model):
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
 
+    def get_absolute_url(self):
+        from django.core.urlresolvers import reverse
+        return reverse('spectacles', kwargs={'categorie': self.slug})
     class Meta:
         verbose_name = _('categorie')
         verbose_name_plural = _('categorie')
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(CategorieSpectacle, self).save(**kwargs)
 
     def __str__(self):
         return self.name
@@ -59,21 +72,21 @@ class Festival(models.Model):
     name = models.CharField(max_length=512)
     startdate = models.DateField()
     enddate = models.DateField()
-
-
+    slug = models.SlugField(max_length=40,
+                            null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
     class Meta:
         verbose_name = _("festival")
         verbose_name_plural = _("festivals")
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Festival, self).save(**kwargs)
 
     def __str__(self):
         return self.name
 
-class FestivalDays(models.Model):
-    festival = models.ForeignKey(Festival,
-                                 null=True,
-                                 blank=True)
-    day = models.DateField()
-    count = models.IntegerField()
 
 class Spectacle(models.Model):
     name = models.CharField(max_length=512,
@@ -128,10 +141,16 @@ class Spectacle(models.Model):
                                  blank=True,
                                  null=True)
     categorie = models.ForeignKey(CategorieSpectacle)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
     allowed_user = models.ManyToManyField(CustomUser,
                                           null=True,
                                           blank=True,
                                           verbose_name=_("utilisateurs authorisés"))
+    def get_absolute_url(self):
+        from django.core.urlresolvers import reverse
+        return reverse("spectacle", args=[self.slug,])
 
     class Meta:
         verbose_name = _('spectacle')
@@ -139,6 +158,10 @@ class Spectacle(models.Model):
 
     def __str__(self):
         return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Spectacle, self).save(**kwargs)
 
 
 class Lieu(models.Model):
@@ -184,6 +207,9 @@ class Lieu(models.Model):
     long = models.FloatField(verbose_name=_("longitude"),
                              null=True,
                              blank=True)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
     old_id = models.IntegerField(null=True,
                                  blank=True)
     """location = LocationField(based_fields=[city],
@@ -195,9 +221,16 @@ class Lieu(models.Model):
                              blank = True)
     objects = models.GeoManager()"""
 
+    def get_absolute_url(self):
+        from django.core.urlresolvers import reverse
+        return reverse('place', args=[self.slug])
     class Meta:
         verbose_name = _('lieu')
         verbose_name_plural = _('lieux')
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Lieu, self).save(**kwargs)
 
     def __str__(self):
         return self.name
@@ -211,6 +244,7 @@ class Representation(models.Model):
                              blank=True)
     spectacle = models.ForeignKey(Spectacle)
     datetime = models.DateTimeField()
+    date = models.DateField()
     allowed_users = models.ManyToManyField(CustomUser,
                                            null=True,
                                            blank=True,
@@ -225,6 +259,10 @@ class Representation(models.Model):
                                       null=True,
                                       blank=True,
                                       verbose_name=_('festival auquel participe le spectacle'))
+
+    def save(self, *args, **kwargs):
+        self.date = self.datetime.date()
+        super(Representation, self).save(*args, **kwargs)
 
     class Meta:
         verbose_name = _('représentation')

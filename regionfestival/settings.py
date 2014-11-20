@@ -10,7 +10,15 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import platform
 from django.utils.translation import ugettext_lazy as _
+
+
+PRODUCTION_SERVERS = ['iproduction.ch',]
+if platform.node() in PRODUCTION_SERVERS:
+    PRODUCTION = True
+else:
+    PRODUCTION = False
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -41,6 +49,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
+    'moderation',
     'associations',
     'spectacles',
     'crm',
@@ -66,12 +75,23 @@ WSGI_APPLICATION = 'regionfestival.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+if PRODUCTION:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'valaisfestival',
+            'PASSWORD': 'RenaultMaster2014',
+            'USER': 'valaisfestival',
+            'HOST': 'localhost'
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
@@ -96,15 +116,14 @@ STATICFILES_DIRS = (
     'static',
 )
 
-
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
 
 LANGUAGES = (
-                ('fr', _('Français')),
-                ('de', _('Allemand')),
-            )
+    ('fr', _('Français')),
+    ('de', _('Allemand')),
+)
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates/'),
-    )
+)

@@ -2,26 +2,28 @@
 {% ifchanged representation.datetime|date:"l d F Y" %}
     <h2>{{ representation.datetime|date:"l d F Y" }}</h2>
 {% endifchanged %}
+
 <div class="spectacle">
     <div class="headers">
         <h3>{{ representation.datetime|date:"H \h i" }}</h3>
-        <a href="{% url 'spectacles.views.spectacle' representation.spectacle.id %}"><h3 class="compagnie">
-            {% for association in representation.spectacle.associations.all %}{{ association.name }}
+        <h3 class="compagnie">
+            {% for association in representation.spectacle.associations.all %}
+                <a href="{{ association.get_absolute_url }}">{{ association.name }}</a>
                 {% if not forloop.last %}, {% endif %}{% endfor %}</h3>
             </h3>
-            <h2><span itemprop="summary" class="titre">{{ representation.spectacle.name }}</span></h2></a>
-        <span class="categorie" itemprop="eventType">{{ representation.spectacle.categorie.name }}</span><br/>
+            <h2><a href="{{ representation.spectacle.get_absolute_url }}" itemprop="summary" class="titre">{{ representation.spectacle.name }}</a></h2>
+        <a href="{{ representation.spectacle.categorie.get_absolute_url }}" class="categorie" itemprop="eventType">{{ representation.spectacle.categorie.name }}</a><br/>
 <span itemprop="location" itemscope itemtype="http://data-vocabulary.org/​Organization">
 	<br/><span class="lieu">{% trans "Lieu" %} :</span><a
-        href="{% url 'spectacles.views.place' id=representation.lieu.id %}"><span itemprop="name"
+        href="{{ representation.lieu.get_absolute_url }}"><span itemprop="name"
                                                                                   class="lieutext">{{ representation.lieu.name }}</span></a> <br/>
 	<span class="ville">Ville : </span>
 	<span itemprop="adress" itemscope itemtype="http://data-vocabulary.org/Address">
 		<a href="commune-show-103.html"><span itemprop="locality"
                                               class="ville">{{ representation.lieu.city }}</span></a>
-		<span itemprop="street-adress" style="font-size: 0px;">{{ representation.lieu.adress }}</span>
+		<span itemprop="street-adress" style="font-size: 0;">{{ representation.lieu.adress }}</span>
 	</span></div>
-    <span style="font-size: 0px;" itemprop="geo">46.24974234461709, 7.349731810390949</span>
+    <span style="font-size: 0;" itemprop="geo">46.24974234461709, 7.349731810390949</span>
     </span>
     {% if representation.spectacle.photo %}
         <img src="{{ representation.spectacle.photo.url }}"/>

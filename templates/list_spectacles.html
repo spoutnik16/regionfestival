@@ -1,4 +1,4 @@
-{% extends "2014-vs/base.html" %}
+{% extends "base.html" %}
 {% load i18n %}
 
 {% block title %}{% trans "Liste des spectacles" %}{% endblock %}
@@ -25,14 +25,12 @@
             {% endif %}
         {% endfor %}
     </ul>
-    {% include '2014-vs/pagination.html' with list=spectacles view='spectacles.views.spectacles' %}
-    {% include '2014-vs/search_form.html' with form=form %}
-    <ul>
+    {% include 'pagination.html' with list=spectacles view='spectacles.views.spectacles' %}
+    {% include 'search_form.html' with form=form %}
         {% for spectacle in spectacles %}
-            <li>{% include "2014-vs/spectacle.html" %}</li>
+            <article class="spectacle">{% include "spectacle.html" %}</article>
         {% empty %}
 
         {% endfor %}
-    </ul>
 
 {% endblock %}
