@@ -3,7 +3,7 @@ nav li, nav ul {
 }
 nav li {
     background: white;
-    border: white 0px solid;
+    border: white 0 solid;
     border-radius: 20px;
     padding: 5px;
     margin: 4px;

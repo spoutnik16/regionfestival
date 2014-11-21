@@ -44,7 +44,7 @@
             slide.hide();
         }
 
-        trigger.bind(options.action, function (e) {
+        trigger.bind(options.action, function () {
 
             //if('A' == this.tagName.toUpperCase())
             //e.preventDefault();

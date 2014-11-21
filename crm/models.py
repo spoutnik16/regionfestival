@@ -3,6 +3,7 @@
 
 from django.db import models
 from django.contrib.auth.models import User
+from django.db.models.signals import post_save
 from django.utils.translation import ugettext_lazy as _
 
 
@@ -12,6 +13,18 @@ class CustomUser(models.Model):
                              verbose_name=_("numéro de téléphone"),
                              null=True,
                              blank=True)
-    user = models.ForeignKey(User,
+    user = models.OneToOneField(User,
+                             unique=True,
                              blank=True,
                              null=True)
+    def create_user_custom(selfsender, instance, created, **kwargs):
+        if created:
+            CustomUser.objects.create(user=instance)
+
+    class Meta:
+        verbose_name = _('profile')
+        verbose_name_plural = _('profiles')
+
+    def __str__(self):
+        return self.user.username
+    post_save.connect(create_user_custom, sender=User)

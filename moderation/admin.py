@@ -36,6 +36,7 @@ set_objects_as_pending.short_description = "Set selected moderated objects "\
                                            "as Pending"
 
 
+
 class ModerationAdmin(admin.ModelAdmin):
     admin_integration_enabled = True
 
