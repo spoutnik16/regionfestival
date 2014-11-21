@@ -7,8 +7,13 @@ from spectacles.models import Spectacle, Association
 
 
 class ConnexionForm(forms.Form):
-    username = forms.CharField(label=_("Nom d'utilisateur"), max_length=30)
+    username = forms.CharField(label=_("Nom d'utilisateur"), max_length=30,
+                               widget=forms.TextInput(attrs={'autofocus': 'autofocus',
+                                                             'tabindex': '1'}))
     password = forms.CharField(label=_("Mot de passe"), widget=forms.PasswordInput)
+    def __init__(self, *args, **kwargs):
+        super(ConnexionForm, self).__init__(*args, **kwargs)
+        self.fields['password'].widget.attrs['tabindex']='2'
 
 
 class ContactForm(forms.Form):
@@ -24,6 +29,14 @@ class ContactForm(forms.Form):
 
 class RegisterForm(UserCreationForm):
     email = forms.EmailField(required=True)
+    def __init__(self, *args, **kwargs):
+        super(RegisterForm, self).__init__(*args, **kwargs)
+        self.fields['username'].widget.attrs['tabindex']='1'
+        self.fields['username'].widget.attrs['autofocus']='autofocus'
+        self.fields['password1'].widget.attrs['tabindex']='2'
+        self.fields['password2'].widget.attrs['tabindex']='3'
+        self.fields['email'].widget.attrs['tabindex']='4'
+
 
 
 class SearchForm(forms.Form):

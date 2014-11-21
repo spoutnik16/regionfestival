@@ -31,6 +31,7 @@ from django.utils.http import urlquote_plus, unquote_plus
 from django.core.urlresolvers import reverse
 from django.core.paginator import Paginator, EmptyPage
 from django.db.models import Q
+from django.views.decorators.csrf import csrf_protect
 
 from spectacles.forms import ContactForm, ConnexionForm, RegisterForm
 from spectacles.forms import SpectacleSimpleForm, AssociationSimpleForm
@@ -170,7 +171,7 @@ def deconnection(request):
     logout(request)
     return redirect(reverse(connection))
 
-
+@csrf_protect
 def inscription(request):
     if request.method == 'POST':
         form = RegisterForm(request.POST)
