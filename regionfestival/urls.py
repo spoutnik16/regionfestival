@@ -2,6 +2,7 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from django.conf import settings
 from spectacles import urls as spectacles_urls
+from spectacles.admin import member_space
 
 urlpatterns = patterns(
     '',
@@ -9,6 +10,7 @@ urlpatterns = patterns(
     # url(r'^$', 'regionfestival.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^member/', include(member_space.urls)),
     url(r'', include(spectacles_urls)),
 )
 
