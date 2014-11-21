@@ -171,11 +171,11 @@ def deconnection(request):
     logout(request)
     return redirect(reverse(connection))
 
-@csrf_protect
 def inscription(request):
     if request.method == 'POST':
         form = RegisterForm(request.POST)
         if form.is_valid():
+            form.save()
             return redirect('connection')
     else:
         form = RegisterForm()

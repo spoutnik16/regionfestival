@@ -23,7 +23,7 @@ class MemberSpaceAuthentificationForm(AuthenticationForm):
     def clean(self):
         username = self.cleaned_data.get('username')
         password = self.cleaned_data.get('password')
-        message = ERROR_MESSAGE
+        message = 'ERROR_MESSAGE'
 
         if username and password:
             self.user_cache = authenticate(username=username,

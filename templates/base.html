@@ -55,9 +55,18 @@
         {% if user.is_authenticated %}
         <ul class="member-menu">
             {% block member-menu %}
-                <li><a href="{% url 'espace_membre' %}">{% trans "Espace membre" %}</a></li>
+                <li><a href="{% url 'memberspace:index' %}">{% trans "Espace membre" %}</a></li>
             {% endblock member-menu %}
         </ul>
+        {% endif %}
+        {%  if user.is_superuser %}
+        <ul class="admin-menu">
+            {% block admin-menu %}
+                <li><a href="{%  url 'admin:index' %}">{% trans "Espace admin" %}</a></li>
+            {% endblock admin-menu %}
+        </ul>
+        {% endif %}
+        {% endif %}
         {% endif %}
     </nav>
 

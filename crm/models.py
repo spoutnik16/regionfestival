@@ -17,7 +17,7 @@ class CustomUser(models.Model):
                              unique=True,
                              blank=True,
                              null=True)
-    def create_user_custom(selfsender, instance, created, **kwargs):
+    def create_user_custom(sender, instance, created, **kwargs):
         if created:
             CustomUser.objects.create(user=instance)
 
