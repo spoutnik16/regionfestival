@@ -50,6 +50,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'debug_toolbar',
     'moderation',
+    'guardian',
     'associations',
     'spectacles',
     'crm',
@@ -65,6 +66,11 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+)
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'guardian.backend.ObjectPermissionBackend',
 )
 
 ROOT_URLCONF = 'regionfestival.urls'
@@ -114,6 +120,7 @@ STATIC_URL = '/web/'
 if not PRODUCTION:
     STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'static'),)
 
+ANONYMOUS_USER_ID = -1
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
