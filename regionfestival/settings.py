@@ -50,7 +50,7 @@ INSTALLED_APPS = (
     'django.contrib.gis',
     'debug_toolbar',
     #'guardian',
-    #'moderation',
+    'moderation',
     'associations',
     'spectacles',
     'crm',
