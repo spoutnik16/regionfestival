@@ -70,7 +70,7 @@ MIDDLEWARE_CLASSES = (
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
-    'guardian.backendofs.ObjectPermissionBackend',
+    'guardian.backends.ObjectPermissionBackend',
 )
 
 ROOT_URLCONF = 'regionfestival.urls'
