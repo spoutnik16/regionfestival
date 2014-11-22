@@ -5,7 +5,7 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="wtf all over the place2">
+    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="wtf all over the place3">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regionfestival/settings.py" afterPath="$PROJECT_DIR$/regionfestival/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -48,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/regionfestival/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5018868" vertical-offset="814" max-vertical-offset="2235">
-              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
                 <element signature="e#325#334#0" expanded="true" />
               </folding>
@@ -1101,7 +1101,13 @@
       <option name="project" value="LOCAL" />
       <updated>1416680621667</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="wtf all over the place3">
+      <created>1416680701961</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1416680701961</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1172,7 +1178,6 @@
       <TodoPanelSettings />
     </option>
     <option name="MAXIMUM_HISTORY_ROWS" value="10000" />
-    <MESSAGE value="asdfasdfasdf" />
     <MESSAGE value="base.html changé en html5" />
     <MESSAGE value="test bitbucket" />
     <MESSAGE value="count refait, et plein de trucs cools ajoutés (et des choses corrigées)" />
@@ -1197,7 +1202,8 @@
     <MESSAGE value="postgis version" />
     <MESSAGE value="wtf all over the place" />
     <MESSAGE value="wtf all over the place2" />
-    <option name="LAST_COMMIT_MESSAGE" value="wtf all over the place2" />
+    <MESSAGE value="wtf all over the place3" />
+    <option name="LAST_COMMIT_MESSAGE" value="wtf all over the place3" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1614,7 +1620,7 @@
     <entry file="file://$PROJECT_DIR$/regionfestival/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5018868" vertical-offset="814" max-vertical-offset="2235">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
             <element signature="e#325#334#0" expanded="true" />
           </folding>
