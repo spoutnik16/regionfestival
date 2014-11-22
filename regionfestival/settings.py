@@ -120,7 +120,7 @@ STATIC_URL = '/web/'
 if not PRODUCTION:
     STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'static'),)
 
-ANONYMOUS_USER_ID = -1
+
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
@@ -133,3 +133,9 @@ LANGUAGES = (
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates/'),
 )
+
+# Configuration for Guardian
+ANONYMOUS_USER_ID = -1
+GUARDIAN_RAISE_403 = True
+GUARDIAN_RENDER_403 = True
+ANONYMOUS_DEFAULT_USERNAME_VALUE = "Gentil anonyme"
