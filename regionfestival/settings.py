@@ -19,7 +19,6 @@ if platform.node() in PRODUCTION_SERVERS:
     PRODUCTION = True
 else:
     PRODUCTION = False
-
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -71,7 +70,7 @@ MIDDLEWARE_CLASSES = (
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
-    'guardian.backends.ObjectPermissionBackend',
+    'guardian.backendofs.ObjectPermissionBackend',
 )
 
 ROOT_URLCONF = 'regionfestival.urls'
