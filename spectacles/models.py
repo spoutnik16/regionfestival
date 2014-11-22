@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-from django.db import models
+# from django.db import models
+from django.contrib.gis.db import models
 from django.utils.translation import ugettext_lazy as _
 
 from associations.models import Association, RegionChild2
@@ -212,9 +213,9 @@ class Lieu(models.Model):
                             help_text=_("nom formaté pour les URLs"))
     old_id = models.IntegerField(null=True,
                                  blank=True)
-    """location = LocationField(based_fields=[city],
-                             zoom=12,
-                             default=Point(1,1),
+
+    ## geodjango magic
+    """location = models.PointField(
                              verbose_name = _("Accès"),
                              help_text = _("Cliquez sur la carte"),
                              null = True,

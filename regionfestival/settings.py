@@ -48,6 +48,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
     'debug_toolbar',
     'moderation',
     'guardian',
@@ -70,7 +71,7 @@ MIDDLEWARE_CLASSES = (
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
-    'guardian.backend.ObjectPermissionBackend',
+    'guardian.backends.ObjectPermissionBackend',
 )
 
 ROOT_URLCONF = 'regionfestival.urls'
@@ -84,7 +85,7 @@ WSGI_APPLICATION = 'regionfestival.wsgi.application'
 if PRODUCTION:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'ENGINE': 'django.contrib.gis.db.backends.postgis',
             'NAME': 'valaisfestival',
             'PASSWORD': 'RenaultMaster2014',
             'USER': 'valaisfestival',

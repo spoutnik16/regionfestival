@@ -24,8 +24,8 @@
             <img class="banner" src="{% static "images/valais_logo.png" %}" />
         </a>
     </header>
-
-    <nav>
+    <nav class="main">
+    <nav class="languages">
         <ul class="languages">
             {% get_language_info_list for LANGUAGES as languages %}
             {% for language in languages %}
@@ -36,6 +36,8 @@
                 {% endif %}
             {% endfor %}
         </ul>
+    </nav>
+    <nav class="menus">
         <ul class="main-menu">
                     {% block main-menu %}
                     {% if not user.is_authenticated %}<li><a href="{% url 'inscription' %}">{% trans "Inscription" %}</a></li>{% endif %}
@@ -66,6 +68,7 @@
             {% endblock admin-menu %}
         </ul>
         {% endif %}
+    </nav>
     </nav>
 
     <section>
@@ -107,7 +110,7 @@
             </section>
             <section id="contacts">
                 <address class="vcard">
-                    <span class="fn">Jérôme Hugon </span> :
+                    <span class="fn">Jérôme Hugon </span> :<br />
                         <a href="tel:+41786721113">Natel : <span class="tel">078 672 11 13<br /></span></a>
                         <a href="mailto:jerome@valaisfestival.ch">Mail : <span class="mail">jerome@valaisfestival.ch</span></a>
                 </address>
