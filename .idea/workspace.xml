@@ -47,8 +47,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regionfestival/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5018868" vertical-offset="814" max-vertical-offset="2235">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.31132075" vertical-offset="600" max-vertical-offset="2220">
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
               <folding>
                 <element signature="e#325#334#0" expanded="true" />
               </folding>
@@ -1107,7 +1107,13 @@
       <option name="project" value="LOCAL" />
       <updated>1416680701961</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="wtf all over the place3">
+      <created>1416680774181</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1416680774181</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1619,8 +1625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regionfestival/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5018868" vertical-offset="814" max-vertical-offset="2235">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.31132075" vertical-offset="600" max-vertical-offset="2220">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding>
             <element signature="e#325#334#0" expanded="true" />
           </folding>
