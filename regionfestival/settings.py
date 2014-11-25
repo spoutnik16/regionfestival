@@ -81,24 +81,16 @@ WSGI_APPLICATION = 'regionfestival.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
-if PRODUCTION:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.contrib.gis.db.backends.postgis',
-            'NAME': 'valaisfestival',
-            'PASSWORD': 'RenaultMaster2014',
-            'USER': 'valaisfestival',
-            'HOST': 'localhost'
-        }
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'valaisfestival',
+        'PASSWORD': 'RenaultMaster2014',
+        'USER': 'valaisfestival',
+        'HOST': 'localhost'
+    }
+}
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
@@ -119,6 +111,8 @@ USE_TZ = True
 STATIC_URL = '/web/'
 if not PRODUCTION:
     STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'static'),)
+else:
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 
 
