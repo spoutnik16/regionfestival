@@ -46,7 +46,7 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles',		
     'django.contrib.gis',
     'debug_toolbar',
     #'guardian',
@@ -112,7 +112,7 @@ STATIC_URL = '/web/'
 if not PRODUCTION:
     STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'static'),)
 else:
-    STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 
