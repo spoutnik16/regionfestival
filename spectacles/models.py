@@ -217,12 +217,12 @@ class Lieu(models.Model):
                                  blank=True)
 
     ## geodjango magic
-    """location = models.PointField(
-                             verbose_name = _("Accès"),
+    location = models.PointField(verbose_name = _("Accès"),
                              help_text = _("Cliquez sur la carte"),
                              null = True,
-                             blank = True)
-    objects = models.GeoManager()"""
+                             blank = True,
+                             )
+    objects = models.GeoManager()
 
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse

@@ -136,3 +136,42 @@ ANONYMOUS_DEFAULT_USERNAME_VALUE = "Gentil anonyme"
 
 # Configuration for PostGIS
 POSTGIS_VERSION = (2, 1, 4)
+
+# Gmap confs
+DEFAULT_LAT = 46.26
+DEFAULT_LONG = 7.58
+DEFAULT_ZOOM = 9
+MAP_STYLE_JSON = """[
+                {
+                    "featureType": "administrative.country",
+                    "stylers": [
+                      { "visibility": "on" },
+                      { "weight": 7.9 },
+                      { "color": "#ff0000" }
+                    ]
+                  },{
+                    "featureType": "administrative.province",
+                    "stylers": [
+                      { "weight": 8 },
+                      { "color": "#ff0000" }
+                    ]
+                  },{
+                    "featureType": "road.highway",
+                    "elementType": "labels",
+                    "stylers": [
+                      { "visibility": "off" }
+                    ]
+                  },{
+                    "featureType": "poi",
+                    "stylers": [
+                      { "visibility": "off" }
+                    ]
+                  },{
+                    "featureType": "landscape",
+                    "stylers": [
+                      { "hue": "#ff0000" },
+                      { "saturation": 100 },
+                      { "gamma": 0.33 }
+                    ]
+                  }
+                ]"""

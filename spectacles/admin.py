@@ -3,6 +3,9 @@ from django.contrib import admin
 from django.contrib.admin.sites import AdminSite
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.models import User
+from django.contrib.gis import admin
+from regionfestival.settings import *
+from django.contrib.gis.geos import GEOSGeometry
 from django import forms
 from django.contrib.auth import authenticate
 from django.utils.translation import ugettext_lazy as _
@@ -61,6 +64,17 @@ class MemberSpace(AdminSite):
         """
         return request.user.is_active
 
+class GoogleAdmin(admin.OSMGeoAdmin):
+    g = GEOSGeometry('POINT ('+str(DEFAULT_LAT)+' '+str(DEFAULT_LONG)+')')
+    g.set_srid(4326)
+    g.transform(900913)
+    default_lon = int(g.x)
+    default_lat = int(g.y)
+    default_zoom = 1 #DEFAULT_ZOOM
+    extra_js = ["http://maps.google.com/maps/api/js?v=3.2&sensor=false"]
+    map_template = 'admin/gmgdav3.html'
+
+
 member_space = MemberSpace(name='memberspace')
 member_space.site_header = _("Espace Membre Valais Festival")
 member_space.site_title = _("Espace Membre Valais Festival")
@@ -68,12 +82,12 @@ member_space.site_title = _("Espace Membre Valais Festival")
 # Register your models here.
 member_space.register(Spectacle)
 member_space.register(Artiste)
-member_space.register(Lieu)
+member_space.register(Lieu, GoogleAdmin)
 member_space.register(Representation)
 
 admin.site.register(CategorieSpectacle)
 admin.site.register(Artiste)
-admin.site.register(Lieu)
+admin.site.register(Lieu, GoogleAdmin)
 admin.site.register(Festival)
 admin.site.register(Representation)
 admin.site.register(Spectacle)
