@@ -53,6 +53,8 @@ class CategorieSpectacle(models.Model):
                             null=True,
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
+    main = models.BooleanField(help_text=_("apparaît comme catégorie principale"),
+                               default=False)
 
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse

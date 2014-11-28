@@ -50,6 +50,7 @@ class MemberSpaceAuthentificationForm(AuthenticationForm):
         return self.cleaned_data
 
 
+
 class MemberSpace(AdminSite):
     login_form = MemberSpaceAuthentificationForm
 
