@@ -53,6 +53,8 @@ class CategorieSpectacle(models.Model):
                             null=True,
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
+    main = models.BooleanField(help_text=_("apparaît comme catégorie principale"),
+                               default=False)
 
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse
@@ -202,10 +204,10 @@ class Lieu(models.Model):
                                       help_text=_(
                                           "0 = en création, 1 = en validation, 3 = public, 4 = exporté vers le cahier "
                                           "spécial"))
-    lat = models.FloatField(null=True,
+    latitude = models.FloatField(null=True,
                             blank=True,
                             verbose_name=_("latitude"))
-    long = models.FloatField(verbose_name=_("longitude"),
+    longitude = models.FloatField(verbose_name=_("longitude"),
                              null=True,
                              blank=True)
     slug = models.SlugField(null=True,
@@ -215,12 +217,13 @@ class Lieu(models.Model):
                                  blank=True)
 
     ## geodjango magic
-    """location = models.PointField(
-                             verbose_name = _("Accès"),
+    in_geom = models.PointField('shp',
+                             srid=4326,
                              help_text = _("Cliquez sur la carte"),
                              null = True,
-                             blank = True)
-    objects = models.GeoManager()"""
+                             blank = True,
+                             )
+    objects = models.GeoManager()
 
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse
