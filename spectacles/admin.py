@@ -65,12 +65,12 @@ class MemberSpace(AdminSite):
         return request.user.is_active
 
 class GoogleAdmin(admin.OSMGeoAdmin):
-    g = GEOSGeometry('POINT ('+str(DEFAULT_LAT)+' '+str(DEFAULT_LONG)+')')
+    g = GEOSGeometry('{"type": "Point", "coordinates": [' + str(DEFAULT_LAT) +
+                     ', ' + str(DEFAULT_LON) + '] }')
     g.set_srid(4326)
-    g.transform(900913)
     default_lon = int(g.x)
     default_lat = int(g.y)
-    default_zoom = 1 #DEFAULT_ZOOM
+    default_zoom = DEFAULT_ZOOM
     extra_js = ["http://maps.google.com/maps/api/js?v=3.2&sensor=false"]
     map_template = 'admin/gmgdav3.html'
 

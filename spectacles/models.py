@@ -204,10 +204,10 @@ class Lieu(models.Model):
                                       help_text=_(
                                           "0 = en création, 1 = en validation, 3 = public, 4 = exporté vers le cahier "
                                           "spécial"))
-    lat = models.FloatField(null=True,
+    latitude = models.FloatField(null=True,
                             blank=True,
                             verbose_name=_("latitude"))
-    long = models.FloatField(verbose_name=_("longitude"),
+    longitude = models.FloatField(verbose_name=_("longitude"),
                              null=True,
                              blank=True)
     slug = models.SlugField(null=True,
@@ -217,7 +217,8 @@ class Lieu(models.Model):
                                  blank=True)
 
     ## geodjango magic
-    location = models.PointField(verbose_name = _("Accès"),
+    in_geom = models.PointField('shp',
+                             srid=4326,
                              help_text = _("Cliquez sur la carte"),
                              null = True,
                              blank = True,

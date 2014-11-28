@@ -138,8 +138,8 @@ ANONYMOUS_DEFAULT_USERNAME_VALUE = "Gentil anonyme"
 POSTGIS_VERSION = (2, 1, 4)
 
 # Gmap confs
-DEFAULT_LAT = 46.26
-DEFAULT_LONG = 7.58
+DEFAULT_LAT = 851044      #  I DO TRUELY belive that those are in
+DEFAULT_LON = 5827786     #  SRID 4326 (but i'm fucking not sure)
 DEFAULT_ZOOM = 9
 MAP_STYLE_JSON = """[
                 {
