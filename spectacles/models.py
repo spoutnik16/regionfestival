@@ -236,11 +236,10 @@ class Lieu(models.Model):
             from regionfestival.snippets import unique_slugify
             unique_slugify(self, self.name)
         if self.in_geom is not None:
-            self.latitude = self.in_geom.x
-            self.longitude = self.in_geom.y
+            self.longitude = self.in_geom.x
+            self.latitude = self.in_geom.y
         elif self.longitude is not None and self.latitude is not None:
-            self.in_geom.x = self.latitude
-            self.in_geom.y = self.longitude
+            self.in_geom = 'POINT (' + str(self.latitude) + ' ' + str(self.longitude) + ' )'
         super(Lieu, self).save(**kwargs)
 
     def __str__(self):
