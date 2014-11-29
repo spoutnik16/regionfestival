@@ -5,7 +5,7 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="coordinates working">
+    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="requirement easy-maps and geopy">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -1335,7 +1335,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417267300809</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="requirement easy-maps and geopy">
+      <created>1417268534045</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1417268534045</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1406,7 +1412,6 @@
       <TodoPanelSettings />
     </option>
     <option name="MAXIMUM_HISTORY_ROWS" value="10000" />
-    <MESSAGE value="add moderation" />
     <MESSAGE value="database prod sur settings.py" />
     <MESSAGE value="ajout readme.txt" />
     <MESSAGE value="changement d'IDE" />
@@ -1431,7 +1436,8 @@
     <MESSAGE value="google admin installed" />
     <MESSAGE value="gmap in admin centered and working, fucking working" />
     <MESSAGE value="coordinates working" />
-    <option name="LAST_COMMIT_MESSAGE" value="coordinates working" />
+    <MESSAGE value="requirement easy-maps and geopy" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirement easy-maps and geopy" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

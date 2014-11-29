@@ -7,5 +7,5 @@ django-debug-toolbar==1.2.2
 gunicorn==19.1.1
 django-flatpages-i18n==0.4.1
 django-guardian==1.2.4
-geopy==1.4.1
+geopy==1.4.0
 django-easy-maps==0.9
