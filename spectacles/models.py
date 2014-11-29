@@ -232,8 +232,15 @@ class Lieu(models.Model):
         verbose_name = _('lieu')
         verbose_name_plural = _('lieux')
     def save(self, **kwargs):
-        from regionfestival.snippets import unique_slugify
-        unique_slugify(self, self.name)
+        if self.slug is not None:
+            from regionfestival.snippets import unique_slugify
+            unique_slugify(self, self.name)
+        if self.in_geom is not None:
+            self.latitude = self.in_geom.x
+            self.longitude = self.in_geom.y
+        elif self.longitude is not None and self.latitude is not None:
+            self.in_geom.x = self.latitude
+            self.in_geom.y = self.longitude
         super(Lieu, self).save(**kwargs)
 
     def __str__(self):
