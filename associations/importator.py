@@ -46,7 +46,7 @@ class ImportDFI:
         communes_text_save = 'communes sauvées'
         communes_text_error = 'communes pas sauvées'
         communes_errors = {}
-        for i in range(1685264, 1685407):
+        for i in range(1685264, 1685408):
             try:
                 name_data = urlopen('http://www.openstreetmap.org/api/0.6/relation/' + str(i)).read().decode('utf-8')
                 doc = ET.fromstring(name_data)
@@ -84,7 +84,8 @@ class ImportDFI:
         districts_text_save = 'districts sauvées'
         districts_text_error = 'districts pas sauvées'
         districts_errors = {}
-        for i in range(1686700, 1686712):
+        # raron = 1686698 et 1686712
+        for i in range(1686700, 1686713):
             try:
                 name_data = urlopen('http://www.openstreetmap.org/api/0.6/relation/' + str(i)).read().decode('utf-8')
                 doc = ET.fromstring(name_data)
@@ -127,6 +128,7 @@ class ImportDFI:
                 name_data = urlopen('http://www.openstreetmap.org/api/0.6/relation/' + str(i)).read().decode('utf-8')
                 doc = ET.fromstring(name_data)
                 name = doc[0].findall('tag')[2].attrib['v'].replace('(VS)', '').replace(' ', '')
+                name = 'Valais'
                 wkt_data = urlopen('http://polygons.openstreetmap.fr/get_wkt.py?id=' + str(i) + "&params=0").read().decode('utf-8')
                 path = settings.BASE_DIR + '/associations/imports/geo/regionchild/' + name.lower() + '.wkt'
                 file = open(path, 'w+')

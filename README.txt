@@ -4,6 +4,14 @@ post receive hook on prod server
 very cool form : http://codepen.io/rexkirby/pen/Fdnlz
 
 
+#TODO :
+# from django.contrib.gis.measure import D
+# hacienda = Lieu.objects.get(name="L'Hacienda")
+# Lieu.objects.filter(in_geom__distance_let=(hacienda.in_geom, D(m=2000))).distance(hacienda.in_geom).order_by('distance')
+# sierre = RegionChild2.objects.get(name='Sierre')
+# Lieu.objects.filter(in_geom__within=sierre.boundaries)
+# RegionChild2.objects.get(boundaries__contains=hacienda.in_geom)
+
 
 install postgis + geodajango
 
@@ -16,6 +24,6 @@ sudo apt-get install postgresql-0.3-postgis-2.1 -<
 sudo pip3 install -r < requirements.txt
 python3 manage.py shell
 # from associations.moderator import *
-# ImportDFI().importcommunes()
+# ImportDFI().importall()
 # from spectacles.moderator import *
 # ImportDFI().importall()

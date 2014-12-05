@@ -238,6 +238,10 @@ class Lieu(models.Model):
         if self.in_geom is not None:
             self.longitude = self.in_geom.x
             self.latitude = self.in_geom.y
+            try:
+                self.region = RegionChild2.objects.get(boundaries__contains=self.in_geom)
+            except:
+                pass
         elif self.longitude is not None and self.latitude is not None:
             self.in_geom = 'POINT (' + str(self.latitude) + ' ' + str(self.longitude) + ' )'
         super(Lieu, self).save(**kwargs)

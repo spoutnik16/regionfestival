@@ -239,3 +239,17 @@ class ImportDFI:
                     print(
                         'representation du spectacle ' + spectacle.name + ' au ' + lieu.name + ' le ' +
                         str(representation.datetime) + ' sauvée')
+
+    def getcommunes(self):
+        for lieu in Lieu.objects.all():
+            if lieu.in_geom is not None:
+                try:
+                    lieu.region = RegionChild2.objects.get(boundaries__contains=lieu.in_geom)
+                    lieu.save()
+                except:
+                    print('bug avec le lieu ' + str(lieu.name))
+                    pass
+                else:
+                    print('tout ok avec ' + str(lieu.name))
+            else:
+                print('le lieu ' + str(lieu.name) + " n'a pas de coordonnées")
