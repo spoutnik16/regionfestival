@@ -5,8 +5,9 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="requirement easy-maps and geopy">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="imports wkt communes fonctionnels&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/associations/importator.py" afterPath="$PROJECT_DIR$/associations/importator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/associations/models.py" afterPath="$PROJECT_DIR$/associations/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="regionfestival.iws" />
@@ -56,21 +57,67 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="importator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/associations/importator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19288175" vertical-offset="927" max-vertical-offset="2415">
+              <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spectacles/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3095" max-vertical-offset="4260">
-              <caret line="229" column="34" selection-start-line="229" selection-start-column="34" selection-end-line="229" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3015" max-vertical-offset="4320">
+              <caret line="225" column="4" selection-start-line="225" selection-start-column="4" selection-end-line="226" selection-end-column="0" />
+              <folding>
+                <element signature="e#57#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/associations/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="2880">
+              <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+              <folding>
+                <element signature="e#86#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0004_auto_20141129_1922.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/associations/migrations/0004_auto_20141129_1922.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="360">
+              <caret line="17" column="104" selection-start-line="17" selection-start-column="104" selection-end-line="17" selection-end-column="104" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="0005_auto_20141205_1703.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/associations/migrations/0005_auto_20141205_1703.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="540">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2027027" vertical-offset="0" max-vertical-offset="740">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -79,7 +126,7 @@
       <file leaf-file-name="places.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spectacles/imports/places.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31140">
+            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="31140">
               <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding />
             </state>
@@ -106,36 +153,6 @@
               <folding>
                 <element signature="e#29#61#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gmgdav3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/gmgdav3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gmgdav3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/gmgdav3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_spectacles.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/list_spectacles.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="615">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -177,6 +194,9 @@
         <option value="$PROJECT_DIR$/spectacles/imports/places.yml" />
         <option value="$PROJECT_DIR$/spectacles/models.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/associations/models.py" />
+        <option value="$PROJECT_DIR$/associations/migrations/0004_auto_20141129_1922.py" />
+        <option value="$PROJECT_DIR$/associations/importator.py" />
       </list>
     </option>
   </component>
@@ -184,10 +204,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2640" />
-    <option name="y" value="52" />
-    <option name="width" value="960" />
-    <option name="height" value="1028" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1615" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -226,9 +246,6 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -326,6 +343,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="associations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regionfestival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="associations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -348,21 +397,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="59" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="49" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="84" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="58" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="88" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="62" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="722" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="549" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="59" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="48" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="74" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="59" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="78" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="62" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="742" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="562" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
@@ -392,193 +441,6 @@
       <recent name="$PROJECT_DIR$/regionfestival" />
       <recent name="$PROJECT_DIR$/media/pdf" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/regionfestival/settings.py</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/css/base.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/css/changelists.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/css/dashboard.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/css/forms.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/css/ie.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/css/login.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/css/rtl.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/css/widgets.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/changelist-bg.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/changelist-bg_rtl.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/default-bg-reverse.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/default-bg.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/deleted-overlay.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon-no.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon-unknown.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon-yes.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_addlink.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_alert.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_calendar.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_changelink.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_clock.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_deletelink.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_error.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_searchbox.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/icon_success.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/inline-delete-8bit.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/inline-delete.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/inline-restore-8bit.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/inline-restore.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/inline-splitter-bg.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/nav-bg-grabber.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/nav-bg-reverse.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/nav-bg-selected.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/nav-bg.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/selector-icons.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/selector-search.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/sorting-icons.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/tooltag-add.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/img/tooltag-arrowright.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/SelectBox.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/SelectFilter2.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/actions.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/actions.min.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/calendar.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/collapse.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/collapse.min.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/core.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/inlines.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/inlines.min.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/jquery.init.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/jquery.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/jquery.min.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/prepopulate.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/prepopulate.min.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/timeparse.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/admin/js/urlify.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/css/toolbar.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/img/ajax-loader.gif</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/img/back.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/img/back_hover.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/img/close.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/img/close_hover.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/img/djdt_vertical.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/img/indicator.png</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/js/toolbar.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/js/toolbar.profiling.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/js/toolbar.sql.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/js/toolbar.template.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/debug_toolbar/js/toolbar.timer.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/gis/js/OLMapWidget.js</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Django server.regionfestival">
     <configuration default="false" name="importator" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -1365,34 +1227,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2640" y="52" width="960" height="1028" extended-state="4" />
+    <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14728682" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14662085" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15528281" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17943107" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.49968132" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31500572" sideWeight="0.45466492" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18915929" sideWeight="0.50157726" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31466666" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31386024" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33887044" sideWeight="0.4994664" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16595517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20131291" sideWeight="0.4984227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10133843" sideWeight="0.4984227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.704" sideWeight="0.5453351" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7021764" sideWeight="0.5453351" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31844217" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60022146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1755603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3754153" sideWeight="0.49904397" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1412,7 +1274,6 @@
       <TodoPanelSettings />
     </option>
     <option name="MAXIMUM_HISTORY_ROWS" value="10000" />
-    <MESSAGE value="database prod sur settings.py" />
     <MESSAGE value="ajout readme.txt" />
     <MESSAGE value="changement d'IDE" />
     <MESSAGE value="static endly fixed&#10;" />
@@ -1437,7 +1298,8 @@
     <MESSAGE value="gmap in admin centered and working, fucking working" />
     <MESSAGE value="coordinates working" />
     <MESSAGE value="requirement easy-maps and geopy" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirement easy-maps and geopy" />
+    <MESSAGE value="imports wkt communes fonctionnels&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="imports wkt communes fonctionnels&#10;" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1453,20 +1315,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/contact_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/flatpages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/member_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="536">
@@ -1555,13 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
           <caret line="17" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/associations/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7363796" vertical-offset="2101" max-vertical-offset="2670">
-          <caret line="169" column="24" selection-start-line="169" selection-start-column="20" selection-end-line="169" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1726,13 +1567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/associations/importator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
@@ -1809,19 +1643,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/models.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3095" max-vertical-offset="4260">
-          <caret line="229" column="34" selection-start-line="229" selection-start-column="34" selection-end-line="229" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/spectacles/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2027027" vertical-offset="0" max-vertical-offset="740">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3015" max-vertical-offset="4320">
+          <caret line="225" column="4" selection-start-line="225" selection-start-column="4" selection-end-line="226" selection-end-column="0" />
+          <folding>
+            <element signature="e#57#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="2880">
+          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+          <folding>
+            <element signature="e#86#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/migrations/0005_auto_20141205_1703.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/migrations/0004_auto_20141129_1922.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="360">
+          <caret line="17" column="104" selection-start-line="17" selection-start-column="104" selection-end-line="17" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/importator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19288175" vertical-offset="927" max-vertical-offset="2415">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

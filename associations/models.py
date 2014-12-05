@@ -2,7 +2,8 @@
 
 
 # Create your models here.
-from django.db import models
+# from django.db import models
+from django.contrib.gis.db import models
 from django.utils.translation import ugettext_lazy as _
 
 
@@ -13,6 +14,10 @@ class Region(models.Model):
     slug = models.SlugField(null=True,
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
+    boundaries = models.MultiPolygonField(srid = 4326,
+                                          null=True,
+                                          blank=True)
+    objects = models.GeoManager()
 
     class Meta:
         verbose_name = _('canton')
@@ -33,6 +38,10 @@ class RegionChild(models.Model):
     slug = models.SlugField(null=True,
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
+    boundaries = models.MultiPolygonField(srid = 4326,
+                                          null=True,
+                                          blank=True)
+    objects = models.GeoManager()
 
     class Meta:
         verbose_name = _('district')
@@ -58,6 +67,10 @@ class RegionChild2(models.Model):
     old_id = models.IntegerField(help_text=_("n'existe plus"),
                                  null=True,
                                  blank=True)
+    boundaries = models.MultiPolygonField(srid = 4326,
+                                          null=True,
+                                          blank=True)
+    objects = models.GeoManager()
 
     class Meta:
         verbose_name = _('commune')
