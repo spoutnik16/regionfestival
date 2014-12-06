@@ -46,6 +46,7 @@ class ImportDFI:
         communes_text_save = 'communes sauvées'
         communes_text_error = 'communes pas sauvées'
         communes_errors = {}
+        # sion : 2757528 champéry : 1685287, st-maurice : 2757524
         for i in range(1685264, 1685408):
             try:
                 name_data = urlopen('http://www.openstreetmap.org/api/0.6/relation/' + str(i)).read().decode('utf-8')
@@ -85,7 +86,7 @@ class ImportDFI:
         districts_text_error = 'districts pas sauvées'
         districts_errors = {}
         # raron = 1686698 et 1686712
-        for i in range(1686700, 1686713):
+        for i in range(1686698, 1686713):
             try:
                 name_data = urlopen('http://www.openstreetmap.org/api/0.6/relation/' + str(i)).read().decode('utf-8')
                 doc = ET.fromstring(name_data)
@@ -102,7 +103,6 @@ class ImportDFI:
                 pass
             else:
                 if RegionChild.objects.filter(name__in=[name.lower(), name]).exists():
-                   # TODO : les communes sont en capitalize maintenant
                     reg = RegionChild.objects.get(name__in=[name.lower(), name])
 
                     reg.boundaries = boundaries
@@ -116,6 +116,27 @@ class ImportDFI:
                     print('La commune ' + name + ' ne se trouve pas dans la bdd, prière de le faire à la main')
                     districts_errors[name] = {'boundaries' : boundaries, 'name' : name, 'file' : file, 'path' : path}
                     districts_text_error += ', ' + name
+
+    #fonction pour ajouter un wkt à la main avec un objet
+    def alamain(self, region, wkt_names):
+        path = settings.BASE_DIR + '/associations/imports/geo/' + region.__class__.__name__.lower() + '/'
+        multipoly = None
+        for wkt_name in wkt_names:
+            wkt_datas = open(path + wkt_name, 'r').read()
+            poly = GEOSGeometry(wkt_datas)
+            if not isinstance(poly, MultiPolygon):
+                poly = MultiPolygon(poly)
+            if multipoly is None:
+                multipoly = poly
+            else:
+                multipoly += poly
+        region.boundaries = multipoly
+        region.save()
+
+
+
+
+
 
     def importwktcanton(self):
 
