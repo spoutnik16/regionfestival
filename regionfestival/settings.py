@@ -114,7 +114,10 @@ if not PRODUCTION:
 else:
     STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-
+FIXTURE_DIRS = (
+    os.path.join(BASE_DIR, 'spectacles/fixtures'),
+    os.path.join(BASE_DIR, 'associations/fixtures'),
+    )
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'

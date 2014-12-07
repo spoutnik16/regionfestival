@@ -20,7 +20,16 @@ wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo ap
 sudo apt-get install python==3.4
 sudo apt-get install pip3
 sudo apt-get install postgresql==9.3 postgresql-contrib -y
-sudo apt-get install postgresql-0.3-postgis-2.1 -<
+sudo apt-get install postgresql-0.3-postgis-2.1 -y
+sudo -u postgres psql
+>CREATE DATABASE valaisfestival;
+>GRANT ALL PRIVILEGES ON DATABASE valaisfestival TO valaisfestival;
+>\c valaisfestival;
+>CREATE EXTENSION postgis;
+>CREATE EXTENSION postgis_topology;
+>CREATE EXTENSION fuzzystrmatch;
+>CREATE EXTENSION postgis_tiger_geocoder;
+# and now we create postgis template for the database
 sudo pip3 install -r < requirements.txt
 python3 manage.py shell
 # from associations.moderator import *
