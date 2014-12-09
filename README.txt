@@ -4,6 +4,9 @@ post receive hook on prod server
 very cool form : http://codepen.io/rexkirby/pen/Fdnlz
 
 
+# TODO : function spectacle.views : def get closerspectacles(request): return list_spectacles
+# TODO : pour chaque fonction qui veut sa box : close_spectacles = closerspectacles(request)
+
 #TODO :
 # from django.contrib.gis.measure import D
 # hacienda = Lieu.objects.get(name="L'Hacienda")
