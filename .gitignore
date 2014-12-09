@@ -1,2 +1,4 @@
+associations/migrations/*
+spectacles/migrations/*
 media/pdf/*
 *.pyc
