@@ -31,17 +31,61 @@ from django.utils.http import urlquote_plus, unquote_plus
 from django.core.urlresolvers import reverse
 from django.core.paginator import Paginator, EmptyPage
 from django.db.models import Q
+from django.contrib.gis.measure import D
+from django.contrib.gis.geos import GEOSGeometry, Point
 from django.views.decorators.csrf import csrf_protect
+
 
 from spectacles.forms import ContactForm, ConnexionForm, RegisterForm
 from spectacles.forms import SpectacleSimpleForm, AssociationSimpleForm
 from spectacles.models import Spectacle, Representation, Lieu, CategorieSpectacle
 from associations.models import Region, RegionChild, RegionChild2, Association
+from regionfestival import settings
 from spectacles.models import Festival
+
+# Function that allows me to get the loc of a guy
+def get_client_ip(request):
+    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+    if x_forwarded_for:
+        return x_forwarded_for.split(',')[0]
+    else:
+        return request.META.get('REMOTE_ADDR')
+
+
+def next_reps(request):
+    if request.session.get('loc'):
+        loc = request.session.get('loc')
+        ip = 'False'
+    elif 'loc' in request.COOKIES:
+        loc = request.COOKIES['loc']
+        ip = 'False'
+        request.session['loc'] = loc
+    elif 'ip' in request.COOKIES:
+        ip = request.COOKIE['ip']
+        loc = 'False'
+        rep_list = Representation.objects.filter(datetime__gt=datetime.datetime.now()).order_by('datetime')[:5]
+    else:
+        ip = get_client_ip(request)
+        request.COOKIES['ip'] = ip
+        rep_list = Representation.objects.filter(datetime__lt=datetime.datetime.now()).order_by('datetime')[:5]
+        loc = 'False'
+    try:
+        loc = GEOSGeometry(loc)
+        if isinstance(loc, Point):
+            rep_list = Representation.objects.filter(lieu__in_geom__distance_lte=(loc, D(m=settings.DISTANCE_CLOSE)))[:5]
+    except:
+        pass
+    loc = loc.geojson
+    return (rep_list, loc, ip)
+
+
 
 # Vues qui sont liées à l'affichage pour le public
 def accueil(request):
-    return render(request, 'base.html')
+    #request.session['loc']="""{"type": "Point","coordinates": [7.465209960937499,46.24824991289166]}""".replace("\n", "")
+    (next_reps_list, loc, ip) = next_reps(request)
+
+    return render(request, 'base.html', locals())
 
 
 def contact(request):

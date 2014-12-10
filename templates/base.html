@@ -12,6 +12,10 @@
 
     <link rel="icon" type="image/x-icon" href="{% static "favicon.ico" %}" />
     <link rel="Stylesheet" type="text/css" href="{% static "css/main.css" %}"/>
+    <script>
+        var localisation = {{ loc|safe }};
+        var ip = {{ ip|safe }};
+    </script>
     {% block javascript %}
     {% endblock %}
     <title>{% trans "Valais Festival" %} - {% block title %}Valais Festival{% endblock %}</title>
@@ -45,16 +49,16 @@
                     <li class="sub"><a href="{% url 'spectacles.views.spectacles' %}">{% trans "par catégorie" %}</a></li>
                     <li class="sub"><a href="{% url 'spectacles.views.agenda' %}">{% trans "par date" %}</a></li>
                     <li class="sub"><a href="/fr/communes.html">{% trans "par lieu" %}</a></li>
-                    {% comment  %}<li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li> {% endcomment %}
+                    {% comment  %}<li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li>
                     <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
                     {% if user.is_authenticated %}
                         <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
                     {% else %}
                         <li><a href="{% url 'connection' %}">{% trans "Se connecter" %}</a></li>
-                    {% endif %}
+                    {% endif %}{% endcomment %}
                     {% endblock main-menu %}
         </ul>
-        {% if user.is_authenticated %}
+        {% comment  %}{% if user.is_authenticated %}
         <ul class="member-menu">
             {% block member-menu %}
                 <li><a href="{% url 'memberspace:index' %}">{% trans "Espace membre" %}</a></li>
@@ -67,7 +71,7 @@
                 <li><a href="{%  url 'admin:index' %}">{% trans "Espace admin" %}</a></li>
             {% endblock admin-menu %}
         </ul>
-        {% endif %}
+        {% endif %}{% endcomment %}
     </nav>
     </nav>
 
@@ -119,6 +123,18 @@
 
 
     </section>
+
+    {% if next_reps_list %}
+    <aside class="show_box">
+        <h2>{% trans 'Les prochains spectacles' %}</h2>
+    <ul>
+        {% for rep in next_reps_list %}
+            <li><a href="{{ rep.spectacle.get_absolute_url }}">{{ rep.spectacle.name }}</a> : <a href="{{ rep.lieu.get_absolute_url }}">{{ rep.lieu.name }}</a></li>
+        {% endfor %}
+    </ul>
+    </aside>
+    {% endif %}
+
     <aside class="sponsors">
         <a href="http://www.loro.ch/" target="_blank"><img src="{% static "images/loro.jpg" %}"
                                                                    alt="Loterie Romande"></a>

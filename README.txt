@@ -7,7 +7,8 @@ very cool form : http://codepen.io/rexkirby/pen/Fdnlz
 #TODO :
 # from django.contrib.gis.measure import D
 # hacienda = Lieu.objects.get(name="L'Hacienda")
-# Lieu.objects.filter(in_geom__distance_let=(hacienda.in_geom, D(m=2000))).distance(hacienda.in_geom).order_by('distance')
+# Lieu.objects.filter(in_geom__distance_lt=(hacienda.in_geom, D(m=2000))).distance(hacienda.in_geom).order_by('distance')
+# Representation.objects.filter(lieu__in_geom__distance_lte=(hacienda.in_geom, D(m=2000)))
 # sierre = RegionChild2.objects.get(name='Sierre')
 # Lieu.objects.filter(in_geom__within=sierre.boundaries)
 # RegionChild2.objects.get(boundaries__contains=hacienda.in_geom)
@@ -22,13 +23,16 @@ sudo apt-get install pip3
 sudo apt-get install postgresql==9.3 postgresql-contrib -y
 sudo apt-get install postgresql-0.3-postgis-2.1 -y
 sudo -u postgres psql
->CREATE DATABASE valaisfestival;
->GRANT ALL PRIVILEGES ON DATABASE valaisfestival TO valaisfestival;
->\c valaisfestival;
->CREATE EXTENSION postgis;
->CREATE EXTENSION postgis_topology;
->CREATE EXTENSION fuzzystrmatch;
->CREATE EXTENSION postgis_tiger_geocoder;
+DROP DATABASE valaisfestival;
+CREATE DATABASE valaisfestival;
+GRANT ALL PRIVILEGES ON DATABASE valaisfestival TO valaisfestival;
+\c valaisfestival;
+CREATE EXTENSION postgis;
+CREATE EXTENSION postgis_topology;
+CREATE EXTENSION fuzzystrmatch;
+CREATE EXTENSION postgis_tiger_geocoder;
+\q
+
 # and now we create postgis template for the database
 sudo pip3 install -r < requirements.txt
 python3 manage.py shell

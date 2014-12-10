@@ -144,6 +144,7 @@ POSTGIS_VERSION = (2, 1, 4)
 DEFAULT_LAT = 851044      #  I DO TRUELY belive that those are in
 DEFAULT_LON = 5827786     #  SRID 4326 (but i'm fucking not sure)
 DEFAULT_ZOOM = 9
+DISTANCE_CLOSE = 2000
 MAP_STYLE_JSON = """[
                 {
                     "featureType": "administrative.country",
