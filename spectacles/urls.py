@@ -28,6 +28,10 @@ urlpatterns = patterns('spectacles.views',
                            '(?P<year>\d{4})/)?'
                            '(?:page/(?P<page>\d+)/)?$', 'agenda', name='agenda'),
 
+                       # patterns ajax
+
+                       url(r'^geoip/(?P<latitude>[\d\.]+)/(?P<longitude>[\d\.]+)/', 'ajax_show_near_you', name='ajax_show_near_you'),
+
                        # #patterns auth'd
                        url(r'^inscription/$', 'inscription', name='inscription'),
 

@@ -72,7 +72,7 @@ def next_reps(request):
     try:
         loc = GEOSGeometry(loc)
         if isinstance(loc, Point):
-            rep_list = Representation.objects.filter(lieu__in_geom__distance_lte=(loc, D(m=settings.DISTANCE_CLOSE)))[:5]
+            rep_list = get_nearest_reps(loc)
     except:
         pass
     loc = loc.geojson
@@ -136,6 +136,12 @@ def agenda(request, day=None, month=None, year=None, page=None):
 
     return render(request, 'agenda.html', locals())
 
+
+def ajax_show_near_you(request, latitude, longitude):
+    geojson = """{"type": "Point","coordinates": ["""+longitude+""","""+latitude+"""]}"""
+    loc = GEOSGeometry(geojson)
+    next_reps_list = get_nearest_reps(loc)
+    return render(request, 'aside/base.html', locals())
 
 def spectacles(request, page=None, categorie=None, search_term=None):
     if request.method == 'POST':
@@ -268,6 +274,18 @@ def redirect_old_lieu(request, id):
 def redirect_old_commune(request, id):
     id = get_object_or_404(Child2, old_id=id).id
     return redirect('spectacles.views.commune', id=id)
+
+
+
+## help functions
+
+def get_nearest_reps(loc):
+    for i in range(1, 100):
+        dist = int(settings.DISTANCE_CLOSE*(1.1)**i)
+        list_rep = Representation.objects.filter(lieu__in_geom__distance_lte=(loc, D(m=dist))).order_by('datetime')[:5]
+        if len(list_rep) is 5:
+            return list_rep
+
 
 
 def search(search_text, spectacles):

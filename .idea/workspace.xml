@@ -5,12 +5,63 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="images are loaded because initialdata">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/geoloc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="ajax done">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/aside/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/betten.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/birgisch.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/burchen.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/champery.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/collombey-murraz.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spectacles/decorator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/dorenaz.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/erschmatt.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/evionnaz.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/evolene.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/geo-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/geo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/grachen.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/grone.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/heremence.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/iserables.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/kommunanz.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/les-agettes.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/aside/local.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/martigny-combes.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/martisberg.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/miege.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/morel-filet.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/mund.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/munster-geschinen.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/niederwald.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/orsieres.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild/raronec.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild/raronoc.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/saas-baalen.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/saint-leonard.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/salgesh.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/saviese.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/st-niklaus.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/steg-hohten.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/tasch.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/torbel.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/unterbach.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/val-d-illiez.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/region/valais.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/venthone.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/verossaz.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/vetroz.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/visperterminnen.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/volleges.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/willer.wkt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/zennegen.wkt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/geoloc.js" afterPath="$PROJECT_DIR$/static/js/geoloc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/associations/importator.py" afterPath="$PROJECT_DIR$/associations/importator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectacles/importator.py" afterPath="$PROJECT_DIR$/spectacles/importator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regionfestival/settings.py" afterPath="$PROJECT_DIR$/regionfestival/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/associations/models.py" afterPath="$PROJECT_DIR$/associations/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/associations/imports/geo/regionchild2/termen.wkt" afterPath="$PROJECT_DIR$/associations/imports/geo/regionchild2/termen.wkt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectacles/urls.py" afterPath="$PROJECT_DIR$/spectacles/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectacles/views.py" afterPath="$PROJECT_DIR$/spectacles/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -38,25 +89,6 @@
   </component>
   <component name="DatabaseView">
     <option name="FLATTEN" value="true" />
-    <option name="GROUP_BY_TYPE" value="true" />
-    <option name="SORT_CHILDREN" value="false" />
-    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="Django default" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="DjangoConsoleOptions" module-name="regionfestival" is-module-sdk="true">
     <option name="myUseModuleSdk" value="true" />
@@ -68,14 +100,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/associations/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="2760">
+              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+              <folding>
+                <element signature="e#55#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spectacles/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60500693" vertical-offset="735" max-vertical-offset="4755">
-              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.79266346" vertical-offset="3193" max-vertical-offset="4395">
+              <caret line="288" column="0" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
               <folding>
-                <element signature="e#371#386#0" expanded="true" />
+                <element signature="e#0#370#1" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/aside/local.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,20 +137,28 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spectacles/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="900">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-              <folding>
-                <element signature="e#27#69#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="930">
+              <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <file leaf-file-name="geo-min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/geo-min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="2445">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/geo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="5490">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -105,11 +167,29 @@
       <file leaf-file-name="geoloc.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/geoloc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="855">
+              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2400">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/aside/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,23 +220,29 @@
         <option value="$PROJECT_DIR$/spectacles/forms.py" />
         <option value="$PROJECT_DIR$/crm/models.py" />
         <option value="$PROJECT_DIR$/moderation/managers.py" />
+        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/templates/admin/gmgdav3.js" />
         <option value="$PROJECT_DIR$/templates/admin/gmgdav3.html" />
         <option value="$PROJECT_DIR$/spectacles/admin.py" />
         <option value="$PROJECT_DIR$/spectacles/imports/places.yml" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/associations/models.py" />
-        <option value="$PROJECT_DIR$/associations/migrations/0004_auto_20141129_1922.py" />
-        <option value="$PROJECT_DIR$/spectacles/importator.py" />
-        <option value="$PROJECT_DIR$/spectacles/models.py" />
-        <option value="$PROJECT_DIR$/associations/importator.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/spectacles/urls.py" />
-        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/regionfestival/settings.py" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
-        <option value="$PROJECT_DIR$/static/js/geoloc.js" />
+        <option value="$PROJECT_DIR$/templates/aside.html" />
+        <option value="$PROJECT_DIR$/templates/aside-local.html" />
+        <option value="$PROJECT_DIR$/templates/aside-distant.html" />
+        <option value="$PROJECT_DIR$/spectacles/decorator.py" />
+        <option value="$PROJECT_DIR$/spectacles/importator.py" />
+        <option value="$PROJECT_DIR$/associations/importator.py" />
+        <option value="$PROJECT_DIR$/associations/models.py" />
+        <option value="$PROJECT_DIR$/static/js/geo-min.js" />
+        <option value="$PROJECT_DIR$/static/js/geo.js" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/spectacles/models.py" />
+        <option value="$PROJECT_DIR$/templates/aside/base.html" />
+        <option value="$PROJECT_DIR$/static/js/geoloc.js" />
+        <option value="$PROJECT_DIR$/templates/aside/local.html" />
+        <option value="$PROJECT_DIR$/spectacles/urls.py" />
         <option value="$PROJECT_DIR$/spectacles/views.py" />
       </list>
     </option>
@@ -165,7 +251,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2640" />
+    <option name="x" value="1680" />
     <option name="y" value="24" />
     <option name="width" value="960" />
     <option name="height" value="1056" />
@@ -221,7 +307,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,25 +349,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regionfestival" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regionfestival" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="aside" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,6 +373,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,21 +394,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="49" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="59" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="58" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="84" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="62" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="88" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="549" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="722" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="48" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="59" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="59" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="74" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="62" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="78" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="562" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="742" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
@@ -360,11 +432,11 @@
       <recent name="$PROJECT_DIR$/spectacles/imports" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/aside" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/templates/2014-vs" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/regionfestival" />
-      <recent name="$PROJECT_DIR$/media/pdf" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.regionfestival">
@@ -1128,43 +1200,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417268534045</updated>
     </task>
-    <task id="LOCAL-00069" summary="imports wkt communes fonctionnels&#10;">
-      <created>1417799870767</created>
+    <task id="LOCAL-00069" summary="requirement easy-maps and geopy">
+      <created>1417268628635</created>
       <option name="number" value="00069" />
       <option name="project" value="LOCAL" />
-      <updated>1417799870767</updated>
+      <updated>1417268628635</updated>
     </task>
-    <task id="LOCAL-00070" summary="avec les wkt des communes et plein de choses belles">
-      <created>1417804873606</created>
-      <option name="number" value="00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1417804873606</updated>
-    </task>
-    <task id="LOCAL-00071" summary="newnewdatad.json avec toutes les données géographqiues des polygons. C'est tout cool et ça fonctionn (note que j'ai rajouté le ImportDFI().alamain pour les wkt)">
-      <created>1417890549052</created>
-      <option name="number" value="00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1417890549052</updated>
-    </task>
-    <task id="LOCAL-00072" summary="with fixtures initial_data.json">
-      <created>1417967753755</created>
-      <option name="number" value="00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1417967753755</updated>
-    </task>
-    <task id="LOCAL-00073" summary="lot of dump deleted cause they are useless">
-      <created>1417968556226</created>
-      <option name="number" value="00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1417968556227</updated>
-    </task>
-    <task id="LOCAL-00074" summary="images are loaded because initialdata">
-      <created>1418037857567</created>
-      <option name="number" value="00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1418037857568</updated>
-    </task>
-    <option name="localTasksCounter" value="75" />
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1188,34 +1230,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2640" y="24" width="960" height="1056" extended-state="4" />
+    <frame x="1680" y="24" width="960" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31466666" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51531726" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14728682" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15528281" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17943107" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.49968132" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31500572" sideWeight="0.45466492" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18915929" sideWeight="0.50157726" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7546667" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31386024" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33887044" sideWeight="0.4994664" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16595517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20678337" sideWeight="0.4984227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34573305" sideWeight="0.4984227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15614618" sideWeight="0.5453351" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2580288" sideWeight="0.5453351" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60022146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1755603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31844217" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60022146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1755603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3754153" sideWeight="0.49904397" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1235,6 +1277,11 @@
       <TodoPanelSettings />
     </option>
     <option name="MAXIMUM_HISTORY_ROWS" value="10000" />
+    <MESSAGE value="ajout readme.txt" />
+    <MESSAGE value="changement d'IDE" />
+    <MESSAGE value="static endly fixed&#10;" />
+    <MESSAGE value="static endly fixed" />
+    <MESSAGE value="datadump.json fixd" />
     <MESSAGE value="class customuser" />
     <MESSAGE value="Member Space implémenté à la va vite" />
     <MESSAGE value="autofocus on registrationform" />
@@ -1254,13 +1301,8 @@
     <MESSAGE value="gmap in admin centered and working, fucking working" />
     <MESSAGE value="coordinates working" />
     <MESSAGE value="requirement easy-maps and geopy" />
-    <MESSAGE value="imports wkt communes fonctionnels&#10;" />
-    <MESSAGE value="avec les wkt des communes et plein de choses belles" />
-    <MESSAGE value="newnewdatad.json avec toutes les données géographqiues des polygons. C'est tout cool et ça fonctionn (note que j'ai rajouté le ImportDFI().alamain pour les wkt)" />
-    <MESSAGE value="with fixtures initial_data.json" />
-    <MESSAGE value="lot of dump deleted cause they are useless" />
-    <MESSAGE value="images are loaded because initialdata" />
-    <option name="LAST_COMMIT_MESSAGE" value="images are loaded because initialdata" />
+    <MESSAGE value="ajax done" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax done" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1270,9 +1312,9 @@
           <url>file:///usr/local/lib/python3.4/dist-packages/django/db/models/base.py</url>
           <line>552</line>
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/spectacles/urls.py</url>
-          <line>2</line>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/base.html</url>
+          <line>25</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -1281,42 +1323,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2220">
-          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="75" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4245">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#371#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="900">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding>
-            <element signature="e#27#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2220">
-          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="75" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/search_results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
@@ -1345,6 +1351,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035587188" vertical-offset="0" max-vertical-offset="843">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/representation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="570">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/association.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
@@ -1370,6 +1390,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendrier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1478,6 +1505,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.4/site-packages/django/forms/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
@@ -1485,181 +1519,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/gmgdav3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/gmgdav3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+        <state vertical-scroll-proportion="0.20632738" vertical-offset="0" max-vertical-offset="1320">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/associations/models.py">
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="2880">
-          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1485">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/importator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2393162" vertical-offset="2208" max-vertical-offset="3900">
-          <caret line="252" column="58" selection-start-line="252" selection-start-column="58" selection-end-line="252" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/imports/places.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31140">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/associations/importator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="2760">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/associations/fixtures/initial_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32786885" vertical-offset="0" max-vertical-offset="148110">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/fixtures/initial_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24412297" vertical-offset="0" max-vertical-offset="285750">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10619469" vertical-offset="0" max-vertical-offset="565">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/list_spectacles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="695">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
+        <state vertical-scroll-proportion="0.067567565" vertical-offset="430" max-vertical-offset="1260">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regionfestival/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1713" max-vertical-offset="2775">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.40945947" vertical-offset="1842" max-vertical-offset="2745">
+          <caret line="143" column="21" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2027027" vertical-offset="0" max-vertical-offset="740">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/imports/places.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2837838" vertical-offset="0" max-vertical-offset="31140">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7634113" vertical-offset="720" max-vertical-offset="1485">
+          <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/gmgdav3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12569833" vertical-offset="0" max-vertical-offset="716">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list_spectacles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="615">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/spectacle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="630">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/importator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3144" max-vertical-offset="3735">
+          <caret line="234" column="71" selection-start-line="234" selection-start-column="71" selection-end-line="234" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/imports/geo/region/valais.wkt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/importator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/calendrier.html">
+    <entry file="file://$PROJECT_DIR$/static/js/geo-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19424461" vertical-offset="0" max-vertical-offset="695">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/representation.html">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6906475" vertical-offset="0" max-vertical-offset="695">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2400">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/geo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5490">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aside/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spectacles/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4867872" vertical-offset="3325" max-vertical-offset="4320">
-          <caret line="249" column="24" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8770492" vertical-offset="648" max-vertical-offset="1395">
-          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.67384106" vertical-offset="703" max-vertical-offset="1395">
+          <caret line="152" column="84" selection-start-line="152" selection-start-column="84" selection-end-line="152" selection-end-column="84" />
           <folding>
-            <element signature="e#27#69#0" expanded="true" />
+            <element signature="e#309#1764#0" expanded="false" />
+            <element signature="e#1471#1542#0" expanded="false" />
+            <element signature="e#1575#1591#0" expanded="false" />
+            <element signature="e#1630#1764#0" expanded="false" />
+            <element signature="e#1811#2840#0" expanded="false" />
+            <element signature="e#2394#2508#0" expanded="false" />
+            <element signature="e#2533#2607#0" expanded="false" />
+            <element signature="e#2646#2791#0" expanded="false" />
+            <element signature="e#2824#2840#0" expanded="false" />
+            <element signature="e#2877#3497#0" expanded="false" />
+            <element signature="e#3201#3274#0" expanded="false" />
+            <element signature="e#3313#3448#0" expanded="false" />
+            <element signature="e#3481#3497#0" expanded="false" />
+            <element signature="e#7156#7255#0" expanded="false" />
+            <element signature="e#7281#7356#0" expanded="false" />
+            <element signature="e#7389#7405#0" expanded="false" />
+            <element signature="e#7444#7580#0" expanded="false" />
+            <element signature="e#7613#11229#0" expanded="false" />
+            <element signature="e#10348#10442#0" expanded="false" />
+            <element signature="e#10467#10532#0" expanded="false" />
+            <element signature="e#10571#11180#0" expanded="false" />
+            <element signature="e#11213#11229#0" expanded="false" />
+            <element signature="e#11272#12869#0" expanded="false" />
+            <element signature="e#12550#12640#0" expanded="false" />
+            <element signature="e#12666#12751#0" expanded="false" />
+            <element signature="e#12784#12869#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/geoloc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/associations/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="2760">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#55#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/aside/local.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="2445">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="930">
+          <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spectacles/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60500693" vertical-offset="735" max-vertical-offset="4755">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.79266346" vertical-offset="3193" max-vertical-offset="4395">
+          <caret line="288" column="0" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
           <folding>
-            <element signature="e#371#386#0" expanded="true" />
+            <element signature="e#0#370#1" expanded="false" />
           </folding>
         </state>
       </provider>

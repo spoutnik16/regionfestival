@@ -1,5 +1,6 @@
 from urllib.request import urlopen
 from datetime import date
+from datetime import datetime
 
 from django.core.files import File
 from django.core.files.temp import NamedTemporaryFile
@@ -229,8 +230,9 @@ class ImportDFI:
                 lieu_dic = [e for e in lieux if int(e['id']) == idlieu]
                 if lieu_dic:
                     lieu = Lieu.objects.get(old_id=spectacle_dic[0]['place'])
+                    r_datetime = datetime.strptime(representation['debut'], '%Y-%m-%d %H:%M:%S')
                     representation = Representation(status=0,
-                                                    datetime=representation['debut'])
+                                                    datetime=r_datetime)
                     representation.lieu = lieu
                     representation.spectacle = spectacle
                     representation.save()
@@ -239,17 +241,3 @@ class ImportDFI:
                     print(
                         'representation du spectacle ' + spectacle.name + ' au ' + lieu.name + ' le ' +
                         str(representation.datetime) + ' sauvée')
-
-    def getcommunes(self):
-        for lieu in Lieu.objects.all():
-            if lieu.in_geom is not None:
-                try:
-                    lieu.region = RegionChild2.objects.get(boundaries__contains=lieu.in_geom)
-                    lieu.save()
-                except:
-                    print('bug avec le lieu ' + str(lieu.name))
-                    pass
-                else:
-                    print('tout ok avec ' + str(lieu.name))
-            else:
-                print('le lieu ' + str(lieu.name) + " n'a pas de coordonnées")

@@ -27,11 +27,11 @@ nav.menus, nav.languages {
 
 nav ul {
     border: #c80014 1px solid;
+    padding: 15px;
     background: #c80014;
 }
 
 nav.main {
-    padding: 15px;
     width: 100%;
     background: #c80014;
 }
@@ -65,24 +65,15 @@ body {
     margin: 0px;
 }
 
-aside.show_box {
+section#main {
+    width: 70%;
     float: left;
-    width: 300px;
-    border: 1px solid;
 }
-
-body section {
-    width: 600px;
+aside.spectacles {
     float: left;
-    border: 1px solid
+    width: 30%
 }
 
 aside.sponsors {
-    float: left;
-    border: 1px solid;
-}
-
-body {
-    width: 1024px;
-    margin: auto;
+    display: inline-block;
 }
