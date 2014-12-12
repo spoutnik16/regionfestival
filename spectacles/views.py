@@ -44,29 +44,30 @@ from regionfestival import settings
 from spectacles.models import Festival
 
 # Function that allows me to get the loc of a guy
-def get_client_ip(request):
-    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
-    if x_forwarded_for:
-        return x_forwarded_for.split(',')[0]
-    else:
-        return request.META.get('REMOTE_ADDR')
+
+class IP:
+    @staticmethod
+    def get_client_ip(request):
+        x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+        if x_forwarded_for:
+            return x_forwarded_for.split(',')[0]
+        else:
+            return request.META.get('REMOTE_ADDR')
 
 
 def next_reps(request):
     if request.session.get('loc'):
         loc = request.session.get('loc')
-        ip = 'False'
+        ip = request.session.get('ip')
     elif 'loc' in request.COOKIES:
         loc = request.COOKIES['loc']
-        ip = 'False'
+        ip = request.session.get('ip')
         request.session['loc'] = loc
     elif 'ip' in request.COOKIES:
-        ip = request.COOKIE['ip']
-        loc = 'False'
+        ip = request.session.get('ip')
         rep_list = Representation.objects.filter(datetime__gt=datetime.datetime.now()).order_by('datetime')[:5]
     else:
-        ip = get_client_ip(request)
-        request.COOKIES['ip'] = ip
+        ip = request.session.get('ip')
         rep_list = Representation.objects.filter(datetime__lt=datetime.datetime.now()).order_by('datetime')[:5]
         loc = 'False'
     try:
@@ -75,6 +76,7 @@ def next_reps(request):
             rep_list = get_nearest_reps(loc)
     except:
         pass
+    ip = '90.3.45.114'  #todo get that shit out if we are not testing
     loc = loc.geojson
     return (rep_list, loc, ip)
 
@@ -82,7 +84,7 @@ def next_reps(request):
 
 # Vues qui sont liées à l'affichage pour le public
 def accueil(request):
-    #request.session['loc']="""{"type": "Point","coordinates": [7.465209960937499,46.24824991289166]}""".replace("\n", "")
+    request.session['loc']="""{"type": "Point","coordinates": [7.465209960937499,46.24824991289166]}""".replace("\n", "")
     (next_reps_list, loc, ip) = next_reps(request)
 
     return render(request, 'base.html', locals())
@@ -141,7 +143,7 @@ def ajax_show_near_you(request, latitude, longitude):
     geojson = """{"type": "Point","coordinates": ["""+longitude+""","""+latitude+"""]}"""
     loc = GEOSGeometry(geojson)
     next_reps_list = get_nearest_reps(loc)
-    return render(request, 'aside/base.html', locals())
+    return render(request, 'aside/local.html', locals())
 
 def spectacles(request, page=None, categorie=None, search_term=None):
     if request.method == 'POST':
@@ -272,7 +274,7 @@ def redirect_old_lieu(request, id):
 
 
 def redirect_old_commune(request, id):
-    id = get_object_or_404(Child2, old_id=id).id
+    id = get_object_or_404(Region_Child2, old_id=id).id
     return redirect('spectacles.views.commune', id=id)
 
 

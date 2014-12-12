@@ -1,8 +1,6 @@
 {% load i18n %}
 
-{% block aside-spectacles %}
     <h1>{% trans 'Les prochains spectacles' %}</h1>
     <ul>{% for rep in next_reps_list %}
         <li><a href="{{ rep.get_absolute_url }}">{{ rep }}</a></li>
     {% endfor %}</ul>
-{% endblock aside-spectacles %}

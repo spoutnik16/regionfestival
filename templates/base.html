@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset=""utf-8" />
+    <meta charset="utf-8" />
     <meta name="language" content="fr-FR"/>
     <meta name="description"
           content="Le Valais Festival est LE festival de toutes les associations culturelles valaisannes."/>
@@ -16,10 +16,11 @@
         <script src="{% static "js/geo-min.js" %}"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script>
-        location = {{ loc }};
-        ip = {{ ip  }};
+        loc = {{ loc | safe }};
+        ip = "{{ ip  }}";
         </script>
-        <script src="{%  static "js/geoloc.js" %}"></script>
+        <script src="{%  static "js/geoloc.js" %}">
+        </script>
     {%  endif %}
     {% block javascript %}
     {% endblock %}
@@ -129,7 +130,7 @@
         </article>
     </section>
 
-    <aside class="spectacles">
+    <aside class="spectacles" id="next_shows">
         {% include 'aside/base.html' %}
     </aside>
     <aside class="sponsors">

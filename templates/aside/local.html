@@ -1,5 +1,6 @@
 {% load i18n %}
 
 <h1>{% trans 'Les spectacles près de chez vous !' %}</h1>
-
-{{ geojson }}
+    <ul>{% for rep in next_reps_list %}
+        <li><a href="{{ rep.get_absolute_url }}">{{ rep }}</a></li>
+    {% endfor %}</ul>

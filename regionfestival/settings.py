@@ -66,12 +66,15 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'spectacles.middleware.AutoLogout',
 )
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     #'guardian.backends.ObjectPermissionBackend',
 )
+
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
 
 ROOT_URLCONF = 'regionfestival.urls'
 
@@ -145,6 +148,7 @@ DEFAULT_LAT = 851044      #  I DO TRUELY belive that those are in
 DEFAULT_LON = 5827786     #  SRID 4326 (but i'm fucking not sure)
 DEFAULT_ZOOM = 9
 DISTANCE_CLOSE = 2000
+
 MAP_STYLE_JSON = """[
                 {
                     "featureType": "administrative.country",
@@ -179,3 +183,6 @@ MAP_STYLE_JSON = """[
                     ]
                   }
                 ]"""
+
+
+AUTO_LOCALISATION_LOGOUT_DELAY = 5 #equivalent to 5 minutes
