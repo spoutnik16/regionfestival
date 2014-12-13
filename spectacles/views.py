@@ -73,12 +73,13 @@ def next_reps(request):
     try:
         loc = GEOSGeometry(loc)
         if isinstance(loc, Point):
-            rep_list = get_nearest_reps(loc)
+            list_specs = get_nearest_spec(loc)
     except:
+        list_specs = ()
         pass
     ip = '90.3.45.114'  #todo get that shit out if we are not testing
     loc = loc.geojson
-    return (rep_list, loc, ip)
+    return (list_specs, loc, ip)
 
 
 
@@ -142,7 +143,7 @@ def agenda(request, day=None, month=None, year=None, page=None):
 def ajax_show_near_you(request, latitude, longitude):
     geojson = """{"type": "Point","coordinates": ["""+longitude+""","""+latitude+"""]}"""
     loc = GEOSGeometry(geojson)
-    next_reps_list = get_nearest_reps(loc)
+    next_spec_list = get_nearest_spec(loc)
     return render(request, 'aside/local.html', locals())
 
 def spectacles(request, page=None, categorie=None, search_term=None):
@@ -281,12 +282,22 @@ def redirect_old_commune(request, id):
 
 ## help functions
 
-def get_nearest_reps(loc):
-    for i in range(1, 100):
-        dist = int(settings.DISTANCE_CLOSE*(1.1)**i)
-        list_rep = Representation.objects.filter(lieu__in_geom__distance_lte=(loc, D(m=dist))).order_by('datetime')[:5]
-        if len(list_rep) is 5:
-            return list_rep
+def get_nearest_spec(loc):
+    # this one is really tedious.
+    # cause you want it to return 5 show everytime, and not 5 representations.
+    # so the idea is : we grap all the reps in the radius DISTANCE_CLOSE
+    # then we make an ordered set (yes, orderedSet) out of those show, and count them.
+    list_specs = set()
+    dist = settings.DISTANCE_CLOSE
+    while len(list_specs) < 5:
+        list_rep = Representation.objects.filter(lieu__in_geom__distance_lte=
+                                                 (loc, D(m=dist))).order_by('datetime')
+        for rep in list_rep:
+            list_specs.add(rep.spectacle)
+        dist = int(dist*1.2)
+    list_specs = list(list_specs)[:5]
+    return list_specs
+
 
 
 

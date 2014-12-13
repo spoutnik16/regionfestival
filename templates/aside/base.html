@@ -1,6 +1,7 @@
 {% load i18n %}
-
+    <div id="tab1">
     <h1>{% trans 'Les prochains spectacles' %}</h1>
-    <ul>{% for rep in next_reps_list %}
-        <li><a href="{{ rep.get_absolute_url }}">{{ rep }}</a></li>
+    <ul>{% for spec in next_spec_list %}
+        {% include 'aside/rep.html' %}
     {% endfor %}</ul>
+    </div>

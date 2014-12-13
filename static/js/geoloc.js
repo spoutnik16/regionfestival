@@ -3,10 +3,19 @@
  * This is the ajax controller for the small "show near you" div (the one also
  * appearing in swipe for mobile devices
  */
+
+var already_loaded = false;
+var waitTime = 10000;
 $(document).ready(function() {
     if (geo_position_js.init()) {
         geo_position_js.getCurrentPosition(use_browser_geoloc, try_geoip,
             {enableHighAccuracy: true});
+        var t = setTimeout(function() {
+            if ($("#getZip div.loading").css("display") != "none") {
+                $("#getZip div.loading").hide();
+                try_geoip(ip);
+            };
+        }, waitTime)
         }
     else {
         try_geoip(ip);
@@ -17,17 +26,22 @@ function use_browser_geoloc(p){
     call_show_near_you(p.coords);
 }
 
+
 function call_show_near_you(p){
     var url = "/geoip/"+ p.latitude+"/"+ p.longitude;
     loadXMLDoc(url, charge_next_reps_div);
 }
 
 function charge_next_reps_div(text) {
+    already_loaded = true;
     document.getElementById("next_shows").innerHTML = text + document.getElementById("next_shows").innerHTML
 }
 
 function try_geoip(p){
-    alert("try_geoip");return;
+    if (already_loaded) {
+        return;
+    }
+    already_loaded = true;
     /*c'est pas grave, on fait un geoip lookup tout con, et on balance la réponse au call ajax aussi*/
     var url = "http://telize.com/geoip/" + ip + "?callback=call_show_near_you";
     var head = document.head;
