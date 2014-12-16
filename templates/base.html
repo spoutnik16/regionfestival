@@ -14,16 +14,17 @@
 
     <link rel="icon" type="image/x-icon" href="{% static "favicon.ico" %}" />
     <link rel="Stylesheet" type="text/css" href="{% static "css/main.css" %}"/>
-    {%  if loc %}
-        <script src="{% static "js/geo-min.js" %}"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script>
-        loc = {{ loc | safe }};
-        ip = "{{ ip  }}";
-        </script>
-        <script src="{%  static "js/geoloc.js" %}">
-        </script>
-    {%  endif %}
+    {% geoloc_javascript %}
+{#    {%  if loc %}#}
+{#        <script src="{% static "js/geo-min.js" %}"></script>#}
+{#        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>#}
+{#        <script>#}
+{#        loc = {{ loc | safe }};#}
+{#        ip = "{{ ip  }}";#}
+{#        </script>#}
+{#        <script src="{%  static "js/geoloc.js" %}">#}
+{#        </script>#}
+{#    {%  endif %}#}
     {% block javascript %}
     {% endblock %}
     <title>

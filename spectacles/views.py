@@ -143,6 +143,7 @@ def ajax_show_near_you(request, latitude, longitude):
     request.session['latitude'] = latitude
     request.session['longitude'] = longitude
     next_spec_list = get_nearest_spec(loc)
+    sessid = request.session.session_key
     if request.is_ajax:
         return render(request, 'aside/local.html', locals())
     else:
@@ -183,7 +184,7 @@ def spectacles(request, page=None, categorie=None, search_term=None):
 
 def spectacle(request, slug):
     spectacle = get_object_or_404(Spectacle, slug=slug)
-    return render(request, 'spectacle_solo.html', {'spectacle': spectacle})
+    return render(request, 'spectacle_solo.html', locals())
 
 def region_child2(request, slug):
     region_child2 = get_object_or_404(RegionChild2, slug=slug)

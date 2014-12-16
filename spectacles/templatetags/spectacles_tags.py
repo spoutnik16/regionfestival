@@ -13,16 +13,25 @@ register = template.Library()
 def get_show_near_you(context):
     ip = context['request'].session['ip']
     if context['request'].session['localised']:
-        session=context['request'].session
-        near_spec_list = ['a', 'b']
-        # near_spec_list = get_near_show(session['latitude'], session['longitude'])
-
+        latitude = context['request'].session.get('latitude', False)
+        longitude = context['request'].session.get('longitude', False)
+        near_spec_list = get_near_show(latitude, longitude)
     next_spec_list = get_next_shows()
+    last_touch = context['request'].session.get('last_touch', False)
     return locals()
 
-@register.inclusion_tag('aside/javascript.js', takes_context=True)
-def javascript(context):
-    return
+@register.inclusion_tag('aside/javascript.html', takes_context=True)
+def geoloc_javascript(context):
+    if context['request'].session['localised']:
+        say = "on est localisé"
+        javascript = False
+        # latitude = context['request'].session['latitude']
+        # longitude = context['request'].session['longitude']
+    else:
+        say = "on est pas localisé"
+        javascript = True
+    ip = context['request'].session['ip']
+    return locals()
 
 def get_near_show(lat, lng):
     geojson = """{"type": "Point","coordinates": ["""+lat+""","""+lng+"""]}"""

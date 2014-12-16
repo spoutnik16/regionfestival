@@ -1,4 +1,5 @@
 {% load i18n %}
+
     <aside class="spectacles" id="next_shows">
         <ul class="tab">
             <li id="tab1"><a href="#">{% trans "Bientôt" %}</a></li>
@@ -12,12 +13,14 @@
     </div>
     <div id="tab2">
     <ul>
-        {{ lat }}
-        {{ lng }}
         {% for spec in near_spec_list %}
         {% include 'aside/spec.html' %}
         {% endfor %}
+    {{ say }}
+        {{ latitude }}
+        {{ longitude }}
     </ul>
     </div>
 
+<p>{{ last_touch }}</p>
     </aside>

@@ -9,11 +9,9 @@ __author__ = 'spoutnik16'
 
 from datetime import datetime, timedelta
 from django.conf import settings
-import syslog
 
 class Geolocalisation():
-    request = []
-    def process_request(self, request):
+    def process_view(self, request, view_fun, view_args, view_kwargs):
         try:
             if datetime.now() - request.session['last_touch'] > timedelta( 0, settings.AUTO_LOCALISATION_LOGOUT_DELAY * 60, 0):
                 if 'latitude' in request.session:
@@ -23,10 +21,16 @@ class Geolocalisation():
         except KeyError:
             pass
 
+        if 'latitude' in view_args:
+            request.session['latitude'] = view_kwargs.get('latitude', None)
+        if 'longitude' in view_args:
+            request.session['longitude'] = view_kwargs.get('longitude', None)
+
+
         request.session['last_touch'] = datetime.now()
         request.session['ip'] = self.get_client_ip(request)
 
-        if all(key in request.session for key in ('lat', 'lng')):
+        if all(key in request.session for key in ('latitude', 'longitude')):
             request.session['localised'] = True
         else:
             request.session['localised'] = False
@@ -37,7 +41,4 @@ class Geolocalisation():
             return x_forwarded_for.split(',')[0]
         else:
             return request.META.get('REMOTE_ADDR')
-
-    def make_logs(self):
-        return True
 
