@@ -152,7 +152,7 @@ class Spectacle(models.Model):
                                           blank=True,
                                           verbose_name=_("utilisateurs authorisés"))
     def as_a_link(self):
-        return '<a href="'+self.get_absolute_url()+'">'+self.name+'</a>'
+        return '<a href="'+self.get_absolute_url()+'" class="show">'+self.name+'</a>'
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse
         return reverse("spectacle", args=[self.slug,])
@@ -227,6 +227,8 @@ class Lieu(models.Model):
                              )
     objects = models.GeoManager()
 
+    def as_a_link(self):
+        return '<a href="'+self.get_absolute_url()+'" class="venue">'+self.name+'</a>'
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse
         return reverse('place', args=[self.slug])

@@ -12,6 +12,8 @@
     </div>
     <div id="tab2">
     <ul>
+        {{ lat }}
+        {{ lng }}
         {% for spec in near_spec_list %}
         {% include 'aside/spec.html' %}
         {% endfor %}

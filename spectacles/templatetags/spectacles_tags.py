@@ -14,10 +14,11 @@ def get_show_near_you(context):
     ip = context['request'].session['ip']
     if context['request'].session['localised']:
         session=context['request'].session
+        near_spec_list = ['a', 'b']
         # near_spec_list = get_near_show(session['latitude'], session['longitude'])
-    next_spec_list = get_next_shows()
 
-    return {'next_spec_list': next_spec_list, 'near_spec_list': near_spec_list, 'ip': ip}
+    next_spec_list = get_next_shows()
+    return locals()
 
 @register.inclusion_tag('aside/javascript.js', takes_context=True)
 def javascript(context):

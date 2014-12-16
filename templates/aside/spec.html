@@ -1,1 +1,13 @@
-<li>{{ spec.as_a_link|safe }}</li>
+<li>{{ spec.as_a_link|safe }}<br />
+{% for rep2 in spec.representation_set.all|slice:":5" %}
+    {% ifchanged rep2.lieu %}
+        {% if not forloop.first %}
+            <br />
+        {% endif %}
+        {{ rep2.lieu.as_a_link|safe }}
+    {% else %}
+    {% endifchanged %}
+{{ rep2.datetime|date:'d b'}}{% if not forloop.last %} - {% endif %}
+{% endfor %}<br />
+
+</li>

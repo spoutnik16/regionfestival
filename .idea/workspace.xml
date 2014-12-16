@@ -5,20 +5,11 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="ajax kinda working&#10;middlewar for session-ip and session-loc kinda done">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spectacles/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/aside/spec.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spectacles/templatetags/spec_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spectacles/templatetags/spectacles_tags.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/aside/rep.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+    <list default="true" id="08ddadb9-51ea-44c1-a479-0ae70bd2a30b" name="Default" comment="templatetag and middleware on work, but still buggy as hell">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/aside/base.html" afterPath="$PROJECT_DIR$/templates/aside/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/geoloc.js" afterPath="$PROJECT_DIR$/static/js/geoloc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/aside/local.html" afterPath="$PROJECT_DIR$/templates/aside/local.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectacles/middleware.py" afterPath="$PROJECT_DIR$/spectacles/middleware.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/associations/models.py" afterPath="$PROJECT_DIR$/associations/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectacles/models.py" afterPath="$PROJECT_DIR$/spectacles/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regionfestival/settings.py" afterPath="$PROJECT_DIR$/regionfestival/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/aside/spec.html" afterPath="$PROJECT_DIR$/templates/aside/spec.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectacles/templatetags/spectacles_tags.py" afterPath="$PROJECT_DIR$/spectacles/templatetags/spectacles_tags.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectacles/views.py" afterPath="$PROJECT_DIR$/spectacles/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -57,13 +48,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spectacles_tags.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spectacles_tags.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spectacles/templatetags/spectacles_tags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6712963" vertical-offset="0" max-vertical-offset="795">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="810">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
                 <element signature="e#27#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spectacles/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="2385">
+              <caret line="154" column="67" selection-start-line="154" selection-start-column="67" selection-end-line="154" selection-end-column="67" />
+              <folding>
+                <element signature="e#309#1764#0" expanded="false" />
+                <element signature="e#1471#1542#0" expanded="false" />
+                <element signature="e#1575#1591#0" expanded="false" />
+                <element signature="e#1630#1764#0" expanded="false" />
+                <element signature="e#1811#2840#0" expanded="false" />
+                <element signature="e#2394#2508#0" expanded="false" />
+                <element signature="e#2533#2607#0" expanded="false" />
+                <element signature="e#2646#2791#0" expanded="false" />
+                <element signature="e#2824#2840#0" expanded="false" />
+                <element signature="e#2877#3497#0" expanded="false" />
+                <element signature="e#3201#3274#0" expanded="false" />
+                <element signature="e#3313#3448#0" expanded="false" />
+                <element signature="e#3481#3497#0" expanded="false" />
+                <element signature="e#7267#7366#0" expanded="false" />
+                <element signature="e#7392#7467#0" expanded="false" />
+                <element signature="e#7500#7516#0" expanded="false" />
+                <element signature="e#7555#7691#0" expanded="false" />
+                <element signature="e#10571#10665#0" expanded="false" />
+                <element signature="e#10690#10755#0" expanded="false" />
+                <element signature="e#10794#11403#0" expanded="false" />
+                <element signature="e#11436#11452#0" expanded="false" />
+                <element signature="e#11495#13205#0" expanded="false" />
+                <element signature="e#12773#12863#0" expanded="false" />
+                <element signature="e#12889#12974#0" expanded="false" />
+                <element signature="e#13007#13092#0" expanded="false" />
+                <element signature="e#13123#13205#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/spectacles/middleware.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="735">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="e#495#535#0" expanded="true" />
               </folding>
@@ -84,10 +112,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spectacles/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2520">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="2520">
+              <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
               <folding>
                 <element signature="e#0#370#1" expanded="false" />
+                <element signature="e#371#386#0" expanded="true" />
                 <element signature="e#2807#3079#0" expanded="false" />
                 <element signature="e#3159#3540#0" expanded="false" />
                 <element signature="e#3573#3728#0" expanded="false" />
@@ -113,21 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/aside/base.html">
+      <file leaf-file-name="spec.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/aside/spec.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="390">
-              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.458333" vertical-offset="1654" max-vertical-offset="2430">
-              <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.14950167" vertical-offset="0" max-vertical-offset="602">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -179,18 +198,18 @@
         <option value="$PROJECT_DIR$/static/js/geoloc.js" />
         <option value="$PROJECT_DIR$/associations/models.py" />
         <option value="$PROJECT_DIR$/templates/aside/rep.html" />
-        <option value="$PROJECT_DIR$/spectacles/models.py" />
         <option value="$PROJECT_DIR$/templates/aside/local.html" />
-        <option value="$PROJECT_DIR$/templates/aside/spec.html" />
         <option value="$PROJECT_DIR$/spectacles/templatetags/show_near_you_tag.py" />
         <option value="$PROJECT_DIR$/regionfestival/settings.py" />
         <option value="$PROJECT_DIR$/spectacles/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/spectacles/templatetags/spec_list.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/spectacles/middleware.py" />
         <option value="$PROJECT_DIR$/templates/aside/base.html" />
         <option value="$PROJECT_DIR$/spectacles/views.py" />
-        <option value="$PROJECT_DIR$/spectacles/middleware.py" />
         <option value="$PROJECT_DIR$/spectacles/templatetags/spectacles_tags.py" />
+        <option value="$PROJECT_DIR$/templates/aside/spec.html" />
+        <option value="$PROJECT_DIR$/spectacles/models.py" />
       </list>
     </option>
   </component>
@@ -198,10 +217,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2640" />
+    <option name="x" value="872" />
     <option name="y" value="52" />
-    <option name="width" value="960" />
-    <option name="height" value="1028" />
+    <option name="width" value="807" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -254,7 +273,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -353,6 +371,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -589,7 +608,27 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -615,27 +654,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="regionfestival" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -680,6 +699,20 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="regionfestival" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -698,20 +731,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="regionfestival" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="false" name="regionfestival" type="Python.DjangoServer" factoryName="Django server">
@@ -1198,7 +1217,13 @@
       <option name="project" value="LOCAL" />
       <updated>1418412838942</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="templatetag and middleware on work, but still buggy as hell">
+      <created>1418737464015</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1418737464016</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1222,7 +1247,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2640" y="52" width="960" height="1028" extended-state="4" />
+    <frame x="872" y="52" width="807" height="998" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1236,9 +1261,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33887044" sideWeight="0.4994664" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16595517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25820568" sideWeight="0.4984227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25748885" sideWeight="0.4984227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24916944" sideWeight="0.5453351" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24856816" sideWeight="0.5453351" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60022146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1755603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1269,7 +1294,6 @@
       <TodoPanelSettings />
     </option>
     <option name="MAXIMUM_HISTORY_ROWS" value="10000" />
-    <MESSAGE value="changement d'IDE" />
     <MESSAGE value="static endly fixed&#10;" />
     <MESSAGE value="static endly fixed" />
     <MESSAGE value="datadump.json fixd" />
@@ -1294,7 +1318,8 @@
     <MESSAGE value="requirement easy-maps and geopy" />
     <MESSAGE value="ajax done" />
     <MESSAGE value="ajax kinda working&#10;middlewar for session-ip and session-loc kinda done" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax kinda working&#10;middlewar for session-ip and session-loc kinda done" />
+    <MESSAGE value="templatetag and middleware on work, but still buggy as hell" />
+    <option name="LAST_COMMIT_MESSAGE" value="templatetag and middleware on work, but still buggy as hell" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1590,48 +1615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/aside/spec.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3315">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="e#57#97#0" expanded="false" />
-            <element signature="e#1471#1542#0" expanded="false" />
-            <element signature="e#1630#1764#0" expanded="false" />
-            <element signature="e#1811#2840#0" expanded="false" />
-            <element signature="e#2394#2508#0" expanded="false" />
-            <element signature="e#2533#2607#0" expanded="false" />
-            <element signature="e#2646#2791#0" expanded="false" />
-            <element signature="e#2824#2840#0" expanded="false" />
-            <element signature="e#2877#3497#0" expanded="false" />
-            <element signature="e#3201#3274#0" expanded="false" />
-            <element signature="e#3313#3448#0" expanded="false" />
-            <element signature="e#3481#3497#0" expanded="false" />
-            <element signature="e#7254#7353#0" expanded="false" />
-            <element signature="e#7379#7454#0" expanded="false" />
-            <element signature="e#7487#7503#0" expanded="false" />
-            <element signature="e#7542#7678#0" expanded="false" />
-            <element signature="e#10446#10540#0" expanded="false" />
-            <element signature="e#10565#10630#0" expanded="false" />
-            <element signature="e#10669#11278#0" expanded="false" />
-            <element signature="e#11311#11327#0" expanded="false" />
-            <element signature="e#12648#12738#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spectacles/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1654,9 +1641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding>
-            <marker date="1418731880379" expanded="true" signature="-1:-1" placeholder="{%  for spec in spec_list ... %}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1664,22 +1648,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.458333" vertical-offset="1654" max-vertical-offset="2430">
+        <state vertical-scroll-proportion="0.31239387" vertical-offset="1841" max-vertical-offset="2430">
           <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/aside/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="390">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1687,19 +1662,38 @@
     <entry file="file://$PROJECT_DIR$/spectacles/middleware.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="735">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding>
             <element signature="e#495#535#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spectacles/templatetags/spectacles_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="810">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#27#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aside/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14950167" vertical-offset="0" max-vertical-offset="602">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spectacles/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2520">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="2520">
+          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
           <folding>
             <element signature="e#0#370#1" expanded="false" />
+            <element signature="e#371#386#0" expanded="true" />
             <element signature="e#2807#3079#0" expanded="false" />
             <element signature="e#3159#3540#0" expanded="false" />
             <element signature="e#3573#3728#0" expanded="false" />
@@ -1724,13 +1718,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spectacles/templatetags/spectacles_tags.py">
+    <entry file="file://$PROJECT_DIR$/spectacles/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6712963" vertical-offset="0" max-vertical-offset="795">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="2385">
+          <caret line="154" column="67" selection-start-line="154" selection-start-column="67" selection-end-line="154" selection-end-column="67" />
           <folding>
-            <element signature="e#27#54#0" expanded="true" />
+            <element signature="e#309#1764#0" expanded="false" />
+            <element signature="e#1471#1542#0" expanded="false" />
+            <element signature="e#1575#1591#0" expanded="false" />
+            <element signature="e#1630#1764#0" expanded="false" />
+            <element signature="e#1811#2840#0" expanded="false" />
+            <element signature="e#2394#2508#0" expanded="false" />
+            <element signature="e#2533#2607#0" expanded="false" />
+            <element signature="e#2646#2791#0" expanded="false" />
+            <element signature="e#2824#2840#0" expanded="false" />
+            <element signature="e#2877#3497#0" expanded="false" />
+            <element signature="e#3201#3274#0" expanded="false" />
+            <element signature="e#3313#3448#0" expanded="false" />
+            <element signature="e#3481#3497#0" expanded="false" />
+            <element signature="e#7267#7366#0" expanded="false" />
+            <element signature="e#7392#7467#0" expanded="false" />
+            <element signature="e#7500#7516#0" expanded="false" />
+            <element signature="e#7555#7691#0" expanded="false" />
+            <element signature="e#10571#10665#0" expanded="false" />
+            <element signature="e#10690#10755#0" expanded="false" />
+            <element signature="e#10794#11403#0" expanded="false" />
+            <element signature="e#11436#11452#0" expanded="false" />
+            <element signature="e#11495#13205#0" expanded="false" />
+            <element signature="e#12773#12863#0" expanded="false" />
+            <element signature="e#12889#12974#0" expanded="false" />
+            <element signature="e#13007#13092#0" expanded="false" />
+            <element signature="e#13123#13205#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aside/spec.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14950167" vertical-offset="0" max-vertical-offset="602">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

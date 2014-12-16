@@ -57,7 +57,7 @@ def next_spec(request):
         rep_list = Representation.objects.filter(datetime__gt=datetime.datetime.now()).order_by('datetime')[:5]
     else:
         ip = request.session.get('ip')
-        rep_list = Representation.objects.filter(datetime__lt=datetime.datetime.now()).order_by('datetime')[:5]
+        rep_list = Representation.objects.filter(datetime__gt=datetime.datetime.now()).order_by('datetime')[:5]
         loc = 'False'
     try:
         loc = GEOSGeometry(loc)
@@ -71,7 +71,7 @@ def next_spec(request):
     spec_list = []
     i=5
     while len(spec_list)<5:
-        rep_list = Representation.objects.filter(datetime__lt=datetime.datetime.now()).order_by('datetime')[:i]
+        rep_list = Representation.objects.filter(datetime__gt=datetime.datetime.now()).order_by('datetime')[:i]
         spec_list = set()
         for rep in rep_list:
             spec_list.add(rep.spectacle)
