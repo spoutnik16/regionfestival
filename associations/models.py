@@ -14,7 +14,8 @@ class Region(models.Model):
     slug = models.SlugField(null=True,
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
-    boundaries = models.MultiPolygonField()
+    boundaries = models.MultiPolygonField(null=True,
+                                          blank=True)
     objects = models.GeoManager()
 
     class Meta:
@@ -38,6 +39,8 @@ class RegionChild(models.Model):
     slug = models.SlugField(null=True,
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
+    boundaries = models.MultiPolygonField(null=True,
+                                          blank=True)
 
     class Meta:
         verbose_name = _('district')
@@ -63,6 +66,8 @@ class RegionChild2(models.Model):
     old_id = models.IntegerField(help_text=_("n'existe plus"),
                                  null=True,
                                  blank=True)
+    boundaries = models.MultiPolygonField(null=True,
+                                          blank=True)
 
     class Meta:
         verbose_name = _('commune')
@@ -177,3 +182,47 @@ class Association(models.Model):
         from regionfestival.snippets import unique_slugify
         unique_slugify(self, self.name)
         super(Association, self).save(**kwargs)
+
+class Person(models.Model):
+    name = models.CharField(max_length=512)
+    association = models.ManyToManyField(Association,
+                                         blank=True,
+                                         null=True)
+    role = models.CharField(max_length=512,
+                            null=True,
+                            blank=True,
+                            default="member")
+    fonction = models.CharField(max_length=512,
+                                null=True,
+                                blank=True)
+    status = models.SmallIntegerField(verbose_name=_("status"),
+                                      help_text=_(
+                                          "0 = en création, 1 = en validation, 3 = public, "
+                                          "4 = exporté vers le cahier spécial"),
+                                      blank=True,
+                                      null=True)
+    mail = models.EmailField(verbose_name=_("adresse email"),
+                             blank=True,
+                             null=True)
+    adresse = models.TextField(blank=True,
+                               null=True,
+                               verbose_name=_("adresse postale")
+    )
+    telephone = models.CharField(max_length=128,
+                                 verbose_name=_("numéro de téléphone"),
+                                 blank=True,
+                                 null=True)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
+
+    class Meta:
+        verbose_name = _("artiste")
+        verbose_name_plural = _("artistes")
+
+    def __str__(self):
+        return self.name
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Artiste, self).save(**kwargs)

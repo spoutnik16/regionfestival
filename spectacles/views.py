@@ -44,18 +44,7 @@ from regionfestival import settings
 from spectacles.models import Festival
 
 # Function that allows me to get the loc of a guy
-
-class IP:
-    @staticmethod
-    def get_client_ip(request):
-        x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
-        if x_forwarded_for:
-            return x_forwarded_for.split(',')[0]
-        else:
-            return request.META.get('REMOTE_ADDR')
-
-
-def next_reps(request):
+def next_spec(request):
     if request.session.get('loc'):
         loc = request.session.get('loc')
         ip = request.session.get('ip')
@@ -77,16 +66,24 @@ def next_reps(request):
     except:
         list_specs = ()
         pass
-    ip = '90.3.45.114'  #todo get that shit out if we are not testing
+    #ip = '90.3.45.114'  #todo get that shit out if we are not testing
     loc = loc.geojson
-    return (list_specs, loc, ip)
+    spec_list = []
+    i=5
+    while len(spec_list)<5:
+        rep_list = Representation.objects.filter(datetime__lt=datetime.datetime.now()).order_by('datetime')[:i]
+        spec_list = set()
+        for rep in rep_list:
+            spec_list.add(rep.spectacle)
+
+    return spec_list
 
 
 
 # Vues qui sont liées à l'affichage pour le public
 def accueil(request):
     request.session['loc']="""{"type": "Point","coordinates": [7.465209960937499,46.24824991289166]}""".replace("\n", "")
-    (next_reps_list, loc, ip) = next_reps(request)
+    next_specs_list = next_spec(request)
 
     return render(request, 'base.html', locals())
 
@@ -143,8 +140,13 @@ def agenda(request, day=None, month=None, year=None, page=None):
 def ajax_show_near_you(request, latitude, longitude):
     geojson = """{"type": "Point","coordinates": ["""+longitude+""","""+latitude+"""]}"""
     loc = GEOSGeometry(geojson)
+    request.session['latitude'] = latitude
+    request.session['longitude'] = longitude
     next_spec_list = get_nearest_spec(loc)
-    return render(request, 'aside/local.html', locals())
+    if request.is_ajax:
+        return render(request, 'aside/local.html', locals())
+    else:
+        return next_spec_list
 
 def spectacles(request, page=None, categorie=None, search_term=None):
     if request.method == 'POST':

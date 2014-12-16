@@ -1,7 +1,6 @@
 {% load i18n %}
 <div id="tab2">
-<h1>{% trans 'Les spectacles près de chez vous !' %}</h1>
     <ul>{% for spec in next_spec_list %}
-        {% include 'aside/rep.html' %}
+        {% include 'aside/spec.html' %}
     {% endfor %}</ul>
 </div>

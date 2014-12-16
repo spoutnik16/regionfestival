@@ -1,7 +1,21 @@
 {% load i18n %}
+    <aside class="spectacles" id="next_shows">
+        <ul class="tab">
+            <li id="tab1"><a href="#">{% trans "Bientôt" %}</a></li>
+            <li id="tab2"><a href="#">{% trans "Chez vous" %}</a></li>
+        </ul>
     <div id="tab1">
-    <h1>{% trans 'Les prochains spectacles' %}</h1>
     <ul>{% for spec in next_spec_list %}
-        {% include 'aside/rep.html' %}
+        {% include 'aside/spec.html' %}
     {% endfor %}</ul>
+    {{ ip }}
     </div>
+    <div id="tab2">
+    <ul>
+        {% for spec in near_spec_list %}
+        {% include 'aside/spec.html' %}
+        {% endfor %}
+    </ul>
+    </div>
+
+    </aside>

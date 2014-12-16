@@ -34,7 +34,7 @@ function call_show_near_you(p){
 
 function charge_next_reps_div(text) {
     already_loaded = true;
-    document.getElementById("next_shows").innerHTML = text + document.getElementById("next_shows").innerHTML
+    document.getElementById("next_shows").innerHTML = document.getElementById("next_shows").innerHTML + text
 }
 
 function try_geoip(p){

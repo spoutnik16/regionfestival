@@ -1,5 +1,7 @@
 {% load i18n %}
 {% load staticfiles %}
+{% load spectacles_tags %}
+
 {% get_current_language as LANGUAGE_CODE %}
 
 <!DOCTYPE html>
@@ -130,9 +132,8 @@
         </article>
     </section>
 
-    <aside class="spectacles" id="next_shows">
-        {% include 'aside/base.html' %}
-    </aside>
+
+{% get_show_near_you %}
     <aside class="sponsors">
         <a href="http://www.loro.ch/" target="_blank"><img src="{% static "images/loro.jpg" %}"
                                                                    alt="Loterie Romande"></a>

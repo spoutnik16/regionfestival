@@ -66,8 +66,12 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'spectacles.middleware.AutoLogout',
+    'spectacles.middleware.Geolocalisation',
 )
+
+# TEMPLATE_LOADERS = (
+#     'django.template.loaders.app_directories.load_template_source',
+# )
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',

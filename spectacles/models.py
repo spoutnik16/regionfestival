@@ -151,6 +151,8 @@ class Spectacle(models.Model):
                                           null=True,
                                           blank=True,
                                           verbose_name=_("utilisateurs authorisés"))
+    def as_a_link(self):
+        return '<a href="'+self.get_absolute_url()+'">'+self.name+'</a>'
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse
         return reverse("spectacle", args=[self.slug,])
@@ -284,3 +286,5 @@ class Representation(models.Model):
 
     def __str__(self):
         return self.spectacle.name + ' à ' + self.lieu.name + ' à ' + self.datetime.__str__()
+    def __repr(self):
+        return '<a href="'+self.spectacle.get_absolute_url+'">'+self.spectacle.name+'</a>'
