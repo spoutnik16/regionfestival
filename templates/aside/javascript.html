@@ -1,13 +1,12 @@
 {% load staticfiles %}
 
-{% if javascript %}
+{#{% if javascript %}#}
     <script src="{% static "js/geo-min.js" %}"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
-    latitude = {{ latitude|safe }};;
-    longitude = {{ longitude|safe }};
+        {% if latitude %}latitude = {{ latitude|safe }};{% endif %}
+        {% if longitude %}longitude = {{ longitude|safe }};{% endif %}
     ip = "{{ ip|safe }}";
     </script>
     <script src="{%  static "js/geoloc.js" %}"></script>
-{%  endif %}
-    {{ say }} lat : {{ latitude }}, long : {{ longitude }}
+{#{%  endif %}#}

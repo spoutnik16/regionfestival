@@ -9,18 +9,14 @@
     <ul>{% for spec in next_spec_list %}
         {% include 'aside/spec.html' %}
     {% endfor %}</ul>
-    {{ ip }}
     </div>
-    <div id="tab2">
-    <ul>
-        {% for spec in near_spec_list %}
-        {% include 'aside/spec.html' %}
-        {% endfor %}
-    {{ say }}
-        {{ latitude }}
-        {{ longitude }}
-    </ul>
-    </div>
-
-<p>{{ last_touch }}</p>
+        <div id="tab2">
+    {% if localised %}
+        <ul>
+            {% for spec in near_spec_list %}
+            {% include 'aside/spec.html' %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+        </div>
     </aside>

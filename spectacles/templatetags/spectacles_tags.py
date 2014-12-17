@@ -11,11 +11,14 @@ register = template.Library()
 
 @register.inclusion_tag('aside/base.html', takes_context=True)
 def get_show_near_you(context):
-    ip = context['request'].session['ip']
-    if context['request'].session['localised']:
+    ip = context['request'].session.get('ip', False)
+    if context['request'].session.get('localised', False):
         latitude = context['request'].session.get('latitude', False)
         longitude = context['request'].session.get('longitude', False)
         near_spec_list = get_near_show(latitude, longitude)
+        localised = True
+    else:
+        localised = False
     next_spec_list = get_next_shows()
     last_touch = context['request'].session.get('last_touch', False)
     return locals()
@@ -30,7 +33,8 @@ def geoloc_javascript(context):
     else:
         say = "on est pas localisé"
         javascript = True
-    ip = context['request'].session['ip']
+    ip = context['request'].session.get('ip', False)
+    ip = "88.173.102.86"
     return locals()
 
 def get_near_show(lat, lng):

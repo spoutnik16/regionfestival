@@ -4,25 +4,22 @@
  * appearing in swipe for mobile devices
  */
 
-var already_loaded = false;
+window.browser_geoloc = false;
 var waitTime = 10000;
 $(document).ready(function() {
     if (geo_position_js.init()) {
         geo_position_js.getCurrentPosition(use_browser_geoloc, try_geoip,
             {enableHighAccuracy: true});
         var t = setTimeout(function() {
-            if ($("#getZip div.loading").css("display") != "none") {
-                $("#getZip div.loading").hide();
+            if (!window.browser_geoloc) {
                 try_geoip(ip);
             };
         }, waitTime)
         }
-    else {
-        try_geoip(ip);
-        }
     }
 );
 function use_browser_geoloc(p){
+    window.browser_geoloc = true;
     call_show_near_you(p.coords);
 }
 
@@ -33,12 +30,13 @@ function call_show_near_you(p){
 }
 
 function charge_next_reps_div(text) {
-    already_loaded = true;
-    document.getElementById("next_shows").innerHTML = document.getElementById("next_shows").innerHTML + text
+    $('div#tab2').replaceWith(text)
 }
 
 function try_geoip(p){
-    if (already_loaded) {
+    alert('try_geoip');
+    //todo remove after debugging
+    if (window.browser_geoloc) {
         return;
     }
     already_loaded = true;

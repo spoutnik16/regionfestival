@@ -11,8 +11,9 @@ from datetime import datetime, timedelta
 from django.conf import settings
 
 class Geolocalisation():
-    def process_view(self, request, view_fun, view_args, view_kwargs):
+    def process_request(self, request):
         try:
+            request.session['ip'] = self.get_client_ip(request)
             if datetime.now() - request.session['last_touch'] > timedelta( 0, settings.AUTO_LOCALISATION_LOGOUT_DELAY * 60, 0):
                 if 'latitude' in request.session:
                     del request.session['latitude']
@@ -21,14 +22,18 @@ class Geolocalisation():
         except KeyError:
             pass
 
-        if 'latitude' in view_args:
-            request.session['latitude'] = view_kwargs.get('latitude', None)
-        if 'longitude' in view_args:
-            request.session['longitude'] = view_kwargs.get('longitude', None)
+    def process_view(self, request, view_fun, view_args, view_kwargs):
+
+        if all(key in view_kwargs for key in ('latitude', 'longitude')):
+            latitude = view_kwargs.get('latitude', None)
+            request.session['latitude'] = latitude
+            longitude = view_kwargs.get('longitude', None)
+            request.session['longitude'] = longitude
+            ip = request.session['ip']
+            log = str(datetime.now) +' : ip = "'+ip+'" & lat = "'+latitude+'" & longitude = "'+longitude+'"'
 
 
         request.session['last_touch'] = datetime.now()
-        request.session['ip'] = self.get_client_ip(request)
 
         if all(key in request.session for key in ('latitude', 'longitude')):
             request.session['localised'] = True

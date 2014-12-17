@@ -77,3 +77,7 @@ aside.spectacles {
 aside.sponsors {
     display: inline-block;
 }
+
+aside.spectacles div{
+    border: 1px solid black;
+}
