@@ -34,7 +34,6 @@ function charge_next_reps_div(text) {
 }
 
 function try_geoip(p){
-    alert('try_geoip');
     //todo remove after debugging
     if (window.browser_geoloc) {
         return;

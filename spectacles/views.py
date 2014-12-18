@@ -75,7 +75,9 @@ def next_spec(request):
         spec_list = set()
         for rep in rep_list:
             spec_list.add(rep.spectacle)
-
+        i += 1
+        if i > 10:
+            break
     return spec_list
 
 

@@ -34,7 +34,8 @@ def geoloc_javascript(context):
         say = "on est pas localisé"
         javascript = True
     ip = context['request'].session.get('ip', False)
-    ip = "88.173.102.86"
+    if ip == "127.0.0.1":
+        ip = "88.173.102.86"
     return locals()
 
 def get_near_show(lat, lng):
@@ -59,4 +60,6 @@ def get_next_shows():
         for rep in Representation.objects.filter(datetime__gt=datetime.now()).order_by('datetime')[:i]:
             spec_list.add(rep.spectacle)
         i+=1
+        if i>100:
+            break
     return spec_list
