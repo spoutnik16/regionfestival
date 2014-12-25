@@ -118,13 +118,6 @@ class Person(models.Model):
     last_name = models.CharField(max_length=512,
                                  blank=True,
                                  null=True)
-    role = models.CharField(max_length=512,
-                            null=True,
-                            blank=True,
-                            default="member")
-    fonction = models.CharField(max_length=512,
-                                null=True,
-                                blank=True)
     status = models.SmallIntegerField(verbose_name=_("status"),
                                       help_text=_(
                                           "0 = en création, 1 = en validation, 3 = public, "
@@ -140,6 +133,10 @@ class Person(models.Model):
     )
     telephone = models.CharField(max_length=128,
                                  verbose_name=_("numéro de téléphone"),
+                                 blank=True,
+                                 null=True)
+    cellphone = models.CharField(max_length=128,
+                                 verbose_name=_("numéro de natel"),
                                  blank=True,
                                  null=True)
     slug = models.SlugField(null=True,
@@ -173,37 +170,6 @@ class Association(models.Model):
                                verbose_name=_('site web'),
                                blank=True,
                                null=True)
-    direction = models.CharField(max_length=512,
-                                 verbose_name=_('directeur'),
-                                 blank=True,
-                                 null=True)
-    president = models.CharField(max_length=512,
-                                 verbose_name=_('president'),
-                                 blank=True,
-                                 null=True)
-    contact_name = models.CharField(max_length=2048,
-                                    help_text=_("nom de la personne de contact"),
-                                    verbose_name=_('nom du contact'))
-    contact_phone = models.CharField(max_length=512,
-                                     verbose_name=_('numero de telephone de contact'),
-                                     blank=True,
-                                     null=True)
-    contact_email = models.CharField(max_length=512,
-                                     verbose_name=_('email de contact'),
-                                     blank=True,
-                                     null=True)
-    contact_adress = models.CharField(max_length=512,
-                                      verbose_name=_('rue de contact'),
-                                      blank=True,
-                                      null=True)
-    contact_city = models.CharField(max_length=512,
-                                    verbose_name=_('ville de contact'),
-                                    blank=True,
-                                    null=True)
-    contact_NPA = models.CharField(max_length=512,
-                                   verbose_name=_('code postal de contact'),
-                                   blank=True,
-                                   null=True)
     description = models.TextField(max_length=51200,
                                    verbose_name=_('description'),
                                    blank=True,
