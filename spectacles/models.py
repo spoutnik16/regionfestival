@@ -67,6 +67,9 @@ class CategorieSpectacle(models.Model):
         unique_slugify(self, self.name)
         super(CategorieSpectacle, self).save(**kwargs)
 
+    def as_a_link(self):
+        return '<a href="'+self.get_absolute_url()+'" class="show_categorie">'+self.name+'</a>'
+
     def __str__(self):
         return self.name
 
@@ -289,4 +292,4 @@ class Representation(models.Model):
     def __str__(self):
         return self.spectacle.name + ' à ' + self.lieu.name + ' à ' + self.datetime.__str__()
     def __repr(self):
-        return '<a href="'+self.spectacle.get_absolute_url+'">'+self.spectacle.name+'</a>'
+        return '<a href="'+self.spectacle.get_absolute_url()+'">'+self.spectacle.name+'</a>'

@@ -46,10 +46,10 @@
         <ul class="main-menu">
                     {% block main-menu %}
                     {% if not user.is_authenticated %}<li><a href="{% url 'inscription' %}">{% trans "Inscription" %}</a></li>{% endif %}
-                    <li><a href="{% url 'spectacles.views.spectacles' %}">{% trans "Programme" %}</a></li>
-                    <li class="sub"><a href="{% url 'spectacles.views.spectacles' %}">{% trans "par catégorie" %}</a></li>
+                    <li><a href="{% url 'spectacles.views.spectacles' %}">{% trans "Programme" %}</a>
+                    <ul></ul><li class="sub"><a href="{% url 'spectacles.views.spectacles' %}">{% trans "par catégorie" %}</a></li>
                     <li class="sub"><a href="{% url 'spectacles.views.agenda' %}">{% trans "par date" %}</a></li>
-                    <li class="sub"><a href="/fr/communes.html">{% trans "par lieu" %}</a></li>
+                    <li class="sub"><a href="/fr/communes.html">{% trans "par lieu" %}</a></li></ul></li>
                     {% comment  %}<li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li> {% endcomment %}
                     <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
                     {% if user.is_authenticated %}

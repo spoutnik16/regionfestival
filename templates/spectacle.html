@@ -1,14 +1,13 @@
 {% load i18n %}
         <h3 class="compagnie" itemprop="description">
-            {% for association in spectacle.associations.all %}{{ association.name }}{% if not forloop.last %},
+            {% for association in spectacle.associations.all %}{{ association.as_a_link|safe }}{% if not forloop.last %},
             {% endif %}{% endfor %}</h3>
 
         <h2><a href="{{ spectacle.get_absolute_url }}"><span itemprop="summary"
                                                                                 class="titre">{{ spectacle.name }}</span></a>
         </h2>
-<a href="{{ spectacle.categorie.get_absolute_url }}">
-<span class="categorie" itemprop="eventType">{{ spectacle.categorie.name }}</span><br/>
-</a>
+<span class="categorie" itemprop="eventType">{{ spectacle.categorie.as_a_link|safe}}</span><br/>
+
         {% if spectacle.photo %}
             <img src="{{ spectacle.photo.url }}"/>
         {% endif %}

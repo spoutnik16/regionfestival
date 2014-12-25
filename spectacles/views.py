@@ -195,13 +195,13 @@ def region_child2(request, slug):
         for representation in lieu.representation_set.all():
             spectacles.append(representation.spectacle)
     spectacles = set(spectacles)
-    return render(request, 'region_child2.html', {'region_child2': region_child2, 'spectacles': spectacles})
+    return render(request, 'region_child2.html',locals())
 
 def association(request, slug):
     association = get_object_or_404(Association, slug=slug)
     spectacles = Spectacle.objects.filter(associations=association)
     spectacles = set(spectacles)
-    return render(request, 'association.html', {'association': association, 'spectacles': spectacles})
+    return render(request, 'association.html', locals())
 
 def admin(request):
     return render(request, 'accueil.html')

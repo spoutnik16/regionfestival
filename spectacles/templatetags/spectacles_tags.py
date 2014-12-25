@@ -48,7 +48,7 @@ def get_near_show(lat, lng):
                                                  (loc, D(m=dist))).order_by('datetime')
         for rep in list_rep:
             list_specs.add(rep.spectacle)
-        dist = int(dist*1.2)
+        dist = int(dist*1.4)
     list_specs = list(list_specs)[:5]
     return list_specs
 

@@ -113,6 +113,52 @@ class CategorieAssociation(models.Model):
         unique_slugify(self, self.name)
         super(CategorieAssociation, self).save(**kwargs)
 
+class Person(models.Model):
+    first_name = models.CharField(max_length=512)
+    last_name = models.CharField(max_length=512,
+                                 blank=True,
+                                 null=True)
+    role = models.CharField(max_length=512,
+                            null=True,
+                            blank=True,
+                            default="member")
+    fonction = models.CharField(max_length=512,
+                                null=True,
+                                blank=True)
+    status = models.SmallIntegerField(verbose_name=_("status"),
+                                      help_text=_(
+                                          "0 = en création, 1 = en validation, 3 = public, "
+                                          "4 = exporté vers le cahier spécial"),
+                                      blank=True,
+                                      null=True)
+    mail = models.EmailField(verbose_name=_("adresse email"),
+                             blank=True,
+                             null=True)
+    adresse = models.TextField(blank=True,
+                               null=True,
+                               verbose_name=_("adresse postale")
+    )
+    telephone = models.CharField(max_length=128,
+                                 verbose_name=_("numéro de téléphone"),
+                                 blank=True,
+                                 null=True)
+    slug = models.SlugField(null=True,
+                            blank=True,
+                            help_text=_("nom formaté pour les URLs"))
+
+    def name(self):
+        return self.first_name+' '+self.last_name
+
+    class Meta:
+        verbose_name = _("artiste")
+        verbose_name_plural = _("artistes")
+
+    def __str__(self):
+        return self.name()
+    def save(self, **kwargs):
+        from regionfestival.snippets import unique_slugify
+        unique_slugify(self, self.name)
+        super(Artiste, self).save(**kwargs)
 
 class Association(models.Model):
     name = models.CharField(max_length=2048,
@@ -169,6 +215,13 @@ class Association(models.Model):
     slug = models.SlugField(null=True,
                             blank=True,
                             help_text=_("nom formaté pour les URLs"))
+    contacts = models.ManyToManyField(Person,
+                                     null=True,
+                                     blank=True,
+                                     through='Contact',
+                                     verbose_name=_('personne de contact'))
+
+
 
     class Meta:
         verbose_name = _('association')
@@ -176,6 +229,8 @@ class Association(models.Model):
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse
         return reverse('association', args=[self.slug,])
+    def as_a_link(self):
+        return '<a href="'+self.get_absolute_url()+'" class="association">'+self.name+'</a>'
     def __str__(self):
         return self.name
     def save(self, **kwargs):
@@ -183,46 +238,7 @@ class Association(models.Model):
         unique_slugify(self, self.name)
         super(Association, self).save(**kwargs)
 
-class Person(models.Model):
-    name = models.CharField(max_length=512)
-    association = models.ManyToManyField(Association,
-                                         blank=True,
-                                         null=True)
-    role = models.CharField(max_length=512,
-                            null=True,
-                            blank=True,
-                            default="member")
-    fonction = models.CharField(max_length=512,
-                                null=True,
-                                blank=True)
-    status = models.SmallIntegerField(verbose_name=_("status"),
-                                      help_text=_(
-                                          "0 = en création, 1 = en validation, 3 = public, "
-                                          "4 = exporté vers le cahier spécial"),
-                                      blank=True,
-                                      null=True)
-    mail = models.EmailField(verbose_name=_("adresse email"),
-                             blank=True,
-                             null=True)
-    adresse = models.TextField(blank=True,
-                               null=True,
-                               verbose_name=_("adresse postale")
-    )
-    telephone = models.CharField(max_length=128,
-                                 verbose_name=_("numéro de téléphone"),
-                                 blank=True,
-                                 null=True)
-    slug = models.SlugField(null=True,
-                            blank=True,
-                            help_text=_("nom formaté pour les URLs"))
-
-    class Meta:
-        verbose_name = _("artiste")
-        verbose_name_plural = _("artistes")
-
-    def __str__(self):
-        return self.name
-    def save(self, **kwargs):
-        from regionfestival.snippets import unique_slugify
-        unique_slugify(self, self.name)
-        super(Artiste, self).save(**kwargs)
+class Contact(models.Model):
+    person = models.ForeignKey(Person)
+    association=models.ForeignKey(Association)
+    role = models.CharField(max_length=64, null=True, blank=True)

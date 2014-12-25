@@ -14,12 +14,9 @@ class CustomUser(models.Model):
                              null=True,
                              blank=True)
     user = models.OneToOneField(User,
-                             unique=True,
-                             blank=True,
-                             null=True)
-    def create_user_custom(sender, instance, created, **kwargs):
-        if created:
-            CustomUser.objects.create(user=instance)
+                                unique=True,
+                                blank=True,
+                                null=True)
 
     class Meta:
         verbose_name = _('profile')
@@ -27,4 +24,3 @@ class CustomUser(models.Model):
 
     def __str__(self):
         return self.user.username
-    post_save.connect(create_user_custom, sender=User)
