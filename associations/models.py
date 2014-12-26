@@ -124,6 +124,9 @@ class Person(models.Model):
                                           "4 = exporté vers le cahier spécial"),
                                       blank=True,
                                       null=True)
+    contact_name = models.CharField(max_length=128,
+                                    blank=True,
+                                    null=True)
     mail = models.EmailField(verbose_name=_("adresse email"),
                              blank=True,
                              null=True)
@@ -155,7 +158,7 @@ class Person(models.Model):
     def save(self, **kwargs):
         from regionfestival.snippets import unique_slugify
         unique_slugify(self, self.name)
-        super(Artiste, self).save(**kwargs)
+        super(Person, self).save(**kwargs)
 
 class Association(models.Model):
     name = models.CharField(max_length=2048,
@@ -208,3 +211,6 @@ class Contact(models.Model):
     person = models.ForeignKey(Person)
     association=models.ForeignKey(Association)
     role = models.CharField(max_length=64, null=True, blank=True)
+
+    def __str(self):
+        return str(self.person.name+' est '+self.role+' de '+association.name)
