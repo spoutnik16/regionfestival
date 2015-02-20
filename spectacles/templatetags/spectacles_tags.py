@@ -4,7 +4,9 @@ from django import template
 from django.contrib.gis.geos import GEOSGeometry
 from django.contrib.gis.measure import D
 from datetime import datetime
-from spectacles.models import Representation
+from spectacles.models import Representation, Spectacle
+from django.db.models import Min
+from associations.models import Region
 from regionfestival import settings
 
 register = template.Library()
@@ -26,16 +28,14 @@ def get_show_near_you(context):
 @register.inclusion_tag('aside/javascript.html', takes_context=True)
 def geoloc_javascript(context):
     if context['request'].session['localised']:
-        say = "on est localisé"
         javascript = False
         # latitude = context['request'].session['latitude']
         # longitude = context['request'].session['longitude']
     else:
-        say = "on est pas localisé"
         javascript = True
     ip = context['request'].session.get('ip', False)
     if ip == "127.0.0.1":
-        ip = "88.173.102.86"
+        ip = "88.228.177.71"
     return locals()
 
 def get_near_show(lat, lng):
@@ -47,19 +47,20 @@ def get_near_show(lat, lng):
         list_rep = Representation.objects.filter(lieu__in_geom__distance_lte=
                                                  (loc, D(m=dist))).order_by('datetime')
         for rep in list_rep:
-            list_specs.add(rep.spectacle)
+            list_specs.add(rep.spectacle_id)
         dist = int(dist*1.4)
-    list_specs = list(list_specs)[:5]
+    list_specs = Spectacle.objects.filter(pk__in=list_specs)[:5]
     return list_specs
 
 
 def get_next_shows():
-    i = 5
-    spec_list = set()
-    while len(spec_list)<5:
-        for rep in Representation.objects.filter(datetime__gt=datetime.now()).order_by('datetime')[:i]:
-            spec_list.add(rep.spectacle)
-        i+=1
-        if i>100:
-            break
+    # i = 5
+    # spec_list = set()
+    # while len(spec_list)<5:
+    #     for rep in Representation.objects.filter(datetime__gt=datetime.now()).order_by('-datetime')[:i]:
+    #         spec_list.add(rep.spectacle)
+    #     i+=1
+    #     if i>100:
+    #         break
+    spec_list = Spectacle.objects.annotate(date=Min('representation__datetime')).filter(date__gte=datetime.now()).order_by('date')[:5]
     return spec_list

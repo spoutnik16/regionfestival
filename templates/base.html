@@ -52,14 +52,16 @@
                     <li class="sub"><a href="/fr/communes.html">{% trans "par lieu" %}</a></li></ul></li>
                     {% comment  %}<li><a href="{% url 'about' %}">{% trans "Présentation" %}</a></li> {% endcomment %}
                     <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
+                    {% comment %}
                     {% if user.is_authenticated %}
                         <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
                     {% else %}
                         <li><a href="{% url 'connection' %}">{% trans "Se connecter" %}</a></li>
                     {% endif %}
+                    {% endcomment %}
                     {% endblock main-menu %}
         </ul>
-        {% if user.is_authenticated %}
+        {% comment %}  {% if user.is_authenticated %}
         <ul class="member-menu">
             {% block member-menu %}
                 <li><a href="{% url 'memberspace:index' %}">{% trans "Espace membre" %}</a></li>
@@ -73,6 +75,7 @@
             {% endblock admin-menu %}
         </ul>
         {% endif %}
+        {% endcomment %}
     </nav>
     </nav>
 

@@ -84,7 +84,7 @@ def next_spec(request):
 
 # Vues qui sont liées à l'affichage pour le public
 def accueil(request):
-    request.session['loc']="""{"type": "Point","coordinates": [7.465209960937499,46.24824991289166]}""".replace("\n", "")
+    #request.session['loc']="""{"type": "Point","coordinates": [7.465209960937499,46.24824991289166]}""".replace("\n", "")
     next_specs_list = next_spec(request)
 
     return render(request, 'base.html', locals())
@@ -296,13 +296,13 @@ def get_nearest_spec(loc):
     # then we make an ordered set (yes, orderedSet) out of those show, and count them.
     list_specs = set()
     dist = settings.DISTANCE_CLOSE
-    while len(list_specs) < 5:
-        list_rep = Representation.objects.filter(lieu__in_geom__distance_lte=
-                                                 (loc, D(m=dist))).order_by('datetime')
-        for rep in list_rep:
-            list_specs.add(rep.spectacle)
-        dist = int(dist*1.2)
-    list_specs = list(list_specs)[:5]
+    # while len(list_specs) < 5:
+    #     list_rep = Representation.objects.filter(lieu__in_geom__distance_lte=
+    #                                              (loc, D(m=dist))).order_by('datetime')
+    #     for rep in list_rep:
+    #         list_specs.add(rep.spectacle)
+    #     dist = int(dist*1.2)
+    # list_specs = list(list_specs)[:5]
     return list_specs
 
 
