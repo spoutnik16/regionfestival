@@ -83,7 +83,13 @@ def importpersonne(fanfare, row1):
     # print(person.mail)
     person.save()
     fanfare.save()
-    contact = Contact(association=fanfare, person=person, role=role)
+    if len(Contact.objects.filter(association=fanfare, person=person))>0:
+        contact=Contact.objects.filter(association=fanfare, person=person)[0]
+        contact.role = role
+        contact.save()
+    else:
+        contact = Contact(association=fanfare, person=person, role=role)
+        contact.save()
     return fanfare, person, contact
     
     

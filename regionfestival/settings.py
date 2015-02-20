@@ -189,4 +189,4 @@ MAP_STYLE_JSON = """[
                 ]"""
 
 
-AUTO_LOCALISATION_LOGOUT_DELAY = 5 #equivalent to 5 minutes
+AUTO_LOCALISATION_LOGOUT_DELAY = 0.5 #equivalent to 5 minutes

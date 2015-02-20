@@ -39,8 +39,11 @@ def importchoeur_json_reg(row1, choeur):
 
 def importchoeur_json_name(row1, choeur):
     list_nom_inutiles = ('Kirchenchor', 'Choeur mixte', 'Kinderchor', 'Jugendchor',
-                         'Männerchor', 'Chœur-Mixte', 'Gemischter Chor', "Chœur d'Enfants", 'Choeur des Jeunes',
-                         'Chörli', 'Frauenchor')
+                         'Männerchor', 'Chœur-Mixte', 'Gemischter Chor', "Chœur d'Enfants", 
+                         'Choeur des Jeunes', 'Chœur mixte Ste-Cécile', 'Chörli', 'Frauenchor',
+                         'Chœur mixte La Cécilia', 'Chœur mixte St-Michel', 'Chœur des Jeunes',
+                         'Choeur des écoles primaires', 'Chœur mixte La Caecilia', "Chœur d'Hommes",
+                         'Chœur mixte St-Nicolas')
     if row1[0][0] in list_nom_inutiles:
         choeur.name = row1[0][0] + ' ' + row1[1][0][5:]
     else:
@@ -62,6 +65,11 @@ def importchoeur_json_pres(row1, row2, choeur):
         president = Person()
         president.first_name = row1[2][0].split(' ')[0]
         president.last_name = row1[2][0].split(' ')[1]
+        try:
+            president2 = Person.objects.filter(first_name=president.first_name, last_name=president.lastname)[0]
+            president=president
+        except:
+            pass
         if len(Person.objects.filter(first_name=president.first_name).filter(last_name=president.last_name)) > 0:
             president = Person.objects.filter(first_name=president.first_name).filter(last_name=president.last_name)[0]
             role = row2[3][0]
@@ -93,7 +101,11 @@ def importchoeur_json_pres(row1, row2, choeur):
         # print(president.first_name[:10].ljust(10)+president.last_name[:10].ljust(10)+
         # president.telephone[:10].ljust(10)+president.mail[:30].ljust(30))
         president.save()
-        contact = Contact(association=choeur, person=president, role=role)
+        try:
+            contact = Contact.objects.filter(association=choeur, person=president)[0]
+            contact.role = role
+        except:
+            contact = Contact(association=choeur, person=president, role=role)
         return (choeur, contact, president)
     else:
         return (choeur, False, False)
@@ -104,6 +116,11 @@ def importchoeur_json_dir(row1, row2, choeur):
         directeur = Person()
         directeur.first_name = row1[3][0].split(' ')[0]
         directeur.last_name = row1[3][0].split(' ')[1]
+        try:
+            directeur2 = Person.objects.filter(first_name=directeur.first_name, last_name=directeur.last_name)
+            directeur = directeur2
+        except:
+            pass
         if len(Person.objects.filter(first_name=directeur.first_name).filter(last_name=directeur.last_name)) > 0:
             directeur = Person.objects.filter(first_name=directeur.first_name).filter(last_name=directeur.last_name)[0]
             role = row2[3][0]
@@ -135,7 +152,11 @@ def importchoeur_json_dir(row1, row2, choeur):
         directeur.save()
         # print(president.first_name[:10].ljust(10)+president.last_name[:10].ljust(10)+
         # president.telephone[:10].ljust(10)+president.mail[:30].ljust(30))
-        contact = Contact(association=choeur, person=directeur, role=role)
+        try:
+            contact = Contact.objects.filter(association=choeur, person=directeur)[0]
+            contact.role=role
+        except:
+            contact = Contact(association=choeur, person=directeur, role=role)
         return (choeur, contact, directeur)
     else:
         return (choeur, False, False)

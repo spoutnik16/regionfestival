@@ -144,7 +144,9 @@ def ajax_show_near_you(request, latitude, longitude):
     loc = GEOSGeometry(geojson)
     request.session['latitude'] = latitude
     request.session['longitude'] = longitude
-    next_spec_list = get_nearest_spec(loc)
+    valais = Region.objects.all().first()
+    if (valais.boundaries.contains(loc)):
+        next_spec_list = get_nearest_spec(loc)
     sessid = request.session.session_key
     if request.is_ajax:
         return render(request, 'aside/local.html', locals())

@@ -82,6 +82,7 @@ def importpersonne(fanfare, row1):
             person.mail=line
     # print(person.mail)
     person.save()
+    fanfare.save()
     contact = Contact(association=fanfare, person=person, role=role)
     return fanfare, person, contact
     

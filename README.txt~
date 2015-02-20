@@ -26,8 +26,6 @@ sudo apt-get install pip3
 sudo apt-get install postgresql==9.3 postgresql-contrib -y
 sudo apt-get install postgresql-0.3-postgis-2.1 -y
 sudo -u postgres psql
-
-
 DROP DATABASE valaisfestival;
 CREATE DATABASE valaisfestival;
 GRANT ALL PRIVILEGES ON DATABASE valaisfestival TO valaisfestival;
@@ -37,7 +35,6 @@ CREATE EXTENSION postgis_topology;
 CREATE EXTENSION fuzzystrmatch;
 CREATE EXTENSION postgis_tiger_geocoder;
 \q
-python3 manage.py syncdb
 
 # and now we create postgis template for the database
 sudo pip3 install -r < requirements.txt
