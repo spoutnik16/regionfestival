@@ -74,10 +74,11 @@ def next_spec(request):
         rep_list = Representation.objects.filter(datetime__gt=datetime.datetime.now()).order_by('datetime')[:i]
         spec_list = set()
         for rep in rep_list:
-            spec_list.add(rep.spectacle)
+            spec_list.add(rep.spectacle_id)
         i += 1
-        if i > 10:
+        if i > 100:
             break
+    spec_list=Spectacle.objects.filter(pk__in=spec_list)[:5]
     return spec_list
 
 
@@ -121,17 +122,20 @@ def place(request, slug):
 
 
 def agenda(request, day=None, month=None, year=None, page=None):
-    festival = Festival.objects.all().first()
-    daterange = lambda d1, d2: (d1 + datetime.timedelta(days=i) for i in range((d2 - d1).days + 1))
+    if not 'festival' in locals() or globals():
+        festival = Festival.objects.all().last()
     try:
         date = datetime.date(int(year), int(month), int(day))
     except:
-        date = festival.startdate
+        date = datetime.datetime.now().date()
         pass
-    if date not in daterange(festival.startdate, festival.enddate):
+    if not festival.startdate <= date <= festival.enddate:
         date = festival.startdate
     from django.db.models import Count
-    list_days = Representation.objects.filter(status__gte=3).extra({'day': 'date'}).values('day').annotate(Count('id'))
+    list_days = Representation.objects.filter(status__gte=0).\
+        filter(datetime__gte=festival.startdate).filter(datetime__lte=festival.enddate).\
+        extra({'day': 'date'}).values('day')\
+        .annotate(Count('id')).order_by('day')
     reps = Representation.objects.filter(datetime__year=date.year,
                                          datetime__month=date.month,
                                          datetime__day=date.day).order_by('datetime')
@@ -188,6 +192,7 @@ def spectacles(request, page=None, categorie=None, search_term=None):
 
 def spectacle(request, slug):
     spectacle = get_object_or_404(Spectacle, slug=slug)
+    children = Spectacle.objects.filter(parent=spectacle.pk).order_by('representation__datetime')
     return render(request, 'spectacle_solo.html', locals())
 
 def region_child2(request, slug):
@@ -294,13 +299,15 @@ def get_nearest_spec(loc):
     # cause you want it to return 5 show everytime, and not 5 representations.
     # so the idea is : we grap all the reps in the radius DISTANCE_CLOSE
     # then we make an ordered set (yes, orderedSet) out of those show, and count them.
-    list_specs = set()
-    dist = settings.DISTANCE_CLOSE
+    from spectacles.templatetags.spectacles_tags import get_near_show
+    list_specs = get_near_show(loc.lat, loc.lng)
+    # list_specs = set()
+    # dist = settings.DISTANCE_CLOSE
     # while len(list_specs) < 5:
     #     list_rep = Representation.objects.filter(lieu__in_geom__distance_lte=
     #                                              (loc, D(m=dist))).order_by('datetime')
     #     for rep in list_rep:
-    #         list_specs.add(rep.spectacle)
+    #         list_specs.add(rep.spectacle_id)
     #     dist = int(dist*1.2)
     # list_specs = list(list_specs)[:5]
     return list_specs

@@ -1,6 +1,6 @@
 <li>{{ spec.as_a_link|safe }}<br />
-{% for rep2 in spec.representation_set.all|slice:":5" %}
-    {% ifchanged rep2.lieu %}
+{% for rep2 in spec.representation_set.all|slice:":5" %} -
+    {% ifchanged rep2.lieu_id %}
         {% if not forloop.first %}
             <br />
         {% endif %}
@@ -11,3 +11,4 @@
 {% endfor %}<br />
 
 </li>
+

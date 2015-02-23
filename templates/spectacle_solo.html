@@ -5,4 +5,7 @@
 {% block content %}
 
     {% include 'spectacle.html' %}
+    {% for spectacle in children %}
+        {% include 'spectacle.html' %}
+    {% endfor %}
 {% endblock %}

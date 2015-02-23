@@ -1,5 +1,6 @@
 {% load i18n %}
-<div>
+<div class="calendar">
+{{ date }}
     {% for day in list_days %}
         {% ifchanged day.day.month %}
             {% if not forloop.first %}

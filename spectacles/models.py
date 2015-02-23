@@ -130,6 +130,7 @@ class Spectacle(models.Model):
                               null=True,
                               blank=True,
                               verbose_name=_("image"))
+    # TODO switch to foreignkey
     parent = models.ManyToManyField('self',
                                     null=True,
                                     blank=True,
