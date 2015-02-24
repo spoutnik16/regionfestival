@@ -63,11 +63,11 @@ def next_spec(request):
         loc = GEOSGeometry(loc)
         if isinstance(loc, Point):
             list_specs = get_nearest_spec(loc)
+        loc = loc.geojson
     except:
         list_specs = ()
         pass
     #ip = '90.3.45.114'  #todo get that shit out if we are not testing
-    loc = loc.geojson
     spec_list = []
     i=5
     while len(spec_list)<5:
@@ -153,7 +153,7 @@ def ajax_show_near_you(request, latitude, longitude):
         next_spec_list = get_nearest_spec(loc)
     sessid = request.session.session_key
     if request.is_ajax:
-        return render(request, 'aside/local.html', locals())
+        return render(request, 'templatetags/local.html', locals())
     else:
         return next_spec_list
 

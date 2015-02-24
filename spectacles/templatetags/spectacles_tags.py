@@ -4,14 +4,33 @@ from django import template
 from django.contrib.gis.geos import GEOSGeometry
 from django.contrib.gis.measure import D
 from datetime import datetime
-from spectacles.models import Representation, Spectacle
-from django.db.models import Min
+from spectacles.models import Representation, Spectacle, CategorieSpectacle
+from django.db.models import Min, Count
 from associations.models import Region
 from regionfestival import settings
 
 register = template.Library()
 
-@register.inclusion_tag('aside/base.html', takes_context=True)
+@register.assignment_tag()
+def get_categories():
+    list_categories = CategorieSpectacle.objects.annotate(count=Count('spectacle')).order_by('-count')
+    i=0
+    cat_dict = dict()
+    for category in list_categories:
+        cat_dict[category.pk]= category
+    for key, category in cat_dict.items():
+        cat = category
+        while cat.parent:
+            cat = cat_dict[cat.parent.pk]
+        list_categories[i].count += cat.count
+    list_parent=set()
+    for category in list_categories:
+        if not category.parent:
+            list_parent.add(category)
+    return list_parent
+
+
+@register.inclusion_tag('templatetags/base.html', takes_context=True)
 def get_show_near_you(context):
     ip = context['request'].session.get('ip', False)
     if context['request'].session.get('localised', False):
@@ -25,7 +44,7 @@ def get_show_near_you(context):
     last_touch = context['request'].session.get('last_touch', False)
     return locals()
 
-@register.inclusion_tag('aside/javascript.html', takes_context=True)
+@register.inclusion_tag('templatetags/javascript.html', takes_context=True)
 def geoloc_javascript(context):
     if context['request'].session['localised']:
         javascript = False

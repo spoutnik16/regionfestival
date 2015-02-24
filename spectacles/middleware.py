@@ -10,6 +10,7 @@ __author__ = 'spoutnik16'
 from datetime import datetime, timedelta
 from django.conf import settings
 
+
 class Geolocalisation():
     def process_request(self, request):
         # Part where we check is the info are too old and delete them if this is too old

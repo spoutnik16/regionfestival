@@ -93,7 +93,7 @@ nav.menushows {
     display: block;
     background-color: #c80014;
     margin-top: 10px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .mainmenu li {

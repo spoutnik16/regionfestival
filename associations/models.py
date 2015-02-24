@@ -72,9 +72,7 @@ class RegionChild2(models.Model):
     class Meta:
         verbose_name = _('commune')
         verbose_name_plural = _('communes')
-    def get_absolute_url(self):
-        from django.core.urlresolvers import reverse
-        return reverse('region_child2', args=[self.slug])
+
     def __str__(self):
         return self.name
     def save(self, **kwargs):
@@ -108,6 +106,9 @@ class CategorieAssociation(models.Model):
 
     def __str__(self):
         return self.name
+    def get_absolute_url(selfself):
+        from django.core.urlresolvers import reverse
+        return reverse()
     def save(self, **kwargs):
         from regionfestival.snippets import unique_slugify
         unique_slugify(self, self.name)

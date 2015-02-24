@@ -29,9 +29,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '-wrz)vmjv5ix1fps)&47(k+9!7b2cypn&2r@po!u23quf8ov_a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
 SITE_ID = 1
 
@@ -48,7 +48,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',		
     'django.contrib.gis',
-    #'debug_toolbar',
+    'debug_toolbar',
     #'guardian',
     'moderation',
     'associations',

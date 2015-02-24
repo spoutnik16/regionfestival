@@ -7,14 +7,14 @@
         </ul>
     <div id="tab1">
     <ul>{% for spec in next_spec_list %}
-        {% include 'aside/spec.html' %}
+        {% include 'templatetags/spec.html' %}
     {% endfor %}</ul>
     </div>
         <div id="tab2">
     {% if localised %}
         <ul>
             {% for spec in near_spec_list %}
-            {% include 'aside/spec.html' %}
+            {% include 'templatetags/spec.html' %}
             {% endfor %}
         </ul>
     {% endif %}
