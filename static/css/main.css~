@@ -5,7 +5,7 @@
 body {
 font-family: Montserrat, Arial, sans-serif;
 overflow-x: hidden;
-background: #FFFFFF;
+background: #FEFEFE;
 margin: 0;
 z-index: 1;
 }
@@ -79,8 +79,8 @@ display: none;
 left: -40px;
 top: 80px;
 position: fixed;
-z-index: 0;
-width: 70%;
+z-index: -1;
+width: 200px;
 
 
 
@@ -93,7 +93,7 @@ nav.menushows {
     display: block;
     background-color: #c80014;
     margin-top: 10px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .mainmenu li {
@@ -198,7 +198,12 @@ nav li, nav ul {
     display: inline;
 }
 
+section#article-accueil {
+    margin: 8px;
+}
+
 #article-accueil {
+    margin: 7px;
     margin-top: 20px;
 }
 
@@ -243,6 +248,10 @@ body {
     margin-left: auto;
     background: white;
     border-radius: 10px;
+}
+
+header {
+margin-top: 12px;
 }
 
 header img{

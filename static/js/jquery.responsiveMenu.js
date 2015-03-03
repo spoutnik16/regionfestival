@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-    var is_mobile = true;
+    var is_mobile = false;
     if ($("ul.mainmenu").css('display')=='none')
     {
         is_mobile=true;
@@ -9,15 +9,23 @@ $(document).ready(function()
 
     if (is_mobile)
     {
+        $('nav.search').toggle()
+        $('nav.menushows a').click(function() {
+            $('nav.search').toggle();
+        })
         $("header").append('<div id="contentLayer" style="display:none; height: 100%; overflow-x: hidden; overflow-y: auto; position: absolute; right: 0; top: 0; width: 30%; z-index: 50"></div>');
         $("nav.mainmenu").click(function() 
         {  
             if ($("body").css('overflow')!='hidden')
-            {openmenu();}
+            {
+                openmenu();
+            }
             else
             {
                 if (("body").css('margin-left')=="70%")
-                {closemenu();}
+                {
+                    closemenu();
+                }
             }
 
         });
@@ -26,12 +34,15 @@ $(document).ready(function()
         
         function openmenu()
         {
+            var menuWidth = $('ul.mainmenu').css('width');
             $("ul.mainmenu").toggle();
             $("body").css('min-height', $(window).height());
-            var contentWidth = jQuery('body').width();
+            var contentWidth = $('body').width();
             $("body").css('width', contentWidth);
             $('#contentLayer').css("display", "block");
-            $("body").animate({"marginLeft": ["70%", "easeOutExpo"]}, {duration: 700});
+            $( "body" ).animate({
+                marginLeft: menuWidth,
+              }, 700 );
             $("body").css('overflow', 'hidden');        
             $("#contentLayer").click(function()
             {
@@ -45,7 +56,7 @@ $(document).ready(function()
             $("ul.mainmenu").hide();
             $("body").unbind('touchmove');
             $("body").animate(
-                {"marginLeft": ["0", "easeOutExpo"]}, 
+                {marginLeft: 0}, 
                 {duration: 700,
                 complete: function()
                     {

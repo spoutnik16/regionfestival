@@ -50,13 +50,15 @@ INSTALLED_APPS = (
     'django.contrib.gis',
     #'debug_toolbar',
     #'guardian',
-    'moderation',
+    #'moderation',
     'associations',
     'spectacles',
     'crm',
     'django.contrib.sites',
     'django.contrib.flatpages',
 )
+
+
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -69,6 +71,22 @@ MIDDLEWARE_CLASSES = (
     'spectacles.middleware.Geolocalisation',
 )
 
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    },
+
+    # this cache backend will be used by django-debug-panel
+    'debug-panel': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': '/var/tmp/debug-panel-cache',
+        'OPTIONS': {
+            'MAX_ENTRIES': 200
+        }
+    }
+}
 # TEMPLATE_LOADERS = (
 #     'django.template.loaders.app_directories.load_template_source',
 # )

@@ -3,7 +3,7 @@
 
 {% block title %}{% trans "Liste des spectacles" %}{% endblock %}
 {% block content %}
- {% comment %}  <ul class="categorie">
+   <ul class="categorie">
         <li{% if not categorie %} class="current"{% endif %}>
             <a href="{% if search_term %}
 {% url 'spectacles.views.spectacles' search_term=search_term %}
@@ -24,8 +24,9 @@
                 {% endif %}
             {% endif %}
         {% endfor %}
-    </ul> {% endcomment %}
+    </ul>
     {% include 'pagination.html' with list=spectacles view='spectacles.views.spectacles' %}
+    {% include 'search_form.html' with form=form %}
         {% for spectacle in spectacles %}
             <article class="spectacle">{% include "spectacle.html" %}</article>
         {% empty %}

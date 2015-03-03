@@ -24,8 +24,7 @@
     </title>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+
     <script src="{% static "js/jquery.responsiveMenu.js" %}"></script>
 
 
@@ -81,11 +80,10 @@
             {% endcomment %}
         </nav>
         <nav class="menushows">
-            <a href="/"><img src="{% static "images/search-48.png" %}"></a>
+            <a href="#"><img src="{% static "images/search-48.png" %}"></a>
             <ul class="menushows">
-<li class="sub"><a href="{% url 'spectacles.views.spectacles' %}">{% trans "catégorie" %}</a></li>
-            <li class="sub"><a href="{% url 'spectacles.views.agenda' %}">{% trans "date" %}</a></li>
-            <li class="sub"><a href="/fr/communes.html">{% trans "lieu" %}</a></li>
+            <li><a href="{% url 'spectacles.views.agenda' %}">{% trans "par date" %}</a></li>
+            <li><a href="/fr/communes.html">{% trans "par lieu" %}</a></li>
             </ul>
             {%  get_categories as list_categories %}
             <ul class="categories">
@@ -93,7 +91,10 @@
                 <li>{{ cat.as_a_link|safe }}</li>
             {% endfor %}
             </ul>
+        </nav>
 
+        <nav class="search">
+            {% include 'search_form.html' %}
         </nav>
     </header>
 
@@ -168,8 +169,3 @@
 </body>
 
 </html>
-Menu longer than Content
-Content longer than menu
-Menu longer than Content
-Content longer than menu
-

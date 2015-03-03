@@ -24,8 +24,7 @@
     </title>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+
     <script src="{% static "js/jquery.responsiveMenu.js" %}"></script>
 
 
@@ -86,7 +85,14 @@
 <li class="sub"><a href="{% url 'spectacles.views.spectacles' %}">{% trans "catégorie" %}</a></li>
             <li class="sub"><a href="{% url 'spectacles.views.agenda' %}">{% trans "date" %}</a></li>
             <li class="sub"><a href="/fr/communes.html">{% trans "lieu" %}</a></li>
-</ul>
+            </ul>
+            {%  get_categories as list_categories %}
+            <ul class="categories">
+            {% for cat in list_categories %}
+                <li>{{ cat.as_a_link|safe }}</li>
+            {% endfor %}
+            </ul>
+
         </nav>
     </header>
 
