@@ -9,7 +9,7 @@
 <form action="{% url "spectacles.views.spectacles" %}" method="POST" style="display: inline;">
     <input label="search" type="text" name="search_term" class="onliner" id="search_input"
            placeholder="{% if unquoted_url %}{{ unquoted_url }}{% else %}{% trans "Recherche" %}{% endif %}">
-    <input type="submit" value="{% trans "Rechercher" %}" class="search_button">
+    <input type="submit" value="{% trans "Envoyer" %}" class="search_button">
     {% csrf_token %}
 </form>
 {% if search_term %}

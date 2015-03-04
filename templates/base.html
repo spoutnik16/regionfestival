@@ -7,13 +7,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta name="language" content="fr-FR"/>
+    <meta name="robots" content="noindex">
     <meta name="description"
           content="Le Valais Festival est LE festival de toutes les associations culturelles valaisannes."/>
 
-    <link rel="icon" type="image/x-icon" href="{% static "favicon.ico" %}" />
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+    <link rel="icon" type="image/x-icon" href="{% static "favicon.ico" %}"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no"/>
 
     <link rel="Stylesheet" type="text/css" href="{% static "css/main.css" %}"/>
     {% geoloc_javascript %}
@@ -30,40 +31,41 @@
 
 </head>
 <body>
-    <header>
-        <div class="banner"><a href="{% url 'spectacles.views.accueil' %}" class="banner">
-            <img class="banner" src="{% static "images/valais_logo.png" %}" />
-        </a></div>
-        <nav class="languages">
-            <ul class="languages">
-                {% get_language_info_list for LANGUAGES as languages %}
-                {% for language in languages %}
-                    {% if language.code == LANGUAGE_CODE %}
-                        <li class="id">{{  language.code }}</li>
-                    {% else %}
-                        <li><a href="">{{ language.code }}</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </nav>
-        <nav class="mainmenu">
-            <ul class="mainmenu">
-                        {% block main-menu %}
-                        {% if not user.is_authenticated %}<li><a href="{% url 'inscription' %}">{% trans "Inscription" %}</a></li>{% endif %}
-                        <li><a href="{% url 'spectacles.views.spectacles' %}">{% trans "Programme" %}</a>
+<header>
+    <div class="banner"><a href="{% url 'spectacles.views.accueil' %}" class="banner">
+        <img class="banner" src="{% static "images/valais_logo.png" %}"/>
+    </a></div>
+    <nav class="languages">
+        <ul class="languages">
+            {% get_language_info_list for LANGUAGES as languages %}
+            {% for language in languages %}
+                {% if language.code == LANGUAGE_CODE %}
+                    <li class="id">{{ language.code }}</li>
+                {% else %}
+                    <li><a href="">{{ language.code }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+    <nav class="mainmenu">
+        <ul class="mainmenu">
+            {% block main-menu %}
+                {% if not user.is_authenticated %}
+                    <li><a href="{% url 'inscription' %}">{% trans "Inscription" %}</a></li>{% endif %}
+                <li><a href="{% url 'spectacles.views.spectacles' %}">{% trans "Programme" %}</a>
 
-                        <li><a href="{% comment %}{% url 'about' %}{% endcomment %}">{% trans "Présentation" %}</a></li>
-                        <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
-                        {% comment %}
+                <li><a href="{% comment %}{% url 'about' %}{% endcomment %}">{% trans "Présentation" %}</a></li>
+                <li><a href="{% url 'spectacles.views.contact' %}">{% trans "Contact" %}</a></li>
+                {% comment %}
                         {% if user.is_authenticated %}
                             <li><a href="{% url 'deconnection' %}">{% trans "Se déconnecter" %}</a></li>
                         {% else %}
                             <li><a href="{% url 'connection' %}">{% trans "Se connecter" %}</a></li>
                         {% endif %}
                         {% endcomment %}
-                        {% endblock main-menu %}
-            </ul>
-            {% comment %}  {% if user.is_authenticated %}
+            {% endblock main-menu %}
+        </ul>
+        {% comment %}  {% if user.is_authenticated %}
             <ul class="member-menu">
                 {% block member-menu %}
                     <li><a href="{% url 'memberspace:index' %}">{% trans "Espace membre" %}</a></li>
@@ -78,92 +80,91 @@
             </ul>
             {% endif %}
             {% endcomment %}
-        </nav>
-        <nav class="menushows">
-            <a href="#"><img src="{% static "images/search-48.png" %}"></a>
-            <ul class="menushows">
+    </nav>
+    <nav class="menushows">
+        <a href="#"><img src="{% static "images/search-48.png" %}"></a>
+        <ul class="menushows">
             <li><a href="{% url 'spectacles.views.agenda' %}">{% trans "par date" %}</a></li>
             <li><a href="/fr/communes.html">{% trans "par lieu" %}</a></li>
-            </ul>
-            {%  get_categories as list_categories %}
-            <ul class="categories">
+        </ul>
+        {% get_categories as list_categories %}
+        <ul class="categories">
             {% for cat in list_categories %}
                 <li>{{ cat.as_a_link|safe }}</li>
             {% endfor %}
-            </ul>
-        </nav>
+        </ul>
+    </nav>
 
-        <nav class="search">
-            {% include 'search_form.html' %}
-        </nav>
-    </header>
+    <nav class="search">
+        {% include 'search_form.html' %}
+    </nav>
+</header>
 
-    <section id="main">
-        <article id="main">
-            <section id="article-accueil">
+<section id="main">
+    <article id="main">
+        <section id="article-accueil">
             {% block content %}
-            {% blocktrans %}
-                <p><strong>Le Valais Festival</strong> est LE festival de toutes les <em>associations
-                    culturelles valaisannes</em>.<br/>
-                    Son ambition est de réunir toutes les activités artistiques de la scène d’<em>avril à
-                        juin</em> dans l’ensemble du canton.<br/></p>
-                <h2>Le Projet</h2>
-                <p>À travers cet événement, nous voulons présenter l’incroyable diversité des <em>activités
-                    culturelles</em> de notre canton, en plaçant sous une même égide troupes de théâtre,
-                    fanfares, chorales, spectacles d’école, concerts de musique actuelle, concerts de
-                    musique classique, spectacles de danse, etc... Une activité foisonnante, voilà ce que
-                    nous voulons rappeler à travers ce festival.<br/></p>
-                <p>Concrètement, pour sa première édition, le Valais Festival veut réunir, à travers un <em>cahier
-                    spécial</em>, toutes les activités culturelles du canton ayant lieu durant la période
-                    d’avril à juin 2014. <br/></p>
-                <p>Le festival cherche également, par son existence, à stimuler les lieux à organiser des
-                    événements durant la période choisie. Par exemple, un bistrot pourrait décider
-                    d’organiser des concerts plutôt entre avril et juin, et ainsi bénéficier de la
-                    visibilité offerte par le cahier spécial.<br/></p>
-                <p>Un site Internet a été créé à cet effet. Il permet aux associations et organisateurs de
-                    s’inscrire au Valais Festival.<br/></p>
-                <p>Le rôle du Valais Festival est de créer la plus grande visibilité possible pour les
-                    activités du canton. Ce « <em>Valais Festival</em> » doit être vécu comme une grande fête
-                    au cœur de notre canton, dans laquelle chaque valaisan est à la fois acteur et
-                    spectateur !<br/></p>
-                <p>Un projet que seul le Valais peut mener à bien. Un tel festival mettra dans aucun doute
-                    en exergue la force du Valais, ceci à travers la qualité de ses innombrables artistes
-                    qui s’engagent quotidiennement à rendre la vie de notre canton toujours plus belle et
-                    surprenante ! <br/></p>
-                <p>En conclusion, la vocation d’un tel festival serait de faire sortir tous les valaisans de
-                    chez eux pendant c§es trois mois pour découvrir la force artistique de notre canton. </p>
-            {% endblocktrans %}
+                {% blocktrans %}
+                    <p><strong>Le Valais Festival</strong> est LE festival de toutes les <em>associations
+                        culturelles valaisannes</em>.<br/>
+                        Son ambition est de réunir toutes les activités artistiques de la scène d’<em>avril à
+                            juin</em> dans l’ensemble du canton.<br/></p>
+                    <h2>Le Projet</h2>
+                    <p>À travers cet événement, nous voulons présenter l’incroyable diversité des <em>activités
+                        culturelles</em> de notre canton, en plaçant sous une même égide troupes de théâtre,
+                        fanfares, chorales, spectacles d’école, concerts de musique actuelle, concerts de
+                        musique classique, spectacles de danse, etc... Une activité foisonnante, voilà ce que
+                        nous voulons rappeler à travers ce festival.<br/></p>
+                    <p>Concrètement, pour sa première édition, le Valais Festival veut réunir, à travers un <em>cahier
+                        spécial</em>, toutes les activités culturelles du canton ayant lieu durant la période
+                        d’avril à juin 2014. <br/></p>
+                    <p>Le festival cherche également, par son existence, à stimuler les lieux à organiser des
+                        événements durant la période choisie. Par exemple, un bistrot pourrait décider
+                        d’organiser des concerts plutôt entre avril et juin, et ainsi bénéficier de la
+                        visibilité offerte par le cahier spécial.<br/></p>
+                    <p>Un site Internet a été créé à cet effet. Il permet aux associations et organisateurs de
+                        s’inscrire au Valais Festival.<br/></p>
+                    <p>Le rôle du Valais Festival est de créer la plus grande visibilité possible pour les
+                        activités du canton. Ce « <em>Valais Festival</em> » doit être vécu comme une grande fête
+                        au cœur de notre canton, dans laquelle chaque valaisan est à la fois acteur et
+                        spectateur !<br/></p>
+                    <p>Un projet que seul le Valais peut mener à bien. Un tel festival mettra dans aucun doute
+                        en exergue la force du Valais, ceci à travers la qualité de ses innombrables artistes
+                        qui s’engagent quotidiennement à rendre la vie de notre canton toujours plus belle et
+                        surprenante ! <br/></p>
+                    <p>En conclusion, la vocation d’un tel festival serait de faire sortir tous les valaisans de
+                        chez eux pendant ces trois mois pour découvrir la force artistique de notre canton. </p>
+                {% endblocktrans %}
             {% endblock content %}
-            </section>
-            <section id="contacts">
-                <address class="vcard">
-                    <span class="fn">Jérôme Hugon </span> :<br />
-                        <a href="tel:+41786721113">Natel : <span class="tel">078 672 11 13<br /></span></a>
-                        <a href="mailto:jerome@valaisfestival.ch">Mail : <span class="mail">jerome@valaisfestival.ch</span></a>
-                </address>
-            </section>
-        </article>
+        </section>
+        <section id="contacts">
+            <address class="vcard">
+                <span class="fn">Jérôme Hugon </span> :<br/>
+                <a href="tel:+41786721113">Natel : <span class="tel">078 672 11 13<br/></span></a>
+                <a href="mailto:jerome@valaisfestival.ch">Mail : <span class="mail">jerome@valaisfestival.ch</span></a>
+            </address>
+        </section>
+    </article>
 
     {% get_show_near_you %}
-        
 
 
-    </section>
+</section>
 <aside class="sponsors">
-            <a href="http://www.loro.ch/" target="_blank"><img src="{% static "images/loro.jpg" %}"
-                                                                       alt="Loterie Romande"></a>
-            <a href="http://www.ubs.com/" target="_blank"><img src="{% static "images/ubs.jpg" %}" alt="ubs"></a>
-            <a href="http://www.migros.ch/" target="_blank"><img src="{% static "images/migros.jpg" %}" alt="Migros"></a>
+    <a href="http://www.loro.ch/" target="_blank"><img src="{% static "images/loro.jpg" %}"
+                                                       alt="Loterie Romande"></a>
+    <a href="http://www.ubs.com/" target="_blank"><img src="{% static "images/ubs.jpg" %}" alt="ubs"></a>
+    <a href="http://www.migros.ch/" target="_blank"><img src="{% static "images/migros.jpg" %}" alt="Migros"></a>
 
-            <a href="http://www.lenouvelliste.ch/" target="_blank"><img src="{% static "images/nouvelliste.jpg" %}"
-                                                                                alt="Nouvelliste"></a>
-            <a href="http://www.canal9.ch/" target="_blank"><img src="{% static "images/canal9.jpg" %}" alt="Canal 9"></a>
+    <a href="http://www.lenouvelliste.ch/" target="_blank"><img src="{% static "images/nouvelliste.jpg" %}"
+                                                                alt="Nouvelliste"></a>
+    <a href="http://www.canal9.ch/" target="_blank"><img src="{% static "images/canal9.jpg" %}" alt="Canal 9"></a>
 
-            <a href="http://www.rhonefm.ch/" target="_blank"><img src="{% static "images/rhoneFm.jpg" %}"
-                                                                          alt="Rhône FM"></a>
-            <a href="http://www.theatreinterface.ch/" target="_blank"><img src="{% static "images/interface.jpg" %}"
-                                                                                   alt="Interface"></a>
-        </aside>
+    <a href="http://www.rhonefm.ch/" target="_blank"><img src="{% static "images/rhoneFm.jpg" %}"
+                                                          alt="Rhône FM"></a>
+    <a href="http://www.theatreinterface.ch/" target="_blank"><img src="{% static "images/interface.jpg" %}"
+                                                                   alt="Interface"></a>
+</aside>
 
 <div id="contentLayer"></div>
 </body>
