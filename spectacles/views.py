@@ -84,11 +84,14 @@ def next_spec(request):
 
 
 # Vues qui sont liées à l'affichage pour le public
-def accueil(request):
+def presentation(request):
     #request.session['loc']="""{"type": "Point","coordinates": [7.465209960937499,46.24824991289166]}""".replace("\n", "")
     next_specs_list = next_spec(request)
 
     return render(request, 'base.html', locals())
+
+def accueil(request):
+    return spectacles(request)
 
 
 def contact(request):

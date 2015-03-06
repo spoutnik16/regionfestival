@@ -79,6 +79,11 @@ class RegionChild2(models.Model):
         from regionfestival.snippets import unique_slugify
         unique_slugify(self, self.name)
         super(RegionChild2, self).save(**kwargs)
+    # def get_absolute_url(self):
+    #     from django.core.urlresolvers import reverse
+    #     return reverse('regionchild2', args=[self.slug,])
+    # def as_a_link(self):
+    #     return '<a href="'+self.get_absolute_url()+'" class="regionchild2">'+self.name+'</a>'
 
 
 class CategorieAssociation(models.Model):

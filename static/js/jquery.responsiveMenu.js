@@ -10,7 +10,7 @@ $(document).ready(function()
     if (is_mobile)
     {
         $('nav.search').toggle()
-        $('nav.menushows a').click(function() {
+        $('nav.menushows a:first').click(function() {
             $('nav.search').toggle();
         })
         $("header").append('<div id="contentLayer" style="display:none; height: 100%; overflow-x: hidden; overflow-y: auto; position: absolute; right: 0; top: 0; width: 30%; z-index: 50"></div>');

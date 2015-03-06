@@ -31,6 +31,8 @@ SECRET_KEY = '-wrz)vmjv5ix1fps)&47(k+9!7b2cypn&2r@po!u23quf8ov_a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+PASSWORD = open(os.path.join(BASE_DIR, 'regionfestival/settings-local.py')).read().strip()
+
 TEMPLATE_DEBUG = True
 
 SITE_ID = 1
@@ -111,7 +113,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'valaisfestival',
-        'PASSWORD': 'RenaultMaster2014',
+        'PASSWORD': PASSWORD,
         'USER': 'valaisfestival',
         'HOST': 'localhost'
     }
@@ -143,6 +145,7 @@ FIXTURE_DIRS = (
     os.path.join(BASE_DIR, 'spectacles/fixtures'),
     os.path.join(BASE_DIR, 'associations/fixtures'),
     )
+
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'

@@ -7,6 +7,7 @@ from django.views.generic import RedirectView
 
 urlpatterns = patterns('spectacles.views',
                        url(r'^$', 'accueil', name='accueil'),
+                       url(r'^presentation/$', 'presentation', name='presentation'),
                        url(r'^contact/$', 'contact', name='contact'),
                        url(r'^spectacles/'
                            '(?:search/(?P<search_term>[-%+0-9a-zA-Z]+)/)?'

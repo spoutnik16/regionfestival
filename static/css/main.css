@@ -16,23 +16,23 @@ a {
 }
 
 img.banner {
-    height: 110px;
+    height: 6.875em;
     display: block;
     margin: 0 auto;
     margin-left:
 }
 
 #article-accueil {
-    margin: 7px;
+    margin: 0.438em;
 }
 
 .languages li {
-    font-size: 120%;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 
 div.banner {
-    padding: 0 20px;
+    padding: 0 1.25em;
 }
 
 nav li {
@@ -42,19 +42,19 @@ nav li {
 nav.languages {
     position: absolute;
     top: 5em;
-    right: 5px;
+    right: 0.313em;
 }
 
 nav.mainmenu {
     position: absolute;
     top: 0;
     padding-left: 1.25em;
-    padding: 0px;
-    margin: 0px;
-    left: 5px;
-    top: 30px;
-    width: 65px;
-    height: 55px;
+    padding: 0;
+    margin: 0;
+    left: 0.313em;
+    top: 1.875em;
+    width: 4.063em;
+    height: 3.438em;
 }
 
 ul.pagination {
@@ -63,7 +63,7 @@ ul.pagination {
 
 ul.pagination li{
     display: inline;
-    margin: 3px;
+    margin: 0.188em;
 }
 
 input.search_button {
