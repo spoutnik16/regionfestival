@@ -1,3 +1,4 @@
+regionfestival/settings-local.py
 associations/migrations/*
 spectacles/migrations/*
 media/pdf/*
