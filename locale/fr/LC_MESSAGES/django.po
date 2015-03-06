@@ -1,0 +1,538 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-06 19:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: associations/models.py:13
+msgid "nom du canton"
+msgstr ""
+
+#: associations/models.py:16 associations/models.py:41
+#: associations/models.py:65 associations/models.py:98
+#: associations/models.py:101 associations/models.py:153
+#: associations/models.py:192 spectacles/models.py:32 spectacles/models.py:55
+#: spectacles/models.py:84 spectacles/models.py:153 spectacles/models.py:221
+msgid "nom formaté pour les URLs"
+msgstr ""
+
+#: associations/models.py:22
+msgid "canton"
+msgstr ""
+
+#: associations/models.py:23
+msgid "cantons"
+msgstr ""
+
+#: associations/models.py:37 associations/models.py:46
+msgid "district"
+msgstr ""
+
+#: associations/models.py:47
+msgid "districts"
+msgstr ""
+
+#: associations/models.py:59 associations/models.py:73
+#: associations/models.py:106 spectacles/models.py:206
+msgid "commune"
+msgstr ""
+
+#: associations/models.py:62
+msgid "ordre"
+msgstr ""
+
+#: associations/models.py:66 spectacles/models.py:147
+msgid "n'existe plus"
+msgstr ""
+
+#: associations/models.py:74
+msgid "communes"
+msgstr ""
+
+#: associations/models.py:91 associations/models.py:109
+#: associations/models.py:110 spectacles/models.py:48 spectacles/models.py:63
+#: spectacles/models.py:64
+msgid "categorie"
+msgstr ""
+
+#: associations/models.py:105
+msgid "commune d'origine"
+msgstr ""
+
+#: associations/models.py:127 spectacles/models.py:24 spectacles/models.py:141
+#: spectacles/models.py:207 spectacles/models.py:274
+msgid "status"
+msgstr ""
+
+#: associations/models.py:129 spectacles/models.py:26 spectacles/models.py:145
+#: spectacles/models.py:211 spectacles/models.py:278
+msgid ""
+"0 = en création, 1 = en validation, 3 = public, 4 = exporté vers le cahier "
+"spécial"
+msgstr ""
+
+#: associations/models.py:136
+msgid "adresse email"
+msgstr ""
+
+#: associations/models.py:141
+msgid "adresse postale"
+msgstr ""
+
+#: associations/models.py:144 crm/models.py:13
+msgid "numéro de téléphone"
+msgstr ""
+
+#: associations/models.py:148
+msgid "numéro de natel"
+msgstr ""
+
+#: associations/models.py:159 spectacles/models.py:35 spectacles/models.py:114
+msgid "artiste"
+msgstr ""
+
+#: associations/models.py:160 spectacles/models.py:36
+msgid "artistes"
+msgstr ""
+
+#: associations/models.py:171
+msgid "nom officiel de l'association"
+msgstr ""
+
+#: associations/models.py:172
+msgid "nom"
+msgstr ""
+
+#: associations/models.py:179 spectacles/models.py:202
+msgid "site web"
+msgstr ""
+
+#: associations/models.py:183
+msgid "description"
+msgstr ""
+
+#: associations/models.py:187
+msgid "remarques"
+msgstr ""
+
+#: associations/models.py:197
+msgid "personne de contact"
+msgstr ""
+
+#: associations/models.py:202
+msgid "association"
+msgstr ""
+
+#: associations/models.py:203
+msgid "associations"
+msgstr ""
+
+#: crm/models.py:22
+msgid "profile"
+msgstr ""
+
+#: crm/models.py:23
+msgid "profiles"
+msgstr ""
+
+#: moderation/admin.py:82
+msgid "Object is viewable on site, it will be removed if moderator rejects it"
+msgstr ""
+
+#: moderation/admin.py:85
+msgid ""
+"Object is not viewable on site, it will be visible if moderator accepts it"
+msgstr ""
+
+#: moderation/admin.py:88
+#, python-format
+msgid "Object has been rejected by moderator, reason: %s"
+msgstr ""
+
+#: moderation/admin.py:91
+msgid "Object has been approved by moderator and is visible on site"
+msgstr ""
+
+#: moderation/admin.py:94
+msgid "This object is not registered with the moderation system."
+msgstr ""
+
+#: moderation/filterspecs.py:55
+msgid "All"
+msgstr ""
+
+#: moderation/templates/moderation/moderate_object.html:39
+msgid "Change object"
+msgstr ""
+
+#: moderation/templates/moderation/moderated_objects_list.html:4
+msgid "Select object to moderate"
+msgstr ""
+
+#: regionfestival/settings.py:155
+msgid "Français"
+msgstr ""
+
+#: regionfestival/settings.py:156
+msgid "Allemand"
+msgstr ""
+
+#: spectacles/admin.py:24
+msgid "Identifiez-vous à nouveau, votre session a expiré"
+msgstr ""
+
+#: spectacles/admin.py:46
+#, python-format
+msgid ""
+"Utilisez votre nom d'utilisateur plutôt que votre adresse emailEssayez '%s' "
+"à la place"
+msgstr ""
+
+#: spectacles/admin.py:79 spectacles/admin.py:80
+msgid "Espace Membre Valais Festival"
+msgstr ""
+
+#: spectacles/forms.py:10
+msgid "Nom d'utilisateur"
+msgstr ""
+
+#: spectacles/forms.py:13
+msgid "Mot de passe"
+msgstr ""
+
+#: spectacles/forms.py:20
+msgid "Écrivez-nous"
+msgstr ""
+
+#: spectacles/forms.py:27
+msgid "S'inscrire à la newsletter"
+msgstr ""
+
+#: spectacles/forms.py:43
+msgid "Rechercher"
+msgstr ""
+
+#: spectacles/models.py:21
+msgid "utilisateur authorise"
+msgstr ""
+
+#: spectacles/models.py:56
+msgid "apparaît comme catégorie principale"
+msgstr ""
+
+#: spectacles/models.py:86
+msgid "festival"
+msgstr ""
+
+#: spectacles/models.py:87
+msgid "festivals"
+msgstr ""
+
+#: spectacles/models.py:99
+msgid "le titre du spectacle"
+msgstr ""
+
+#: spectacles/models.py:100
+msgid "nom du spectacle"
+msgstr ""
+
+#: spectacles/models.py:102
+msgid "associations participantes"
+msgstr ""
+
+#: spectacles/models.py:103
+msgid "participant"
+msgstr ""
+
+#: spectacles/models.py:109
+msgid "le site web du spectacle"
+msgstr ""
+
+#: spectacles/models.py:110
+msgid "site web qui parle du spectacle, page de réservation"
+msgstr ""
+
+#: spectacles/models.py:118
+msgid "présentation qui apparaîtra dans le cahier spécial"
+msgstr ""
+
+#: spectacles/models.py:119
+msgid "présentation courte"
+msgstr ""
+
+#: spectacles/models.py:120
+msgid "présentation pour le site web, sans limitation de taille"
+msgstr ""
+
+#: spectacles/models.py:123
+msgid "présentation longue"
+msgstr ""
+
+#: spectacles/models.py:127
+msgid "le numéro auquel appelé pour réserver"
+msgstr ""
+
+#: spectacles/models.py:128
+msgid "numéro de téléphone pour les réservations"
+msgstr ""
+
+#: spectacles/models.py:132
+msgid "image"
+msgstr ""
+
+#: spectacles/models.py:138
+msgid ""
+"dans le cas d'un festival, les différents événements qui s'y passent sont "
+"des sous-événements"
+msgstr ""
+
+#: spectacles/models.py:140
+msgid "Festival"
+msgstr ""
+
+#: spectacles/models.py:157
+msgid "utilisateurs authorisés"
+msgstr ""
+
+#: spectacles/models.py:165
+msgid "spectacle"
+msgstr ""
+
+#: spectacles/models.py:166
+msgid "spectacles"
+msgstr ""
+
+#: spectacles/models.py:178
+msgid "nom du lieu"
+msgstr ""
+
+#: spectacles/models.py:179
+msgid "lieu de la représentation"
+msgstr ""
+
+#: spectacles/models.py:187
+msgid "numéro de téléphone du lieu"
+msgstr ""
+
+#: spectacles/models.py:189 templates/spectacle.html:23
+msgid "ville"
+msgstr ""
+
+#: spectacles/models.py:193
+msgid "code postal"
+msgstr ""
+
+#: spectacles/models.py:195
+msgid "adresse"
+msgstr ""
+
+#: spectacles/models.py:199
+msgid "suite de l'adresse"
+msgstr ""
+
+#: spectacles/models.py:215
+msgid "latitude"
+msgstr ""
+
+#: spectacles/models.py:216
+msgid "longitude"
+msgstr ""
+
+#: spectacles/models.py:228
+msgid "Cliquez sur la carte"
+msgstr ""
+
+#: spectacles/models.py:240 spectacles/models.py:264
+#: templates/spectacle.html:19
+msgid "lieu"
+msgstr ""
+
+#: spectacles/models.py:241
+msgid "lieux"
+msgstr ""
+
+#: spectacles/models.py:263
+msgid "lieu où se passe le spectacle"
+msgstr ""
+
+#: spectacles/models.py:273
+msgid "utilisateur authorisé"
+msgstr ""
+
+#: spectacles/models.py:283
+msgid "festival auquel participe le spectacle"
+msgstr ""
+
+#: spectacles/models.py:290
+msgid "représentation"
+msgstr ""
+
+#: spectacles/models.py:291
+msgid "représentations"
+msgstr ""
+
+#: templates/agenda.html:4 templates/association.html:4
+#: templates/list_spectacles.html:4 templates/place.html:4
+#: templates/region_child2.html:4
+msgid "Liste des spectacles"
+msgstr ""
+
+#: templates/agenda.html:10
+msgid "Pas de spectacle ce jour"
+msgstr ""
+
+#: templates/base.html:24
+msgid "Valais Festival"
+msgstr ""
+
+#: templates/base.html:54
+msgid "Inscription"
+msgstr ""
+
+#: templates/base.html:55
+msgid "Programme"
+msgstr ""
+
+#: templates/base.html:58
+msgid "Présentation"
+msgstr ""
+
+#: templates/base.html:59 templates/contact_form.html:4
+msgid "Contact"
+msgstr ""
+
+#: templates/base.html:90
+msgid "par date"
+msgstr ""
+
+#: templates/base.html:91
+msgid "par lieu"
+msgstr ""
+
+#: templates/base.html:110
+msgid ""
+"\n"
+"                    <p><strong>Le Valais Festival</strong> est LE festival "
+"de toutes les <em>associations\n"
+"                        culturelles valaisannes</em>.<br/>\n"
+"                        Son ambition est de réunir toutes les activités "
+"artistiques de la scène d’<em>avril à\n"
+"                            juin</em> dans l’ensemble du canton.<br/></p>\n"
+"                    <h2>Le Projet</h2>\n"
+"                    <p>À travers cet événement, nous voulons présenter "
+"l’incroyable diversité des <em>activités\n"
+"                        culturelles</em> de notre canton, en plaçant sous "
+"une même égide troupes de théâtre,\n"
+"                        fanfares, chorales, spectacles d’école, concerts de "
+"musique actuelle, concerts de\n"
+"                        musique classique, spectacles de danse, etc... Une "
+"activité foisonnante, voilà ce que\n"
+"                        nous voulons rappeler à travers ce festival.<br/></"
+"p>\n"
+"                    <p>Concrètement, pour sa première édition, le Valais "
+"Festival veut réunir, à travers un <em>cahier\n"
+"                        spécial</em>, toutes les activités culturelles du "
+"canton ayant lieu durant la période\n"
+"                        d’avril à juin 2014. <br/></p>\n"
+"                    <p>Le festival cherche également, par son existence, à "
+"stimuler les lieux à organiser des\n"
+"                        événements durant la période choisie. Par exemple, "
+"un bistrot pourrait décider\n"
+"                        d’organiser des concerts plutôt entre avril et juin, "
+"et ainsi bénéficier de la\n"
+"                        visibilité offerte par le cahier spécial.<br/></p>\n"
+"                    <p>Un site Internet a été créé à cet effet. Il permet "
+"aux associations et organisateurs de\n"
+"                        s’inscrire au Valais Festival.<br/></p>\n"
+"                    <p>Le rôle du Valais Festival est de créer la plus "
+"grande visibilité possible pour les\n"
+"                        activités du canton. Ce « <em>Valais Festival</em> » "
+"doit être vécu comme une grande fête\n"
+"                        au cœur de notre canton, dans laquelle chaque "
+"valaisan est à la fois acteur et\n"
+"                        spectateur !<br/></p>\n"
+"                    <p>Un projet que seul le Valais peut mener à bien. Un "
+"tel festival mettra dans aucun doute\n"
+"                        en exergue la force du Valais, ceci à travers la "
+"qualité de ses innombrables artistes\n"
+"                        qui s’engagent quotidiennement à rendre la vie de "
+"notre canton toujours plus belle et\n"
+"                        surprenante ! <br/></p>\n"
+"                    <p>En conclusion, la vocation d’un tel festival serait "
+"de faire sortir tous les valaisans de\n"
+"                        chez eux pendant ces trois mois pour découvrir la "
+"force artistique de notre canton. </p>\n"
+"                "
+msgstr ""
+
+#: templates/calendrier.html:11
+msgid "jour"
+msgstr ""
+
+#: templates/contact_form.html:6
+msgid "Votre message a bien été envoyé !"
+msgstr ""
+
+#: templates/contact_form.html:8
+msgid "Contacts"
+msgstr ""
+
+#: templates/contact_form.html:11 templates/member_form.html:7
+#: templates/search_form.html:12
+msgid "Envoyer"
+msgstr ""
+
+#: templates/espace_membre.html:5
+msgid "Bienvenue dans l'espace membre "
+msgstr ""
+
+#: templates/espace_membre.html:6
+msgid "Ajouter une association"
+msgstr ""
+
+#: templates/registration/login.html:4
+msgid "Se connecter"
+msgstr ""
+
+#: templates/registration/login.html:10
+msgid "Utilisateur inexistant ou mauvais de mot de passe."
+msgstr ""
+
+#: templates/representation.html:17
+msgid "Lieu"
+msgstr ""
+
+#: templates/search_form.html:11
+msgid "Recherche"
+msgstr ""
+
+#: templates/search_form.html:20
+msgid "Effacer la recherche"
+msgstr ""
+
+#: templates/spectacle.html:30
+msgctxt "tel jour À telle heure"
+msgid "à"
+msgstr ""
+
+#: templates/templatetags/base.html:5
+msgid "Bientôt"
+msgstr ""
+
+#: templates/templatetags/base.html:6
+msgid "Chez vous"
+msgstr ""

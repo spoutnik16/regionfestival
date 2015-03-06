@@ -138,6 +138,7 @@ USE_TZ = True
 STATIC_URL = '/web/'
 if not PRODUCTION:
     STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'static'),)
+   # STATIC_ROOT = os.path.join(BASE_DIR, 'static') #uncomment to makemessages
 else:
     STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
