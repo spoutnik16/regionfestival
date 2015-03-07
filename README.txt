@@ -1,1 +1,1 @@
-Welcom to the Valais Festival git repo
+Welcome to the Valais Festival git repo
